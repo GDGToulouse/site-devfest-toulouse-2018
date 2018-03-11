@@ -1,7 +1,7 @@
 {
-  "name": "hoverboard",
+  "name": "site-devfest-toulouse-2018",
   "version": "2.0.0-alpha.1",
-  "description": "Conference website template",
+  "description": "Site du Devfest Toulouse",
   "scripts": {
     "gulp": "gulp",
     "bower": "bower",
@@ -32,6 +32,7 @@
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-plugin-html": "^4.0.1",
     "eslint-plugin-polymer": "^0.1.0",
+    "firebase-tools": "^3.17.6",
     "gulp": "^4.0.0",
     "gulp-cli": "^2.0.0",
     "gulp-eslint": "^4.0.0",
