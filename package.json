@@ -3,6 +3,7 @@
   "version": "2.0.0-alpha.1",
   "description": "Site du Devfest Toulouse",
   "scripts": {
+    "start": "npm run serve",
     "gulp": "gulp",
     "bower": "bower",
     "build": "gulp",
