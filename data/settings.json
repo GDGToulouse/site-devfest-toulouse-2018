@@ -45,7 +45,7 @@
   ],
   "heroSettings": {
     "home": {
-      "description": "Be a hero. Be a GDG!",
+      "description": "Centre de Congrès Pierre Baudis",
       "background": {
         "color": "#673ab7",
         "image": "/images/backgrounds/home.jpg"
@@ -104,20 +104,20 @@
   },
   "location": {
     "label": "Location",
-    "name": "Planeta kino",
-    "city": "Lviv",
-    "short": "Lviv, Ukraine",
-    "address": "36 Shchyretska St, Lviv, Ukraine",
+    "name": "Centre de Congrès Pierre Baudis",
+    "city": "Toulouse",
+    "short": "Toulouse, France",
+    "address": "11 Espl. Compans Caffarelli, 31000 Toulouse",
     "pointer": {
-      "latitude": 49.809841,
-      "longitude": 23.972805,
+      "latitude": 43.6110956,
+      "longitude": 1.4332799,
       "zoom": 5
     },
     "mapCenter": {
       "latitude": 48,
       "longitude": 8
     },
-    "description": "Newly built Pivdennyi Expo is a long-awaited exhibition center in Lviv, which can fulfill the needs of the large-scale event"
+    "description": "Le Centre de Congrès Pierre Baudis est un lieu d'échanges moderne, situé sur un emplacement privilégié, à proximité immédiate du centre de Toulouse et dans un environnement verdoyant."
   },
   "mediaQueries": {
     "xs": {
