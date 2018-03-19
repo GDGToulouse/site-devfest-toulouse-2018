@@ -4,6 +4,8 @@
 
 <link rel="import" href="./shared-styles.html">
 
+<link rel="import" href="subscribe-form-shprink.html">
+
 <dom-module id="hero-block">
   <template>
     <style is="custom-style" include="shared-styles flex flex-alignment positioning"></style>
@@ -11,7 +13,7 @@
     <style>
 
       :host {
-        margin-top: -56px;
+        /* margin-top: -56px; */
         display: block;
         border-bottom: 1px solid var(--divider-color);
       }
@@ -64,7 +66,7 @@
 
       @media (min-width: 640px) {
         :host {
-          margin-top: -64px;
+          /* margin-top: -64px; */
         }
 
         .hero-content {
@@ -91,6 +93,10 @@
       <div class="container">
         <div class="hero-content">
           <slot></slot>
+          <div layout center vertical center-justified style="max-width: 500px; margin: auto;">
+            <span style="font-size: 20px;">Soyez les premiers à être informé de l'ouverture de la billetterie, annonce des speakers etc.</span>
+            <subscribe-form-shprink></subscribe-form-shprink>
+          </div>
         </div>
       </div>
     </div>
