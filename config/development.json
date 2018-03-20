@@ -1,7 +1,7 @@
 {
   "basepath": "/",
   "url": "https://devfesttoulouse-2018.firebaseapp.com/",
-  "analytics": "UA-37717223-3",
+  "analytics": "UA-37717223-7",
   "prefix": "/",
   "firebase": {
     "apiKey": "AIzaSyCGNJudREjIin5HNyiIzkcU-jmCRyYMGO4",
