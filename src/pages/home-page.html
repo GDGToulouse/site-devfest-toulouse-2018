@@ -12,6 +12,7 @@
 <link rel="import" href="../elements/gallery-block.html">
 <link rel="import" href="../elements/map-block.html">
 <link rel="import" href="../elements/about-organizer-block.html">
+<link rel="import" href="../elements/subscribe-form-shprink.html">
 <link rel="import" href="../mixins/scroll-functions.html">
 
 <dom-module id="home-page">
@@ -124,6 +125,15 @@
           <div class="info-item">{$ dates $}</div>
           <!-- <div class="info-item">{$ location.city $}. {$ dates $}</div> -->
           <div class="info-item">{$ heroSettings.home.description $}</div>
+        </div>
+        <div layout center vertical center-justified style="max-width: 500px; margin: auto;">
+          <span style="font-size: 20px;">Soyez les premiers à être informé de l'ouverture de la billetterie, annonce des speakers etc:</span>
+          <subscribe-form-shprink></subscribe-form-shprink>
+        </div>
+        <div style="color: white; margin-top: 25px; font-size: 20px;">
+          <a style="color: white;" aria-label="{$ emailUs $}" href="mailto:{$ mailto $}">{$ emailUs $}</a>
+          |
+          <a style="color: white;" href="https://2017.devfesttoulouse.fr/" target="_blank" rel="noopener noreferrer">Édition 2017</a>
         </div>
 
 
