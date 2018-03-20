@@ -61,6 +61,7 @@
                    label="{$ subscribeBlock.yourEmail $}"
                    value="{{email}}"
                    required
+                   type="email"
                    auto-validate$="[[validate]]"
                    error-message="{$ subscribeBlock.emailRequired $}"
                    autocomplete="off"
@@ -109,13 +110,8 @@
 
       _subscribe() {
         this.validate = true;
-        const emailInput = this.shadowRoot.querySelector('#emailInput');
-
-        if (!this.subscribed && emailInput.validate()) {
-          subscribeActions.subscribe({
-            email: this.email,
-          });
-        }
+        // eslint-disable-next-line max-len
+        window.open(`https://devfesttoulouse.us13.list-manage.com/subscribe/post?u=2a4f822c12ddfb6807f5a5cbd&amp;id=1954367495&EMAIL=${encodeURIComponent(this.email)}`, '_blank');
       }
 
       _computeButtonLabel(subscribed) {
