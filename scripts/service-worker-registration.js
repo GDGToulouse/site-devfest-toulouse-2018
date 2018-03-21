@@ -23,9 +23,11 @@
                 switch (installingWorker.state) {
                   case 'installed':
                     if (!navigator.serviceWorker.controller) {
-                      toastActions.showToast({
-                        message: '{$ cachingComplete $}',
-                      });
+                      if (toastActions) {
+                        toastActions.showToast({
+                          message: '{$ cachingComplete $}',
+                        });
+                      }
                     }
                     break;
                   case 'redundant':
