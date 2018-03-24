@@ -104,7 +104,12 @@
         }
       }
 
-      @media (min-width: 640px) {
+      @media (max-width: 640px) {
+        :host {
+          height: auto;
+          margin-right: -16px;
+        }
+
         hero-block {
           height: calc(100% + 64px);
         }
