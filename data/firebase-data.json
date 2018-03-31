@@ -1,0 +1,213 @@
+{
+  "partners": [],
+  "schedule": [],
+  "sessions": {},
+  "speakers": [],
+  "team": [
+    {
+      "members": [
+        {
+          "name": "Julien Del Rio",
+          "photoUrl": "/images/people/julien_delrio.jpg",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/JulienDelRio",
+              "name": "Twitter"
+            }
+          ],
+          "title": "GDG Toulouse"
+        },
+        {
+          "name": "Julien Renaux",
+          "photoUrl": "/images/people/julien_renaux.jpg",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/julienrenaux",
+              "name": "Twitter"
+            }
+          ],
+          "title": "GDG Toulouse & Angular Toulouse"
+        },
+        {
+          "name": "Alexia Audevart",
+          "photoUrl": "https://www.ekito.fr/img/team/aaudevart.jpg",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://www.twitter.com/aaudevart",
+              "name": "Twitter"
+            },
+            {
+              "icon": "github",
+              "link": "https://github.com/aaudevart",
+              "name": "Github"
+            }
+          ],
+          "title": "Toulouse Data Science"
+        },
+        {
+          "name": "Kevin Davin",
+          "photoUrl": "/images/people/kevin_davin.png",
+          "socials": [
+            {
+              "icon": "gplus",
+              "link": "https://plus.google.com/+KevinDavin",
+              "name": "Google+"
+            },
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/davinkevin",
+              "name": "Twitter"
+            }
+          ],
+          "title": "GDG Toulouse & Toulouse JUG"
+        },
+        {
+          "name": "Aurélie Vache",
+          "photoUrl": "/images/people/aurelie_vache.png",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://www.twitter.com/aurelievache",
+              "name": "Twitter"
+            },
+            {
+              "icon": "website",
+              "link": "http://scraly.com/",
+              "name": "Site"
+            },
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/aurelievache",
+              "name": "LinkedIn"
+            },
+            {
+              "icon": "github",
+              "link": "https://github.com/scraly",
+              "name": "Github"
+            }
+          ],
+          "title": "Duchess France"
+        },
+        {
+          "name": "Maxime Pawlak",
+          "photoUrl": "/images/people/maxime_pawlak.jpg",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/Maxime_Pawlak",
+              "name": "Twitter"
+            }
+          ],
+          "title": "GDG Toulouse"
+        },
+        {
+          "name": "Michaël Bitard",
+          "photoUrl": "/images/people/michael_bitard.jpg",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/bitardmichael",
+              "name": "Twitter"
+            }
+          ],
+          "title": "Electron liiiibre"
+        },
+        {
+          "name": "Didier Plaindoux",
+          "photoUrl": "/images/people/didier_plaindoux.jpeg",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/dplaindoux",
+              "name": "Twitter"
+            }
+          ],
+          "title": "Toulouse JUG"
+        },
+        {
+          "name": "Vincent Ferries",
+          "photoUrl": "https://pbs.twimg.com/profile_images/697834407407849472/bzv1VZJm_400x400.jpg",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/VincentFERRIES",
+              "name": "Twitter"
+            }
+          ],
+          "title": "Toulouse JUG"
+        },
+        {
+          "name": "Igor Laborie",
+          "photoUrl": "https://pbs.twimg.com/profile_images/3404066863/94e02f3bca9b038c4546f4e42ed05bc6.jpeg",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/ilaborie",
+              "name": "Twitter"
+            }
+          ],
+          "title": ""
+        },
+        {
+          "name": "Emmanuel Vinas",
+          "photoUrl": "/images/people/emmanuel_vinas.jpeg",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/EmmanuelVinas",
+              "name": "Twitter"
+            }
+          ],
+          "title": "GDG Toulouse"
+        },
+        {
+          "name": "Maxime Warnier",
+          "photoUrl": "https://pbs.twimg.com/profile_images/742442510891552768/elSWtNyX_400x400.jpg",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/maxdow",
+              "name": "Twitter"
+            }
+          ],
+          "title": "Toulouse JS"
+        },
+        {
+          "name": "Lionel Porcheron",
+          "photoUrl": "/images/people/lionel_porcheron.jpg",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/lporcheron",
+              "name": "Twitter"
+            }
+          ],
+          "title": "Toulouse DevOps"
+        },
+        {
+          "name": "Guilhem De Miollis",
+          "photoUrl": "/images/people/guilhem_demiollis.jpg",
+          "title": "GDG Toulouse"
+        },
+        {
+          "name": "Aurélien Baumann",
+          "photoUrl": "/images/people/aurelien_baumann.jpg",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/kendo5731",
+              "name": "Twitter"
+            }
+          ],
+          "title": "GDG Toulouse"
+        }
+      ],
+      "title": "Core Team"
+    }
+  ],
+  "tickets": {},
+  "videos": []
+}
