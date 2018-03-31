@@ -38,6 +38,11 @@
       "route": "blog",
       "permalink": "/blog/",
       "title": "Blog"
+    },
+    {
+      "route": "faq",
+      "permalink": "/faq/",
+      "title": "FAQ"
     }
   ],
   "heroSettings": {
