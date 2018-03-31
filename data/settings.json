@@ -21,22 +21,12 @@
     {
       "route": "home",
       "permalink": "/",
-      "label": "Home"
-    },
-    {
-      "route": "speakers",
-      "permalink": "/speakers/",
-      "label": "Speakers"
-    },
-    {
-      "route": "schedule",
-      "permalink": "/schedule/",
-      "label": "Schedule"
+      "label": "Accueil"
     },
     {
       "route": "team",
       "permalink": "/team/",
-      "label": "Team"
+      "label": "Equipe"
     },
     {
       "route": "blog",
@@ -87,7 +77,7 @@
       "fontColor": "#424242"
     },
     "team": {
-      "title": "Team",
+      "title": "Equipe",
       "metaDescription": "Get more info about organizers",
       "background": {
         "color": "#fff"
