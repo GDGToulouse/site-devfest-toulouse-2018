@@ -1,9 +1,9 @@
 {
   "organizer": {
-    "name": "GDG Lviv",
-    "twitter": "gdglviv",
-    "blog": "https://medium.com/gdg-lviv",
-    "url": "http://lviv.gdg.org.ua/"
+    "name": "GDG Toulouse",
+    "twitter": "devfesttoulouse",
+    "blog": "http://gdgtoulouse.fr/",
+    "url": "http://gdgtoulouse.fr/"
   },
   "startDate": "2017-10-013T09:00:00+03:00",
   "endDate": "2017-10-14T19:00:00+03:00",
@@ -12,7 +12,7 @@
     "themeColor": "#673AB7",
     "backgroundColor": "#673AB7"
   },
-  "hashtag": "DevFest17",
+  "hashtag": "DevFestToulouse18",
   "navigation": [
     {
       "route": "home",
@@ -117,19 +117,19 @@
     "follow": [
       {
         "name": "facebook",
-        "url": "https://www.facebook.com/devfest.ukraine/"
+        "url": "https://www.facebook.com/GDGToulouse/"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/devfest_ukraine/"
+        "url": "https://twitter.com/devfesttoulouse"
       },
       {
-        "name": "instagram",
-        "url": "https://www.instagram.com/devfestukraine"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/company/10254434"
       },
       {
         "name": "youtube",
-        "url": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
+        "url": "https://www.youtube.com/watch?v=_3YTO4vL0OY&list=PLuZ_sYdawLiWkhvpCuWV01mr1TO5etnvD"
       }
     ],
     "share": [
@@ -147,7 +147,7 @@
       }
     ]
   },
-  "mailto": "devfest@gdg.org.ua",
+  "mailto": "contact@devfesttoulouse.fr",
   "mailchimp": {
     "url": "https://eepurl.com/b6Pgvn",
     "name": "Recevoir la newsletter"
