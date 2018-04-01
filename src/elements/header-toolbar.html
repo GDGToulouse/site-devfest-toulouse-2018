@@ -159,8 +159,11 @@
         <a href$="[[_getTicketUrl(tickets)]]" target="_blank" rel="noopener noreferrer" ga-on="click"
            ga-event-category="ticket button" ga-event-action="buy_click">
           <paper-button class="buy-button" primary>{$ buyTicket $}</paper-button>
+        </a>-->
+        <a href="https://devfest-toulouse.cfp.io" target="_blank" rel="noopener noreferrer" ga-on="click"
+           ga-event-category="cfp button" ga-event-action="cfp">
+          <paper-button class="buy-button" primary>Call For Paper</paper-button>
         </a>
-        -->
       </paper-tabs>
       <!--
       <paper-menu-button
@@ -223,13 +226,14 @@
         </div>
       </paper-menu-button>
 
-      <paper-icon-button
-        icon="hoverboard:account"
-        on-tap="signIn"
-        hidden$="[[_isAccountIconHidden(user.signedIn, viewport.isLaptopPlus)]]"
-      ></paper-icon-button>
+            <paper-icon-button
+              icon="hoverboard:account"
+              on-tap="signIn"
+              hidden$="[[_isAccountIconHidden(user.signedIn, viewport.isLaptopPlus)]]"
+            ></paper-icon-button>
+          -->
     </app-toolbar>
-    -->
+
   </template>
 
   <script>
