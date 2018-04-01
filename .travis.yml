@@ -23,3 +23,13 @@ deploy:
   project: devfesttoulouse-2018
   token:
     secure: LABmBBESq7RnCsmqAMY2aMTgvtBQqlJ9p0sA+rIvBfdIn07dCBE0XzxMfvE3E4HvMub4WtfmiOm0fdwwGBBNr8UlHwozVtl4epmlKqkvV+bQcZx8qMW+rJ3e1ba3nlKGpoRbWkGm/yoW9gq1cKsXPpOtIsTVE+ZRQKrNKnCj2oLjZWguBs0QSvf27q5AE6oF6Za1cycwu0MMgbGPtUk6qVwmIReGFxUrCdwfNDokxMHUfa9wxixuo5MpECVekfWTmUW231ShI2BSVP/rp4MQhJXCYkHBlEmEBYQgpbJN2djn8wajfvxoXN2qbyOA+GcSeaMag9rCOO2DOOaaP+cSBLtHM44vVXk8HL/5t8z2M7oI6Ag6kJVr9pIjTAo7O+M+fhE9uxffD8QzC8Zgp5w0BU/+EHO1cZ5gBC/Cw4rKhPm8eMvJQx29DlGb0pIXW/E3ZUmF+7AWjpWr0whuH3wLlKSdlBnsQ7B/eXlUW3GpgOCq0UxSQUW1qidpZZg9IBUZ7yomTg0MwwS9RxiZQvG6TjNGsrAGIMX1hV9ldBq7Dox653utyRZKLdwtBi38MVawwJH6wsR5PQ6HozMbvKVcTBaSbZAqw6yLSlE+HzW456r8JJ5JQe6lzcVBit4SImFFZGSAd5S7FVY2gus6NolVM69G5jtfKxb73MAJ8qw5bEA=
+after_deploy:
+- echo "Deploying Database"
+- jq '.blog' data/firebase-data.json | firebase database:set -y /blog
+- jq '.partners' data/firebase-data.json | firebase database:set -y /partners
+- jq '.schedule' data/firebase-data.json | firebase database:set -y /schedule
+- jq '.sessions' data/firebase-data.json | firebase database:set -y /sessions
+- jq '.speakers' data/firebase-data.json | firebase database:set -y /speakers
+- jq '.team' data/firebase-data.json | firebase database:set -y /team
+- jq '.tickets' data/firebase-data.json | firebase database:set -y /tickets
+- jq '.videos' data/firebase-data.json | firebase database:set -y /videos
