@@ -60,21 +60,26 @@
           "title": "Toulouse Data Science"
         },
         {
-          "name": "Kevin Davin",
-          "photoUrl": "/images/people/kevin_davin.png",
-          "socials": [
-            {
-              "icon": "gplus",
-              "link": "https://plus.google.com/+KevinDavin",
-              "name": "Google+"
-            },
-            {
-              "icon": "twitter",
-              "link": "https://twitter.com/davinkevin",
-              "name": "Twitter"
-            }
-          ],
-          "title": "GDG Toulouse & Toulouse JUG"
+          "name" : "Kevin Davin",
+          "photoUrl" : "/images/people/kevin_davin.png",
+          "socials" : [ {
+            "icon" : "gplus",
+            "link" : "https://plus.google.com/+KevinDavin",
+            "name" : "Google+"
+          }, {
+            "icon" : "twitter",
+            "link" : "https://twitter.com/davinkevin",
+            "name" : "Twitter"
+          }, {
+            "icon" : "github",
+            "link" : "https://github.com/davinkevin/",
+            "name" : "Github"
+          }, {
+            "icon" : "linkedin",
+            "link" : "www.linkedin.com/in/davinkevin",
+            "name" : "LinkedIn"
+          } ],
+          "title" : "GDG Toulouse & Toulouse JUG"
         },
         {
           "name": "Aurélie Vache",
