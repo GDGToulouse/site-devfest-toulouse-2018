@@ -141,7 +141,7 @@
         <div class="team-title">[[team.title]]</div>
 
         <div class="team-block">
-          <template is="dom-repeat" items="[[team.members]]" as="member">
+          <template is="dom-repeat" items="[[team.members]]" as="member" sort="randomize">
             <div class="member" layout horizontal>
               <plastic-image
                 class="photo"
@@ -191,6 +191,10 @@
             statePath: 'team.fetchingError',
           },
         };
+      }
+
+      randomize() {
+        return (Math.round(Math.random())-0.5);
       }
 
       connectedCallback() {
