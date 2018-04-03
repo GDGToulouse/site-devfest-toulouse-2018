@@ -214,6 +214,28 @@
             }
           ],
           "title": "Toulouse DevOps"
+        },
+        {
+          "name": "Michaël Pailloncy",
+          "photoUrl": "https://s.gravatar.com/avatar/1b42d100589ea585ce9a1f359b8d4496?s=160",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/mpailloncy",
+              "name": "Twitter"
+            },
+            {
+              "icon": "github",
+              "link": "https://github.com/mpailloncy",
+              "name": "Github"
+            },
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/michael-pailloncy-21119827/",
+              "name": "LinkedIn"
+            }
+          ],
+          "title": "Toulouse JAM / JUG"
         }
       ],
       "title": "Core Team"
