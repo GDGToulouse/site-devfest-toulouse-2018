@@ -46,7 +46,7 @@ Le dossier de partenariat est en cours de finalisation.
 ### Comment devenir orateur/oratrice ?
 Le CFP va ouvrir très prochainement.
 
-Il vous suffit de soumettre un ou plusieurs sujets sur notre CFP (lien à venir).
+Il vous suffit de soumettre un ou plusieurs sujets sur notre [CFP](https://devfest-toulouse.cfp.io).
 
 Si votre sujet a été pré-sélectionné, nous vous offrons une place à la conférence, vous n'avez donc pas à acheter votre place à l'avance.
 Que vous présentiez un talk seul ou en duo, chaque conférencier a son entrée offerte.
