@@ -1,5 +1,5 @@
 {
-  "blog" : {
+  "blog": {
     "list": {
       "call-for-papper": {
         "backgroundColor": "#ddd",
@@ -46,6 +46,16 @@
               "icon": "twitter",
               "link": "https://twitter.com/julienrenaux",
               "name": "Twitter"
+            },
+            {
+              "icon": "github",
+              "link": "https://github.com/shprink",
+              "name": "Github"
+            },
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/julienrenaux/",
+              "name": "LinkedIn"
             }
           ],
           "title": "GDG Toulouse"
@@ -68,26 +78,31 @@
           "title": "Toulouse Data Science"
         },
         {
-          "name" : "Kevin Davin",
-          "photoUrl" : "/images/people/kevin_davin.png",
-          "socials" : [ {
-            "icon" : "gplus",
-            "link" : "https://plus.google.com/+KevinDavin",
-            "name" : "Google+"
-          }, {
-            "icon" : "twitter",
-            "link" : "https://twitter.com/davinkevin",
-            "name" : "Twitter"
-          }, {
-            "icon" : "github",
-            "link" : "https://github.com/davinkevin/",
-            "name" : "Github"
-          }, {
-            "icon" : "linkedin",
-            "link" : "www.linkedin.com/in/davinkevin",
-            "name" : "LinkedIn"
-          } ],
-          "title" : "GDG Toulouse & Toulouse JUG"
+          "name": "Kevin Davin",
+          "photoUrl": "/images/people/kevin_davin.png",
+          "socials": [
+            {
+              "icon": "gplus",
+              "link": "https://plus.google.com/+KevinDavin",
+              "name": "Google+"
+            },
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/davinkevin",
+              "name": "Twitter"
+            },
+            {
+              "icon": "github",
+              "link": "https://github.com/davinkevin/",
+              "name": "Github"
+            },
+            {
+              "icon": "linkedin",
+              "link": "www.linkedin.com/in/davinkevin",
+              "name": "LinkedIn"
+            }
+          ],
+          "title": "GDG Toulouse & Toulouse JUG"
         },
         {
           "name": "Aurélie Vache",
@@ -189,18 +204,6 @@
           "title": "GDG Toulouse"
         },
         {
-          "name": "Maxime Warnier",
-          "photoUrl": "https://pbs.twimg.com/profile_images/742442510891552768/elSWtNyX_400x400.jpg",
-          "socials": [
-            {
-              "icon": "twitter",
-              "link": "https://twitter.com/maxdow",
-              "name": "Twitter"
-            }
-          ],
-          "title": "Toulouse JS"
-        },
-        {
           "name": "Lionel Porcheron",
           "photoUrl": "/images/people/lionel_porcheron.jpg",
           "socials": [
@@ -212,23 +215,6 @@
           ],
           "title": "Toulouse DevOps"
         },
-        {
-          "name": "Guilhem De Miollis",
-          "photoUrl": "/images/people/guilhem_demiollis.jpg",
-          "title": "GDG Toulouse"
-        },
-        {
-          "name": "Aurélien Baumann",
-          "photoUrl": "/images/people/aurelien_baumann.jpg",
-          "socials": [
-            {
-              "icon": "twitter",
-              "link": "https://twitter.com/kendo5731",
-              "name": "Twitter"
-            }
-          ],
-          "title": "GDG Toulouse"
-        }
       ],
       "title": "Core Team"
     }
