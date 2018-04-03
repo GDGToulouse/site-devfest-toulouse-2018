@@ -27,20 +27,19 @@ Le DevFest Toulouse 2017 a lieu le jeudi 8 novembre au Centre de Congrés Pierre
 Le centre de congrés est idéalement situé en centre ville.
 
 EN AVION :
-Depuis l'aéroport Blagnac, il vous faudra tout d'abord prendre le tramway jusqu'à la station Arènes. Prenez ensuite la ligne A du métro et descendez à Compans-Cafarelli.
+Depuis l'aéroport Blagnac, le plus simple est de prendre la navette aéroport pour descendre à Compans-Cafarelli. Vous pouvez aussi prendre le tramway jusqu'à la station Arènes puis la ligne A du métro jusqu'à Jean Jaurès, enfin la ligne B pour descendre à Compans-Cafarelli.
 
 EN VOITURE :
 Un parking (payant) est situé à deux pas de la conférence.
 
 EN TRAIN :
-Depuis la gare Matabiau, prenez simplement le métro ligne A.
+Depuis la gare Matabiau, prenez simplement le métro ligne A jusqu'à Jean Jaurès, puis la ligne B pour descendre à Compans-Cafarelli.
 
 EN METRO :
-Ligne A, descendez station Compans-Cafarelli.
+Ligne B, descendez station Compans-Cafarelli.
 
 ### Comment devenir sponsor/partenaire ?
 Le dossier de partenariat est en cours de finalisation.
-
 
 ## CFP
 
