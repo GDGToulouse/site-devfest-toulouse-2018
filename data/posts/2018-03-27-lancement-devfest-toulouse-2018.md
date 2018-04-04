@@ -3,7 +3,7 @@ Aujourd’hui, nous avons le plaisir de vous annoncer que la 3e édition se dér
 **Le jeudi 08 novembre
 au Centre des Congrès Pierre Baudis.**
 
-Situé en plein coeur de Toulouse, dans le quartier de Compans Cafarelli, accessible en transport en commun et en voiture, nous aurons l’occasion d’accueillir *plus de conférences**, **plus de partenaires** et surtout **plus de participants**.
+Situé en plein coeur de Toulouse, dans le quartier de Compans Cafarelli, accessible en transport en commun et en voiture, nous aurons l’occasion d’accueillir **plus de conférences**, **plus de partenaires** et surtout **plus de participants**.
 
 ![](images/posts/2018-03-27-lancement-devfest-toulouse-2018/baudis.jpg)
 
