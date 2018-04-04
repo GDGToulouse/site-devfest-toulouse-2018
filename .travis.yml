@@ -14,12 +14,12 @@ script:
 before_deploy:
 - echo "Deploying!"
 - openssl aes-256-cbc -K $encrypted_12c8071d2874_key -iv $encrypted_12c8071d2874_iv -in 2018-devfesttoulouse-60077b082fac.json.enc -out /tmp/GCP_KEY_DEPLOYEMENT.json -d
-#- gcloud version || true
-#- if [ ! -d "$HOME/google-cloud-sdk/bin" ]; then rm -rf $HOME/google-cloud-sdk; export CLOUDSDK_CORE_DISABLE_PROMPTS=1; curl https://sdk.cloud.google.com | bash; fi
-#- source /home/travis/google-cloud-sdk/path.bash.inc
-#- gcloud version
-#- gcloud auth activate-service-account --key-file /tmp/GCP_KEY_DEPLOYEMENT.json
-#- rm /tmp/GCP_KEY_DEPLOYEMENT.json
+- gcloud version || true
+- if [ ! -d "$HOME/google-cloud-sdk/bin" ]; then rm -rf $HOME/google-cloud-sdk; export CLOUDSDK_CORE_DISABLE_PROMPTS=1; curl https://sdk.cloud.google.com | bash > /dev/null; fi
+- source /home/travis/google-cloud-sdk/path.bash.inc
+- gcloud version
+- gcloud auth activate-service-account --key-file /tmp/GCP_KEY_DEPLOYEMENT.json
+- rm /tmp/GCP_KEY_DEPLOYEMENT.json
 - yarn build:prod
 deploy:
 - provider: firebase
@@ -39,5 +39,5 @@ after_deploy:
 - jq '.team' data/firebase-data.json | firebase database:set -y /team
 - jq '.tickets' data/firebase-data.json | firebase database:set -y /tickets
 - jq '.videos' data/firebase-data.json | firebase database:set -y /videos
-#- echo "Deploying files into bucket"
-#- gsutil cp data/faq.md gs://devfesttoulouse-2018.appspot.com/markdown/faq.md
+- echo "Deploying files into bucket"
+- gsutil cp data/faq.md gs://devfesttoulouse-2018.appspot.com/markdown/faq.md
