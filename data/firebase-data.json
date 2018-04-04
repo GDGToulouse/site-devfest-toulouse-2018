@@ -241,6 +241,43 @@
       "title": "Core Team"
     }
   ],
-  "tickets": {},
+  "tickets": [{
+    "available" : true,
+    "currency" : "€",
+    "starts" : "04 Avril",
+    "ends" : "08 Novembre",
+    "inDemand" : false,
+    "info" : "50 premieres places",
+    "name" : "BlindBirds",
+    "price" : 40,
+    "regular" : true,
+    "soldOut" : false,
+    "url" : "https://www.billetweb.fr/devfest-toulouse-2018"
+  }, {
+    "available" : false,
+    "currency" : "€",
+    "starts" : "04 Avril",
+    "ends" : "08 Novembre",
+    "inDemand" : false,
+    "info" : "70 premieres places",
+    "name" : "EarlyBirds",
+    "price" : 60,
+    "regular" : true,
+    "soldOut" : false,
+    "url" : "https://www.billetweb.fr/devfest-toulouse-2018"
+  }, {
+    "available" : false,
+    "currency" : "€",
+    "starts" : "04 Avril",
+    "ends" : "08 Novembre",
+    "inDemand" : false,
+    "info" : "250 premieres places",
+    "name" : "Normal",
+    "price" : 80,
+    "regular" : true,
+    "soldOut" : false,
+    "url" : "https://www.billetweb.fr/devfest-toulouse-2018",
+    "primary" : true
+  }],
   "videos": []
 }
