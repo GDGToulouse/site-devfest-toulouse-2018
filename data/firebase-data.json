@@ -241,6 +241,23 @@
             }
           ],
           "title": "Toulouse JAM / JUG"
+        },
+        {
+          "name": "Elodie Lerare",
+          "photoUrl": "images/people/elodie_lerare.jpg",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/EloBlou",
+              "name": "Twitter"
+            },
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/elodie-lerare-223a6b41/",
+              "name": "LinkedIn"
+            }
+          ],
+          "title": ""
         }
       ],
       "title": "Core Team"
