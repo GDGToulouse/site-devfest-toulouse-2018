@@ -187,9 +187,14 @@
               "icon": "twitter",
               "link": "https://twitter.com/ilaborie",
               "name": "Twitter"
+            },
+            {
+              "icon": "github",
+              "link": "https://github.com/ilaborie",
+              "name": "Github"
             }
           ],
-          "title": ""
+          "title": "Folivoraphile"
         },
         {
           "name": "Emmanuel Vinas",
