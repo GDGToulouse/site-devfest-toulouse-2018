@@ -94,10 +94,10 @@
   },
   "ticketsBlock": {
     "title": "Tickets",
-    "ticketsDetails": "Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price.",
-    "soldOut": "You missed it!",
-    "notAvailableYet": "Not available yet",
-    "save": "Save ${discount}% today"
+    "ticketsDetails": "Votre billet vous donne accès à toutes les conférences, aux pauses café, et au repas. L'hébergement n'est PAS inclus dans ce prix.",
+    "soldOut": "Rupture de stock",
+    "notAvailableYet": "Pas encore disponible...",
+    "save": "Économisez ${discount}% !"
   },
   "partnersBlock": {
     "title": "Partners",
