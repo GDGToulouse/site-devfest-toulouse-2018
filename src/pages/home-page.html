@@ -127,6 +127,29 @@
           line-height: 1.1;
         }
       }
+      .landing-actions {
+        position: relative;
+        margin: 1rem;
+        border-radius: 1rem;
+        padding: 1rem;
+        max-width: 18ch;
+        background-color: rgba(0, 0, 0, .5);
+        box-shadow: inset 0 0 1px white;
+      }
+      .landing-actions a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #fff;
+        font-size: 80%;
+      }
+      .landing-actions a img {
+        filter: grayscale(0.8);
+        transition: .4s ease-out;
+      }
+      .landing-actions a:hover img {
+        filter: grayscale(0.2);
+      }
     </style>
 
     <polymer-helmet active="[[active]]"></polymer-helmet>
@@ -141,6 +164,16 @@
     >
       <div class="home-content" layout vertical center>
         <plastic-image class="hero-logo" srcset="/images/logo.svg" alt="{$ title $}"></plastic-image>
+
+        <div class="landing-actions">
+          <a href="https://docs.google.com/presentation/d/e/2PACX-1vR9oEvhN0eKW6KeMqJzYZt1AtwiO5eyRhWcy6cXfE63vtZzX8U9B8_r2LpO6WIwDWjOoLkf10G7tFGO/pub?start=false&loop=true&delayms=0&slide=id.g376bab0a27_1_7"
+             target="NEW" class="btn btn-box">
+            <img src="/images/sponsors/rocket.svg" alt="download" width="80px">
+            <span>Télécharger le dossier de Sponsoring</span>
+          </a>
+        </div>
+
+
         <div class="info-items highlight-font">
           <div class="info-item">{$ location.city $}. {$ dates $}</div>
           <div class="info-item">{$ heroSettings.home.description $}</div>
