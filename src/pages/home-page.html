@@ -132,6 +132,22 @@
         margin: 1rem;
       }
 
+      .sponsoring .q-anim {
+        width: 32px;
+        height: 32px;
+        margin: 16px;
+        display: inline-block;
+        background: url(/images/question.png) 0 0;
+        /* transform: scale(2); */
+      }
+      .sponsoring:hover .q-anim  {
+        animation: questionBlock .5s infinite steps(4);
+      }
+      @keyframes questionBlock {
+        to {
+          background-position: -128px 0;
+        }
+      }
       .english-doc {
         color: #ffffff;
         font-size: 1rem;
@@ -179,11 +195,12 @@
           <div class="landing-actions">
             <a href="https://docs.google.com/presentation/d/e/2PACX-1vR9oEvhN0eKW6KeMqJzYZt1AtwiO5eyRhWcy6cXfE63vtZzX8U9B8_r2LpO6WIwDWjOoLkf10G7tFGO/pub?start=false&loop=true&delayms=0&slide=id.g376bab0a27_1_7"
                target="NEW" class="btn btn-box">
-              <img src="/images/rocket.svg" alt="download" width="80px" height="100px">
+              <div class="q-anim"></div>
+
               <span>Télécharger le dossier de Sponsoring</span>
             </a>
           </div>
-          <a class="english-doc" href="https://docs.google.com/presentation/d/1NQfZvp17057linNVcPMM_hSdUesqFTVSBfHEJvgtR-c/edit?usp=sharing">English version? Click here</a>
+          <a class="english-doc" href="https://docs.google.com/presentation/d/1NQfZvp17057linNVcPMM_hSdUesqFTVSBfHEJvgtR-c/pub?start=false&loop=true&delayms=0&slide=id.g376bab0a27_1_7">English version? Click here</a>
         </div>
 
 
