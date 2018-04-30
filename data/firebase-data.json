@@ -73,6 +73,11 @@
               "icon": "github",
               "link": "https://github.com/aaudevart",
               "name": "Github"
+            },
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/alexia-audevart-450b8a1/",
+              "name": "Linkedin"
             }
           ],
           "title": "Toulouse Data Science"
