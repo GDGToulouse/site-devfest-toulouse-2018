@@ -128,8 +128,8 @@
     }
   },
   "blog": {
-    "published": "Published",
-    "suggested": "Up next"
+    "published": "Publiée le",
+    "suggested": "À voir aussi"
   },
   "latestPostsBlock": {
     "title": "Les dernières nouvelles",
