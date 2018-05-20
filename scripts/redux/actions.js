@@ -106,11 +106,28 @@ const ticketsActions = {
 
 const partnersActions = {
   fetchPartners: () => {
+    const shuffleArray = (arr) =>
+      arr
+        .map((a)=> [Math.random(), a])
+        .sort((a, b) => a[0] - b[0])
+        .map((a) => a[1]);
+
+    const shufflePartnerBlock = (block) =>
+      Object.assign({}, block, { logos: shuffleArray(block.logos) });
+
+    const shufflePartners = (partners) => partners.map(shufflePartnerBlock);
+
+    // FIXME when not need for dev
+    // return fetch('/data/firebase-data.json')
+    //   .then((res) => res.json())
+    //   .then(({ partners }) => shufflePartners(partners)) //
+    //   .then((partners) => store.dispatch({ type: FETCH_PARTNERS, partners }));
+
     return firebase.database()
       .ref('/partners')
       .on('value', (snapshot) => store.dispatch({
         type: FETCH_PARTNERS,
-        partners: snapshot.val(),
+        partners: shufflePartners(snapshot.val()),
       }));
   },
 };

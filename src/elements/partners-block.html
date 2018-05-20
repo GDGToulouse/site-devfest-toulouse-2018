@@ -23,9 +23,13 @@
       }
 
       .logos-wrapper {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-        grid-gap: 8px;
+        /*display: grid;*/
+        /*grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));*/
+        /*grid-gap: 8px;*/
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 1.5rem 0;
       }
 
       .logo-item {
@@ -42,25 +46,91 @@
         color: var(--default-primary-color);
       }
 
-      @media (min-width: 640px) {
-        .logos-wrapper {
-          grid-template-columns: repeat(4, 1fr);
-        }
+      /*Style by level*/
+      .partner-pt .block-title {
+        font-size: 1.5em;
+        color: #8b7683;
       }
 
-      @media (min-width: 812px) {
-        .logos-wrapper {
-          grid-template-columns: repeat(5, 1fr);
-        }
+      .partner-pt .logo-item {
+        flex-basis: 320px;
+        margin: 16px;
+        grid-gap: 16px;
+      }
+
+      .partner-au .block-title {
+        font-size: 1.33em;
+        color: #b7935b;
+      }
+      .partner-au .logo-item {
+        flex-basis: 200px;
+        margin: 12px;
+      }
+      
+      .partner .block-title {
+        font-size: 1.2em;
+        color: #73737a;
+      }
+      .partner .logo-item {
+        flex-basis: 160px;
+        margin: 8px;
+      }
+      
+      .fancy {
+        line-height: 0.5;
+        text-align: center;
+      }
+      .fancy span {
+        display: inline-block;
+        position: relative;
+      }
+      .fancy span:before,
+      .fancy span:after {
+        top: 40%;
+        content: "";
+        position: absolute;
+        height: 5px;
+        width: 140%;
+        max-width: 25vw;
+      }
+      .fancy span:before {
+        right: 100%;
+        margin-right: 15px;
+      }
+      .fancy span:after {
+        left: 100%;
+        margin-left: 15px;
+      }
+
+      .partner-pt .fancy span:before, .partner-pt .fancy span:after {
+        border-bottom: 1px solid currentColor;
+        border-top: 1px solid currentColor;
+      }
+      .partner-au .fancy span:before, .partner-au .fancy span:after {
+        top: 20%;
+        border-bottom: 1px solid currentColor;
       }
 
     </style>
 
     <div class="container">
-      <h1 class="container-title">{$ partnersBlock.title $}</h1>
+      <h1 class="container-title">
+        {$ partnersBlock.title $}
+        <small>
+          <paper-button class="cta-button animated icon-right">
+            <a href="{$ partnersBlock.link $}" target="_blank">
+              <span>{$ partnersBlock.button $}</span>
+              <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
+            </a>
+          </paper-button>
+        </small>
+      </h1>
 
       <template is="dom-repeat" items="[[partners]]" as="block">
-          <h4 class="block-title">[[block.title]]</h4>
+        <div class$="[[block.style]]">
+          <h4 class="block-title fancy">
+            <span>[[block.title]]</span>
+          </h4>
           <div class="logos-wrapper">
             <template is="dom-repeat" items="[[block.logos]]" as="logo">
               <a
@@ -81,13 +151,8 @@
               </a>
             </template>
           </div>
+        </div>
       </template>
-
-      <paper-button class="cta-button animated icon-right"
-        on-tap="_addPotentialPartner">
-        <span>{$ partnersBlock.button $}</span>
-        <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
-      </paper-button>
     </div>
 
   </template>
@@ -119,7 +184,8 @@
           submitLabel: '{$ partnersBlock.form.submitLabel $}',
           firstFieldLabel: '{$ partnersBlock.form.fullName $}',
           secondFieldLabel: '{$ partnersBlock.form.companyName $}',
-          submit: subscribeActions.addPartner });
+          submit: subscribeActions.addPartner,
+        });
       }
     }
 
