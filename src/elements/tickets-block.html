@@ -44,6 +44,11 @@
         box-shadow: var(--box-shadow-primary-color-hover);
       }
 
+      .ticket-item.sold-out {
+        opacity: .5;
+        filter: grayscale(1);
+      }
+
       .header {
         padding: 24px 0 0;
         font-size: 16px;
@@ -73,7 +78,7 @@
         color: var(--accent-color);
       }
 
-      .sold-out {
+      .actions .sold-out {
         display: none;
         font-size: 14px;
         text-transform: uppercase;
@@ -138,7 +143,7 @@
       <div class="tickets" layout horizontal wrap center-justified>
         <template is="dom-repeat" items="[[tickets]]" as="ticket">
           <a
-            class="ticket-item card"
+            class$="[[getTicketClasses(ticket)]]"
             href$="[[ticket.url]]"
             target="_blank"
             rel="noopener noreferrer"
@@ -201,6 +206,11 @@
           },
           contentLoaderVisibility: Boolean,
         };
+      }
+      getTicketClasses(ticket) {
+        const classes = ['ticket-item', 'card'];
+        if (ticket.soldOut) classes.push('sold-out');
+        return classes.join(' ');
       }
 
       connectedCallback() {
