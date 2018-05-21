@@ -43,6 +43,15 @@ Le dossier de partenariat est en cours de finalisation.
 
 ## CFP
 
+### Quel est le format des conférences ?
+Deux types de conférences sont proposées :
+- Les **lightning talks**, d’une durée de **15 minutes**, sans question.
+- Les **conférences**, d’une durée de **40 minutes**, sans question dans la salle.
+
+Les orateur·rice·s sont invités à rejoindre le speaker booth après leur conférence, où ils pourront interagir avec les spectateurs désireux de poursuivre le dialogue.
+Pour les conférences données en toute fin de de journée, 10 minutes de questions/réponses sont prévues dans le même auditoire à l’issue des 40 minutes de conférence.
+
+
 ### Comment devenir orateur/oratrice ?
 Le CFP est ouvert, il ferme le 1 Juillet 2018.
 
@@ -51,10 +60,28 @@ Il vous suffit de soumettre un ou plusieurs sujets sur notre [CFP](https://devfe
 Si votre sujet a été pré-sélectionné, nous vous offrons une place à la conférence, vous n'avez donc pas à acheter votre place à l'avance.
 Que vous présentiez un talk seul ou en duo, chaque conférencier a son entrée offerte.
 
-Si votre sujet n'a pas encore été accepté, nous vous gardons une place au tarif early-bird.
-
 ### Est-ce que l'on peut soumettre un talk a plusieurs ?
-Oui, sur le site du CFP, si vous n'êtes pas seul lors de la présentation, donnez l'e-mail des autres conférenciers, ceux-ci doivent être préalablement inscrit sur le CFP avec cette même adresse.
+Oui, sur le site du CFP, si vous n'êtes pas seul lors de la présentation, renseignez l'e-mail des autres conférenciers, ceux-ci doivent s'être préalablement inscrits sur le CFP avec cette même adresse.
+Pour des raisons pratiques, nous n’acceptons pas les sujets impliquant plus de trois orateur·rice·s. 
+
+
+### J’ai proposé une conférence. Dois-je acheter mon entrée ?
+Si votre sujet (conférence ou lightning talk) a été sélectionné, nous vous offrons votre entrée au DevFest, vous n'avez donc pas à acheter votre place à l'avance.
+Si vous présentez un talk à plusieurs, deux entrées vous seront offertes par conférence, les autres intervenants devront acheter leur propre place (en l’absence d’autres conférences acceptées.)
+
+Au cas où votre sujet ne serait pas accepté, il vous sera encore possible d’acheter votre place après la notification, au tarif early-bird.
+
+### Prenez-vous en charge les frais de déplacement et d’hébergement?
+Les speakers présentant une conférence complète (40 minutes) peuvent demander un remboursement de leurs frais (transport et hébergement) sur présentation des factures, et dans une limite de 250€ par conférence (et non pas par speaker).
+Pour les lightning talks, les frais de déplacement ne sont pas remboursés.
+
+### Quels lieux recommandez-vous pour loger ?
+Le centre de congrès Pierre Baudis est situé à 15 minutes à pied de l’hyper-centre de Toulouse, ou 5 minutes en métro (arrêt Compans-Caffarelli).
+De nombreux hôtels et chambres d’hôtes sont disponibles à proximité.
+
+### Quel est le format attendu pour les slides ?
+Vous pouvez présenter votre conférence à partir de votre propre ordinateur, ou nous fournir au préalable les slides au format PDF.
+Le thème des slides est entièrement libre, et les présentations seront diffusées ensuite sur la chaîne YouTube GDG France, qui héberge déjà les présentations des années précédentes.
 
 
 ## Billetterie
