@@ -31,8 +31,8 @@
       "title": "Gold",
       "style": "partner-au",
       "logos":[
-        { "name": "Monkey Patch",  "url": "http://www.monkeypatch.io/", "logoUrl": "/images/partners/Logo_MonkeyPatch_Bleu.png" },
         { "name": "Stack Labs",  "url": "https://www.stack-labs.com/", "logoUrl": "/images/partners/logo-stacklab.png" },
+        { "name": "Monkey Patch",  "url": "http://www.monkeypatch.io/", "logoUrl": "/images/partners/Logo_MonkeyPatch_Bleu.png" },
         { "name": "CS Systèmes d'information",  "url": "https://www.c-s.fr/", "logoUrl": "/images/partners/logo-cs.png" },
         { "name": "Informatique Banque Populaire",  "url": "https://informatique.banquepopulaire.fr/", "logoUrl": "/images/partners/logo_i-BP2.png" }
       ]
