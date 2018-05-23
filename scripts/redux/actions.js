@@ -106,6 +106,12 @@ const ticketsActions = {
 
 const partnersActions = {
   fetchPartners: () => {
+    // FIXME when not need for dev
+    // return fetch('/data/firebase-data.json')
+    //   .then((res) => res.json())
+    //   .then(({ partners }) => partners) //
+    //   .then((partners) => store.dispatch({ type: FETCH_PARTNERS, partners }));
+
     return firebase.database()
       .ref('/partners')
       .on('value', (snapshot) => store.dispatch({
