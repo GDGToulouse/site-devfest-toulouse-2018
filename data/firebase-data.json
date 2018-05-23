@@ -19,7 +19,33 @@
       }
     }
   },
-  "partners": [],
+  "partners": [
+    {
+      "title": "Platinium",
+      "style": "partner-pt",
+      "logos": [
+        { "name": "Delair",  "url": "https://delair.aero/", "logoUrl": "/images/partners/Delair.png" }
+      ]
+    },
+    {
+      "title": "Gold",
+      "style": "partner-au",
+      "logos":[
+        { "name": "Stack Labs",  "url": "https://www.stack-labs.com/", "logoUrl": "/images/partners/logo-stacklab.png" },
+        { "name": "Monkey Patch",  "url": "http://www.monkeypatch.io/", "logoUrl": "/images/partners/Logo_MonkeyPatch_Bleu.png" },
+        { "name": "CS Systèmes d'information",  "url": "https://www.c-s.fr/", "logoUrl": "/images/partners/logo-cs.png" },
+        { "name": "Informatique Banque Populaire",  "url": "https://informatique.banquepopulaire.fr/", "logoUrl": "/images/partners/logo_i-BP2.png" }
+      ]
+    },
+    {
+      "title": "Soutien",
+      "style": "partner",
+      "logos":[
+        { "name": "Commit42",  "url": "https://www.commit42.fr/", "logoUrl": "/images/partners/commit42.png" },
+        { "name": "SQLI",  "url": "http://www.sqli.com/", "logoUrl": "/images/partners/logo-sqli.png" }
+      ]
+    }
+  ],
   "schedule": [],
   "sessions": {},
   "speakers": [],
