@@ -1,0 +1,193 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+
+<link rel="import" href="../../bower_components/plastic-image/plastic-image.html">
+<link rel="import" href="../../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
+
+<link rel="import" href="../mixins/redux-mixin.html">
+<link rel="import" href="./shared-styles.html">
+<link rel="import" href="./hoverboard-icons.html">
+
+<dom-module id="partners-block">
+  <template>
+    <style is="custom-style" include="shared-styles flex flex-alignment"></style>
+
+    <style>
+
+      :host {
+        display: block;
+      }
+
+      .block-title {
+        margin: 24px 0 8px;
+      }
+
+      .logos-wrapper {
+        /*display: grid;*/
+        /*grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));*/
+        /*grid-gap: 8px;*/
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 1.5rem 0;
+      }
+
+      .logo-item {
+        padding: 24px;
+      }
+
+      .logo-img {
+        height: 60px;
+        width: 100%;
+      }
+
+      .cta-button {
+        margin-top: 24px;
+        color: var(--default-primary-color);
+      }
+
+      /*Style by level*/
+      .partner-pt .block-title {
+        font-size: 1.5em;
+        color: #8b7683;
+      }
+
+      .partner-pt .logo-item {
+        flex-basis: 320px;
+        margin: 16px;
+        grid-gap: 16px;
+      }
+
+      .partner-au .block-title {
+        font-size: 1.33em;
+        color: #b7935b;
+      }
+      .partner-au .logo-item {
+        flex-basis: 200px;
+        margin: 12px;
+      }
+
+      .partner .block-title {
+        font-size: 1.2em;
+        color: #73737a;
+      }
+      .partner .logo-item {
+        flex-basis: 160px;
+        margin: 8px;
+      }
+
+      .fancy {
+        line-height: 0.5;
+        text-align: center;
+      }
+      .fancy span {
+        display: inline-block;
+        position: relative;
+      }
+      .fancy span:before,
+      .fancy span:after {
+        top: 40%;
+        content: "";
+        position: absolute;
+        height: 5px;
+        width: 140%;
+        max-width: 25vw;
+      }
+      .fancy span:before {
+        right: 100%;
+        margin-right: 15px;
+      }
+      .fancy span:after {
+        left: 100%;
+        margin-left: 15px;
+      }
+
+      .partner-pt .fancy span:before, .partner-pt .fancy span:after {
+        border-bottom: 1px solid currentColor;
+        border-top: 1px solid currentColor;
+      }
+      .partner-au .fancy span:before, .partner-au .fancy span:after {
+        top: 20%;
+        border-bottom: 1px solid currentColor;
+      }
+
+    </style>
+
+    <div class="container">
+      <h1 class="container-title">
+        {$ partnersBlock.title $}
+        <small>
+          <paper-button class="cta-button animated icon-right">
+            <a href="{$ partnersBlock.link $}" target="_blank">
+              <span>{$ partnersBlock.button $}</span>
+              <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
+            </a>
+          </paper-button>
+        </small>
+      </h1>
+
+      <template is="dom-repeat" items="[[partners]]" as="block">
+        <div class$="[[block.style]]">
+          <h4 class="block-title fancy">
+            <span>[[block.title]]</span>
+          </h4>
+          <div class="logos-wrapper">
+            <template is="dom-repeat" items="[[block.logos]]" as="logo">
+              <a
+                class="logo-item card"
+                href$="[[logo.url]]"
+                title$="[[logo.name]]"
+                target="_blank"
+                rel="noopener noreferrer"
+                layout horizontal center-center
+              >
+                <plastic-image
+                  class="logo-img"
+                  srcset="[[logo.logoUrl]]"
+                  sizing="contain"
+                  lazy-load
+                  preload fade
+                ></plastic-image>
+              </a>
+            </template>
+          </div>
+        </div>
+      </template>
+    </div>
+
+  </template>
+
+  <script>
+
+    class PartnersBlock extends ReduxMixin(Polymer.Element) {
+      static get is() {
+        return 'partners-block';
+      }
+
+      static get properties() {
+        return {
+          partners: {
+            type: Object,
+            statePath: 'partners',
+          },
+        };
+      }
+
+      connectedCallback() {
+        super.connectedCallback();
+        partnersActions.fetchPartners();
+      }
+
+      _addPotentialPartner() {
+        dialogsActions.openDialog(DIALOGS.SUBSCRIBE, {
+          title: '{$ partnersBlock.form.title $}',
+          submitLabel: '{$ partnersBlock.form.submitLabel $}',
+          firstFieldLabel: '{$ partnersBlock.form.fullName $}',
+          secondFieldLabel: '{$ partnersBlock.form.companyName $}',
+          submit: subscribeActions.addPartner });
+      }
+    }
+
+    window.customElements.define(PartnersBlock.is, PartnersBlock);
+  </script>
+</dom-module>
