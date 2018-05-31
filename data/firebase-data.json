@@ -34,7 +34,10 @@
         { "name": "Stack Labs",  "url": "https://www.stack-labs.com/", "logoUrl": "/images/partners/logo-stacklab.png" },
         { "name": "Monkey Patch",  "url": "http://www.monkeypatch.io/", "logoUrl": "/images/partners/Logo_MonkeyPatch_Bleu.png" },
         { "name": "CS Systèmes d'information",  "url": "https://www.c-s.fr/", "logoUrl": "/images/partners/logo-cs.png" },
-        { "name": "Informatique Banque Populaire",  "url": "https://informatique.banquepopulaire.fr/", "logoUrl": "/images/partners/logo_i-BP2.png" }
+        { "name": "Informatique Banque Populaire",  "url": "https://informatique.banquepopulaire.fr/", "logoUrl": "/images/partners/logo_i-BP2.png" },
+        { "name": "OnePoint",  "url": "https://www.groupeonepoint.com/", "logoUrl": "/images/partners/logo-onepoint.png" },
+        { "name": "Sigfox",  "url": "https://www.sigfox.com/en", "logoUrl": "/images/partners/logo-sigfox.svg" },
+        { "name": "Cirruseo",  "url": "https://www.cirruseo.com/", "logoUrl": "/images/partners/logo-cirruseo.png" }
       ]
     },
     {
@@ -42,7 +45,10 @@
       "style": "partner",
       "logos":[
         { "name": "Commit42",  "url": "https://www.commit42.fr/", "logoUrl": "/images/partners/commit42.png" },
-        { "name": "SQLI",  "url": "http://www.sqli.com/", "logoUrl": "/images/partners/logo-sqli.png" }
+        { "name": "SQLI",  "url": "http://www.sqli.com/", "logoUrl": "/images/partners/logo-sqli.png" },
+        { "name": "CNES",  "url": "https://cnes.fr/", "logoUrl": "/images/partners/cnes_logo_carre.png" },
+        { "name": "Gisaia",  "url": "http://gisaia.fr/", "logoUrl": "/images/partners/logo-gisaia.png" },
+        { "name": "DocDoku",  "url": "https://www.docdoku.com/", "logoUrl": "/images/partners/docdoku_inverse_web.png" }
       ]
     }
   ],
