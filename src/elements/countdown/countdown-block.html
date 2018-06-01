@@ -1,0 +1,186 @@
+<link rel="import" href="../../../bower_components/polymer/polymer-element.html">
+
+<link rel="import" href="./countdown-digit.html">
+
+<dom-module id="countdown-block">
+  <template>
+    <style is="custom-style" include="shared-styles flex flex-alignment"></style>
+
+    <style>
+      :host {
+        display: block;
+      }
+
+      .countdown {
+        font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        text-transform: uppercase;
+
+        color: #ab7315;
+        background: #291d06;
+        width: 42rem;
+
+        margin: 2vw;
+        padding: .5rem 2rem;
+        box-sizing: content-box;
+
+        border-radius: .5rem;
+        box-shadow: inset 0.0625rem 0.0625rem .125rem black,
+                    inset 0.0625rem 0.0625rem 1rem currentColor,
+                    0.0625rem 0.0625rem 3rem rgba(171, 115, 21, 0.5);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+      }
+
+      .row {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        box-sizing: content-box;
+        /*padding: 2vw;*/
+        flex: 1 1 auto;
+      }
+
+      countdown-digit {
+        flex: 1 1 150px;
+      }
+
+      .sep {
+        flex: 1 1 103px;
+      }
+
+      .sep circle {
+        fill: currentColor;
+        transition: fill;
+        transition-duration: .25s;
+      }
+
+      h2 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+        text-shadow: 0 0 .125rem currentColor;
+      }
+
+      h2 a {
+        color: #ab7315;
+        text-decoration: underline;
+        text-shadow: 0 0 .125rem black;
+      }
+
+      .legend {
+        justify-content: space-around;
+      }
+
+      .days, .hours {
+        font-size: 2rem;
+        text-shadow: 0 0 .125rem currentColor;
+      }
+
+    </style>
+
+    <div class="countdown">
+      <div class="row">
+        <h2>
+          {{message}}
+          <a href$="[[link]]">{{linkText}}</a>
+        </h2>
+      </div>
+      <div class="row">
+        <countdown-digit digit="[[d1]]"></countdown-digit>
+        <countdown-digit digit="[[d2]]"></countdown-digit>
+
+        <svg class="sep" viewBox="73 0 267 319" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+             height="150px">
+          <circle cx="222" cy="152" r="30"></circle>
+          <circle cx="202" cy="302" r="30"></circle>
+        </svg>
+        <countdown-digit digit="[[d3]]"></countdown-digit>
+        <countdown-digit digit="[[d4]]"></countdown-digit>
+      </div>
+      <div class="row legend">
+        <div class="days">Jours</div>
+        <div class="hours">Heures</div>
+      </div>
+    </div>
+
+  </template>
+
+  <script>
+    class CountdownBlock extends Polymer.Element {
+      static get is() {
+        return 'countdown-block';
+      }
+
+      constructor() {
+        super();
+      }
+
+      connectedCallback() {
+        super.connectedCallback();
+        this.startCountdown();
+      }
+
+      disconnectedCallback() {
+        super.disconnectedCallback();
+        this.stopCountdown();
+      }
+
+      startCountdown() {
+        if (this.intervalId) {
+          this.stopCountdown();
+        } else {
+          let targetDate = new Date(this.date).getTime();
+          // console.log('start countdown', this.date, targetDate);
+          const updateValues = () => {
+            const diff = Math.floor((targetDate - Date.now()) / (1000 * 60 * 60));
+            // console.log('update values', { diff });
+            if (diff <= 0) {
+              this.d1 = 's';
+              this.d2 = 'o';
+              this.d3 = 'o';
+              this.d4 = 'n';
+            } else {
+              let days = Math.floor(diff / 24);
+              let hours = Math.floor(diff - 24 * days);
+              this.d1 = Math.floor(days / 10);
+              this.d2 = Math.floor(days - this.d1 * 10);
+              this.d3 = Math.floor(hours / 10);
+              this.d4 = Math.floor(hours - this.d3 * 10);
+            }
+          };
+          // this.intervalId = setInterval(updateValues, 60);
+          this.intervalId = setInterval(updateValues, 1000 * 60);
+          updateValues();
+        }
+      }
+
+      stopCountdown() {
+        if (this.intervalId) {
+          // console.log('stop countdown');
+          clearInterval(this.intervalId);
+        }
+      }
+
+      static get properties() {
+        return {
+          message: {
+            type: String,
+          },
+          link: {
+            type: String,
+          },
+          linkText: {
+            type: String,
+          },
+          date: {
+            type: String,
+          },
+        };
+      }
+    }
+
+    window.customElements.define(CountdownBlock.is, CountdownBlock);
+  </script>
+</dom-module>

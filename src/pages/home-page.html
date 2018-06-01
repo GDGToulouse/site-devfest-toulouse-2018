@@ -15,6 +15,8 @@
 <link rel="import" href="../mixins/scroll-functions.html">
 <link rel="import" href="../mixins/redux-mixin.html">
 
+<link rel="import" href="../elements/countdown/countdown-block.html">
+
 <dom-module id="home-page">
   <template>
     <style is="custom-style" include="shared-styles flex flex-alignment"></style>
@@ -209,6 +211,12 @@
           <div class="info-item">{$ heroSettings.home.description $}</div>
         </div>
 
+        <!-- countdown-block -->
+        <countdown-block
+          message="Fin du"
+          link="https://devfest-toulouse.cfp.io"
+          link-text="CFP"
+          date="{$ countdown $}"></countdown-block>
 
         <!--<div class="action-buttons" layout horizontal center-justified wrap>
           <paper-button
