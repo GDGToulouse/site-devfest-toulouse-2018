@@ -16,6 +16,9 @@
 
       :host {
         display: block;
+        --support-height: 60px;
+        --platinum-height: calc(var(--support-height) * 3);
+        --gold-height: calc(var(--support-height) * 2);
       }
 
       .block-title {
@@ -37,7 +40,7 @@
       }
 
       .logo-img {
-        height: 60px;
+        height: var(--support-height);
         width: 100%;
       }
 
@@ -47,6 +50,9 @@
       }
 
       /*Style by level*/
+      .partner-pt  .logo-img {
+        height: var(--platinum-height);
+      }
       .partner-pt .block-title {
         font-size: 1.5em;
         color: #8b7683;
@@ -58,6 +64,9 @@
         grid-gap: 16px;
       }
 
+      .partner-au .logo-img {
+        height: var(--gold-height);
+      }
       .partner-au .block-title {
         font-size: 1.33em;
         color: #b7935b;
