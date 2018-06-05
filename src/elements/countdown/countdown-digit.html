@@ -1,0 +1,133 @@
+<link rel="import" href="../../../bower_components/polymer/polymer-element.html">
+
+<dom-module id="countdown-digit">
+  <template>
+    <style is="custom-style" include="shared-styles flex flex-alignment"></style>
+
+    <style>
+      :host {
+        display: block;
+      }
+
+      .digit svg {
+        flex: 1 1 auto;
+        max-height: 150px;
+      }
+      svg path {
+        fill: rgba(0,0,0,.25);
+        transition: fill;
+        transition-duration: .25s;
+      }
+      /* 0 */
+      .digit[digit='0'] svg .n, .digit[digit='0'] svg .ne, .digit[digit='0'] svg .nw,
+      .digit[digit='0'] svg .se, .digit[digit='0'] svg .s, .digit[digit='0'] svg .sw {
+        fill: currentColor;
+      }
+      /* 1 */
+      .digit[digit='1'] svg .ne, .digit[digit='1'] svg .se  {
+        fill: currentColor;
+      }
+      /* 2 */
+      .digit[digit='2'] svg .n, .digit[digit='2'] svg .ne, .digit[digit='2'] svg .c,
+      .digit[digit='2'] svg .sw, .digit[digit='2'] svg .s {
+        fill: currentColor;
+      }
+      /* 3 */
+      .digit[digit='3'] svg .n, .digit[digit='3'] svg .ne, .digit[digit='3'] svg .c,
+      .digit[digit='3'] svg .se, .digit[digit='3'] svg .s {
+        fill: currentColor;
+      }
+      /* 4 */
+      .digit[digit='4'] svg .nw, .digit[digit='4'] svg .ne, .digit[digit='4'] svg .c,
+      .digit[digit='4'] svg .se {
+        fill: currentColor;
+      }
+      /* 5 */
+      .digit[digit='5'] svg .n, .digit[digit='5'] svg .nw, .digit[digit='5'] svg .c,
+      .digit[digit='5'] svg .se, .digit[digit='5'] svg .s {
+        fill: currentColor;
+      }
+      /* 6 */
+      .digit[digit='6'] svg .n, .digit[digit='6'] svg .nw, .digit[digit='6'] svg .c,
+      .digit[digit='6'] svg .se, .digit[digit='6'] svg .s, .digit[digit='6'] svg .sw {
+        fill: currentColor;
+      }
+      /* 7 */
+      .digit[digit='7'] svg .n, .digit[digit='7'] svg .ne,
+      .digit[digit='7'] svg .se {
+        fill: currentColor;
+      }
+      /* 8 */
+      .digit[digit='8'] svg .n, .digit[digit='8'] svg .ne, .digit[digit='8'] svg .nw, .digit[digit='8'] svg .c,
+      .digit[digit='8'] svg .se, .digit[digit='8'] svg .s, .digit[digit='8'] svg .sw {
+        fill: currentColor;
+      }
+      /* 9 */
+      .digit[digit='9'] svg .n, .digit[digit='9'] svg .ne, .digit[digit='9'] svg .nw, .digit[digit='9'] svg .c,
+      .digit[digit='9'] svg .se, .digit[digit='9'] svg .s{
+        fill: currentColor;
+      }
+      /* s */
+      .digit[digit='s'] svg .n, .digit[digit='s'] svg .nw, .digit[digit='s'] svg .c,
+      .digit[digit='s'] svg .se, .digit[digit='s'] svg .s {
+        fill: currentColor;
+      }
+      /* o */
+      .digit[digit='o'] svg .c, .digit[digit='o'] svg .s,
+      .digit[digit='o'] svg .se, .digit[digit='o'] svg .sw {
+        fill: currentColor;
+      }
+      /* n */
+      .digit[digit='n'] svg .c,
+      .digit[digit='n'] svg .se, .digit[digit='n'] svg .sw {
+        fill: currentColor;
+      }
+      
+    </style>
+
+    <div class="digit" digit$="[[digit]]" height="100px">
+      <svg  viewBox="-30 -5 267 319" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+        
+        <path d="M171.932 0H53.0157C40.1178 0 29.1251 8.89208 26.2108 21.1216L59.1474 34.6369C59.9622 33.913 61.0343 33.477 62.2004 33.477H155.528L171.932 0Z" transform="translate(-5)" class="n"></path>
+
+        <path d="M164.908 37.0257C165.019 37.5016 165.054 38.0043 165.002 38.5201L156.844 119.825L177.28 144.854L188.55 135.568L199.538 30.3696C200.858 17.7304 193.423 6.36664 182.351 1.95099L164.908 37.0257Z" transform="translate(-5)" class="ne"></path>
+
+        <path d="M142.499 262.77L150.988 178.175L176.115 157.72L185.1 168.594L174.055 274.339C172.774 286.607 163.549 296.293 151.804 298.518L141.867 264.676C142.207 264.111 142.43 263.465 142.499 262.77Z" transform="translate(-5)" class="se"></path>
+
+        <path d="M142.316 299L133.095 266.899H40.1387C38.7237 266.899 37.4696 266.263 36.6309 265.273L1.25024 279.791C4.75753 290.837 15.1067 299 27.5327 299H142.316Z" transform="translate(-5)" class="s"></path>
+
+        <path d="M43.5379 180.852L36.1735 255.709L0 270.305C0.0245563 269.75 0.0658758 269.191 0.124463 268.63L10.8234 166.201L21.6631 156.577L43.5379 180.852Z" transform="translate(-5)" class="sw"></path>
+
+        <path d="M49.5898 119.337L56.9547 44.4752L24.8894 31.5368L14.1532 134.322L22.4905 143.684L49.5898 119.337Z" transform="translate(-5)" class="nw"></path>
+
+        <path d="M152.264 165.917L170.261 150.636L155.665 132.972H48.2483L28.5369 150.474L42.8998 165.913L152.264 165.917Z" transform="translate(-5)" class="c"></path>
+
+      </svg>
+    </div>
+
+  </template>
+
+  <script>
+
+    class CountdownDigit extends Polymer.Element {
+      static get is() {
+        return 'countdown-digit';
+      }
+
+      constructor() {
+        super();
+      }
+
+      static get properties() {
+        return {
+          digit: {
+            type: String,
+            value: '',
+          },
+        };
+      }
+    }
+
+    window.customElements.define(CountdownDigit.is, CountdownDigit);
+  </script>
+</dom-module>
