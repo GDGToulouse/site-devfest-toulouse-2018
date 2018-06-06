@@ -319,7 +319,7 @@
     "info" : "70 premières places",
     "name" : "EarlyBirds",
     "price" : 60,
-    "available" : false,
+    "available" : true,
     "inDemand" : true,
     "regular" : true,
     "soldOut" : false,
