@@ -320,9 +320,9 @@
     "name" : "EarlyBirds",
     "price" : 60,
     "available" : true,
-    "inDemand" : true,
+    "inDemand" : false,
     "regular" : true,
-    "soldOut" : false,
+    "soldOut" : true,
     "url" : "https://www.billetweb.fr/devfest-toulouse-2018"
   }, {
     "currency" : "€",
@@ -332,7 +332,7 @@
     "name" : "Normal",
     "price" : 80,
     "available" : false,
-    "inDemand" : false,
+    "inDemand" : true,
     "regular" : true,
     "soldOut" : false,
     "url" : "https://www.billetweb.fr/devfest-toulouse-2018",
