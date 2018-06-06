@@ -125,7 +125,17 @@
     </style>
 
     <div class="tickets-wrapper container">
-      <h1 class="container-title">{$ ticketsBlock.title $}</h1>
+      <h1 class="container-title">
+        {$ ticketsBlock.title $}
+        <small>
+          <paper-button class="cta-button animated icon-right">
+            <a href="{$ ticketsBlock.shopLink $}" target="_blank">
+              <span>{$ ticketsBlock.shopTitle $}</span>
+              <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
+            </a>
+          </paper-button>
+        </small>
+      </h1>
       <content-loader
         class="tickets-placeholder"
         card-padding="24px"
