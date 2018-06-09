@@ -23,6 +23,11 @@
       "title": "Accueil"
     },
     {
+      "route": "speakers",
+      "permalink": "/speakers/",
+      "title": "Speakers"
+    },
+    {
       "route": "team",
       "permalink": "/team/",
       "title": "Equipe"

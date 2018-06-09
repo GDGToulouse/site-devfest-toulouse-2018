@@ -53,9 +53,328 @@
       ]
     }
   ],
-  "schedule": [],
-  "sessions": {},
-  "speakers": [],
+  "schedule": {},
+  "sessions": {
+    "4340" : {
+      "title" : "Angular Elements",
+      "tags" : [ "Web" ],
+      "language" : "English",
+      "complexity" : "Débutant",
+      "description" : "In this session we will see how to create our first Web Component with Angular Elements and use it in a plain JS app.",
+      "speakers" : [ "jimenez_raul" ]
+    },
+    "4338" : {
+      "title" : "Comment perdre sa surchage featurale ?",
+      "tags" : [ "Method & Tools" ],
+      "language" : "Français",
+      "complexity" : "Débutant",
+      "description" : "Le cycle de vie d'une application est un chemin nébuleux et plein de dangers. La complexité ne fait que croitre durant les mois et les années d'utilisation. L'un des plus gros challenges d'un développeur est de pouvoir la contrôler tout en ajoutant de nouvelles fonctionnalités (features). Des solutions existent : le ré-écriture de code ou encore la maitrise de la dette technique. En effet, ces deux actions permettent de lever \"la complexité accidentelle\". Mais que faisons nous de la \"complexité essentielle\" ? La complexité qui n'est pas liée au code. La seule solution : Supprimer des fonctionnalités ! Ce talk vous expliquera comment perdre la surcharge featurale de vos applications en comprenant la différence entre la complexité essentielle et la complexité accidentelle, mais aussi en vous donnant des clés pour mener à bien ce changement de vie dans vos équipes projet. ",
+      "speakers" : [ "estelle_landry" ]
+    },
+    "4313" : {
+      "title" : "Tests BDD: faites rédiger vos tests End-to-End par les fonctionnels",
+      "tags" : [ "Web" ],
+      "language" : "Français",
+      "complexity" : "Intermédiaire",
+      "description" : "Tout le monde (dans un monde idéal) fait des tests unitaires. Rares par contre sont ceux qui s'aventurent à mettre en place des tests end-to-end. Longs à développer, laborieux à maintenir, ils sont souvent les premiers à passer à la trappe. Et si ces tests devenaient faciles à développer et à lancer? Mieux encore, si ce n'était plus aux développeurs (déjà chargés comme des mules, c'est bien connu) de les rédiger, mais aux fonctionnels? Des tests à base de phrases compréhensibles par tous, faciles à lancer et à maintenir? Ce sera le but de ce talk: à partir d'une application web Angular, nous verrons comment configurer et lancer vos tests BDD avec TestCafe, Serenity et Cucumber.",
+      "speakers" : [ "laurent_wroblewski" ]
+    },
+    "4307" : {
+      "title" : "#RetourAuxSources : 🍪 Les cookies HTTP",
+      "tags" : [ "Web" ],
+      "language" : "Français",
+      "complexity" : "Débutant",
+      "description" : "Les cookies HTTP sont partout ! Pas une journée sans qu’un site nous demande “d’accepter les cookies”. Rares sont les projets Web qui ne les utilisent pas et pourtant leur fonctionnement nous échappe trop souvent. On confond les règles auxquelles ils sont soumis au sein des navigateurs. On fait des amalgames avec les sessions côté serveur. Ces petits trous dans le gigantesque éventail de connaissances du développeur moderne ont parfois des impacts non négligeables sur la sécurité de nos applications et sur la préservation de notre vie privée en tant qu’utilisateur du Web. Au menu de cette session, je vous propose de (re)découvrir les cookies HTTP par l’exemple et la pratique. Nous reviendrons sur leurs origines et nous verrons en détails leur fonctionnement. Enfin, nous aborderons les aspects les plus récents dans le domaine (SameSite, cookie prefix...). Ce talk sera plus généralement l’occasion de parler de sécurité, de tracking et de vie privée.",
+      "speakers" : [ "hubert_sablonniere" ]
+    },
+    "4305" : {
+      "title" : "Google Container Tools : développer efficacement dans un monde de conteneurs",
+      "tags" : [ "Cloud" ],
+      "language" : "Français",
+      "complexity" : "Intermédiaire",
+      "description" : "Kubernetes est devenu l'orchestrateur de choix pour déployer des applications. Mais qu'en est-il du quotidien des développeurs qui créent ces applications ? Plus on s'appuie sur la plateforme, plus il est compliqué de développer en dehors de la plateforme. Et développer à l'intérieur de conteneurs n'est pas réputé facile ni agréable. Google est à l'origine de plusieurs projets Open-Source qui se focalisent sur l'expérience des développeurs dans un monde de conteneurs. Kaniko permet de construire une image Docker à partir d'un Dockerfile, dans un cluster Kubernetes, de manière sécurisée. Skaffold facilite le déploiement continu d'applications pour Kubernetes. Les images Distroless offrent des images de base légères, sécurisées et de qualité. Bazel permet meme de construire des images Docker sans Docker. Venez découvrir comment ces outils se combinent pour offrir un environment de développement agréable et performant dans le monde des conteneurs.",
+      "speakers" : [ "david_gageot" ]
+    },
+    "4216" : {
+      "title" : "Machine Learning in the browser",
+      "tags" : [ "Big Data / ML / AI" ],
+      "language" : "English",
+      "complexity" : "Débutant",
+      "description" : "Even if you've never done anything with machine learning, you have probably already heard that it's very powerful, adaptive and will change our way of thinking about computing forever. But how can you, a web developer, who's never been interested much in statistics benefit from the ML hype? In this talk I want to give you the tools to build a small self-learning application that runs completely in the browser.",
+      "speakers" : [ "lian_li" ]
+    },
+    "4195" : {
+      "title" : "Développer une application web avec Rust",
+      "tags" : [ "Languages" ],
+      "language" : "Français",
+      "complexity" : "Intermédiaire",
+      "description" : "Développé par la fondation Mozilla, Rust est un langage fortement typé, sûr, très performant et très économe en ressources (oui oui, tout ça à la fois). Initialement orienté système et bas niveau, l'écosystème Rust s'agrandit rapidement et propose maintenant toutes les librairies nécessaires au développement d'applications web. Pour découvrir le développement web avec Rust, nous parcourerons l'architecture et le code d'un serveur de commentaires open source à la Disqus, développé par le speaker pour les sites statiques faits par exemple avec Jekyll ou Hugo. Nous découvrirons routage http avec extraction typée de paramètres, réponses asynchrones, appel de services tiers, accès aux bases de données, cache, templating HTML, envoi d'emails, logs, métriques, etc. Et nous verrons qu'une application Rust c'est tout petit et très rapide, permettant d'héberger le serveur sur des configurations très modestes.",
+      "speakers" : [ "sylvain_wallez" ]
+    },
+    "4185" : {
+      "title" : "Dis tonton, pourquoi tu tousses ?",
+      "tags" : [ "Method & Tools" ],
+      "language" : "Français",
+      "complexity" : "Débutant",
+      "description" : "Le \"Continuous Delivery\" c'est vraiment trop facile : \"make deploy\" dans mon Jenkins et hop, ça part en production. Ou pas. Nous allons construire pas à pas une chaine de Continuous Delivery et explorant pas à pas les éléments clés et les bonnes pratiques, en enfonçant certes quelques portes ouvertes, mais aussi en démystifiant quelques légendes urbaines et en vous donnant les astuces ultimes.",
+      "speakers" : [ "nicolas_de_loof", "philippe_charriere" ]
+    },
+    "4132" : {
+      "title" : "Premiers pas avec Capacitor... dans le monde réel",
+      "tags" : [ "Native mobile apps" ],
+      "language" : "Français",
+      "complexity" : "Débutant",
+      "description" : "Ah, Capacitor, quelle belle idée, une alternative à Cordova plus facile à utiliser, utilisable dans n'importe quel framework, complètement intégré à la prochaine version d'Ionic... Ben non, au moins au début, l'idée de Capacitor me laissait sceptique. J'ai passé les deux dernières années a développer des PWA, alors la pensée de devoir revenir à faire des applications hybrides ou native me paressait simplement obsolète. Dans ma tête j'avais mis Capacitor dans la case techno cool qui ne m'intéresse pas dans la vraie vie. Mais à ce moment j'ai relu avec attention leur site et j'ai vu une ligne qui m'a séduit: Build web apps that run equally well on iOS, Android, Electron, and as Progressive Web Apps. Hmmm, si je pouvais prendre une PWA et générer à partir d'elle une appli native Android, une autre iOS et une implémentation Electron en bonus, ça pourrait être carrément cool ! J'ai donc décidé de teste Capacitor sur certaines de mes PWA pour voir si je pouvais les transformer en applications natives. Et ce talk est le retour d'expérience de ce processus, mes premiers pas avec Capacitor, ce qui a marché et ce qui n'a pas marché, et surtout ce que j'ai appris dans le processus.",
+      "speakers" : [ "horacio_gonzalez" ]
+    }
+  },
+  "speakers": {
+      "jimenez_raul": {
+        "name" : "Raúl Jiménez",
+        "bio" : "Raul is a software engineer passionate about JS frameworks, web technologies and cross-platform development. Since 2012 he's focused in Angular, HTML5 video and his open source project Videogular. Raul works as CEO of Byte Default, an Angular consultancy company for companies around the world helping them to build high-performance web apps. In his spare time he's usually involved in local meetups, writing blog posts, speaking at conferences and contributing to open source projects. He lives in Barcelona and is happy by default :)",
+        "shortBio" : "Software Engineer @toptalllc / #Angular @Google Developer Expert / Creator of Videogular",
+        "company" : "Google Developer Expert",
+        "companyLogo" : "/images/speakers/company/gde.jpg",
+        "companyLogoUrl" : "/images/speakers/company/gde.jpg",
+        "country" : "Barcelona, Spain",
+        "featured" : true,
+        "photo" : "/images/speakers/raul_jimenez.png",
+        "photoUrl" : "/images/speakers/raul_jimenez.png",
+        "socials": [
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/elecash",
+            "name": "@elecash"
+          },
+          {
+            "icon": "github",
+            "link": "https://github.com/elecash",
+            "name": "elecash"
+          }
+        ],
+        "title" : "GDE"
+      },
+      "estelle_landry": {
+        "name" : "Estelle Landry",
+        "bio" : "Product Owner and UX Designer apprentice at @elium_tech , Former Project Manager , Proud to be member of @DuchessFR, @Flupa and @sunnytech_mtp",
+        "shortBio" : "Passionnée d'UX Product Owner chez TabMo",
+        "company" : "TABMO",
+        "companyLogo" : "/images/speakers/company/tabmo.png",
+        "companyLogoUrl" : "/images/speakers/company/tabmo.png",
+        "country" : "Montpellier, France",
+        "featured" : true,
+        "photo" : "/images/speakers/estelle_landry.jpg",
+        "photoUrl" : "/images/speakers/estelle_landry.jpg",
+        "socials": [
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/estelandry",
+            "name": "@estelandry"
+          }
+        ],
+        "title" : "Product Owner"
+      },
+      "laurent_wroblewski": {
+        "name" : "Laurent Wroblewski",
+        "bio" : "Laurent Wroblewski, ingénieur développement full stack depuis maintenant près de 9 ans, passionné par les technologies web/mobile. Récent expatrié lillois, qui revient à domicile à la recherche de bières convenables et de bon échanges techniques (l'un n'excluant pas l'autre ;)). J'aime partager autour du JS et de ses principales stars du moment, comme Angular et React, et du riche écosystème qui gravite autour. Mais le mobile n'est pas en reste non plus, que ce soient le natif (Kotlin4ever), les solutions hybrides ou les PWAs.",
+        "shortBio" : "Ingénieur développement full stack depuis maintenant près de 9 ans",
+        "company" : "Davidson Consulting",
+        "companyLogo" : "/images/speakers/company/davidson_consulting.jpg",
+        "companyLogoUrl" : "/images/speakers/company/davidson_consulting.jpg",
+        "country" : "Toulouse, France",
+        "featured" : true,
+        "photo" : "/images/speakers/laurent_wroblewski.jpg",
+        "photoUrl" : "/images/speakers/laurent_wroblewski.jpg",
+        "socials": [
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/@LaurentWrob",
+            "name": "@LaurentWrob"
+          },
+          {
+            "icon": "github",
+            "link": "https://github.com/LWroblewski",
+            "name": "LWroblewski"
+          }
+        ],
+        "title" : "Ingénieur développement full stack"
+      },
+      "hubert_sablonniere": {
+        "name" : "Hubert Sablonnière",
+        "bio" : "Hubert est passionné par le Web. Il est toujours à la recherche de nouvelles idées et autres bidouilles pour améliorer l'expérience des utilisateurs et des développeurs.",
+        "shortBio" : "😜 Curious and passionate Web developer working for @clever_cloud",
+        "company" : "Clever Cloud",
+        "companyLogo" : "/images/speakers/company/clever_cloud.png",
+        "companyLogoUrl" : "/images/speakers/company/clever_cloud.png",
+        "country" : "Lille, France",
+        "featured" : true,
+        "photo" : "/images/speakers/hubert_sablonniere.jpg",
+        "photoUrl" : "/images/speakers/hubert_sablonniere.jpg",
+        "socials": [
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/hsablonniere",
+            "name": "@hsablonniere"
+          },
+          {
+            "icon": "github",
+            "link": "https://github.com/hsablonniere",
+            "name": "hsablonniere"
+          }
+        ],
+        "title" : "Web developer"
+      },
+      "david_gageot": {
+        "name" : "David Gageot",
+        "bio" : "David est Developer Advocate chez Google Cloud. Il travaille sur les Containers Tools. Auparavant, il a participé à l'ouverture du bureau de R&D de Docker, à Paris.",
+        "shortBio" : "Developer Advocate @Google Cloud. I run Docker in Docker in Docker... recursively",
+        "company" : "Google",
+        "companyLogo" : "/images/speakers/company/google.svg",
+        "companyLogoUrl" : "/images/speakers/company/google.svg",
+        "country" : "Paris, France",
+        "featured" : true,
+        "photo" : "/images/speakers/david_gageot.jpg",
+        "photoUrl" : "/images/speakers/david_gageot.jpg",
+        "socials": [
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/dgageot",
+            "name": "@dgageot"
+          },
+          {
+            "icon": "github",
+            "link": "https://github.com/dgageot",
+            "name": "dgageot"
+          }
+        ],
+        "title" : "Developer Advocate @ Google"
+      },
+      "lian_li": {
+        "name" : "Lian Li",
+        "bio" : "Lian always wanted to save the world. After a failed attempt at becoming a lawyer, she decided to do something with computers instead. Currently, Lian works as Software Engineer at Container Solutions, a consultancy focused on cloud-native infrastructure based in Amsterdam. In her free time, she enjoys working on dev related projects from machine learning to hardware hacking.",
+        "shortBio" : "Engineer of software, speaker of conferences, advocate for ethical AI, tired of late stage capitalism & tech bro culture, she/her",
+        "company" : "Container Solutions",
+        "companyLogo" : "/images/speakers/company/container_solution.jpg",
+        "companyLogoUrl" : "/images/speakers/company/container_solution.jpg",
+        "country" : "Amsterdam, Netherlands",
+        "featured" : true,
+        "photo" : "/images/speakers/lian_li.jpg",
+        "photoUrl" : "/images/speakers/lian_li.jpg",
+        "socials": [
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/Chimney42",
+            "name": "@Chimney42"
+          },
+          {
+            "icon": "github",
+            "link": "https://github.com/dgageot",
+            "name": "dgageot"
+          }
+        ],
+        "title" : "Software Engineer"
+      },
+      "sylvain_wallez": {
+        "name" : "Sylvain Wallez",
+        "bio" : "Architecte et développeur passionné, tech lead dans l'équipe Cloud chez Elastic. A travaillé comme architecte, CTO et leader technique dans plusieurs startups. Expert technique multi-compétences : systèmes scalables, NoSQL, moteurs de recherche, mais aussi front-end, devops et Iot. Bref, full-stack. Membre de la fondation Apache.",
+        "shortBio" : "Passionate software architect & developer. Member of @theASF, tech lead in the Cloud team at @elastic",
+        "company" : "Elastic",
+        "companyLogo" : "/images/speakers/company/elastic.png",
+        "companyLogoUrl" : "/images/speakers/company/elastic.png",
+        "country" : "Toulouse, France",
+        "featured" : true,
+        "photo" : "/images/speakers/sylvain_wallez.png",
+        "photoUrl" : "/images/speakers/sylvain_wallez.png",
+        "socials": [
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/bluxte",
+            "name": "@bluxte"
+          },
+          {
+            "icon": "github",
+            "link": "https://github.com/swallez",
+            "name": "swallez"
+          }
+        ],
+        "title" : "Tech lead in Elastic Cloud team"
+      },
+      "nicolas_de_loof": {
+        "name" : "Nicolas De Loof",
+        "bio" : "Hacker & DockerCaptain",
+        "shortBio" : "Hacker at @CloudBees - #DockerCaptain - Organizer of @BreizhCamp - FrEnglish speaker",
+        "company" : "CloudBees",
+        "companyLogo" : "/images/speakers/company/cloudbees.jpg",
+        "companyLogoUrl" : "/images/speakers/company/cloudbees.jpg",
+        "country" : "Rennes, France",
+        "featured" : true,
+        "photo" : "/images/speakers/nicolas_de_loof.jpg",
+        "photoUrl" : "/images/speakers/nicolas_de_loof.jpg",
+        "socials": [
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/ndeloof",
+            "name": "@ndeloof"
+          },
+          {
+            "icon": "github",
+            "link": "https://github.com/ndeloof",
+            "name": "ndeloof"
+          }
+        ],
+        "title" : "Hacker & DockerCaptain"
+      },
+      "philippe_charriere": {
+        "name" : "Philippe Charrière",
+        "bio" : "currently: 🇪🇺 TAM @GitLab 🦊 + deploying apps as CSO @clever_cloud 💡☁️ + core committer @golo_lang + raising 🤖 @BotsGarden, previously: SE @github",
+        "shortBio" : "currently: 🇪🇺 TAM @GitLab 🦊 + deploying apps as CSO @clever_cloud 💡☁️ + core committer @golo_lang + raising 🤖 @BotsGarden, previously: SE @github",
+        "company" : "CleverCloud",
+        "companyLogo" : "/images/speakers/company/clever_cloud.png",
+        "companyLogoUrl" : "/images/speakers/company/clever_cloud.png",
+        "country" : "Lyon, France",
+        "featured" : true,
+        "photo" : "/images/speakers/phillipe_charriere.jpg",
+        "photoUrl" : "/images/speakers/phillipe_charriere.jpg",
+        "socials": [
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/k33g_org",
+            "name": "@k33g_org"
+          },
+          {
+            "icon": "github",
+            "link": "https://github.com/k33g",
+            "name": "k33g"
+          }
+        ],
+        "title" : "🇪🇺 TAM @GitLab 🦊 & CSO @clever_cloud 💡☁️"
+      },
+      "horacio_gonzalez": {
+        "name" : "Horacio Gonzalez",
+        "bio" : "Malgré ce que son accent espagnol bien prononcé peut suggérer, Horacio est arrivé en France il y a une quinzaine d'années déjà. Passionné d'informatique, dans laquelle il est tombé depuis tout petit, il a découvert Java en 1997 et depuis il n'a pas arrêté de bosser autour. Après quelques années comme tech leader de la partie frontend de @warp10io chez Cityzen Data, Horacio a rejoint OVH en janvier 2018 en tant que Developer Advocate. Il est aussi leader et cofondateur du FinistDevs et du GDG Finistère, le GDG francophone le plus proche de la Silicon Valley. Passionné par le développement web et tout ce qui gravite autour des composants web, Horacio est Google Developer Expert (GDE) en Web Technologies et Polymer.",
+        "shortBio" : "Spaniard lost in Brittany, coder, dreamer and all-around geek - #DevRel @ovh -@Warp10io contributor - #Polymer & #Flutter @GoogleDevExpert - @FinistDevs",
+        "company" : "OVH",
+        "companyLogo" : "/images/speakers/company/ovh.jpg",
+        "companyLogoUrl" : "/images/speakers/company/ovh.jpg",
+        "country" : "Brittany, France",
+        "featured" : true,
+        "photo" : "/images/speakers/horacio_gonzalez.jpg",
+        "photoUrl" : "/images/speakers/horacio_gonzalez.jpg",
+        "socials": [
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/LostInBrittany",
+            "name": "@LostInBrittany"
+          },
+          {
+            "icon": "github",
+            "link": "https://github.com/LostInBrittany",
+            "name": "LostInBrittany"
+          }
+        ],
+        "title" : "DevRel @ovh"
+      }
+  },
   "team": [
     {
       "members": [
