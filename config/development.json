@@ -4,12 +4,12 @@
   "analytics": "UA-37717223-7",
   "prefix": "/",
   "firebase": {
-    "apiKey": "AIzaSyCGNJudREjIin5HNyiIzkcU-jmCRyYMGO4",
-    "authDomain": "devfesttoulouse-2018.firebaseapp.com",
-    "databaseURL": "https://devfesttoulouse-2018.firebaseio.com",
-    "projectId": "devfesttoulouse-2018",
-    "storageBucket": "devfesttoulouse-2018.appspot.com",
-    "messagingSenderId": "1010636913799"
+    "apiKey": "AIzaSyAMHUXSkZB-pjbj3E76leob2qgMjeqqYY0",
+    "authDomain": "sandbox-devfesttoulouse.firebaseapp.com",
+    "databaseURL": "https://sandbox-devfesttoulouse.firebaseio.com",
+    "projectId": "sandbox-devfesttoulouse",
+    "storageBucket": "sandbox-devfesttoulouse.appspot.com",
+    "messagingSenderId": "724656694887"
   },
   "googleMapApiKey": "AIzaSyAsYarycfx4sV9QhauT5li-63snSTqoJ3g"
 }
