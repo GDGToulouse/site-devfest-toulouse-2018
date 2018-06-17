@@ -43,7 +43,8 @@
         { "name": "JFrog",  "url": "https://jfrog.com/", "logoUrl": "/images/partners/logo-jfrog.svg" },
         { "name": "Palo IT",  "url": "http://fr.palo-it.com/", "logoUrl": "/images/partners/logo-paloit.png" },
         { "name": "Lyra Network",  "url": "https://www.lyra-network.com/", "logoUrl": "/images/partners/logo-lyra.png" },
-        { "name": "PROJIXI",  "url": "http://www.projixi-europe.com/", "logoUrl": "/images/partners/logo-projixi.png" }
+        { "name": "PROJIXI",  "url": "http://www.projixi-europe.com/", "logoUrl": "/images/partners/logo-projixi.png" },
+        { "name": "FittingBox",  "url": "https://www.fittingbox.com//", "logoUrl": "/images/partners/logo-fittingbox.png" }
       ]
     },
     {
@@ -54,7 +55,8 @@
         { "name": "SQLI",  "url": "http://www.sqli.com/", "logoUrl": "/images/partners/logo-sqli.png" },
         { "name": "Gisaia",  "url": "http://gisaia.fr/", "logoUrl": "/images/partners/logo-gisaia.png" },
         { "name": "DocDoku",  "url": "https://www.docdoku.com/", "logoUrl": "/images/partners/docdoku_inverse_web.png" },
-        { "name": "CNES",  "url": "https://cnes.fr/", "logoUrl": "/images/partners/cnes_logo_carre.png" }
+        { "name": "CNES",  "url": "https://cnes.fr/", "logoUrl": "/images/partners/cnes_logo_carre.png" },
+        { "name": "VISEO",  "url": "http://www.viseo.com/fr", "logoUrl": "/images/partners/logo-viseo.png" }
       ]
     }
   ],
