@@ -59,6 +59,18 @@
         { "name": "VISEO",  "url": "http://www.viseo.com/fr", "logoUrl": "/images/partners/logo-viseo.png" },
         { "name": "Pierre Fabre",  "url": "httphttps://www.pierre-fabre.com/fr", "logoUrl": "/images/partners/logo-pierrefabre.png" }
       ]
+    },
+    {
+      "title": "Communautés",
+      "style": "partner",
+      "logos":[
+        { "name": "Toulouse Data Science",  "url": "http://www.tlse-data-science.fr/", "logoUrl": "/images/partners/community/tds.jpg" },
+        { "name": "Toulouse JUG",  "url": "https://www.toulousejug.org/", "logoUrl": "/images/partners/community/toulouse_jug.png" },
+        { "name": "Duchess FR",  "url": "https://www.duchess-france.org/", "logoUrl": "/images/partners/community/duchess_fr.svg" },
+        { "name": "ToulouseJS",  "url": "https://twitter.com/ToulouseJS", "logoUrl": "/images/partners/community/toulousejs.png" },
+        { "name": "Toulouse Devops",  "url": "http://toulousedevops.org/", "logoUrl": "/images/partners/community/toulousedevops.jpg" },
+        { "name": "GDG Toulouse",  "url": "https://www.gdgtoulouse.fr/", "logoUrl": "/images/partners/community/gdgtoulouse.jpeg" }
+      ]
     }
   ],
   "schedule": {},
