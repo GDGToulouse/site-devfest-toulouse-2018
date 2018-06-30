@@ -12,7 +12,7 @@ Cette journée sera l'occasion de rencontrer des orateurs de renommée internati
 Le DevFest s'inscrit dans un [cadre international](https://developers.google.com/events/devfest/) et est organisé en partenariat avec Google.
 
 ### Les communautés organisatrices
-Le DevFest Toulouse est une événement organisé par les communautés de développeurs de Toulouse, et porté administrativement par le GDG Toulouse (ex TAUG).
+Le DevFest Toulouse est un événement organisé par les communautés de développeurs de Toulouse, et porté administrativement par le GDG Toulouse (ex TAUG).
 Vous retrouverez la liste des communautés en bas de page principale.
 
 Pour rendre tout cela possible, une équipe de bénévoles sur-vitaminée s’active en coulisse.
