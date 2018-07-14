@@ -24,6 +24,7 @@
         padding: 16px;
         background-color: var(--default-primary-color);
         color: var(--text-primary-color);
+        align-self: flex-end;
       }
 
       .bottom-info {
@@ -36,6 +37,12 @@
           height: 48px;
           color: var(--text-primary-color);
         };
+      }
+
+      @media (min-width: 1280px) {
+        .description-card {
+          align-self: flex-start;
+        }
       }
 
       @media (min-width: 640px) {
