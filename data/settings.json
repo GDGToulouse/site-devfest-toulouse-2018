@@ -16,7 +16,7 @@
     "locale": "fr-FR"
   },
   "hashtag": "DevFestToulouse18",
-  "disabledSchedule": false,
+  "disabledSchedule": true,
   "navigation": [
     {
       "route": "home",
@@ -26,7 +26,7 @@
     {
       "route": "speakers",
       "permalink": "/speakers/",
-      "title": "Speakers"
+      "label": "Speakers"
     },
     {
       "route": "team",

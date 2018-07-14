@@ -19,6 +19,7 @@
       }
     }
   },
+  "gallery": [],
   "partners": [
     {
       "title": "Platinium",
@@ -678,5 +679,16 @@
     "url" : "https://www.billetweb.fr/devfest-toulouse-2018",
     "primary" : true
   }],
-  "videos": []
+  "videos": [],
+  "notifications" : {
+    "config" : {
+      "icon" : "",
+      "timezone" : "+02:00"
+    },
+    "messages" : { },
+    "subscribers" : { },
+    "test" : { },
+    "users" : { }
+  },
+  "previousSpeakers": {}
 }

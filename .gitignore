@@ -7,3 +7,4 @@ functions/lib/
 .temp/
 .vscode/
 /appengine/dist/
+serviceAccount.json
