@@ -44,7 +44,8 @@
         { "name": "Palo IT",  "url": "http://fr.palo-it.com/", "logoUrl": "/images/partners/logo-paloit.png" },
         { "name": "Lyra Network",  "url": "https://www.lyra-network.com/", "logoUrl": "/images/partners/logo-lyra.png" },
         { "name": "PROJIXI",  "url": "http://www.projixi-europe.com/", "logoUrl": "/images/partners/logo-projixi.png" },
-        { "name": "FittingBox",  "url": "https://www.fittingbox.com//", "logoUrl": "/images/partners/logo-fittingbox.png" }
+        { "name": "FittingBox",  "url": "https://www.fittingbox.com/", "logoUrl": "/images/partners/logo-fittingbox.png" },
+        { "name": "Ippon",  "url": "https://fr.ippon.tech/", "logoUrl": "/images/partners/logo-ippon.svg" }
       ]
     },
     {
@@ -57,7 +58,8 @@
         { "name": "DocDoku",  "url": "https://www.docdoku.com/", "logoUrl": "/images/partners/docdoku_inverse_web.png" },
         { "name": "CNES",  "url": "https://cnes.fr/", "logoUrl": "/images/partners/cnes_logo_carre.png" },
         { "name": "VISEO",  "url": "http://www.viseo.com/fr", "logoUrl": "/images/partners/logo-viseo.png" },
-        { "name": "Pierre Fabre",  "url": "httphttps://www.pierre-fabre.com/fr", "logoUrl": "/images/partners/logo-pierrefabre.png" }
+        { "name": "Pierre Fabre",  "url": "https://www.pierre-fabre.com/fr", "logoUrl": "/images/partners/logo-pierrefabre.png" },
+        { "name": "Étincelle Coworking",  "url": "http://www.coworking-toulouse.com/", "logoUrl": "/images/partners/logo-etincelle.gif" }
       ]
     },
     {
