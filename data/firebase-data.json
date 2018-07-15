@@ -136,7 +136,7 @@
       "language" : "Français",
       "complexity" : "Débutant",
       "description" : "Le \"Continuous Delivery\" c'est vraiment trop facile : \"make deploy\" dans mon Jenkins et hop, ça part en production. Ou pas. Nous allons construire pas à pas une chaine de Continuous Delivery et explorant pas à pas les éléments clés et les bonnes pratiques, en enfonçant certes quelques portes ouvertes, mais aussi en démystifiant quelques légendes urbaines et en vous donnant les astuces ultimes.",
-      "speakers" : [ "nicolas_de_loof", "philippe_charriere" ]
+      "speakers" : [ "philippe_charriere" ]
     },
     "4132" : {
       "title" : "Premiers pas avec Capacitor... dans le monde réel",
@@ -317,31 +317,6 @@
           }
         ],
         "title" : "Tech lead in Elastic Cloud team"
-      },
-      "nicolas_de_loof": {
-        "name" : "Nicolas De Loof",
-        "bio" : "Hacker & DockerCaptain",
-        "shortBio" : "Hacker at @CloudBees - #DockerCaptain - Organizer of @BreizhCamp - FrEnglish speaker",
-        "company" : "CloudBees",
-        "companyLogo" : "/images/speakers/company/cloudbees.jpg",
-        "companyLogoUrl" : "/images/speakers/company/cloudbees.jpg",
-        "country" : "Rennes, France",
-        "featured" : true,
-        "photo" : "/images/speakers/nicolas_de_loof.jpg",
-        "photoUrl" : "/images/speakers/nicolas_de_loof.jpg",
-        "socials": [
-          {
-            "icon": "twitter",
-            "link": "https://twitter.com/ndeloof",
-            "name": "@ndeloof"
-          },
-          {
-            "icon": "github",
-            "link": "https://github.com/ndeloof",
-            "name": "ndeloof"
-          }
-        ],
-        "title" : "Hacker & DockerCaptain"
       },
       "philippe_charriere": {
         "name" : "Philippe Charrière",
