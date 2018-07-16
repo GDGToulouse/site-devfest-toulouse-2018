@@ -79,300 +79,1424 @@
   ],
   "schedule": {},
   "sessions": {
-    "4340" : {
-      "title" : "Angular Elements",
-      "tags" : [ "Web" ],
-      "language" : "English",
-      "complexity" : "Débutant",
-      "description" : "In this session we will see how to create our first Web Component with Angular Elements and use it in a plain JS app.",
-      "speakers" : [ "jimenez_raul" ]
+    "4125": {
+      "title": "Let’s Sketchnote : prise de notes visuelle",
+      "language": "Français",
+      "complexity": "Confirmé",
+      "description": "La communication fait aujourd’hui partie intégrante de notre travail; il nous arrive régulièrement de vouloir diffuser une information importante, réaliser une présentation, un compte rendu de réunion… Mais comment être sûrs que le message que l’on souhaite faire passer a bien été compris et retenu par les interlocuteurs ? Le sketchnoting apporte une solution ludique, créative et agréable autant à créer qu’à lire. Venez découvrir comment mettre en valeur votre communication à l’aide de procédés très visuels, simples et accessibles à tous.",
+      "tags": [
+        "Method & Tools"
+      ],
+      "id": 4125,
+      "speakers": [
+        "ane_diaz_de_tuesta",
+        "amelie_benoit"
+      ]
     },
-    "4338" : {
-      "title" : "Comment perdre sa surchage featurale ?",
-      "tags" : [ "Method & Tools" ],
-      "language" : "Français",
-      "complexity" : "Débutant",
-      "description" : "Le cycle de vie d'une application est un chemin nébuleux et plein de dangers. La complexité ne fait que croitre durant les mois et les années d'utilisation. L'un des plus gros challenges d'un développeur est de pouvoir la contrôler tout en ajoutant de nouvelles fonctionnalités (features). Des solutions existent : le ré-écriture de code ou encore la maitrise de la dette technique. En effet, ces deux actions permettent de lever \"la complexité accidentelle\". Mais que faisons nous de la \"complexité essentielle\" ? La complexité qui n'est pas liée au code. La seule solution : Supprimer des fonctionnalités ! Ce talk vous expliquera comment perdre la surcharge featurale de vos applications en comprenant la différence entre la complexité essentielle et la complexité accidentelle, mais aussi en vous donnant des clés pour mener à bien ce changement de vie dans vos équipes projet. ",
-      "speakers" : [ "estelle_landry" ]
+    "4128": {
+      "title": "Ceinture noire Karate en tests d’API REST",
+      "language": "Français",
+      "complexity": "Confirmé",
+      "description": "Vous aviez toujours rêvé d'une syntaxe facile pour tester vos APIs REST ? \n\n`Karate` est fait pour vous ! \nSon format DSL plain text inspiré de la syntaxe Cucumber (ie. Gherkin) permet même aux personnes aux notions basiques en développement de venir couvrir vos APIs ou Web services (micros, nanos ou pas!)\n\nIl n'y a plus ~~Karate~~ qu'à réussir ses tests d'intégration ! \n\nVenez apprendre comment avec `Java` et `maven` comme simples prérequis d'infrastructure, vous pouvez mettre en place et industrialiser ces tests. On l'utilise chez nous, et on ne s'en passe plus.",
+      "tags": [
+        "Method & Tools"
+      ],
+      "id": 4128,
+      "speakers": [
+        "comet_nicolas",
+        "benoit_prioux"
+      ]
     },
-    "4313" : {
-      "title" : "Tests BDD: faites rédiger vos tests End-to-End par les fonctionnels",
-      "tags" : [ "Web" ],
-      "language" : "Français",
-      "complexity" : "Intermédiaire",
-      "description" : "Tout le monde (dans un monde idéal) fait des tests unitaires. Rares par contre sont ceux qui s'aventurent à mettre en place des tests end-to-end. Longs à développer, laborieux à maintenir, ils sont souvent les premiers à passer à la trappe. Et si ces tests devenaient faciles à développer et à lancer? Mieux encore, si ce n'était plus aux développeurs (déjà chargés comme des mules, c'est bien connu) de les rédiger, mais aux fonctionnels? Des tests à base de phrases compréhensibles par tous, faciles à lancer et à maintenir? Ce sera le but de ce talk: à partir d'une application web Angular, nous verrons comment configurer et lancer vos tests BDD avec TestCafe, Serenity et Cucumber.",
-      "speakers" : [ "laurent_wroblewski" ]
+    "4132": {
+      "title": "Premiers pas avec Capacitor... dans le monde réel",
+      "tags": [
+        "Native mobile apps"
+      ],
+      "language": "Français",
+      "complexity": "Débutant",
+      "description": "Ah, Capacitor, quelle belle idée, une alternative à Cordova plus facile à utiliser, utilisable dans n'importe quel framework, complètement intégré à la prochaine version d'Ionic... Ben non, au moins au début, l'idée de Capacitor me laissait sceptique. J'ai passé les deux dernières années a développer des PWA, alors la pensée de devoir revenir à faire des applications hybrides ou native me paressait simplement obsolète. Dans ma tête j'avais mis Capacitor dans la case techno cool qui ne m'intéresse pas dans la vraie vie. Mais à ce moment j'ai relu avec attention leur site et j'ai vu une ligne qui m'a séduit: Build web apps that run equally well on iOS, Android, Electron, and as Progressive Web Apps. Hmmm, si je pouvais prendre une PWA et générer à partir d'elle une appli native Android, une autre iOS et une implémentation Electron en bonus, ça pourrait être carrément cool ! J'ai donc décidé de teste Capacitor sur certaines de mes PWA pour voir si je pouvais les transformer en applications natives. Et ce talk est le retour d'expérience de ce processus, mes premiers pas avec Capacitor, ce qui a marché et ce qui n'a pas marché, et surtout ce que j'ai appris dans le processus.",
+      "speakers": [
+        "horacio_gonzalez"
+      ]
     },
-    "4307" : {
-      "title" : "#RetourAuxSources : 🍪 Les cookies HTTP",
-      "tags" : [ "Web" ],
-      "language" : "Français",
-      "complexity" : "Débutant",
-      "description" : "Les cookies HTTP sont partout ! Pas une journée sans qu’un site nous demande “d’accepter les cookies”. Rares sont les projets Web qui ne les utilisent pas et pourtant leur fonctionnement nous échappe trop souvent. On confond les règles auxquelles ils sont soumis au sein des navigateurs. On fait des amalgames avec les sessions côté serveur. Ces petits trous dans le gigantesque éventail de connaissances du développeur moderne ont parfois des impacts non négligeables sur la sécurité de nos applications et sur la préservation de notre vie privée en tant qu’utilisateur du Web. Au menu de cette session, je vous propose de (re)découvrir les cookies HTTP par l’exemple et la pratique. Nous reviendrons sur leurs origines et nous verrons en détails leur fonctionnement. Enfin, nous aborderons les aspects les plus récents dans le domaine (SameSite, cookie prefix...). Ce talk sera plus généralement l’occasion de parler de sécurité, de tracking et de vie privée.",
-      "speakers" : [ "hubert_sablonniere" ]
+    "4142": {
+      "title": "Votre mission ? Découvrir Haskell et le mettre en prod",
+      "language": "Français",
+      "complexity": "Confirmé",
+      "description": "On entend parler de Haskell de plus en plus, mais il parait souvent bien compliqué de se lancer. Haskell fait peur, avec ses Monades, Monoïdes et autres gros mots. \n\nOn verra ensemble que vous n'avez absolument pas besoin de savoir ce que ces termes signifient pour vous lancer. Je vous propose de regarder ce dont vous aurez besoin pour créer une petite API, avec de la sécurité et de la gestion de données, soit de quoi mettre une petite application en prod.",
+      "tags": [
+        "Languages"
+      ],
+      "id": 4142,
+      "speakers": [
+        "celine_louvet"
+      ]
     },
-    "4305" : {
-      "title" : "Google Container Tools : développer efficacement dans un monde de conteneurs",
-      "tags" : [ "Cloud" ],
-      "language" : "Français",
-      "complexity" : "Intermédiaire",
-      "description" : "Kubernetes est devenu l'orchestrateur de choix pour déployer des applications. Mais qu'en est-il du quotidien des développeurs qui créent ces applications ? Plus on s'appuie sur la plateforme, plus il est compliqué de développer en dehors de la plateforme. Et développer à l'intérieur de conteneurs n'est pas réputé facile ni agréable. Google est à l'origine de plusieurs projets Open-Source qui se focalisent sur l'expérience des développeurs dans un monde de conteneurs. Kaniko permet de construire une image Docker à partir d'un Dockerfile, dans un cluster Kubernetes, de manière sécurisée. Skaffold facilite le déploiement continu d'applications pour Kubernetes. Les images Distroless offrent des images de base légères, sécurisées et de qualité. Bazel permet meme de construire des images Docker sans Docker. Venez découvrir comment ces outils se combinent pour offrir un environment de développement agréable et performant dans le monde des conteneurs.",
-      "speakers" : [ "david_gageot" ]
+    "4185": {
+      "title": "Dis tonton, pourquoi tu tousses ?",
+      "tags": [
+        "Method & Tools"
+      ],
+      "language": "Français",
+      "complexity": "Débutant",
+      "description": "Le \"Continuous Delivery\" c'est vraiment trop facile : \"make deploy\" dans mon Jenkins et hop, ça part en production. Ou pas. Nous allons construire pas à pas une chaine de Continuous Delivery et explorant pas à pas les éléments clés et les bonnes pratiques, en enfonçant certes quelques portes ouvertes, mais aussi en démystifiant quelques légendes urbaines et en vous donnant les astuces ultimes.",
+      "speakers": [
+        "philippe_charriere"
+      ]
     },
-    "4216" : {
-      "title" : "Machine Learning in the browser",
-      "tags" : [ "Big Data / ML / AI" ],
-      "language" : "English",
-      "complexity" : "Débutant",
-      "description" : "Even if you've never done anything with machine learning, you have probably already heard that it's very powerful, adaptive and will change our way of thinking about computing forever. But how can you, a web developer, who's never been interested much in statistics benefit from the ML hype? In this talk I want to give you the tools to build a small self-learning application that runs completely in the browser.",
-      "speakers" : [ "lian_li" ]
+    "4195": {
+      "title": "Développer une application web avec Rust",
+      "tags": [
+        "Languages"
+      ],
+      "language": "Français",
+      "complexity": "Intermédiaire",
+      "description": "Développé par la fondation Mozilla, Rust est un langage fortement typé, sûr, très performant et très économe en ressources (oui oui, tout ça à la fois). Initialement orienté système et bas niveau, l'écosystème Rust s'agrandit rapidement et propose maintenant toutes les librairies nécessaires au développement d'applications web. Pour découvrir le développement web avec Rust, nous parcourerons l'architecture et le code d'un serveur de commentaires open source à la Disqus, développé par le speaker pour les sites statiques faits par exemple avec Jekyll ou Hugo. Nous découvrirons routage http avec extraction typée de paramètres, réponses asynchrones, appel de services tiers, accès aux bases de données, cache, templating HTML, envoi d'emails, logs, métriques, etc. Et nous verrons qu'une application Rust c'est tout petit et très rapide, permettant d'héberger le serveur sur des configurations très modestes.",
+      "speakers": [
+        "sylvain_wallez"
+      ]
     },
-    "4195" : {
-      "title" : "Développer une application web avec Rust",
-      "tags" : [ "Languages" ],
-      "language" : "Français",
-      "complexity" : "Intermédiaire",
-      "description" : "Développé par la fondation Mozilla, Rust est un langage fortement typé, sûr, très performant et très économe en ressources (oui oui, tout ça à la fois). Initialement orienté système et bas niveau, l'écosystème Rust s'agrandit rapidement et propose maintenant toutes les librairies nécessaires au développement d'applications web. Pour découvrir le développement web avec Rust, nous parcourerons l'architecture et le code d'un serveur de commentaires open source à la Disqus, développé par le speaker pour les sites statiques faits par exemple avec Jekyll ou Hugo. Nous découvrirons routage http avec extraction typée de paramètres, réponses asynchrones, appel de services tiers, accès aux bases de données, cache, templating HTML, envoi d'emails, logs, métriques, etc. Et nous verrons qu'une application Rust c'est tout petit et très rapide, permettant d'héberger le serveur sur des configurations très modestes.",
-      "speakers" : [ "sylvain_wallez" ]
+    "4207": {
+      "title": "La programmation fonctionnelle sans céder à la mode",
+      "language": "Français",
+      "complexity": "Confirmé",
+      "description": "Aujourd'hui, pour être à la mode, il faut parler de programmation fonctionnelle. Et de suite on convoque les mots en vogue: « *Immutabilité* », « *Monade* » ou « *Catamorphisme* ». Au mieux le message est brouillé, mal reçu. Au pire la salle se vide ! \n\nCe que je vous propose c'est de repartir des principes de base, avec des idées bien arrêtées et peut-être parfois provocatrices. Comprendre, comme le disait **John Hugues**, « *Why functionnal programming matters* ». Cerner les quelques idées directrices de la programmation fonctionnelle et ce qu'elles apportent concrètement au quotidien. Voir comment et pourquoi d'autres concepts en découlent nécessairement...\n\nIl sera peut-être finalement question de « *Théorie des catégories* » ! Mais il sera surtout question, en vrac, d'histoire et de mise en œuvre des langages, de typage, de performance, d'artisanat du logiciel, de « *Design patterns* », d'abstraction et, soyons fou, de *réification*. \n\nEn somme, je vais vous parler de programmation fonctionnelle en essayant de ne pas être à la mode !",
+      "tags": [
+        "Languages"
+      ],
+      "id": 4207,
+      "speakers": [
+        "frederic_cabestre"
+      ]
     },
-    "4185" : {
-      "title" : "Dis tonton, pourquoi tu tousses ?",
-      "tags" : [ "Method & Tools" ],
-      "language" : "Français",
-      "complexity" : "Débutant",
-      "description" : "Le \"Continuous Delivery\" c'est vraiment trop facile : \"make deploy\" dans mon Jenkins et hop, ça part en production. Ou pas. Nous allons construire pas à pas une chaine de Continuous Delivery et explorant pas à pas les éléments clés et les bonnes pratiques, en enfonçant certes quelques portes ouvertes, mais aussi en démystifiant quelques légendes urbaines et en vous donnant les astuces ultimes.",
-      "speakers" : [ "philippe_charriere" ]
+    "4211": {
+      "title": "Architecture Decision Records: Réconciliez vous avec votre documentation",
+      "language": "Français",
+      "complexity": "Confirmé",
+      "description": "Les développeurs aiment écrire de la documentation... ou pas !\nPourtant même les plus réfractaires doivent l'admettre, garder une trace des décisions techniques prises au cours d'un projet peut s'avérer indispensable pour la pérennité et maintenabilité de celui-ci.\n\nAlors comment éviter l'obsolescence programmée de la documentation, tout en réduisant la pénibilité de la rédaction ?\n\nDepuis près d'un an, dans \"mon\" équipe, nous utilisons un format simple, les Architecture Decision Records (ADRs), pour écrire des documents d'architecture sous la forme d'un journal immuable.\nCette technique simple gagne en popularité et a donné de bons résultats sur notre projet.\n\nDurant cette présentation vous construirez en direct un ADR.\nEn partant d'un problème constaté sur un projet, vous élaborerez une réponse technique qui servira de base à une implémentation ultérieure.\nVous décrirez les raisons qui vous poussent à faire des compromis, tout en capturant le contexte dans lequel cette décision a été prise pour référence future.\n\nRéconciliez vous avec votre documentation !",
+      "tags": [
+        "Method & Tools"
+      ],
+      "id": 4211,
+      "speakers": [
+        "arnaud_bos"
+      ]
     },
-    "4132" : {
-      "title" : "Premiers pas avec Capacitor... dans le monde réel",
-      "tags" : [ "Native mobile apps" ],
-      "language" : "Français",
-      "complexity" : "Débutant",
-      "description" : "Ah, Capacitor, quelle belle idée, une alternative à Cordova plus facile à utiliser, utilisable dans n'importe quel framework, complètement intégré à la prochaine version d'Ionic... Ben non, au moins au début, l'idée de Capacitor me laissait sceptique. J'ai passé les deux dernières années a développer des PWA, alors la pensée de devoir revenir à faire des applications hybrides ou native me paressait simplement obsolète. Dans ma tête j'avais mis Capacitor dans la case techno cool qui ne m'intéresse pas dans la vraie vie. Mais à ce moment j'ai relu avec attention leur site et j'ai vu une ligne qui m'a séduit: Build web apps that run equally well on iOS, Android, Electron, and as Progressive Web Apps. Hmmm, si je pouvais prendre une PWA et générer à partir d'elle une appli native Android, une autre iOS et une implémentation Electron en bonus, ça pourrait être carrément cool ! J'ai donc décidé de teste Capacitor sur certaines de mes PWA pour voir si je pouvais les transformer en applications natives. Et ce talk est le retour d'expérience de ce processus, mes premiers pas avec Capacitor, ce qui a marché et ce qui n'a pas marché, et surtout ce que j'ai appris dans le processus.",
-      "speakers" : [ "horacio_gonzalez" ]
+    "4216": {
+      "title": "Machine Learning in the browser",
+      "tags": [
+        "Big Data / ML / AI"
+      ],
+      "language": "English",
+      "complexity": "Débutant",
+      "description": "Even if you've never done anything with machine learning, you have probably already heard that it's very powerful, adaptive and will change our way of thinking about computing forever. But how can you, a web developer, who's never been interested much in statistics benefit from the ML hype? In this talk I want to give you the tools to build a small self-learning application that runs completely in the browser.",
+      "speakers": [
+        "lian_li"
+      ]
+    },
+    "4225": {
+      "title": "Détectez et trackez les Zergs qui se cachent dans vos dépendances !",
+      "language": "Français",
+      "complexity": "Confirmé",
+      "description": "[44% des applications contiennent des vulnérabilités critiques dans les librairies open-source qu'elles utilisent](https://www.veracode.com/products/software-composition-analysis) et cela bien que des bonnes pratiques comme OWASP Top 10 se soient généralisées. \n\nNe laissez plus ces aliens incuber bien au chaud dans le ventre de votre appli! \nGrâce à ce talk, vous apprendrez comment sont répertoriées ces vilaines bestioles (NVD, CVE) et comment est évaluée leur dangerosité (CVSS).\n\nPuis vous verrez comment créer votre première pipeline de Continuous Security dans Jenkins au moyen de [OWASP DependencyCheck](https://www.owasp.org/index.php/OWASP_Dependency_Check)  qui détecte les vulnérabilités et trackez les grâce à [OWASP DependencyTrack](https://www.owasp.org/index.php/OWASP_Dependency_Track_Project) (logiciels open-source) \n \nFaites le premier pas vers le DevSecOps !!!",
+      "tags": [
+        "Method & Tools"
+      ],
+      "id": 4225,
+      "speakers": [
+        "julien_topcu"
+      ]
+    },
+    "4231": {
+      "title": "La tête dans les nuages avec un Raspberry Pi",
+      "language": "Français",
+      "complexity": "Confirmé",
+      "description": "En hackant une clé USB de réception TNT, La Radio Logicielle (ou SDR) est à la portée de tous. Il est alors possible d'écouter les balises de positionnement des avions de lignes sur un rayon de plusieurs dizaines de km avec une simple antenne. Voulez vous connaitre le fonctionnement du projet comme [flightradar24](https://www.flightradar24.com) ? Nous verrons comment mettre en oeuvre un tel projet avec du matériel grand public et accessible comme un Raspberry Pi.",
+      "tags": [
+        "IOT"
+      ],
+      "id": 4231,
+      "speakers": [
+        "guillaume_membre"
+      ]
+    },
+    "4282": {
+      "title": "Agile, Craftsmanship, DevOps and other monsters - how to fight with them.",
+      "language": "English",
+      "complexity": "Confirmé",
+      "description": "Our industry has an amazing ability to build extremely good theoretical models, methodologies and approaches that actually drive us crazy. Theoretically, we can show how easy it is to introduce Waterfall, XP, Agile or DevOps (delete as appropriate) but the reality is more complicated. Sometimes, something does not work in our unique context and we end with so well known sentence \"It doesn't work for us\". \n\nMany hours of discussions with colleagues about the state of our industry indicate that we have to come up with something new and glowing. Something that allowed us to avoid the mistakes we made so far.\n\nIn this presentation, we will look at all errors we made in the past and we will take a closer look at elements which could have been done better and which ideas can change to better our industry. By retrospecting our achievements, we will try to define what awaits us and why this time we will succeed;)",
+      "tags": [
+        "Method & Tools"
+      ],
+      "id": 4282,
+      "speakers": [
+        "robert_firek"
+      ]
+    },
+    "4297": {
+      "title": "De la domotique faite-maison avec Android Things et le Google Assistant",
+      "language": "Français",
+      "complexity": "Confirmé",
+      "description": "La domotique, c'est aussi cool que c'est reuch. Mais l'avantage à être pauvre, c'est qu'on peut apprendre plein de choses en les faisant nous même.\n\nComme si on allait dépenser plus de 100€ pour des ampoules compatibles Google Home alors que pour 10 fois moins cher on peut tout faire nous-même en achetant des objets sur des sites chinois pour les retro-engineerer et écrire du code Android Things et Actions on Google afin de pouvoir les contrôler à la voix.\n\nTiens ben d'ailleurs c'est ce qu'on va faire, ça va nous permettre de découvrir Android Things, le Google Assistant, voir comment on peut hacker des objets made-in-china, et surtout, ça nous permettra d'économiser des billets violets.",
+      "tags": [
+        "IOT"
+      ],
+      "id": 4297,
+      "speakers": [
+        "gautier_mechling"
+      ]
+    },
+    "4305": {
+      "title": "Google Container Tools : développer efficacement dans un monde de conteneurs",
+      "tags": [
+        "Cloud"
+      ],
+      "language": "Français",
+      "complexity": "Intermédiaire",
+      "description": "Kubernetes est devenu l'orchestrateur de choix pour déployer des applications. Mais qu'en est-il du quotidien des développeurs qui créent ces applications ? Plus on s'appuie sur la plateforme, plus il est compliqué de développer en dehors de la plateforme. Et développer à l'intérieur de conteneurs n'est pas réputé facile ni agréable. Google est à l'origine de plusieurs projets Open-Source qui se focalisent sur l'expérience des développeurs dans un monde de conteneurs. Kaniko permet de construire une image Docker à partir d'un Dockerfile, dans un cluster Kubernetes, de manière sécurisée. Skaffold facilite le déploiement continu d'applications pour Kubernetes. Les images Distroless offrent des images de base légères, sécurisées et de qualité. Bazel permet meme de construire des images Docker sans Docker. Venez découvrir comment ces outils se combinent pour offrir un environment de développement agréable et performant dans le monde des conteneurs.",
+      "speakers": [
+        "david_gageot"
+      ]
+    },
+    "4307": {
+      "title": "#RetourAuxSources : 🍪 Les cookies HTTP",
+      "tags": [
+        "Web"
+      ],
+      "language": "Français",
+      "complexity": "Débutant",
+      "description": "Les cookies HTTP sont partout ! Pas une journée sans qu’un site nous demande “d’accepter les cookies”. Rares sont les projets Web qui ne les utilisent pas et pourtant leur fonctionnement nous échappe trop souvent. On confond les règles auxquelles ils sont soumis au sein des navigateurs. On fait des amalgames avec les sessions côté serveur. Ces petits trous dans le gigantesque éventail de connaissances du développeur moderne ont parfois des impacts non négligeables sur la sécurité de nos applications et sur la préservation de notre vie privée en tant qu’utilisateur du Web. Au menu de cette session, je vous propose de (re)découvrir les cookies HTTP par l’exemple et la pratique. Nous reviendrons sur leurs origines et nous verrons en détails leur fonctionnement. Enfin, nous aborderons les aspects les plus récents dans le domaine (SameSite, cookie prefix...). Ce talk sera plus généralement l’occasion de parler de sécurité, de tracking et de vie privée.",
+      "speakers": [
+        "hubert_sablonniere"
+      ]
+    },
+    "4312": {
+      "title": "Des APIs de Machine Learning sur étagère, à l'entrainement distribué dans le cloud",
+      "language": "Français",
+      "complexity": "Confirmé",
+      "description": "Vous pouvez booster vos applications grâce aux APIs de Machine Learning, afin d'analyser ce que contiennent les images uploadées par vos utilisateurs, de comprendre la structure du texte, ou de reconnaître la voix. Pour le développeur, un simple appel REST suffit, pour interroger les APIs Google Cloud Vision, Speech, Translate ou Natural Language.\n\nA l'opposé, le framework open source Tensorflow permets au data scientist de créer ses propres modèles de Machine Learning, de les entrainer localement ou dans le Cloud, et de lancer ses prédictions en ligne ou même embarquées dans des applis mobiles.\n\nEntre les deux, il est aussi possible de personnaliser les modèles sur étagère, pour reconnaître vos propres images, classifier vos textes, grâce à Google Cloud AutoML.",
+      "tags": [
+        "Big Data / ML / AI"
+      ],
+      "id": 4312,
+      "speakers": [
+        "guillaume_laforge"
+      ]
+    },
+    "4313": {
+      "title": "Tests BDD: faites rédiger vos tests End-to-End par les fonctionnels",
+      "tags": [
+        "Web"
+      ],
+      "language": "Français",
+      "complexity": "Intermédiaire",
+      "description": "Tout le monde (dans un monde idéal) fait des tests unitaires. Rares par contre sont ceux qui s'aventurent à mettre en place des tests end-to-end. Longs à développer, laborieux à maintenir, ils sont souvent les premiers à passer à la trappe. Et si ces tests devenaient faciles à développer et à lancer? Mieux encore, si ce n'était plus aux développeurs (déjà chargés comme des mules, c'est bien connu) de les rédiger, mais aux fonctionnels? Des tests à base de phrases compréhensibles par tous, faciles à lancer et à maintenir? Ce sera le but de ce talk: à partir d'une application web Angular, nous verrons comment configurer et lancer vos tests BDD avec TestCafe, Serenity et Cucumber.",
+      "speakers": [
+        "laurent_wroblewski"
+      ]
+    },
+    "4331": {
+      "title": "Et si on parlait accessibilité du web ?",
+      "language": "Français",
+      "complexity": "Confirmé",
+      "description": "**Aria**, **a11Y**, que veulent dire ces termes exotiques ? Nous verrons à travers des exemples les bonnes pratiques pour que votre site soit accessible. Puis, nous passerons en revue les sites internet des géants du web afin de voir si ce sont de bons élèves... ou pas.",
+      "tags": [
+        "Web"
+      ],
+      "id": 4331,
+      "speakers": [
+        "olivier_leplus"
+      ]
+    },
+    "4334": {
+      "title": "Tensorflow, is there really no spoon ?",
+      "language": "Français",
+      "complexity": "Confirmé",
+      "description": "Avec la démocratisation du deep learning, la reconnaissance d'images est partout. Mais attention, comme toutes technologies, cette dernière a ses failles. Il est en effet possible de tromper les modèles de classification pourtant utilisés dans des applications aussi critiques que les véhicules autonomes, les drones militaires, les caméras de surveillances... Ensemble, nous allons explorer les failles d'un réseau de neurone et générer des images antagonistes (adversarial images) afin de leurrer un modèle de reconnaissance d'image et lui faire voir ce que vous voulons.\n\nMais non Tensorflow, la cuillère n'existe pas !",
+      "tags": [
+        "Big Data / ML / AI"
+      ],
+      "id": 4334,
+      "speakers": [
+        "tiffany_souterre"
+      ]
+    },
+    "4338": {
+      "title": "Comment perdre sa surchage featurale ?",
+      "tags": [
+        "Method & Tools"
+      ],
+      "language": "Français",
+      "complexity": "Débutant",
+      "description": "Le cycle de vie d'une application est un chemin nébuleux et plein de dangers. La complexité ne fait que croitre durant les mois et les années d'utilisation. L'un des plus gros challenges d'un développeur est de pouvoir la contrôler tout en ajoutant de nouvelles fonctionnalités (features). Des solutions existent : le ré-écriture de code ou encore la maitrise de la dette technique. En effet, ces deux actions permettent de lever \"la complexité accidentelle\". Mais que faisons nous de la \"complexité essentielle\" ? La complexité qui n'est pas liée au code. La seule solution : Supprimer des fonctionnalités ! Ce talk vous expliquera comment perdre la surcharge featurale de vos applications en comprenant la différence entre la complexité essentielle et la complexité accidentelle, mais aussi en vous donnant des clés pour mener à bien ce changement de vie dans vos équipes projet. ",
+      "speakers": [
+        "estelle_landry"
+      ]
+    },
+    "4340": {
+      "title": "Angular Elements",
+      "tags": [
+        "Web"
+      ],
+      "language": "English",
+      "complexity": "Débutant",
+      "description": "In this session we will see how to create our first Web Component with Angular Elements and use it in a plain JS app.",
+      "speakers": [
+        "jimenez_raul"
+      ]
+    },
+    "4349": {
+      "title": "Comment t'organiser quand tu es b****lique de naissance (et depuis des décennies), que tu as plusieurs jobs (ou projets), sans exploser en vol ... Et bosser à plusieurs ... Et y arriver",
+      "language": "Français",
+      "complexity": "Confirmé",
+      "description": "À (presque) 50 ans, je crois que j'y arrive enfin. ... à m'organiser.\nJ'ai fait pas mal de choses (le plus souvent en SSII ... *lire ESN*) et notamment chef de projet, directeur de projets, responsable de centre de services, ... Le tout accompagné:\n- d'oublis (oh p... 🙀 j'ai oublié de répondre au client, c'était urgent ... il y a une semaine), \n- d'angoisses (et crises d'angoisse) (rahhhh 😥 je vais jamais arriver à tout faire), \n- d'anéantissements (vous me faites tous ... J'arrête, bande de gros c...)\n- de (grands) moments de solitude (ah? On t'a pas dit, la réunion est en 🇬🇧, c'est toi qui mène ... 😡 euh, mais l'🇬🇧 je l'écris ... et encore ...)\n- etc ...\n\nAujourd'hui, j'ai 2 métiers (un commercial et un technique), dont un à 95% en 🇬🇧, et j'arrive à faire les 2 (et plutôt correctement il me semble), sans crise d'angoisse, en ayant encore du temps pour mes sides projects, dormir, m'occuper de ma famille (pas assez, mes geekeries peuvent prendre le dessus), aller à la pêche, regarder des séries, ...\n\nJ'ai donc tenté de me trouver des \"méthodes\" de travail à la fois pour mes tâches en solo mais aussi pour les moments où je travaille en équipe, pour cela j'ai utilisé les outils que j'avais sous la main (mais d'une certaine manière), dans mon cas: VSCode, DropBox, le markdown (asciidoc c'est bien aussi), Slack, GitLab (avec GitBucket, GitHub ou BitBucket ça fonctionne aussi), une façon limitée et particulière d'utiliser GMail, 1 écran externe, ...\nRien de magique, mais ça fonctionne pour moi",
+      "tags": [
+        "Method & Tools"
+      ],
+      "id": 4349,
+      "speakers": [
+        "philippe_charriere"
+      ]
+    },
+    "4356": {
+      "title": "Au pays des Gophers (à partir de 3 ans)",
+      "language": "Français",
+      "complexity": "Confirmé",
+      "description": "Au pays des Gophers, les Goroutines gambadent librement, et s’échangent des bisous et des bonbons grâce aux channels.\n\nLes méchants Locks sont tous deads (ou presque), et le Scheduler règne sur ce monde paisible qui ne connaît pas le nom des Processeurs.\n\nLa concurrence en Go expliquée à ma fille de 3 ans !",
+      "tags": [
+        "Languages"
+      ],
+      "id": 4356,
+      "speakers": [
+        "nicolas_lepage"
+      ]
+    },
+    "4420": {
+      "title": "Découvrir par l’exemple: Microservices et Event Sourcing avec Kafka et Kubernetes",
+      "language": "Français",
+      "complexity": "Confirmé",
+      "description": "Lorsque vous développez des applications vous avez besoin de vous adapter rapidements aux changements (métiers, comme technologiques). Pour cela les développeurs et les “ops” doivent travailler de concert, pour déployer toujours plus rapidement de nouveaux services tout en garantissant la haute disponibilité et la montée en charge des applications.\n\nLes microservices et l’event-sourcing offrent une grande flexibilité aux développeurs; et la containerization par la biais de Kubernetes permet de déployer ces services en toute tranquillité.\n\nCette présentation, en s’appuyant sur des cas d’usage et des démonstration, vous permettra de découvrir:\n\n* Les micro-services l'’event sourcing avec Apache Kafka\n* Les containers avec Docker\n* Le déploiement et management des services avec Kubernetes\n\nSi vous n’utilisez pas encore ces technologies, cette présentation vous donnera une bonne idées des avantages qu’elles apportent aux développeurs, administrateurs systèmes, et donc aux utilisateurs; et je suis certain que vous les adopterez rapidement pour vos prochains développements!",
+      "tags": [
+        "Big Data / ML / AI"
+      ],
+      "id": 4420,
+      "speakers": [
+        "tugdual_grall"
+      ]
+    },
+    "4432": {
+      "title": "Testcontainers pour de vrais tests d'intégration d'Elasticsearch",
+      "language": "Français",
+      "complexity": "Confirmé",
+      "description": "Les tests d'intégration peuvent devenir un cauchemar lorsqu'ils sont lancés depuis la même JVM que votre code:\n\n* Conflit de JARs (JAR Hell)\n* Security Manager\n* Effets de bord\n\nDe plus, tester avec un produit qui est lancé de façon différente de la façon dont il est lancé en production, ne garantira jamais que les tests d'intégration sont sincères.\n\nAussi, après avoir découvert le projet [TestContainers](https://www.testcontainers.org/) qui lance des conteneurs Docker depuis, j'ai décidé d'écrire une implémentation pour Elasticsearch: [testcontainers-java-module-elasticsearch](https://github.com/dadoonet/testcontainers-java-module-elasticsearch).\nJe vous propose de découvrir tout cela pendant ce quickie.",
+      "tags": [
+        "Method & Tools"
+      ],
+      "id": 4432,
+      "speakers": [
+        "david_pilato"
+      ]
+    },
+    "4447": {
+      "title": "Systemd, de /dev/null à root",
+      "language": "Français",
+      "complexity": "Confirmé",
+      "description": "La démocratisation de la culture Devops et du cloud public amènent de plus en plus les dévelopeurs à travailler sur la mise en production de leurs applications.    \nSi vous n'êtes pas équipé d'un orchestrateur de conteneurs, il y a fort à parier que vous soyez amené à intéragir avec systemd voir d'écrire des services pour vos applications. N'ayez pas peur ! non seulement c'est accessible mais cela vous offre de nombreuses possibilités .  \n\nDécouvrons ensemble systemd et sa galaxie, ce qu'il peut vous apporter pour l'installation et le run de vos application mais également comment il peut vous aider tout les jours dans votre vie de développeur.",
+      "tags": [
+        "Cloud"
+      ],
+      "id": 4447,
+      "speakers": [
+        "francois_teychene"
+      ]
+    },
+    "4473": {
+      "title": "Burger Quiz s'invite au DevFest avec un Sel ou Poivre \"Code, Data ou les deux\"",
+      "language": "Français",
+      "complexity": "Confirmé",
+      "description": "Etes-vous incollable plutôt sur le \"Code\" (Software Engineer) ou sur la \"Data\" (Data Engineer, Data Scientist) ? \n\nRetrouvons-nous pour un moment fun autour de questions et situations de notre quotidien pour lesquelles il faudra choisir \"Code, Data ou les deux\". Avec des images, du rythme,  un soupçon d'injustice, des surprises et une Jeep Renegade à la fin. \n\nLa salle est également ouverte aux personnes sérieuses qui y trouveront j'espère une stimulation pour réfléchir sur le sujet de fond d'évolution du métier de développeur avec la montée des approches centrées sur les données.",
+      "tags": [
+        "WTF"
+      ],
+      "id": 4473,
+      "speakers": [
+        "olivier_flebus"
+      ]
+    },
+    "4507": {
+      "title": "Introduction à Arrow - Typeclass is the new interface",
+      "language": "Français",
+      "complexity": "Confirmé",
+      "description": "Introduction à Arrow - `Typeclass` is the new `interface`\n===\n\nLa programmation fonctionnelle, c'est à la mode ! Et pour de bonnes raisons: l'industrie impose des architectures de plus en plus distribuées. Code facilement composable, immutabilité, contrôle des effets de bord: l'application de ces concepts rend le code plus sûr et efficace.\n\n*\"Mais qu'est-ce que ça m'apporte vraiment ?\"*, demande le programmeur pragmatique. En plus d'offrir des structures de données et opérateurs vraiment utiles, la notion de `typeclass` nous permet de rajouter des comportements/interfaces sur n'importe quel type de données.\n\nPour illustrer cette notion, nous nous appuierons sur la librairie `Arrow` en `Kotlin`. `Kotlin` est un langage de plus en plus populaire qui mixe plusieurs paradigmes. À défaut d'être un langage fonctionnel \"pur\", il dispose de nombreuses caractéristiques \"fonctionnelles\", et permet d'émuler des `typeclasses`.\n\nCette présentation, accessible sans connaissance de programmation fonctionnelle, permettra de se familiariser avec `Arrow` et les `typeclasses`.\n\n*(😸 Aucune monade ne sera maltraitée durant ce talk. 😸)*\n\n\nPlan de la présentation (provisoire)\n---\n\n### i. Historique / philosophie (~5min)\n\nNous commencerons par présenter la librairie Arrow et son historique, sa philosophie et ses limites dans le contexte actuel.\n\n### ii. Boîte à outils (~5min)\n\nDans un second temps, nous présenterons succinctement des types de données de bases de l'API Arrow, tels que `Option`, `Either`, `Try`... avec quelques exemples concrets de leur utilisation.\n\nNous pourrons ainsi remarquer que ces types disparates peuvent avoir en réalité un comportement commun, en l'occurence sur la gestion d'erreurs.\n\n### iii. Qu'est-ce qu'un `typeclass` ? (~10min)\n\nNous introduirons, par ce biais, la notion de `typeclasses` qui permet d'écrire des fonctions ou algorithmes, sur des structures de données qui répondent à une certaine interface et de pouvoir définir une implémentation de cette interface pour n'importe quel type, __même ceux dont on ne maîtrise pas la définition__ (tels que les classes de la librairie standard).\n\n### iv. Illustration avec la typeclass `Monoid` (~15min)\n\nNous illustrerons cela par le typeclass `Monoid` qui va nous permettre de définir la notion de multiplication naturelle pour les entiers, flottants, String. Pour cela, nous écrirons une fonction générique prenant en donnée d'entrée des `Monoid`.\n\nNous démontrerons ensuite comment étendre dynamiquement n'importe quel type avec le typeclass `Monoid`, et ainsi factoriser du code.\n\n### v. Conclusion (~5min)\n\nEn conclusion, nous mentionnerons d'autres typeclasses, permettant de gérer par exemple l'asynchronicité. Cela permettra de voir qu'une base de code peut être écrite de manière générique et choisir à posteriori l'implémentation du moteur d'asynchronicité tel que RxJava ou les coroutines.",
+      "tags": [
+        "Languages"
+      ],
+      "id": 4507,
+      "speakers": [
+        "alexandre_delattre",
+        "guillaume_andrieu"
+      ]
+    },
+    "4509": {
+      "title": "Comprendre le théorème de CAP avec Apache Kafka",
+      "language": "Français",
+      "complexity": "Confirmé",
+      "description": "Durant cette présentation, nous nous pencherons sur le théorème de CAP (choix entre consistence, disponibilité et partition pour tout système distribué). Quand s'applique-t'il? Quels sont les choix qu'il propose?\n\nNous prendrons pour exemple Apache Kafka, afin de comprendre comment ce théorème s'applique en pratique. Nous étudierons les scénarios catastrophe potentiels en cas de crash d'un ou plusieurs noeuds. Quel est le niveau de garantie de délivrance d'un message? Que se passe-t'il quand le leader du cluster tombe? Comment est assurée la réplication des données? Quand et comment est-il possible d'ajuster le curseur entre consistence et disponibilité?\n\nIl n'est pas nécessaire de connaitre Kafka pour pouvoir suivre cette présentation.",
+      "tags": [
+        "Cloud"
+      ],
+      "id": 4509,
+      "speakers": [
+        "sebastien_guilloux"
+      ]
+    },
+    "4515": {
+      "title": "Remake de jeux rétro avec Vue.js",
+      "language": "Français",
+      "complexity": "Confirmé",
+      "description": "Quoi de mieux que de recoder son jeu préféré pour apprendre une nouvelle techno ? Nous allons nous replonger dans notre enfance pour découvrir les concepts de Vue.js appliqués à Pong, Pac-Man, Tetris ou autre Pokemon.\n\nUn jeu n’est rien d’autre qu’un joueur interagissant avec un univers représenté à l’écran. Et Vue est un framework pensé pour isoler interactions, informations (qui décrivent l’univers du jeu) et la représentation visuelle basée sur ces informations.\n\nNous verrons ensemble pourquoi Vue est un outil adapté au développement de jeu et qu’inversement, le développement d’un jeu offre un bon angle pour découvrir les concepts clés de Vue.",
+      "tags": [
+        "Web"
+      ],
+      "id": 4515,
+      "speakers": [
+        "nicolas_decoster",
+        "juliane_blier"
+      ]
+    },
+    "4528": {
+      "title": "Exploring reactive programming in Java",
+      "language": "English",
+      "complexity": "Confirmé",
+      "description": "When Java 8 was first introduced, it revolutionized the way Java applications were written by providing the core constructs for asynchronous programming and handling data streams. With Java 9, 10, and 11, these capabilities were extended to the level that allows us to write truly modern, reactive applications with the JDK.\n\nIn this live-coding session, we explore JDK 9-11 features enabling all the aspects of reactive programming - updates to the Stream and CompletableFuture APIs, Reactive Streams publish-subscribe framework, HTTP/2 client, and more.",
+      "tags": [
+        "Languages"
+      ],
+      "id": 4528,
+      "speakers": [
+        "miro_miro_cupak"
+      ]
+    },
+    "4536": {
+      "title": "De Javascript à Haskell : la programmation fonctionnelle expliquée simplement",
+      "language": "Français",
+      "complexity": "Confirmé",
+      "description": "Si un de vos collègue vous a déjà dit «Alors là, j'ai utilisé de l'application partielle sur cette fonction que j'ai curryfiée en utilisant des fonctions d'ordre supérieur et des closures» et que vous n'avez rien compris, alors ce talk est pour vous.\nLa programmation fonctionnelle présente de nombreux concepts qui viennent des maths. Et cela fait peur ! Mais appliqué à l'informatique, c'est en réalité très simple !\n\nDurant ce live-coding consistant à refactorer un code impératif vers un code fonctionel, les concepts principaux seront introduits uniquement quand cela est utile et expliqués en profondeur.\n\nÀ la fin de ce talk, les concepts suivants n'auront plus de secrets pour vous :\n\n- La transparance référenciel\n- Les fonctions comme citoyen de première classe\n- Les fonctions d'ordre supérieur\n- Les closure\n- Le lambda calculus\n- La curryfication\n- L'application partielle\n- La composition de fonction\n- La notation «Point-free»",
+      "tags": [
+        "Languages"
+      ],
+      "id": 4536,
+      "speakers": [
+        "xavier_detant"
+      ]
+    },
+    "4574": {
+      "title": "The Big Web Quizz",
+      "language": "Français",
+      "complexity": "Confirmé",
+      "description": "Nous aimons tous le web. Nous avons tous notre framework de prédilection avec lequel nous concevons des applications qui vont révolutionner le monde. Mais connaissons nous les bases du Web ? Connaissons nous toutes les subtilités de la specification des modules ? Maitrisons nous à la perfection les différents mécanismes de cache de vos navigateurs ?\n\nNous n'en sommes pas sûrs. C’est pour cela qu’aujourd’hui nous vous proposons de participer au plus grand quizz du monde. Présenté par nos experts Jean-François et Emmanuel, venez tous tester vos compétences de la plateforme Web.\n\nLes questions ne seront pas si simples, vous allez apprendre énormément de choses… et en plus ce sera drôle.",
+      "tags": [
+        "Web"
+      ],
+      "id": 4574,
+      "speakers": [
+        "emmanuel_demey",
+        "jean-francois_garreau"
+      ]
+    },
+    "4583": {
+      "title": "Getting started with development for the Google Assistant",
+      "language": "English",
+      "complexity": "Confirmé",
+      "description": "Dialogflow is the most popular tool used to build Actions for the Google Assistant. Nonetheless, it's not the only solution. Maybe you want to host your own NLU (Natural Language Understading) tool, maybe your Action is a simple trivia game or maybe you just want to start out by automating some personal tasks. In this talk, I'll show you what tools you can use based on your needs and I'll give an overview of the Google Assistant platform.",
+      "tags": [
+        "Big Data / ML / AI"
+      ],
+      "id": 4583,
+      "speakers": [
+        "elaine_dias_batista"
+      ]
+    },
+    "4584": {
+      "title": "Pourquoi et comment crafter la Data-Science sur mesure.",
+      "language": "Français",
+      "complexity": "Confirmé",
+      "description": "Il n'est pas évident d'intégrer de la Data Science dans les sociétés qui développent un business qui de base ne prévoyait pas de l’intelligence artificielle (IA), et pour lequel l’IA n'est pas au cœur du métier. Malgré la motivation d'utiliser l’IA, de nombreux projets Data Science dans ces sociétés échouent.\n\nC'est autant frustrant pour les responsables d'entreprises que démotivant pour les data-scientists, dont les projets finissent au placard.\nOn va analyser ensemble cette situation, pour déterminer les raisons de ces échecs. On va également étudier comment éviter les erreurs les plus courantes, et comment mener ce changement sans encombre afin d'enrichir vos produits avec l’IA.\n\nL’objectif du talk est que peu importe le profil que vous avez - dev front, dev back, data-scientist, CTO, CEO, Product Manager - vous retournerez lundi dans votre société en sachant à la fois identifier et mener à bien les opportunités de Data Science.",
+      "tags": [
+        "Big Data / ML / AI"
+      ],
+      "id": 4584,
+      "speakers": [
+        "anastasia_lieva"
+      ]
+    },
+    "4588": {
+      "title": "Multiplatfom projects with Kotlin",
+      "language": "English",
+      "complexity": "Confirmé",
+      "description": "Kotlin is an alternative programming language for JVM. But it is not limited to a single platform. Instead, the team is working hard to bring it everywhere. It is already possible to run Kotlin on Android and compile it to JavaScript to write homogeneous web applications. And there is Kotlin/Native project actively in development, which will bring Kotlin to desktop and iOS.\n\nIn this session, we'll see how Kotlin can help us share code between platforms and what are the best practices in doing this.",
+      "tags": [
+        "Languages"
+      ],
+      "id": 4588,
+      "speakers": [
+        "victor_kropp"
+      ]
+    },
+    "4613": {
+      "title": "GCP pour les Data Scientists",
+      "language": "Français",
+      "complexity": "Confirmé",
+      "description": "Depuis son arrivée, GCP a démocratisé la conception et la mise en place de services basés sur l'IA sans avoir besoin en pré-requis de connaissances spécifiques en IA. Typiquement avec Dialogflow pour la création d'un chatbot personnalisé ce qui compte est le savoir-faire du développeur qui va mettre en place et intégrer le pipeline complet pour l'exposition du service. Comment un Data Scientist peut-il s'orienter dans ce monde qui n'est pas le sien pour apporter de la valeur aux projets utilisant tout le potentiel de GCP ?",
+      "tags": [
+        "Cloud"
+      ],
+      "id": 4613,
+      "speakers": [
+        "giulia_bianchi"
+      ]
+    },
+    "4617": {
+      "title": "CONTEXTVS, STVLTE! (Context, stupid!)",
+      "language": "English",
+      "complexity": "Confirmé",
+      "description": "\"The best sorting algorithm is quick sort.\"\n\"Indexes make DB faster.\"\n\"Data should be sorted using ORDER BY.\"\n\"Composition - good; inheritance - not good.\"\n\"Windows is an operating system.\"\n\"You must have transactions in your DB.\"\n\"Java is slow.\"\n\"Don't eat yellow snow.\"\n\"You shall not self-sign your certificates.\"\n\"Interrupt in Java is broken.\"\n\nThe IT world is full of mantras/revealed truth, passed (often in oral tradition) among developer tribes. Mindlessly repeated from generation to generation, they cause a reckless usage. At best this results in more harm than good, in the worst case: a total disaster worth whole train of money.\nThe context is indispensable part of each mantra. Right context can help to distinguish proper usage from incoming disaster.\n\nDo you believe in a mantra by any chance?\nHow to find out the context?\nCan one eat yellow snow?\nCome and see.",
+      "tags": [
+        "Method & Tools"
+      ],
+      "id": 4617,
+      "speakers": [
+        "piotr_przybyl"
+      ]
     }
   },
   "speakers": {
-      "jimenez_raul": {
-        "name" : "Raúl Jiménez",
-        "bio" : "Raul is a software engineer passionate about JS frameworks, web technologies and cross-platform development. Since 2012 he's focused in Angular, HTML5 video and his open source project Videogular. Raul works as CEO of Byte Default, an Angular consultancy company for companies around the world helping them to build high-performance web apps. In his spare time he's usually involved in local meetups, writing blog posts, speaking at conferences and contributing to open source projects. He lives in Barcelona and is happy by default :)",
-        "shortBio" : "Software Engineer @toptalllc / #Angular @Google Developer Expert / Creator of Videogular",
-        "company" : "Google Developer Expert",
-        "companyLogo" : "/images/speakers/company/gde.jpg",
-        "companyLogoUrl" : "/images/speakers/company/gde.jpg",
-        "country" : "Barcelona, Spain",
-        "featured" : true,
-        "photo" : "/images/speakers/raul_jimenez.png",
-        "photoUrl" : "/images/speakers/raul_jimenez.png",
-        "socials": [
-          {
-            "icon": "twitter",
-            "link": "https://twitter.com/elecash",
-            "name": "@elecash"
-          },
-          {
-            "icon": "github",
-            "link": "https://github.com/elecash",
-            "name": "elecash"
-          }
-        ],
-        "title" : "GDE"
-      },
-      "estelle_landry": {
-        "name" : "Estelle Landry",
-        "bio" : "Product Owner and UX Designer apprentice at @elium_tech , Former Project Manager , Proud to be member of @DuchessFR, @Flupa and @sunnytech_mtp",
-        "shortBio" : "Passionnée d'UX Product Owner chez Elium",
-        "company" : "Elium",
-        "companyLogo" : "/images/speakers/company/elium.jpg",
-        "companyLogoUrl" : "/images/speakers/company/elium.jpg",
-        "country" : "Montpellier, France",
-        "featured" : true,
-        "photo" : "/images/speakers/estelle_landry.jpg",
-        "photoUrl" : "/images/speakers/estelle_landry.jpg",
-        "socials": [
-          {
-            "icon": "twitter",
-            "link": "https://twitter.com/estelandry",
-            "name": "@estelandry"
-          }
-        ],
-        "title" : "Product Owner"
-      },
-      "laurent_wroblewski": {
-        "name" : "Laurent Wroblewski",
-        "bio" : "Laurent Wroblewski, ingénieur développement full stack depuis maintenant près de 9 ans, passionné par les technologies web/mobile. Récent expatrié lillois, qui revient à domicile à la recherche de bières convenables et de bon échanges techniques (l'un n'excluant pas l'autre ;)). J'aime partager autour du JS et de ses principales stars du moment, comme Angular et React, et du riche écosystème qui gravite autour. Mais le mobile n'est pas en reste non plus, que ce soient le natif (Kotlin4ever), les solutions hybrides ou les PWAs.",
-        "shortBio" : "Ingénieur développement full stack depuis maintenant près de 9 ans",
-        "company" : "Davidson Consulting",
-        "companyLogo" : "/images/speakers/company/davidson_consulting.jpg",
-        "companyLogoUrl" : "/images/speakers/company/davidson_consulting.jpg",
-        "country" : "Toulouse, France",
-        "featured" : true,
-        "photo" : "/images/speakers/laurent_wroblewski.jpg",
-        "photoUrl" : "/images/speakers/laurent_wroblewski.jpg",
-        "socials": [
-          {
-            "icon": "twitter",
-            "link": "https://twitter.com/@LaurentWrob",
-            "name": "@LaurentWrob"
-          },
-          {
-            "icon": "github",
-            "link": "https://github.com/LWroblewski",
-            "name": "LWroblewski"
-          }
-        ],
-        "title" : "Ingénieur développement full stack"
-      },
-      "hubert_sablonniere": {
-        "name" : "Hubert Sablonnière",
-        "bio" : "Hubert est passionné par le Web. Il est toujours à la recherche de nouvelles idées et autres bidouilles pour améliorer l'expérience des utilisateurs et des développeurs.",
-        "shortBio" : "😜 Curious and passionate Web developer working for @clever_cloud",
-        "company" : "Clever Cloud",
-        "companyLogo" : "/images/speakers/company/clever_cloud.png",
-        "companyLogoUrl" : "/images/speakers/company/clever_cloud.png",
-        "country" : "Lille, France",
-        "featured" : true,
-        "photo" : "/images/speakers/hubert_sablonniere.jpg",
-        "photoUrl" : "/images/speakers/hubert_sablonniere.jpg",
-        "socials": [
-          {
-            "icon": "twitter",
-            "link": "https://twitter.com/hsablonniere",
-            "name": "@hsablonniere"
-          },
-          {
-            "icon": "github",
-            "link": "https://github.com/hsablonniere",
-            "name": "hsablonniere"
-          }
-        ],
-        "title" : "Web developer"
-      },
-      "david_gageot": {
-        "name" : "David Gageot",
-        "bio" : "David est Developer Advocate chez Google Cloud. Il travaille sur les Containers Tools. Auparavant, il a participé à l'ouverture du bureau de R&D de Docker, à Paris.",
-        "shortBio" : "Developer Advocate @Google Cloud. I run Docker in Docker in Docker... recursively",
-        "company" : "Google",
-        "companyLogo" : "/images/speakers/company/google.svg",
-        "companyLogoUrl" : "/images/speakers/company/google.svg",
-        "country" : "Paris, France",
-        "featured" : true,
-        "photo" : "/images/speakers/david_gageot.jpg",
-        "photoUrl" : "/images/speakers/david_gageot.jpg",
-        "socials": [
-          {
-            "icon": "twitter",
-            "link": "https://twitter.com/dgageot",
-            "name": "@dgageot"
-          },
-          {
-            "icon": "github",
-            "link": "https://github.com/dgageot",
-            "name": "dgageot"
-          }
-        ],
-        "title" : "Developer Advocate @ Google"
-      },
-      "lian_li": {
-        "name" : "Lian Li",
-        "bio" : "Lian always wanted to save the world. After a failed attempt at becoming a lawyer, she decided to do something with computers instead. Currently, Lian works as Software Engineer at Container Solutions, a consultancy focused on cloud-native infrastructure based in Amsterdam. In her free time, she enjoys working on dev related projects from machine learning to hardware hacking.",
-        "shortBio" : "Engineer of software, speaker of conferences, advocate for ethical AI, tired of late stage capitalism & tech bro culture, she/her",
-        "company" : "Container Solutions",
-        "companyLogo" : "/images/speakers/company/container_solution.jpg",
-        "companyLogoUrl" : "/images/speakers/company/container_solution.jpg",
-        "country" : "Amsterdam, Netherlands",
-        "featured" : true,
-        "photo" : "/images/speakers/lian_li.jpg",
-        "photoUrl" : "/images/speakers/lian_li.jpg",
-        "socials": [
-          {
-            "icon": "twitter",
-            "link": "https://twitter.com/Chimney42",
-            "name": "@Chimney42"
-          },
-          {
-            "icon": "github",
-            "link": "https://github.com/dgageot",
-            "name": "dgageot"
-          }
-        ],
-        "title" : "Software Engineer"
-      },
-      "sylvain_wallez": {
-        "name" : "Sylvain Wallez",
-        "bio" : "Architecte et développeur passionné, tech lead dans l'équipe Cloud chez Elastic. A travaillé comme architecte, CTO et leader technique dans plusieurs startups. Expert technique multi-compétences : systèmes scalables, NoSQL, moteurs de recherche, mais aussi front-end, devops et Iot. Bref, full-stack. Membre de la fondation Apache.",
-        "shortBio" : "Passionate software architect & developer. Member of @theASF, tech lead in the Cloud team at @elastic",
-        "company" : "Elastic",
-        "companyLogo" : "/images/speakers/company/elastic.png",
-        "companyLogoUrl" : "/images/speakers/company/elastic.png",
-        "country" : "Toulouse, France",
-        "featured" : true,
-        "photo" : "/images/speakers/sylvain_wallez.png",
-        "photoUrl" : "/images/speakers/sylvain_wallez.png",
-        "socials": [
-          {
-            "icon": "twitter",
-            "link": "https://twitter.com/bluxte",
-            "name": "@bluxte"
-          },
-          {
-            "icon": "github",
-            "link": "https://github.com/swallez",
-            "name": "swallez"
-          }
-        ],
-        "title" : "Tech lead in Elastic Cloud team"
-      },
-      "philippe_charriere": {
-        "name" : "Philippe Charrière",
-        "bio" : "currently: 🇪🇺 TAM @GitLab 🦊 + deploying apps as CSO @clever_cloud 💡☁️ + core committer @golo_lang + raising 🤖 @BotsGarden, previously: SE @github",
-        "shortBio" : "currently: 🇪🇺 TAM @GitLab 🦊 + deploying apps as CSO @clever_cloud 💡☁️ + core committer @golo_lang + raising 🤖 @BotsGarden, previously: SE @github",
-        "company" : "CleverCloud",
-        "companyLogo" : "/images/speakers/company/clever_cloud.png",
-        "companyLogoUrl" : "/images/speakers/company/clever_cloud.png",
-        "country" : "Lyon, France",
-        "featured" : true,
-        "photo" : "/images/speakers/phillipe_charriere.jpg",
-        "photoUrl" : "/images/speakers/phillipe_charriere.jpg",
-        "socials": [
-          {
-            "icon": "twitter",
-            "link": "https://twitter.com/k33g_org",
-            "name": "@k33g_org"
-          },
-          {
-            "icon": "github",
-            "link": "https://github.com/k33g",
-            "name": "k33g"
-          }
-        ],
-        "title" : "🇪🇺 TAM @GitLab 🦊 & CSO @clever_cloud 💡☁️"
-      },
-      "horacio_gonzalez": {
-        "name" : "Horacio Gonzalez",
-        "bio" : "Malgré ce que son accent espagnol bien prononcé peut suggérer, Horacio est arrivé en France il y a une quinzaine d'années déjà. Passionné d'informatique, dans laquelle il est tombé depuis tout petit, il a découvert Java en 1997 et depuis il n'a pas arrêté de bosser autour. Après quelques années comme tech leader de la partie frontend de @warp10io chez Cityzen Data, Horacio a rejoint OVH en janvier 2018 en tant que Developer Advocate. Il est aussi leader et cofondateur du FinistDevs et du GDG Finistère, le GDG francophone le plus proche de la Silicon Valley. Passionné par le développement web et tout ce qui gravite autour des composants web, Horacio est Google Developer Expert (GDE) en Web Technologies et Polymer.",
-        "shortBio" : "Spaniard lost in Brittany, coder, dreamer and all-around geek - #DevRel @ovh -@Warp10io contributor - #Polymer & #Flutter @GoogleDevExpert - @FinistDevs",
-        "company" : "OVH",
-        "companyLogo" : "/images/speakers/company/ovh.jpg",
-        "companyLogoUrl" : "/images/speakers/company/ovh.jpg",
-        "country" : "Brittany, France",
-        "featured" : true,
-        "photo" : "/images/speakers/horacio_gonzalez.jpg",
-        "photoUrl" : "/images/speakers/horacio_gonzalez.jpg",
-        "socials": [
-          {
-            "icon": "twitter",
-            "link": "https://twitter.com/LostInBrittany",
-            "name": "@LostInBrittany"
-          },
-          {
-            "icon": "github",
-            "link": "https://github.com/LostInBrittany",
-            "name": "LostInBrittany"
-          }
-        ],
-        "title" : "DevRel @ovh"
-      }
+    "jimenez_raul": {
+      "name": "Raúl Jiménez",
+      "bio": "Raul is a software engineer passionate about JS frameworks, web technologies and cross-platform development. Since 2012 he's focused in Angular, HTML5 video and his open source project Videogular. Raul works as CEO of Byte Default, an Angular consultancy company for companies around the world helping them to build high-performance web apps. In his spare time he's usually involved in local meetups, writing blog posts, speaking at conferences and contributing to open source projects. He lives in Barcelona and is happy by default :)",
+      "shortBio": "Software Engineer @toptalllc / #Angular @Google Developer Expert / Creator of Videogular",
+      "company": "Google Developer Expert",
+      "companyLogo": "/images/speakers/company/gde.jpg",
+      "companyLogoUrl": "/images/speakers/company/gde.jpg",
+      "country": "Barcelona, Spain",
+      "featured": true,
+      "photo": "/images/speakers/raul_jimenez.png",
+      "photoUrl": "/images/speakers/raul_jimenez.png",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/elecash",
+          "name": "@elecash"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/elecash",
+          "name": "elecash"
+        }
+      ],
+      "title": "GDE"
+    },
+    "estelle_landry": {
+      "name": "Estelle Landry",
+      "bio": "Product Owner and UX Designer apprentice at @elium_tech , Former Project Manager , Proud to be member of @DuchessFR, @Flupa and @sunnytech_mtp",
+      "shortBio": "Passionnée d'UX Product Owner chez Elium",
+      "company": "Elium",
+      "companyLogo": "/images/speakers/company/elium.jpg",
+      "companyLogoUrl": "/images/speakers/company/elium.jpg",
+      "country": "Montpellier, France",
+      "featured": true,
+      "photo": "/images/speakers/estelle_landry.jpg",
+      "photoUrl": "/images/speakers/estelle_landry.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/estelandry",
+          "name": "@estelandry"
+        }
+      ],
+      "title": "Product Owner"
+    },
+    "laurent_wroblewski": {
+      "name": "Laurent Wroblewski",
+      "bio": "Laurent Wroblewski, ingénieur développement full stack depuis maintenant près de 9 ans, passionné par les technologies web/mobile. Récent expatrié lillois, qui revient à domicile à la recherche de bières convenables et de bon échanges techniques (l'un n'excluant pas l'autre ;)). J'aime partager autour du JS et de ses principales stars du moment, comme Angular et React, et du riche écosystème qui gravite autour. Mais le mobile n'est pas en reste non plus, que ce soient le natif (Kotlin4ever), les solutions hybrides ou les PWAs.",
+      "shortBio": "Ingénieur développement full stack depuis maintenant près de 9 ans",
+      "company": "Davidson Consulting",
+      "companyLogo": "/images/speakers/company/davidson_consulting.jpg",
+      "companyLogoUrl": "/images/speakers/company/davidson_consulting.jpg",
+      "country": "Toulouse, France",
+      "featured": true,
+      "photo": "/images/speakers/laurent_wroblewski.jpg",
+      "photoUrl": "/images/speakers/laurent_wroblewski.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/@LaurentWrob",
+          "name": "@LaurentWrob"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/LWroblewski",
+          "name": "LWroblewski"
+        }
+      ],
+      "title": "Ingénieur développement full stack"
+    },
+    "hubert_sablonniere": {
+      "name": "Hubert Sablonnière",
+      "bio": "Hubert est passionné par le Web. Il est toujours à la recherche de nouvelles idées et autres bidouilles pour améliorer l'expérience des utilisateurs et des développeurs.",
+      "shortBio": "😜 Curious and passionate Web developer working for @clever_cloud",
+      "company": "Clever Cloud",
+      "companyLogo": "/images/speakers/company/clever_cloud.png",
+      "companyLogoUrl": "/images/speakers/company/clever_cloud.png",
+      "country": "Lille, France",
+      "featured": true,
+      "photo": "/images/speakers/hubert_sablonniere.jpg",
+      "photoUrl": "/images/speakers/hubert_sablonniere.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/hsablonniere",
+          "name": "@hsablonniere"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/hsablonniere",
+          "name": "hsablonniere"
+        }
+      ],
+      "title": "Web developer"
+    },
+    "david_gageot": {
+      "name": "David Gageot",
+      "bio": "David est Developer Advocate chez Google Cloud. Il travaille sur les Containers Tools. Auparavant, il a participé à l'ouverture du bureau de R&D de Docker, à Paris.",
+      "shortBio": "Developer Advocate @Google Cloud. I run Docker in Docker in Docker... recursively",
+      "company": "Google",
+      "companyLogo": "/images/speakers/company/google.svg",
+      "companyLogoUrl": "/images/speakers/company/google.svg",
+      "country": "Paris, France",
+      "featured": true,
+      "photo": "/images/speakers/david_gageot.jpg",
+      "photoUrl": "/images/speakers/david_gageot.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/dgageot",
+          "name": "@dgageot"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/dgageot",
+          "name": "dgageot"
+        }
+      ],
+      "title": "Developer Advocate @ Google"
+    },
+    "lian_li": {
+      "name": "Lian Li",
+      "bio": "Lian always wanted to save the world. After a failed attempt at becoming a lawyer, she decided to do something with computers instead. Currently, Lian works as Software Engineer at Container Solutions, a consultancy focused on cloud-native infrastructure based in Amsterdam. In her free time, she enjoys working on dev related projects from machine learning to hardware hacking.",
+      "shortBio": "Engineer of software, speaker of conferences, advocate for ethical AI, tired of late stage capitalism & tech bro culture, she/her",
+      "company": "Container Solutions",
+      "companyLogo": "/images/speakers/company/container_solution.jpg",
+      "companyLogoUrl": "/images/speakers/company/container_solution.jpg",
+      "country": "Amsterdam, Netherlands",
+      "featured": true,
+      "photo": "/images/speakers/lian_li.jpg",
+      "photoUrl": "/images/speakers/lian_li.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/Chimney42",
+          "name": "@Chimney42"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/dgageot",
+          "name": "dgageot"
+        }
+      ],
+      "title": "Software Engineer"
+    },
+    "sylvain_wallez": {
+      "name": "Sylvain Wallez",
+      "bio": "Architecte et développeur passionné, tech lead dans l'équipe Cloud chez Elastic. A travaillé comme architecte, CTO et leader technique dans plusieurs startups. Expert technique multi-compétences : systèmes scalables, NoSQL, moteurs de recherche, mais aussi front-end, devops et Iot. Bref, full-stack. Membre de la fondation Apache.",
+      "shortBio": "Passionate software architect & developer. Member of @theASF, tech lead in the Cloud team at @elastic",
+      "company": "Elastic",
+      "companyLogo": "/images/speakers/company/elastic.png",
+      "companyLogoUrl": "/images/speakers/company/elastic.png",
+      "country": "Toulouse, France",
+      "featured": true,
+      "photo": "/images/speakers/sylvain_wallez.png",
+      "photoUrl": "/images/speakers/sylvain_wallez.png",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/bluxte",
+          "name": "@bluxte"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/swallez",
+          "name": "swallez"
+        }
+      ],
+      "title": "Tech lead in Elastic Cloud team"
+    },
+    "philippe_charriere": {
+      "id": "philippe_charriere",
+      "name": "Philippe Charrière",
+      "bio": "currently: 🇪🇺 TAM @GitLab 🦊 + deploying apps as CSO @clever_cloud 💡☁️ + core committer @golo_lang + raising 🤖 @BotsGarden, previously: SE @github",
+      "company": "CleverCloud",
+      "featured": true,
+      "photo": "/images/speakers/philippe_charriere.jpg",
+      "photoUrl": "/images/speakers/philippe_charriere.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/k33g_org",
+          "name": "@k33g_org"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/k33g",
+          "name": "k33g"
+        }
+      ],
+      "shortBio": "currently: 🇪🇺 TAM @GitLab 🦊 + deploying apps as CSO @clever_cloud 💡☁️ + core committer @golo_lang + raising 🤖 @BotsGarden, previously: SE @github",
+      "companyLogo": "/images/speakers/company/clevercloud.jpg",
+      "companyLogoUrl": "/images/speakers/company/clevercloud.jpg",
+      "country": "Lyon, France",
+      "title": "🇪🇺 TAM @GitLab 🦊 & CSO @clever_cloud 💡☁️"
+    },
+    "horacio_gonzalez": {
+      "name": "Horacio Gonzalez",
+      "bio": "Malgré ce que son accent espagnol bien prononcé peut suggérer, Horacio est arrivé en France il y a une quinzaine d'années déjà. Passionné d'informatique, dans laquelle il est tombé depuis tout petit, il a découvert Java en 1997 et depuis il n'a pas arrêté de bosser autour. Après quelques années comme tech leader de la partie frontend de @warp10io chez Cityzen Data, Horacio a rejoint OVH en janvier 2018 en tant que Developer Advocate. Il est aussi leader et cofondateur du FinistDevs et du GDG Finistère, le GDG francophone le plus proche de la Silicon Valley. Passionné par le développement web et tout ce qui gravite autour des composants web, Horacio est Google Developer Expert (GDE) en Web Technologies et Polymer.",
+      "shortBio": "Spaniard lost in Brittany, coder, dreamer and all-around geek - #DevRel @ovh -@Warp10io contributor - #Polymer & #Flutter @GoogleDevExpert - @FinistDevs",
+      "company": "OVH",
+      "companyLogo": "/images/speakers/company/ovh.jpg",
+      "companyLogoUrl": "/images/speakers/company/ovh.jpg",
+      "country": "Brittany, France",
+      "featured": true,
+      "photo": "/images/speakers/horacio_gonzalez.jpg",
+      "photoUrl": "/images/speakers/horacio_gonzalez.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/LostInBrittany",
+          "name": "@LostInBrittany"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/LostInBrittany",
+          "name": "LostInBrittany"
+        }
+      ],
+      "title": "DevRel @ovh"
+    },
+    "ane_diaz_de_tuesta": {
+      "id": "ane_diaz_de_tuesta",
+      "name": "DIAZ DE TUESTA Ane",
+      "bio": "Je suis une personne dynamique, curieuse et sociable. Je travaille en tant que développeuse depuis 2012, après avoir obtenu mon diplôme d’ingénieur espagnol et ensuite le français. \nActuellement je travaille chez Lectra comme développeuse FrontEnd et je suis Scrum Master. Je suis passionnée par mon travail qui me rend heureuse.",
+      "company": "Lectra",
+      "featured": false,
+      "photo": "/images/speakers/ane_diaz_de_tuesta.jpg",
+      "photoUrl": "/images/speakers/ane_diaz_de_tuesta.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/ane_naiz",
+          "name": "@ane_naiz"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/anediaz",
+          "name": "anediaz"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/ane-diaz-de-tuesta-37785252, http://anediaz.com/",
+          "name": "LinkedIn"
+        }
+      ],
+      "shortBio": "#OpenMinded #travelling #Agile #Sport . @LectraFashion Web Developer http://www.anediaz.com ",
+      "companyLogo": "/images/speakers/company/lectra.jpg",
+      "companyLogoUrl": "/images/speakers/company/lectra.jpg",
+      "country": "Bordeaux, France"
+    },
+    "comet_nicolas": {
+      "id": "comet_nicolas",
+      "name": "Nicolas Comet",
+      "bio": "​\nDéveloppeur passionné, Speaker, grand curieux, j'aime apprendre en permanence. Je ne m'attache pas à une technologie en particulier, même si je gravite plus souvent du côté Java / JavaEE. J'aime les principes fondateurs du TDD. Je porte également un grand intérêt pour la synergie entre DDD et documentation vivante ou \"Living Documentation\". \n\nJe suis actuellement ingénieur d'études R&D chez Lectra, numéro un mondial des solutions dédiées à l'industrie textile (logiciels & machines).",
+      "company": "Lectra",
+      "featured": false,
+      "photo": "/images/speakers/comet_nicolas.jpg",
+      "photoUrl": "/images/speakers/comet_nicolas.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/NicolasComet",
+          "name": "@NicolasComet"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/ncomet",
+          "name": "ncomet"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/nicolascomet/",
+          "name": "LinkedIn"
+        }
+      ],
+      "shortBio": "Software #developer @LectraOfficial Conference #speaker, All opinions are eventually someone’s",
+      "companyLogo": "/images/speakers/company/lectra.jpg",
+      "companyLogoUrl": "/images/speakers/company/lectra.jpg",
+      "country": "Bordeaux, France"
+    },
+    "celine_louvet": {
+      "id": "celine_louvet",
+      "name": "LOUVET Céline",
+      "bio": "CTO & cofondatrice de Fairvioo et développeuse au quotidien",
+      "company": "Fairvioo",
+      "featured": false,
+      "photo": "/images/speakers/celine_louvet.jpg",
+      "photoUrl": "/images/speakers/celine_louvet.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/celine_louvet",
+          "name": "@celine_louvet"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/celinelouvet",
+          "name": "celinelouvet"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/celinelouvet/",
+          "name": "LinkedIn"
+        }
+      ],
+      "shortBio": "CTO @Fairvioo. Ex-CTO @CaptainContrat & Ex-@Sfeir",
+      "companyLogo": "/images/speakers/company/fairvioo.jpg",
+      "companyLogoUrl": "/images/speakers/company/fairvioo.jpg",
+      "country": "Île-de-France"
+    },
+    "frederic_cabestre": {
+      "id": "frederic_cabestre",
+      "name": "Cabestre Frédéric",
+      "bio": "Développeur, tendance «software craftman». Depuis longtemps attiré par les langages et leur mise en œuvre. Grand amateur de programmation fonctionnelle, même quand ce n'était pas encore cool. Curieux des systèmes, surtout s'ils sont distribués.",
+      "company": "Easy Mile",
+      "featured": false,
+      "photo": "/images/speakers/frederic_cabestre.png",
+      "photoUrl": "/images/speakers/frederic_cabestre.png",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/fcabestre",
+          "name": "@fcabestre"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/fcabestre",
+          "name": "fcabestre"
+        }
+      ],
+      "shortBio": "NaN, craftsman of code, nomad of knowledge and λ juggler. I work at @Easy_Mile.",
+      "companyLogo": "/images/speakers/company/easy_mile.jpg",
+      "companyLogoUrl": "/images/speakers/company/easy_mile.jpg",
+      "country": "Toulouse, France"
+    },
+    "arnaud_bos": {
+      "id": "arnaud_bos",
+      "name": "BOS Arnaud",
+      "bio": "Amateur de hamacs et de '(parenthèses). Du développement mobile au back-end, je suis revenu à mes premiers amours, les systèmes distribués, au fil des projets. Avec ma casquette de data engineer sur la tête, je me concentre sur le développement de (micro?)services et me passionne pour langages de programmation et les architectures distribuées.",
+      "company": "MonkeyPatch",
+      "featured": false,
+      "photo": "/images/speakers/arnaud_bos.jpg",
+      "photoUrl": "/images/speakers/arnaud_bos.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/arnaud_bos",
+          "name": "@arnaud_bos"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/arnaudbos",
+          "name": "arnaudbos"
+        }
+      ],
+      "shortBio": "Clojure as heck. Distributed systems. Podcasts. Can write backwards 🙃",
+      "companyLogo": "/images/speakers/company/monkeypatch.jpg",
+      "companyLogoUrl": "/images/speakers/company/monkeypatch.jpg",
+      "country": "Toulouse, France"
+    },
+    "julien_topcu": {
+      "id": "julien_topcu",
+      "name": "Topçu Julien",
+      "bio": "Senior Lead Developer chez Egencia, je suis un fervent défenseur du Software Craftsmanship. \n\nJ'évangélise activement autour de DDD/Hexagonal Architecture, l'XP et le Kanban #NoEstimates au sein de cours et de [meetups](https://www.meetup.com/fr-FR/Expedia-Inc-Paris/) que que je fais pour le compte d'Expedia, ainsi qu'à travers d'articles de [blog](https://beyondxscratch.wordpress.com/).\n\nMembre de la fondation OWASP, je m'efforce de transmettre à la communauté une philosophie DevSecOps que je pense être l'avenir du métier de développeur. J'ai participé à la mise en place de pipeline de Continuous Security à l'échelles d'entreprises.",
+      "company": "Egencia & OWASP fundation",
+      "featured": false,
+      "photo": "/images/speakers/julien_topcu.jpeg",
+      "photoUrl": "/images/speakers/julien_topcu.jpeg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/JulienTopcu",
+          "name": "@JulienTopcu"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/julien-top%C3%A7u/, https://beyondxscratch.wordpress.com/",
+          "name": "LinkedIn"
+        }
+      ],
+      "shortBio": "Catalyst @Egencia Tech OWASP Fundation member",
+      "companyLogo": "/images/speakers/company/egencia_&_owasp_fundation.jpg",
+      "companyLogoUrl": "/images/speakers/company/egencia_&_owasp_fundation.jpg",
+      "country": "Île-de-France, France"
+    },
+    "guillaume_membre": {
+      "id": "guillaume_membre",
+      "name": "Membré Guillaume",
+      "bio": "Geek à toute heure, je travaille principalement autour des technologies Java/JavaEE mais aussi sur des problématiques de déploiement continu, de qualimétrie. Désormais, je partage son expérience pour faciliter la mise en place de démarche devops chez différents acteurs. J'adore bidouiller des RaspberryPi ou Arduino pour créer des choses inutiles donc indispensables.\nLorsque le temps le permet, je décris mes aventures sur mon [site web](https://www.geekeries.fun).",
+      "company": "Zenika",
+      "featured": false,
+      "photo": "/images/speakers/guillaume_membre.jpg",
+      "photoUrl": "/images/speakers/guillaume_membre.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/GuillaumeMembre",
+          "name": "@GuillaumeMembre"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/gmembre-zenika",
+          "name": "gmembre-zenika"
+        }
+      ],
+      "shortBio": "Codeur à ses heures perdues",
+      "companyLogo": "/images/speakers/company/zenika.jpg",
+      "companyLogoUrl": "/images/speakers/company/zenika.jpg",
+      "country": "Nantes, France"
+    },
+    "robert_firek": {
+      "id": "robert_firek",
+      "name": "Firek Robert",
+      "bio": "Robert Firek is a software craftsman who has tasted many different flavours of programming. His broad range of experiences has helped to deliver quality software in many companies and organisations. He strives to create software according to the rule \"Simplicity is the final achievement\". He is trying to unite worlds of the software development and the infrastructure delivery by promoting the DevOps culture.",
+      "company": "Codurance",
+      "featured": false,
+      "photo": "/images/speakers/robert_firek.jpg",
+      "photoUrl": "/images/speakers/robert_firek.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/RobertFirek",
+          "name": "@RobertFirek"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/robertfirek",
+          "name": "robertfirek"
+        }
+      ],
+      "shortBio": "Member of the London Java Community and Wrocław Java User Group.",
+      "companyLogo": "/images/speakers/company/codurance.jpg",
+      "companyLogoUrl": "/images/speakers/company/codurance.jpg",
+      "country": "London, Royaume-Uni"
+    },
+    "gautier_mechling": {
+      "id": "gautier_mechling",
+      "name": "Mechling Gautier",
+      "bio": "Gautier est développeur Android et Google Developer Expert #IoT",
+      "company": "Innovorder",
+      "featured": false,
+      "photo": "/images/speakers/gautier_mechling.jpg",
+      "photoUrl": "/images/speakers/gautier_mechling.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/Nilhcem",
+          "name": "@Nilhcem"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/Nilhcem",
+          "name": "Nilhcem"
+        }
+      ],
+      "shortBio": "Android Craftsman - Google Developer Expert for IoT.",
+      "companyLogo": "/images/speakers/company/innovorder.jpg",
+      "companyLogoUrl": "/images/speakers/company/innovorder.jpg",
+      "country": "Paris, France"
+    },
+    "guillaume_laforge": {
+      "id": "guillaume_laforge",
+      "name": "Laforge Guillaume",
+      "bio": "Le jour, Guillaume Laforge est Developer Advocate chez Google, sur les solutions cloud, et de nuit, il reprends sa casquette de contributeur au projet Apache Groovy. Guillaume est également un des membres du podcast Les Cast Codeurs",
+      "company": "Google",
+      "featured": false,
+      "photo": "/images/speakers/guillaume_laforge.jpeg",
+      "photoUrl": "/images/speakers/guillaume_laforge.jpeg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/glaforge",
+          "name": "@glaforge"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/glaforge",
+          "name": "glaforge"
+        }
+      ],
+      "shortBio": "Developer Advocate at @Google for @GoogleCloud during the day, and @ApacheGroovy programming language project PMC Chair & @java_champions at night",
+      "companyLogo": "/images/speakers/company/google.jpg",
+      "companyLogoUrl": "/images/speakers/company/google.jpg",
+      "country": "Paris, France"
+    },
+    "olivier_leplus": {
+      "id": "olivier_leplus",
+      "name": "Leplus Olivier",
+      "bio": "My day to day my mission is to help developers create successful and quality apps.\nAs a passionate web developer, I am always discovering and playing with new web technologies !",
+      "company": "Botfuel",
+      "featured": false,
+      "photo": "/images/speakers/olivier_leplus.jpg",
+      "photoUrl": "/images/speakers/olivier_leplus.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/olivierleplus",
+          "name": "@olivierleplus"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/tagazok",
+          "name": "tagazok"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/olivierleplus/, https://tagazok.github.io/",
+          "name": "LinkedIn"
+        }
+      ],
+      "shortBio": "Speaker, Conference organiser, Community obsessed developer, Traveler - Developer Advocate @botfuel - Google Developer Expert in web tech",
+      "companyLogo": "/images/speakers/company/botfuel.jpg",
+      "companyLogoUrl": "/images/speakers/company/botfuel.jpg",
+      "country": "Paris, France"
+    },
+    "tiffany_souterre": {
+      "id": "tiffany_souterre",
+      "name": "Souterre Tiffany",
+      "bio": "I love science and I love data! After finishing a Ph.D. in genetic engineering, I continued my quest for discovering new patterns through data science and machine learning. I currently work as a Big Data engineer and I play with machine learning algorithms on my free time. Someday, I wish to leverage data exploration to improve people's life.",
+      "company": "JEMS Datafactory",
+      "featured": false,
+      "photo": "/images/speakers/tiffany_souterre.jpg",
+      "photoUrl": "/images/speakers/tiffany_souterre.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/tiffanysouterre",
+          "name": "@tiffanysouterre"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/Amagash",
+          "name": "Amagash"
+        }
+      ],
+      "shortBio": "Data geek 📊/ Google Developer Group Lead 💻 @GDGParis / Python Dev 🐍 / Ph.D. in Biotechnologies 🎓/ iGEM alumni ☣️",
+      "companyLogo": "/images/speakers/company/jems_datafactory.jpg",
+      "companyLogoUrl": "/images/speakers/company/jems_datafactory.jpg",
+      "country": "Paris, France"
+    },
+    "nicolas_lepage": {
+      "id": "nicolas_lepage",
+      "name": "Lepage Nicolas",
+      "bio": "Développeur depuis plus de 10 ans, Nicolas est actuellement consultant et formateur chez Zenika Nantes.\n\nAprès de trop longues années de développement Java, il prend le contrepied et s'intéresse maintenant à tout ! Sa quête de nouveauté l'amène à explorer les mondes du front avec ReactJS, du NoSQL avec MongoDB, et des langages modernes tels que Go(lang) ou encore Kotlin.\n\nSon goût du partage le pousse à devenir formateur, notamment sur Go(lang), et à se lancer dans l'open source en créant [immutad●t](https://github.com/Zenika/immutadot), une bibliothèque JavaScript pour manipuler les structures immuables imbriquées.",
+      "company": "Zenika",
+      "featured": false,
+      "photo": "/images/speakers/nicolas_lepage.jpg",
+      "photoUrl": "/images/speakers/nicolas_lepage.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/njblepage",
+          "name": "@njblepage"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/nlepage",
+          "name": "nlepage"
+        }
+      ],
+      "shortBio": "Dev à @ZenikaNantes",
+      "companyLogo": "/images/speakers/company/zenika.jpg",
+      "companyLogoUrl": "/images/speakers/company/zenika.jpg",
+      "country": "Nantes, France"
+    },
+    "tugdual_grall": {
+      "id": "tugdual_grall",
+      "name": "Grall Tugdual",
+      "bio": "Tugdual Grall\tBio: Tugdual Grall, est Chief Technical Evangelist EMEA chez MapR. Il travaille avec les clients et les communautés de développeurs européennes, pour faciliter l’adoption de MapR, Hadoop et NoSQL. \n\nAvant de travailler chez MapR, “Tug”, était Technical Evangelist chez MongoDB et Couchbase. Tug a travaillé comme CTO chez eXo Platform, et comme Product Manager et Développeur sur la platform Java/JavaEE d’Oracle.\n\nTugdual est également co-fondateur du Nantes JUG (Java Users Group) qui réunit tous les mois depuis 2008 les développeurs et architectes de la région nantaise.",
+      "company": "MapR",
+      "featured": false,
+      "photo": "/images/speakers/tugdual_grall.jpg",
+      "photoUrl": "/images/speakers/tugdual_grall.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/tgrall",
+          "name": "@tgrall"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/tgrall",
+          "name": "tgrall"
+        }
+      ],
+      "shortBio": "Technical Evangelist @MapR Big Data / NoSQL / Streaming | @nantesjug leader | Slow Triathlete @resultri | Windsurfer",
+      "companyLogo": "/images/speakers/company/mapr.MapR",
+      "companyLogoUrl": "/images/speakers/company/mapr.MapR",
+      "country": "It depends!"
+    },
+    "david_pilato": {
+      "id": "david_pilato",
+      "name": "Pilato David",
+      "bio": "Depuis 2013, David Pilato est développeur et évangéliste chez elastic.co, après avoir passé les deux années précédentes à promouvoir le projet open-source Elasticsearch. Il en anime la communauté française.",
+      "company": "elastic",
+      "featured": false,
+      "photo": "/images/speakers/david_pilato.jpg",
+      "photoUrl": "/images/speakers/david_pilato.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/dadoonet",
+          "name": "@dadoonet"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/dadoonet",
+          "name": "dadoonet"
+        }
+      ],
+      "shortBio": "developer | evangelist @ elastic Enjoying NoSQL world, DeeJay 4 times a year, just for fun ! http://bit.ly/IixwIh",
+      "companyLogo": "/images/speakers/company/elastic.jpg",
+      "companyLogoUrl": "/images/speakers/company/elastic.jpg",
+      "country": "France"
+    },
+    "francois_teychene": {
+      "id": "francois_teychene",
+      "name": "Teychene Francois",
+      "bio": "Cloud Developper @ Saagie , meetup addict & organiser @ Montpellier et Organisateur SunnyTech.  \nDéveloppeur couteau suisse pouvant intervenir du Javascript à la table de routage. Mes passions actuelles sont le Rust, le DevOps et le Scala en plus de vouloir mettre des conteneurs partout.",
+      "company": "Saagie",
+      "featured": false,
+      "photo": "/images/speakers/francois_teychene.jpg",
+      "photoUrl": "/images/speakers/francois_teychene.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/fteychene",
+          "name": "@fteychene"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/fteychene",
+          "name": "fteychene"
+        }
+      ],
+      "shortBio": "Cloud dev @saagie_io, @MtpTechHub President, @SunnyTech_MTP organiser, Speaker, Teacher... #Devops #Rust #Scala enthusiast. Opinions are mine not of my employer",
+      "companyLogo": "/images/speakers/company/saagie.jpg",
+      "companyLogoUrl": "/images/speakers/company/saagie.jpg",
+      "country": "Montpellier, France"
+    },
+    "olivier_flebus": {
+      "id": "olivier_flebus",
+      "name": "Flebus Olivier",
+      "bio": "Enterprise Architect, #Agile enthusiast. Leading #BigData @Continental Digital Services France. Building a #Cloud platform for #ConnectedCars.",
+      "company": "Continental Digital Services France",
+      "featured": false,
+      "photo": "/images/speakers/olivier_flebus.jpg",
+      "photoUrl": "/images/speakers/olivier_flebus.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/olivierflebus",
+          "name": "@olivierflebus"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/olivierflebus",
+          "name": "LinkedIn"
+        }
+      ],
+      "shortBio": "Enterprise Architect, #Agile enthusiast. Leading #BigData @Continental Digital Services France. Building a #Cloud platform for #ConnectedCars. Views are my own.",
+      "companyLogo": "/images/speakers/company/continental_digital_services_france.jpg",
+      "companyLogoUrl": "/images/speakers/company/continental_digital_services_france.jpg",
+      "country": "Toulouse, France"
+    },
+    "alexandre_delattre": {
+      "id": "alexandre_delattre",
+      "name": "Delattre Alexandre",
+      "bio": "Ingénieur logiciel Fullstack à MonkeyPatch\n\n32 ans et fort de 7 ans d'expérience dans le développement logiciel, mon parcours, auprès de startups et de grands groupes m'a permis de m'approprier une large gamme de technos fullstack:\n\n- Mobile : Android (Kotlin), iOS (Swift), Ionic \n- Backend : Java, Scala, NodeJS\n- Web : Typescript / Angular 1 & 2\n\nJe suis passioné par la mobilité, la qualité et l'innovation logicielle, l'UX et l'entrepreunariat digital.",
+      "company": "MonkeyPatch",
+      "featured": false,
+      "photo": "/images/speakers/alexandre_delattre.jpg",
+      "photoUrl": "/images/speakers/alexandre_delattre.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/alexandre_del31",
+          "name": "@alexandre_del31"
+        }
+      ],
+      "shortBio": "Software engineer at @MonkeyPatch. Functional programming enthusiast",
+      "companyLogo": "/images/speakers/company/monkeypatch.jpg",
+      "companyLogoUrl": "/images/speakers/company/monkeypatch.jpg",
+      "country": "Toulouse, France"
+    },
+    "sebastien_guilloux": {
+      "id": "sebastien_guilloux",
+      "name": "Guilloux Sébastien",
+      "bio": "Cloud Engineer chez Elastic. J'ai un petit faible pour les systèmes distribués, pour le fun et les challenges qu'ils nous apportent ! Auparavant j'ai travaillé chez OVH, en tant que développeur sur plusieurs services (Kafka, Kubernetes, Serverless Functions).\nAh, j'ai une légère tendance à faire des jeux de mots, aussi :)",
+      "company": "Elastic",
+      "featured": false,
+      "photo": "/images/speakers/sebastien_guilloux.jpg",
+      "photoUrl": "/images/speakers/sebastien_guilloux.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/_sebgl",
+          "name": "@_sebgl"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/sebgl",
+          "name": "sebgl"
+        }
+      ],
+      "shortBio": "Software developer. Music lover. I do french puns",
+      "companyLogo": "/images/speakers/company/elastic.jpg",
+      "companyLogoUrl": "/images/speakers/company/elastic.jpg",
+      "country": "Toulouse, France"
+    },
+    "nicolas_decoster": {
+      "id": "nicolas_decoster",
+      "name": "Decoster Nicolas",
+      "bio": "Informaticien curieux depuis 35 ans, de métier depuis 20 ans (principalement dans le spatial). Non spécialiste touche à tout : du développement logiciel à l'étude scientifique, du développement d'algorithmes de traitement à la mise en œuvre de systèmes, de la programmation en C++ ou Python à l'utilisation des technos Web, de la petite appli en ligne de commande aux IHM ou aux systèmes distribués. Ingénieur chez Magellium et co-fondateur et animateur à la Compagnie du Code.",
+      "company": "Magellium",
+      "featured": false,
+      "photo": "/images/speakers/nicolas_decoster.jpg",
+      "photoUrl": "/images/speakers/nicolas_decoster.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/nnodot",
+          "name": "@nnodot"
+        }
+      ],
+      "shortBio": "Developer for science and other stuff, work for Magellium, co-founder of @CompagnieDuCode",
+      "companyLogo": "/images/speakers/company/magellium.jpg",
+      "companyLogoUrl": "/images/speakers/company/magellium.jpg",
+      "country": "Toulouse, France"
+    },
+    "miro_miro_cupak": {
+      "id": "miro_miro_cupak",
+      "name": "Miro Cupak",
+      "bio": "Miro is a VP of Engineering at DNAstack, where he builds a leading genomics cloud platform. He is a Java enthusiast with expertise in distributed systems and middleware, passionate about genetics and making meaningful software. Miro is the creator of the largest search and discovery engine of human genetic data, and the author of a book on parallelization of genomic queries. In his spare time, he blogs and contributes to several open-source projects.",
+      "company": "DNAstack",
+      "featured": false,
+      "photo": "/images/speakers/miro_miro_cupak.jpg",
+      "photoUrl": "/images/speakers/miro_miro_cupak.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/mirocupak",
+          "name": "@mirocupak"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/mcupak",
+          "name": "mcupak"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://mirocupak.com, https://www.linkedin.com/in/mirocupak",
+          "name": "LinkedIn"
+        }
+      ],
+      "shortBio": "Software developer with passion for genetics and building meaningful things. Java, open source, and distributed systems enthusiast.",
+      "companyLogo": "/images/speakers/company/dnastack.jpg",
+      "companyLogoUrl": "/images/speakers/company/dnastack.jpg",
+      "country": "Toronto, Ontario"
+    },
+    "xavier_detant": {
+      "id": "xavier_detant",
+      "name": "Detant Xavier",
+      "bio": "Co-organisateur de la communauté software craftsmanship de Paris et de la non-conférence SoCraTes France, le partage de savoir est au cœur de mon état d'esprit.",
+      "company": "Zenika",
+      "featured": false,
+      "photo": "/images/speakers/xavier_detant.jpg",
+      "photoUrl": "/images/speakers/xavier_detant.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/XDetant",
+          "name": "@XDetant"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/FaustXVI/",
+          "name": "FaustXVI"
+        }
+      ],
+      "shortBio": "Software Crafter and CTO @ Zenika",
+      "companyLogo": "/images/speakers/company/zenika.jpg",
+      "companyLogoUrl": "/images/speakers/company/zenika.jpg",
+      "country": "Paris, France"
+    },
+    "emmanuel_demey": {
+      "id": "emmanuel_demey",
+      "name": "DEMEY Emmanuel",
+      "bio": "Directeur technique chez Zenika Lille et Google Developer Expert, je suis spécialisé dans AngularJS / Angular / TypeScript et l'Accessibilité Web. Speaker à ses heures perdues. Aime également les bières (et oui quand on vient de Lille c'est normal...), le Jazz et la Domotique. Plusieurs expériences en tant que conférencier, notamment depuis septembre 2015 autour du sujet Angular2. - ESLint au Jug Summer Camp et ChtiJS - Angular 2 : ChtiJUG, LyonJS, GDG Paris, GDG Nantes, Meetup AngularJS Grenoble, Devoxx, RivieraDev, Bdx.io, DevFest Nantes, Codeurs en Seine",
+      "company": "Zenika",
+      "featured": false,
+      "photo": "/images/speakers/emmanuel_demey.jpg",
+      "photoUrl": "/images/speakers/emmanuel_demey.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/EmmanuelDemey",
+          "name": "@EmmanuelDemey"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/Gillespie59",
+          "name": "Gillespie59"
+        }
+      ],
+      "shortBio": "CTO at @ZenikaLille - Google Developer Expert @GoogleDevExpert - Web Specialist - Speaker and Trainer, Organizer of #DevFestLille - @GDGLille - Lille",
+      "companyLogo": "/images/speakers/company/zenika.jpg",
+      "companyLogoUrl": "/images/speakers/company/zenika.jpg",
+      "country": "Lille, France"
+    },
+    "elaine_dias_batista": {
+      "id": "elaine_dias_batista",
+      "name": "Dias Batista Elaine",
+      "bio": "Elaine has been working with Mobile Apps Development for the past 5 years. Since the launch of the Google Assistant, she has been following the developments around that area. She truly believes that interacting with technology using natural language will define the future of computing. Born and raised in Brazil, she's been living in France since 2004 and loves everything multicultural.",
+      "company": "SFEIR",
+      "featured": false,
+      "photo": "/images/speakers/elaine_dias_batista.jpg",
+      "photoUrl": "/images/speakers/elaine_dias_batista.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/elainedbatista",
+          "name": "@elainedbatista"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/elainedb",
+          "name": "elainedb"
+        }
+      ],
+      "shortBio": "Team Leader & Mobile Apps Engineer @sfeir. Google Developer Expert for the Google Assistant.",
+      "companyLogo": "/images/speakers/company/sfeir.jpg",
+      "companyLogoUrl": "/images/speakers/company/sfeir.jpg",
+      "country": "Paris, France"
+    },
+    "anastasia_lieva": {
+      "id": "anastasia_lieva",
+      "name": "Lieva Anastasia",
+      "bio": "Fuzzy Humanist, Data Science Witch, The Lambda Wisperer",
+      "company": "TabMo",
+      "featured": false,
+      "photo": "/images/speakers/anastasia_lieva.jpg",
+      "photoUrl": "/images/speakers/anastasia_lieva.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/lievAnastazia",
+          "name": "@lievAnastazia"
+        }
+      ],
+      "shortBio": "#FuZzy humanist, Data Science Witch, Lambda Whisperer | Learning (machine, human or whatever) | former couturier | permaculture newbie | for a better world",
+      "companyLogo": "/images/speakers/company/tabmo.jpg",
+      "companyLogoUrl": "/images/speakers/company/tabmo.jpg",
+      "country": "Solar System"
+    },
+    "victor_kropp": {
+      "id": "victor_kropp",
+      "name": "Kropp Victor",
+      "bio": "Victor Kropp is a Software Engineer at JetBrains, where he has contributed to many projects including ReSharper, dotCover, Hub and Toolbox App. His interests include modern programming languages, practices and tools, and cross-platform development. In his free time, he runs marathons and long distance triathlons or travels with his family.",
+      "company": "JetBrains",
+      "featured": false,
+      "photo": "/images/speakers/victor_kropp.jpg",
+      "photoUrl": "/images/speakers/victor_kropp.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/kropp",
+          "name": "@kropp"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/kropp",
+          "name": "kropp"
+        }
+      ],
+      "shortBio": "Software Engineer at @JetBrains. Father. 2×IRONMAN. English/Русский/Deutsch",
+      "companyLogo": "/images/speakers/company/jetbrains.jpg",
+      "companyLogoUrl": "/images/speakers/company/jetbrains.jpg",
+      "country": "München, Deutschland"
+    },
+    "giulia_bianchi": {
+      "id": "giulia_bianchi",
+      "name": "Bianchi Giulia",
+      "bio": "Giulia est Data Scientist de plus de 4 ans d’expérience, elle est consultante à Xebia depuis deux ans et demi. \nElle travaille actuellement sur des volumes de données importants en mettant en place des algorithmes de Machine Learning, avec un objectif concret d’industrialisation. \nEn 2018 elle a organisé la première édition du [DataXDay](https://dataxday.fr/).\nElle suit les nouvelles tendances du monde de la Data en participant aux différents Meetups et en suivant des blogs. Elle contribue activement à cet écosystème en donnant des [talks](https://www.youtube.com/watch?v=N-LXrheCIKM) et en écrivant sur le [blog Xebia](https://blog.xebia.fr/author/gbianchi/).",
+      "company": "Xebia",
+      "featured": false,
+      "photo": "/images/speakers/giulia_bianchi.jpg",
+      "photoUrl": "/images/speakers/giulia_bianchi.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/GiuliabianchI",
+          "name": "@GiuliabianchI"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/giulbia",
+          "name": "giulbia"
+        }
+      ],
+      "shortBio": "Giulia est Data Scientist de plus de 4 ans d’expérience, elle est consultante à Xebia depuis deux ans et demi",
+      "companyLogo": "/images/speakers/company/xebia.jpg",
+      "companyLogoUrl": "/images/speakers/company/xebia.jpg",
+      "country": "Paris, France"
+    },
+    "piotr_przybyl": {
+      "id": "piotr_przybyl",
+      "name": "Przybyl Piotr",
+      "bio": "Notorious engineer at work and after hours, tracing meanders of the art of software engineering. Software Gardener, mostly working in web-oriented Java gardens. Fan of agility, seen mostly as choosing the right tools and approaches. Lead developer, trainer and conference speaker.",
+      "company": "Remote Freelance Software Gardener",
+      "featured": false,
+      "photo": "/images/speakers/piotr_przybyl.jpg",
+      "photoUrl": "/images/speakers/piotr_przybyl.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/piotrprz",
+          "name": "@piotrprz"
+        }
+      ],
+      "shortBio": "Remote Freelance Software Gardener",
+      "companyLogo": "",
+      "companyLogoUrl": "",
+      "country": "Wroclaw, Poland"
+    }
   },
   "team": [
     {
