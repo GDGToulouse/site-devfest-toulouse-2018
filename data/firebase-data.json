@@ -640,7 +640,8 @@
     "url" : "https://www.billetweb.fr/devfest-toulouse-2018"
   }, {
     "currency" : "€",
-    "starts" : "01 Aout",
+    "starts" : "01 Août",
+    "startsTimestamp": 1533110400000,
     "ends" : "08 Novembre",
     "info" : "250 premières places",
     "name" : "Normal",
