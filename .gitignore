@@ -8,3 +8,4 @@ functions/lib/
 .vscode/
 /appengine/dist/
 serviceAccount.json
+serviceAccount.dev.json

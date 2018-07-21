@@ -108,7 +108,14 @@ const ticketsActions = {
       .get()
       .then((snaps) => {
         const list = snaps.docs
-          .map((snap) => Object.assign({}, snap.data(), { id: snap.id }));
+          .map((snap) => Object.assign({}, snap.data(), { id: snap.id }))
+          .map((t) => {
+            if (t.startsTimestamp == null) {
+              return t;
+            }
+            t.available = Date.now() > new Date(t.startsTimestamp);
+            return t;
+          });
 
         dispatch({
           type: FETCH_TICKETS_SUCCESS,
