@@ -42,6 +42,12 @@
       "route": "faq",
       "permalink": "/faq/",
       "label": "FAQ"
+    },
+    {
+      "route": "jobs",
+      "permalink": "https://jobs.devfesttoulouse.fr/",
+      "external": true,
+      "label": "Jobs"
     }
   ],
   "heroSettings": {
