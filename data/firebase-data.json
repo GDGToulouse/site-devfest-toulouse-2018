@@ -24,7 +24,8 @@
       "style": "partner-pt",
       "logos": [
         { "name": "Delair",  "url": "https://delair.aero/", "logoUrl": "/images/partners/Delair.png" },
-        { "name": "Continental",  "url": "https://www.continental-corporation.com/fr-fr/", "logoUrl": "/images/partners/logo-continental.png" }
+        { "name": "Continental",  "url": "https://www.continental-corporation.com/fr-fr/", "logoUrl": "/images/partners/logo-continental.png" },
+        { "name": "Airbus",  "url": "https://www.airbus.com/", "logoUrl": "/images/partners/logo-airbus.png" }
       ]
     },
     {
