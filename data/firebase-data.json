@@ -132,18 +132,6 @@
         "celine_louvet"
       ]
     },
-    "4185": {
-      "title": "Dis tonton, pourquoi tu tousses ?",
-      "tags": [
-        "Method & Tools"
-      ],
-      "language": "Français",
-      "complexity": "Débutant",
-      "description": "Le \"Continuous Delivery\" c'est vraiment trop facile : \"make deploy\" dans mon Jenkins et hop, ça part en production. Ou pas. Nous allons construire pas à pas une chaine de Continuous Delivery et explorant pas à pas les éléments clés et les bonnes pratiques, en enfonçant certes quelques portes ouvertes, mais aussi en démystifiant quelques légendes urbaines et en vous donnant les astuces ultimes.",
-      "speakers": [
-        "philippe_charriere"
-      ]
-    },
     "4195": {
       "title": "Développer une application web avec Rust",
       "tags": [
