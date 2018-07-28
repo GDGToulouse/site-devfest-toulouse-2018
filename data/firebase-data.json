@@ -465,19 +465,6 @@
         "miro_miro_cupak"
       ]
     },
-    "4536": {
-      "title": "De Javascript à Haskell : la programmation fonctionnelle expliquée simplement",
-      "language": "Français",
-      "complexity": "Confirmé",
-      "description": "Si un de vos collègue vous a déjà dit «Alors là, j'ai utilisé de l'application partielle sur cette fonction que j'ai curryfiée en utilisant des fonctions d'ordre supérieur et des closures» et que vous n'avez rien compris, alors ce talk est pour vous.\nLa programmation fonctionnelle présente de nombreux concepts qui viennent des maths. Et cela fait peur ! Mais appliqué à l'informatique, c'est en réalité très simple !\n\nDurant ce live-coding consistant à refactorer un code impératif vers un code fonctionel, les concepts principaux seront introduits uniquement quand cela est utile et expliqués en profondeur.\n\nÀ la fin de ce talk, les concepts suivants n'auront plus de secrets pour vous :\n\n- La transparance référenciel\n- Les fonctions comme citoyen de première classe\n- Les fonctions d'ordre supérieur\n- Les closure\n- Le lambda calculus\n- La curryfication\n- L'application partielle\n- La composition de fonction\n- La notation «Point-free»",
-      "tags": [
-        "Languages"
-      ],
-      "id": 4536,
-      "speakers": [
-        "xavier_detant"
-      ]
-    },
     "4574": {
       "title": "The Big Web Quizz",
       "language": "Français",
@@ -1319,31 +1306,6 @@
       "companyLogo": "/images/speakers/company/dnastack.jpg",
       "companyLogoUrl": "/images/speakers/company/dnastack.jpg",
       "country": "Toronto, Ontario"
-    },
-    "xavier_detant": {
-      "id": "xavier_detant",
-      "name": "Detant Xavier",
-      "bio": "Co-organisateur de la communauté software craftsmanship de Paris et de la non-conférence SoCraTes France, le partage de savoir est au cœur de mon état d'esprit.",
-      "company": "Zenika",
-      "featured": false,
-      "photo": "/images/speakers/xavier_detant.jpg",
-      "photoUrl": "/images/speakers/xavier_detant.jpg",
-      "socials": [
-        {
-          "icon": "twitter",
-          "link": "https://twitter.com/XDetant",
-          "name": "@XDetant"
-        },
-        {
-          "icon": "github",
-          "link": "https://github.com/FaustXVI/",
-          "name": "FaustXVI"
-        }
-      ],
-      "shortBio": "Software Crafter and CTO @ Zenika",
-      "companyLogo": "/images/speakers/company/zenika.jpg",
-      "companyLogoUrl": "/images/speakers/company/zenika.jpg",
-      "country": "Paris, France"
     },
     "emmanuel_demey": {
       "id": "emmanuel_demey",
