@@ -53,6 +53,18 @@
         "celine_louvet"
       ]
     },
+    "4185": {
+      "title": "Dis tonton, pourquoi tu tousses ?",
+      "tags": [
+        "Method & Tools"
+      ],
+      "language": "Français",
+      "complexity": "Débutant",
+      "description": "Le \"Continuous Delivery\" c'est vraiment trop facile : \"make deploy\" dans mon Jenkins et hop, ça part en production. Ou pas. Nous allons construire pas à pas une chaine de Continuous Delivery et explorant pas à pas les éléments clés et les bonnes pratiques, en enfonçant certes quelques portes ouvertes, mais aussi en démystifiant quelques légendes urbaines et en vous donnant les astuces ultimes.",
+      "speakers": [
+        "philippe_charriere"
+      ]
+    },
     "4195": {
       "title": "Développer une application web avec Rust",
       "tags": [
@@ -690,7 +702,7 @@
     },
     "ane_diaz_de_tuesta": {
       "id": "ane_diaz_de_tuesta",
-      "name": "DIAZ DE TUESTA Ane",
+      "name": "Ane DIAZ DE TUESTA",
       "bio": "Je suis une personne dynamique, curieuse et sociable. Je travaille en tant que développeuse depuis 2012, après avoir obtenu mon diplôme d’ingénieur espagnol et ensuite le français. \nActuellement je travaille chez Lectra comme développeuse FrontEnd et je suis Scrum Master. Je suis passionnée par mon travail qui me rend heureuse.",
       "company": "Lectra",
       "featured": false,
@@ -750,7 +762,7 @@
     },
     "celine_louvet": {
       "id": "celine_louvet",
-      "name": "LOUVET Céline",
+      "name": "Céline LOUVET",
       "bio": "CTO & cofondatrice de Fairvioo et développeuse au quotidien",
       "company": "Fairvioo",
       "featured": false,
@@ -780,7 +792,7 @@
     },
     "frederic_cabestre": {
       "id": "frederic_cabestre",
-      "name": "Cabestre Frédéric",
+      "name": "Frédéric Cabestre",
       "bio": "Développeur, tendance «software craftman». Depuis longtemps attiré par les langages et leur mise en œuvre. Grand amateur de programmation fonctionnelle, même quand ce n'était pas encore cool. Curieux des systèmes, surtout s'ils sont distribués.",
       "company": "Easy Mile",
       "featured": false,
@@ -805,7 +817,7 @@
     },
     "arnaud_bos": {
       "id": "arnaud_bos",
-      "name": "BOS Arnaud",
+      "name": "Arnaud BOS",
       "bio": "Amateur de hamacs et de '(parenthèses). Du développement mobile au back-end, je suis revenu à mes premiers amours, les systèmes distribués, au fil des projets. Avec ma casquette de data engineer sur la tête, je me concentre sur le développement de (micro?)services et me passionne pour langages de programmation et les architectures distribuées.",
       "company": "MonkeyPatch",
       "featured": false,
@@ -830,7 +842,7 @@
     },
     "julien_topcu": {
       "id": "julien_topcu",
-      "name": "Topçu Julien",
+      "name": "Julien Topçu",
       "bio": "Senior Lead Developer chez Egencia, je suis un fervent défenseur du Software Craftsmanship. \n\nJ'évangélise activement autour de DDD/Hexagonal Architecture, l'XP et le Kanban #NoEstimates au sein de cours et de [meetups](https://www.meetup.com/fr-FR/Expedia-Inc-Paris/) que que je fais pour le compte d'Expedia, ainsi qu'à travers d'articles de [blog](https://beyondxscratch.wordpress.com/).\n\nMembre de la fondation OWASP, je m'efforce de transmettre à la communauté une philosophie DevSecOps que je pense être l'avenir du métier de développeur. J'ai participé à la mise en place de pipeline de Continuous Security à l'échelles d'entreprises.",
       "company": "Egencia & OWASP fundation",
       "featured": false,
@@ -855,7 +867,7 @@
     },
     "guillaume_membre": {
       "id": "guillaume_membre",
-      "name": "Membré Guillaume",
+      "name": "Guillaume Membré",
       "bio": "Geek à toute heure, je travaille principalement autour des technologies Java/JavaEE mais aussi sur des problématiques de déploiement continu, de qualimétrie. Désormais, je partage son expérience pour faciliter la mise en place de démarche devops chez différents acteurs. J'adore bidouiller des RaspberryPi ou Arduino pour créer des choses inutiles donc indispensables.\nLorsque le temps le permet, je décris mes aventures sur mon [site web](https://www.geekeries.fun).",
       "company": "Zenika",
       "featured": false,
@@ -880,7 +892,7 @@
     },
     "robert_firek": {
       "id": "robert_firek",
-      "name": "Firek Robert",
+      "name": "Robert Firek",
       "bio": "Robert Firek is a software craftsman who has tasted many different flavours of programming. His broad range of experiences has helped to deliver quality software in many companies and organisations. He strives to create software according to the rule \"Simplicity is the final achievement\". He is trying to unite worlds of the software development and the infrastructure delivery by promoting the DevOps culture.",
       "company": "Codurance",
       "featured": false,
@@ -905,7 +917,7 @@
     },
     "gautier_mechling": {
       "id": "gautier_mechling",
-      "name": "Mechling Gautier",
+      "name": "Gautier Mechling",
       "bio": "Gautier est développeur Android et Google Developer Expert #IoT",
       "company": "Innovorder",
       "featured": false,
@@ -930,7 +942,7 @@
     },
     "guillaume_laforge": {
       "id": "guillaume_laforge",
-      "name": "Laforge Guillaume",
+      "name": "Guillaume Laforge",
       "bio": "Le jour, Guillaume Laforge est Developer Advocate chez Google, sur les solutions cloud, et de nuit, il reprends sa casquette de contributeur au projet Apache Groovy. Guillaume est également un des membres du podcast Les Cast Codeurs",
       "company": "Google",
       "featured": false,
@@ -955,7 +967,7 @@
     },
     "olivier_leplus": {
       "id": "olivier_leplus",
-      "name": "Leplus Olivier",
+      "name": "Olivier Leplus",
       "bio": "My day to day my mission is to help developers create successful and quality apps.\nAs a passionate web developer, I am always discovering and playing with new web technologies !",
       "company": "Botfuel",
       "featured": false,
@@ -985,7 +997,7 @@
     },
     "tiffany_souterre": {
       "id": "tiffany_souterre",
-      "name": "Souterre Tiffany",
+      "name": "Tiffany Souterre",
       "bio": "I love science and I love data! After finishing a Ph.D. in genetic engineering, I continued my quest for discovering new patterns through data science and machine learning. I currently work as a Big Data engineer and I play with machine learning algorithms on my free time. Someday, I wish to leverage data exploration to improve people's life.",
       "company": "JEMS Datafactory",
       "featured": false,
@@ -1010,7 +1022,7 @@
     },
     "nicolas_lepage": {
       "id": "nicolas_lepage",
-      "name": "Lepage Nicolas",
+      "name": "Nicolas Lepage",
       "bio": "Développeur depuis plus de 10 ans, Nicolas est actuellement consultant et formateur chez Zenika Nantes.\n\nAprès de trop longues années de développement Java, il prend le contrepied et s'intéresse maintenant à tout ! Sa quête de nouveauté l'amène à explorer les mondes du front avec ReactJS, du NoSQL avec MongoDB, et des langages modernes tels que Go(lang) ou encore Kotlin.\n\nSon goût du partage le pousse à devenir formateur, notamment sur Go(lang), et à se lancer dans l'open source en créant [immutad●t](https://github.com/Zenika/immutadot), une bibliothèque JavaScript pour manipuler les structures immuables imbriquées.",
       "company": "Zenika",
       "featured": false,
@@ -1035,7 +1047,7 @@
     },
     "tugdual_grall": {
       "id": "tugdual_grall",
-      "name": "Grall Tugdual",
+      "name": "Tugdual Grall",
       "bio": "Tugdual Grall\tBio: Tugdual Grall, est Chief Technical Evangelist EMEA chez MapR. Il travaille avec les clients et les communautés de développeurs européennes, pour faciliter l’adoption de MapR, Hadoop et NoSQL. \n\nAvant de travailler chez MapR, “Tug”, était Technical Evangelist chez MongoDB et Couchbase. Tug a travaillé comme CTO chez eXo Platform, et comme Product Manager et Développeur sur la platform Java/JavaEE d’Oracle.\n\nTugdual est également co-fondateur du Nantes JUG (Java Users Group) qui réunit tous les mois depuis 2008 les développeurs et architectes de la région nantaise.",
       "company": "MapR",
       "featured": false,
@@ -1060,7 +1072,7 @@
     },
     "david_pilato": {
       "id": "david_pilato",
-      "name": "Pilato David",
+      "name": "David Pilato",
       "bio": "Depuis 2013, David Pilato est développeur et évangéliste chez elastic.co, après avoir passé les deux années précédentes à promouvoir le projet open-source Elasticsearch. Il en anime la communauté française.",
       "company": "elastic",
       "featured": false,
@@ -1085,7 +1097,7 @@
     },
     "francois_teychene": {
       "id": "francois_teychene",
-      "name": "Teychene Francois",
+      "name": "Francois Teychene",
       "bio": "Cloud Developper @ Saagie , meetup addict & organiser @ Montpellier et Organisateur SunnyTech.  \nDéveloppeur couteau suisse pouvant intervenir du Javascript à la table de routage. Mes passions actuelles sont le Rust, le DevOps et le Scala en plus de vouloir mettre des conteneurs partout.",
       "company": "Saagie",
       "featured": false,
@@ -1110,7 +1122,7 @@
     },
     "olivier_flebus": {
       "id": "olivier_flebus",
-      "name": "Flebus Olivier",
+      "name": "Olivier Flebus",
       "bio": "Enterprise Architect, #Agile enthusiast. Leading #BigData @Continental Digital Services France. Building a #Cloud platform for #ConnectedCars.",
       "company": "Continental Digital Services France",
       "featured": false,
@@ -1135,7 +1147,7 @@
     },
     "alexandre_delattre": {
       "id": "alexandre_delattre",
-      "name": "Delattre Alexandre",
+      "name": "Alexandre Delattre",
       "bio": "Ingénieur logiciel Fullstack à MonkeyPatch\n\n32 ans et fort de 7 ans d'expérience dans le développement logiciel, mon parcours, auprès de startups et de grands groupes m'a permis de m'approprier une large gamme de technos fullstack:\n\n- Mobile : Android (Kotlin), iOS (Swift), Ionic \n- Backend : Java, Scala, NodeJS\n- Web : Typescript / Angular 1 & 2\n\nJe suis passioné par la mobilité, la qualité et l'innovation logicielle, l'UX et l'entrepreunariat digital.",
       "company": "MonkeyPatch",
       "featured": false,
@@ -1155,7 +1167,7 @@
     },
     "sebastien_guilloux": {
       "id": "sebastien_guilloux",
-      "name": "Guilloux Sébastien",
+      "name": "Sébastien Guilloux",
       "bio": "Cloud Engineer chez Elastic. J'ai un petit faible pour les systèmes distribués, pour le fun et les challenges qu'ils nous apportent ! Auparavant j'ai travaillé chez OVH, en tant que développeur sur plusieurs services (Kafka, Kubernetes, Serverless Functions).\nAh, j'ai une légère tendance à faire des jeux de mots, aussi :)",
       "company": "Elastic",
       "featured": false,
@@ -1180,7 +1192,7 @@
     },
     "nicolas_decoster": {
       "id": "nicolas_decoster",
-      "name": "Decoster Nicolas",
+      "name": "Nicolas Decoster",
       "bio": "Informaticien curieux depuis 35 ans, de métier depuis 20 ans (principalement dans le spatial). Non spécialiste touche à tout : du développement logiciel à l'étude scientifique, du développement d'algorithmes de traitement à la mise en œuvre de systèmes, de la programmation en C++ ou Python à l'utilisation des technos Web, de la petite appli en ligne de commande aux IHM ou aux systèmes distribués. Ingénieur chez Magellium et co-fondateur et animateur à la Compagnie du Code.",
       "company": "Magellium",
       "featured": false,
@@ -1230,7 +1242,7 @@
     },
     "emmanuel_demey": {
       "id": "emmanuel_demey",
-      "name": "DEMEY Emmanuel",
+      "name": "Emmanuel DEMEY",
       "bio": "Directeur technique chez Zenika Lille et Google Developer Expert, je suis spécialisé dans AngularJS / Angular / TypeScript et l'Accessibilité Web. Speaker à ses heures perdues. Aime également les bières (et oui quand on vient de Lille c'est normal...), le Jazz et la Domotique. Plusieurs expériences en tant que conférencier, notamment depuis septembre 2015 autour du sujet Angular2. - ESLint au Jug Summer Camp et ChtiJS - Angular 2 : ChtiJUG, LyonJS, GDG Paris, GDG Nantes, Meetup AngularJS Grenoble, Devoxx, RivieraDev, Bdx.io, DevFest Nantes, Codeurs en Seine",
       "company": "Zenika",
       "featured": false,
@@ -1255,7 +1267,7 @@
     },
     "elaine_dias_batista": {
       "id": "elaine_dias_batista",
-      "name": "Dias Batista Elaine",
+      "name": "Elaine Dias Batista",
       "bio": "Elaine has been working with Mobile Apps Development for the past 5 years. Since the launch of the Google Assistant, she has been following the developments around that area. She truly believes that interacting with technology using natural language will define the future of computing. Born and raised in Brazil, she's been living in France since 2004 and loves everything multicultural.",
       "company": "SFEIR",
       "featured": false,
@@ -1280,7 +1292,7 @@
     },
     "anastasia_lieva": {
       "id": "anastasia_lieva",
-      "name": "Lieva Anastasia",
+      "name": "Anastasia Lieva",
       "bio": "Fuzzy Humanist, Data Science Witch, The Lambda Wisperer",
       "company": "TabMo",
       "featured": false,
@@ -1300,7 +1312,7 @@
     },
     "victor_kropp": {
       "id": "victor_kropp",
-      "name": "Kropp Victor",
+      "name": "Victor Kropp",
       "bio": "Victor Kropp is a Software Engineer at JetBrains, where he has contributed to many projects including ReSharper, dotCover, Hub and Toolbox App. His interests include modern programming languages, practices and tools, and cross-platform development. In his free time, he runs marathons and long distance triathlons or travels with his family.",
       "company": "JetBrains",
       "featured": false,
@@ -1325,7 +1337,7 @@
     },
     "giulia_bianchi": {
       "id": "giulia_bianchi",
-      "name": "Bianchi Giulia",
+      "name": "Giulia Bianchi",
       "bio": "Giulia est Data Scientist de plus de 4 ans d’expérience, elle est consultante à Xebia depuis deux ans et demi. \nElle travaille actuellement sur des volumes de données importants en mettant en place des algorithmes de Machine Learning, avec un objectif concret d’industrialisation. \nEn 2018 elle a organisé la première édition du [DataXDay](https://dataxday.fr/).\nElle suit les nouvelles tendances du monde de la Data en participant aux différents Meetups et en suivant des blogs. Elle contribue activement à cet écosystème en donnant des [talks](https://www.youtube.com/watch?v=N-LXrheCIKM) et en écrivant sur le [blog Xebia](https://blog.xebia.fr/author/gbianchi/).",
       "company": "Xebia",
       "featured": false,
@@ -1350,7 +1362,7 @@
     },
     "piotr_przybyl": {
       "id": "piotr_przybyl",
-      "name": "Przybyl Piotr",
+      "name": "Piotr Przybyl",
       "bio": "Notorious engineer at work and after hours, tracing meanders of the art of software engineering. Software Gardener, mostly working in web-oriented Java gardens. Fan of agility, seen mostly as choosing the right tools and approaches. Lead developer, trainer and conference speaker.",
       "company": "Remote Freelance Software Gardener",
       "featured": false,
