@@ -730,6 +730,27 @@
       "companyLogoUrl": "/images/speakers/company/lectra.jpg",
       "country": "Bordeaux, France"
     },
+    "amelie_benoit": {
+      "id": "amelie_benoit",
+      "name": "Amélie Benoit",
+      "bio": "#Agile #WebDeveloper loving #Sketchnotes, #Javascript and also #Unicorns",
+      "company": "Lectra",
+      "featured": false,
+      "photo": "/images/speakers/amelie_benoit.jpg",
+      "photoUrl": "/images/speakers/amelie_benoit.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/@AmelieBenoit33",
+          "name": "@AmelieBenoit33"
+        }
+      ],
+      "shortBio": "#Agile #WebDeveloper loving #Sketchnotes, #Javascript and also #Unicorns",
+      "companyLogo": "/images/speakers/company/lectra.jpg",
+      "companyLogoUrl": "/images/speakers/company/lectra.jpg",
+      "country": "Bordeaux, France",
+      "title": ""
+    },
     "comet_nicolas": {
       "id": "comet_nicolas",
       "name": "Nicolas Comet",
@@ -759,6 +780,32 @@
       "companyLogo": "/images/speakers/company/lectra.jpg",
       "companyLogoUrl": "/images/speakers/company/lectra.jpg",
       "country": "Bordeaux, France"
+    },
+    "benoit_prioux": {
+      "id": "benoit_prioux",
+      "name": "Benoit PRIOUX",
+      "bio": "Je suis Technical Leader au centre R&D de Lectra, éditeur de logiciel dans le monde de la mode, à Bordeaux. Je suis un développeur Java depuis 2005, et membre du bureau du Bordeaux JUG. Impliqué dans le projet open-source Asciidoctor, je suis aussi passionné par tout ce qui finit en DD : TDD, BDD, DDD, ...",
+      "company": "Lectra",
+      "featured": false,
+      "photo": "/images/speakers/benoit_prioux.png",
+      "photoUrl": "/images/speakers/benoit_prioux.png",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/binout",
+          "name": "@binout"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/binout",
+          "name": "binout"
+        }
+      ],
+      "shortBio": "Enthusiast Software Developer #java #kotlin #tdd #ddd #lectra",
+      "companyLogo": "/images/speakers/company/lectra.jpg",
+      "companyLogoUrl": "/images/speakers/company/lectra.jpg",
+      "country": "Bordeaux, France",
+      "title": ""
     },
     "celine_louvet": {
       "id": "celine_louvet",
@@ -1165,6 +1212,27 @@
       "companyLogoUrl": "/images/speakers/company/monkeypatch.jpg",
       "country": "Toulouse, France"
     },
+    "guillaume_andrieu": {
+      "id": "guillaume_andrieu",
+      "name": "Guillaume ANDRIEU",
+      "bio": "FP enthusiast",
+      "company": "MonkeyPatch",
+      "featured": false,
+      "photo": "/images/speakers/guillaume_andrieu.jpg",
+      "photoUrl": "/images/speakers/guillaume_andrieu.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/glmxndr",
+          "name": "@glmxndr"
+        }
+      ],
+      "shortBio": "FP enthusiast",
+      "companyLogo": "/images/speakers/company/monkeypatch.jpg",
+      "companyLogoUrl": "/images/speakers/company/monkeypatch.jpg",
+      "country": "Toulouse, France",
+      "title": ""
+    },
     "sebastien_guilloux": {
       "id": "sebastien_guilloux",
       "name": "Sébastien Guilloux",
@@ -1209,6 +1277,32 @@
       "companyLogo": "/images/speakers/company/magellium.jpg",
       "companyLogoUrl": "/images/speakers/company/magellium.jpg",
       "country": "Toulouse, France"
+    },
+    "juliane_blier": {
+      "id": "juliane_blier",
+      "name": "Juliane Blier",
+      "bio": "Développeuse Web, Amoureuse de Vuejs, Node et PHP, Curieuse de nouvelles découvertes",
+      "company": "SchoolMouv",
+      "featured": false,
+      "photo": "/images/speakers/juliane_blier.jpg",
+      "photoUrl": "/images/speakers/juliane_blier.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/tactless7",
+          "name": "@tactless7"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/Tactless7",
+          "name": "Tactless7"
+        }
+      ],
+      "shortBio": "Développeuse Web, Amoureuse de Vuejs, Node et PHP, Curieuse de nouvelles découvertes",
+      "companyLogo": "/images/speakers/company/schoolmouv.jpg",
+      "companyLogoUrl": "/images/speakers/company/schoolmouv.jpg",
+      "country": "Toulouse, France",
+      "title": ""
     },
     "miro_miro_cupak": {
       "id": "miro_miro_cupak",
@@ -1264,6 +1358,32 @@
       "companyLogo": "/images/speakers/company/zenika.jpg",
       "companyLogoUrl": "/images/speakers/company/zenika.jpg",
       "country": "Lille, France"
+    },
+    "jean-francois_garreau": {
+      "id": "jean-francois_garreau",
+      "name": "Jean-francois Garreau",
+      "bio": "En dehors du travail, je suis co-fondateur du GDG Nantes, organisateur du DevFest Nantes, co-créateur des Nantes Wit et organisateur de Devoxx4Kids",
+      "company": "Sfeir",
+      "featured": false,
+      "photo": "/images/speakers/jean-francois_garreau.jpg",
+      "photoUrl": "/images/speakers/jean-francois_garreau.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/jefBinomed",
+          "name": "@jefBinomed"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/jefBinomed",
+          "name": "jefBinomed"
+        }
+      ],
+      "shortBio": "GDG Nantes Leader @gdgnantes 🐘 / @nanteswit 👩‍💻 / #devoxx4Kids / #GDE Web / developer and proud to be a dev @sfeir 👨‍💻 / curious geek",
+      "companyLogo": "/images/speakers/company/sfeir.jpg",
+      "companyLogoUrl": "/images/speakers/company/sfeir.jpg",
+      "country": "Nantes, France",
+      "title": ""
     },
     "elaine_dias_batista": {
       "id": "elaine_dias_batista",
