@@ -1,83 +1,4 @@
 {
-  "blog": {
-    "call-for-papers": {
-      "backgroundColor": "#ddd",
-      "brief": "Ouverture du Call for Papers",
-      "image": "images/backgrounds/cfp.jpg",
-      "published": "2018-04-03",
-      "source": "data/posts/2018-04-03-cfp.md",
-      "title": "Appel à orateurs"
-    },
-    "lancement-devfest-toulouse-2018": {
-      "backgroundColor": "#ddd",
-      "brief": "Lancement du DevFest Toulouse 2018",
-      "image": "images/backgrounds/launch2018.jpg",
-      "published": "2018-03-27",
-      "source": "data/posts/2018-03-27-lancement-devfest-toulouse-2018.md",
-      "title": "Lancement du DevFest Toulouse 2018"
-    }
-  },
-  "gallery": [],
-  "partners": [
-    {
-      "title": "Platinium",
-      "style": "partner-pt",
-      "logos": [
-        { "name": "Delair",  "url": "https://delair.aero/", "logoUrl": "/images/partners/Delair.png" },
-        { "name": "Continental",  "url": "https://www.continental-corporation.com/fr-fr/", "logoUrl": "/images/partners/logo-continental.png" },
-        { "name": "Airbus",  "url": "https://www.airbus.com/", "logoUrl": "/images/partners/logo-airbus.png" }
-      ]
-    },
-    {
-      "title": "Gold",
-      "style": "partner-au",
-      "logos":[
-        { "name": "Stack Labs",  "url": "https://www.stack-labs.com/", "logoUrl": "/images/partners/logo-stacklab.png" },
-        { "name": "Monkey Patch",  "url": "http://www.monkeypatch.io/", "logoUrl": "/images/partners/Logo_MonkeyPatch_Bleu.png" },
-        { "name": "CS Systèmes d'information",  "url": "https://www.c-s.fr/", "logoUrl": "/images/partners/logo-cs.png" },
-        { "name": "Informatique Banque Populaire",  "url": "https://informatique.banquepopulaire.fr/", "logoUrl": "/images/partners/logo_i-BP2.png" },
-        { "name": "Sigfox",  "url": "https://www.sigfox.com/en", "logoUrl": "/images/partners/logo-sigfox.svg" },
-        { "name": "Cirruseo",  "url": "https://www.cirruseo.com/", "logoUrl": "/images/partners/logo-cirruseo.png" },
-        { "name": "OnePoint",  "url": "https://www.groupeonepoint.com/", "logoUrl": "/images/partners/logo-onepoint.png" },
-        { "name": "FullSave",  "url": "https://www.fullsave.com/", "logoUrl": "/images/partners/logo-fullsave.png" },
-        { "name": "JFrog",  "url": "https://jfrog.com/", "logoUrl": "/images/partners/logo-jfrog.svg" },
-        { "name": "Palo IT",  "url": "http://fr.palo-it.com/", "logoUrl": "/images/partners/logo-paloit.png" },
-        { "name": "Lyra Network",  "url": "https://www.lyra-network.com/", "logoUrl": "/images/partners/logo-lyra.png" },
-        { "name": "PROJIXI",  "url": "http://www.projixi-europe.com/", "logoUrl": "/images/partners/logo-projixi.png" },
-        { "name": "FittingBox",  "url": "https://www.fittingbox.com/", "logoUrl": "/images/partners/logo-fittingbox.png" },
-        { "name": "Ippon",  "url": "https://fr.ippon.tech/", "logoUrl": "/images/partners/logo-ippon.svg" },
-        { "name": "Capgemini",  "url": "https://www.capgemini.com/fr-fr/", "logoUrl": "/images/partners/logo-capgemini.svg" }
-      ]
-    },
-    {
-      "title": "Soutien",
-      "style": "partner",
-      "logos":[
-        { "name": "Commit42",  "url": "https://www.commit42.fr/", "logoUrl": "/images/partners/commit42.png" },
-        { "name": "SQLI",  "url": "http://www.sqli.com/", "logoUrl": "/images/partners/logo-sqli.png" },
-        { "name": "Gisaia",  "url": "http://gisaia.fr/", "logoUrl": "/images/partners/logo-gisaia.png" },
-        { "name": "DocDoku",  "url": "https://www.docdoku.com/", "logoUrl": "/images/partners/docdoku_inverse_web.png" },
-        { "name": "CNES",  "url": "https://cnes.fr/", "logoUrl": "/images/partners/cnes_logo_carre.png" },
-        { "name": "VISEO",  "url": "http://www.viseo.com/fr", "logoUrl": "/images/partners/logo-viseo.png" },
-        { "name": "Pierre Fabre",  "url": "https://www.pierre-fabre.com/fr", "logoUrl": "/images/partners/logo-pierrefabre.png" },
-        { "name": "Étincelle Coworking",  "url": "http://www.coworking-toulouse.com/", "logoUrl": "/images/partners/logo-etincelle.gif" },
-        { "name": "SII",  "url": "http://www.groupe-sii.com/fr", "logoUrl": "/images/partners/logo-sii.png" }
-      ]
-    },
-    {
-      "title": "Communautés",
-      "style": "partner",
-      "logos":[
-        { "name": "Toulouse Data Science",  "url": "http://www.tlse-data-science.fr/", "logoUrl": "/images/partners/community/tds.jpg" },
-        { "name": "Toulouse JUG",  "url": "https://www.toulousejug.org/", "logoUrl": "/images/partners/community/toulouse_jug.png" },
-        { "name": "Duchess FR",  "url": "https://www.duchess-france.org/", "logoUrl": "/images/partners/community/duchess_fr.svg" },
-        { "name": "ToulouseJS",  "url": "https://twitter.com/ToulouseJS", "logoUrl": "/images/partners/community/toulousejs.png" },
-        { "name": "Toulouse Devops",  "url": "http://toulousedevops.org/", "logoUrl": "/images/partners/community/toulousedevops.jpg" },
-        { "name": "GDG Toulouse",  "url": "https://www.gdgtoulouse.fr/", "logoUrl": "/images/partners/community/gdgtoulouse.jpeg" }
-      ]
-    }
-  ],
-  "schedule": {},
   "sessions": {
     "4125": {
       "title": "Let’s Sketchnote : prise de notes visuelle",
@@ -1448,6 +1369,217 @@
       "country": "Wroclaw, Poland"
     }
   },
+  "blog": {
+    "call-for-papers": {
+      "backgroundColor": "#ddd",
+      "brief": "Ouverture du Call for Papers",
+      "image": "images/backgrounds/cfp.jpg",
+      "published": "2018-04-03",
+      "source": "data/posts/2018-04-03-cfp.md",
+      "title": "Appel à orateurs"
+    },
+    "lancement-devfest-toulouse-2018": {
+      "backgroundColor": "#ddd",
+      "brief": "Lancement du DevFest Toulouse 2018",
+      "image": "images/backgrounds/launch2018.jpg",
+      "published": "2018-03-27",
+      "source": "data/posts/2018-03-27-lancement-devfest-toulouse-2018.md",
+      "title": "Lancement du DevFest Toulouse 2018"
+    }
+  },
+  "gallery": [],
+  "partners": [
+    {
+      "title": "Platinium",
+      "style": "partner-pt",
+      "logos": [
+        {
+          "name": "Delair",
+          "url": "https://delair.aero/",
+          "logoUrl": "/images/partners/Delair.png"
+        },
+        {
+          "name": "Continental",
+          "url": "https://www.continental-corporation.com/fr-fr/",
+          "logoUrl": "/images/partners/logo-continental.png"
+        },
+        {
+          "name": "Airbus",
+          "url": "https://www.airbus.com/",
+          "logoUrl": "/images/partners/logo-airbus.png"
+        }
+      ]
+    },
+    {
+      "title": "Gold",
+      "style": "partner-au",
+      "logos": [
+        {
+          "name": "Stack Labs",
+          "url": "https://www.stack-labs.com/",
+          "logoUrl": "/images/partners/logo-stacklab.png"
+        },
+        {
+          "name": "Monkey Patch",
+          "url": "http://www.monkeypatch.io/",
+          "logoUrl": "/images/partners/Logo_MonkeyPatch_Bleu.png"
+        },
+        {
+          "name": "CS Systèmes d'information",
+          "url": "https://www.c-s.fr/",
+          "logoUrl": "/images/partners/logo-cs.png"
+        },
+        {
+          "name": "Informatique Banque Populaire",
+          "url": "https://informatique.banquepopulaire.fr/",
+          "logoUrl": "/images/partners/logo_i-BP2.png"
+        },
+        {
+          "name": "Sigfox",
+          "url": "https://www.sigfox.com/en",
+          "logoUrl": "/images/partners/logo-sigfox.svg"
+        },
+        {
+          "name": "Cirruseo",
+          "url": "https://www.cirruseo.com/",
+          "logoUrl": "/images/partners/logo-cirruseo.png"
+        },
+        {
+          "name": "OnePoint",
+          "url": "https://www.groupeonepoint.com/",
+          "logoUrl": "/images/partners/logo-onepoint.png"
+        },
+        {
+          "name": "FullSave",
+          "url": "https://www.fullsave.com/",
+          "logoUrl": "/images/partners/logo-fullsave.png"
+        },
+        {
+          "name": "JFrog",
+          "url": "https://jfrog.com/",
+          "logoUrl": "/images/partners/logo-jfrog.svg"
+        },
+        {
+          "name": "Palo IT",
+          "url": "http://fr.palo-it.com/",
+          "logoUrl": "/images/partners/logo-paloit.png"
+        },
+        {
+          "name": "Lyra Network",
+          "url": "https://www.lyra-network.com/",
+          "logoUrl": "/images/partners/logo-lyra.png"
+        },
+        {
+          "name": "PROJIXI",
+          "url": "http://www.projixi-europe.com/",
+          "logoUrl": "/images/partners/logo-projixi.png"
+        },
+        {
+          "name": "FittingBox",
+          "url": "https://www.fittingbox.com/",
+          "logoUrl": "/images/partners/logo-fittingbox.png"
+        },
+        {
+          "name": "Ippon",
+          "url": "https://fr.ippon.tech/",
+          "logoUrl": "/images/partners/logo-ippon.svg"
+        },
+        {
+          "name": "Capgemini",
+          "url": "https://www.capgemini.com/fr-fr/",
+          "logoUrl": "/images/partners/logo-capgemini.svg"
+        }
+      ]
+    },
+    {
+      "title": "Soutien",
+      "style": "partner",
+      "logos": [
+        {
+          "name": "Commit42",
+          "url": "https://www.commit42.fr/",
+          "logoUrl": "/images/partners/commit42.png"
+        },
+        {
+          "name": "SQLI",
+          "url": "http://www.sqli.com/",
+          "logoUrl": "/images/partners/logo-sqli.png"
+        },
+        {
+          "name": "Gisaia",
+          "url": "http://gisaia.fr/",
+          "logoUrl": "/images/partners/logo-gisaia.png"
+        },
+        {
+          "name": "DocDoku",
+          "url": "https://www.docdoku.com/",
+          "logoUrl": "/images/partners/docdoku_inverse_web.png"
+        },
+        {
+          "name": "CNES",
+          "url": "https://cnes.fr/",
+          "logoUrl": "/images/partners/cnes_logo_carre.png"
+        },
+        {
+          "name": "VISEO",
+          "url": "http://www.viseo.com/fr",
+          "logoUrl": "/images/partners/logo-viseo.png"
+        },
+        {
+          "name": "Pierre Fabre",
+          "url": "https://www.pierre-fabre.com/fr",
+          "logoUrl": "/images/partners/logo-pierrefabre.png"
+        },
+        {
+          "name": "Étincelle Coworking",
+          "url": "http://www.coworking-toulouse.com/",
+          "logoUrl": "/images/partners/logo-etincelle.gif"
+        },
+        {
+          "name": "SII",
+          "url": "http://www.groupe-sii.com/fr",
+          "logoUrl": "/images/partners/logo-sii.png"
+        }
+      ]
+    },
+    {
+      "title": "Communautés",
+      "style": "partner",
+      "logos": [
+        {
+          "name": "Toulouse Data Science",
+          "url": "http://www.tlse-data-science.fr/",
+          "logoUrl": "/images/partners/community/tds.jpg"
+        },
+        {
+          "name": "Toulouse JUG",
+          "url": "https://www.toulousejug.org/",
+          "logoUrl": "/images/partners/community/toulouse_jug.png"
+        },
+        {
+          "name": "Duchess FR",
+          "url": "https://www.duchess-france.org/",
+          "logoUrl": "/images/partners/community/duchess_fr.svg"
+        },
+        {
+          "name": "ToulouseJS",
+          "url": "https://twitter.com/ToulouseJS",
+          "logoUrl": "/images/partners/community/toulousejs.png"
+        },
+        {
+          "name": "Toulouse Devops",
+          "url": "http://toulousedevops.org/",
+          "logoUrl": "/images/partners/community/toulousedevops.jpg"
+        },
+        {
+          "name": "GDG Toulouse",
+          "url": "https://www.gdgtoulouse.fr/",
+          "logoUrl": "/images/partners/community/gdgtoulouse.jpeg"
+        }
+      ]
+    }
+  ],
+  "schedule": {},
   "team": [
     {
       "members": [
@@ -1693,55 +1825,59 @@
       "title": "Core Team"
     }
   ],
-  "tickets": [{
-    "currency" : "€",
-    "starts" : "04 Avril",
-    "ends" : "08 Novembre",
-    "info" : "50 premières places",
-    "name" : "BlindBirds",
-    "price" : 40,
-    "available" : true,
-    "inDemand" : false,
-    "regular" : true,
-    "soldOut" : true,
-    "url" : "https://www.billetweb.fr/devfest-toulouse-2018"
-  }, {
-    "currency" : "€",
-    "starts" : "06 Juin",
-    "ends" : "08 Novembre",
-    "info" : "70 premières places",
-    "name" : "EarlyBirds",
-    "price" : 60,
-    "available" : true,
-    "inDemand" : false,
-    "regular" : true,
-    "soldOut" : true,
-    "url" : "https://www.billetweb.fr/devfest-toulouse-2018"
-  }, {
-    "currency" : "€",
-    "starts" : "01 Août",
-    "startsTimestamp": 1533110400000,
-    "ends" : "08 Novembre",
-    "info" : "250 premières places",
-    "name" : "Normal",
-    "price" : 80,
-    "available" : false,
-    "inDemand" : true,
-    "regular" : true,
-    "soldOut" : false,
-    "url" : "https://www.billetweb.fr/devfest-toulouse-2018",
-    "primary" : true
-  }],
-  "videos": [],
-  "notifications" : {
-    "config" : {
-      "icon" : "",
-      "timezone" : "+02:00"
+  "tickets": [
+    {
+      "currency": "€",
+      "starts": "04 Avril",
+      "ends": "08 Novembre",
+      "info": "50 premières places",
+      "name": "BlindBirds",
+      "price": 40,
+      "available": true,
+      "inDemand": false,
+      "regular": true,
+      "soldOut": true,
+      "url": "https://www.billetweb.fr/devfest-toulouse-2018"
     },
-    "messages" : { },
-    "subscribers" : { },
-    "test" : { },
-    "users" : { }
+    {
+      "currency": "€",
+      "starts": "06 Juin",
+      "ends": "08 Novembre",
+      "info": "70 premières places",
+      "name": "EarlyBirds",
+      "price": 60,
+      "available": true,
+      "inDemand": false,
+      "regular": true,
+      "soldOut": true,
+      "url": "https://www.billetweb.fr/devfest-toulouse-2018"
+    },
+    {
+      "currency": "€",
+      "starts": "01 Août",
+      "startsTimestamp": 1533110400000,
+      "ends": "08 Novembre",
+      "info": "250 premières places",
+      "name": "Normal",
+      "price": 80,
+      "available": false,
+      "inDemand": true,
+      "regular": true,
+      "soldOut": false,
+      "url": "https://www.billetweb.fr/devfest-toulouse-2018",
+      "primary": true
+    }
+  ],
+  "videos": [],
+  "notifications": {
+    "config": {
+      "icon": "",
+      "timezone": "+02:00"
+    },
+    "messages": {},
+    "subscribers": {},
+    "test": {},
+    "users": {}
   },
   "previousSpeakers": {}
 }
