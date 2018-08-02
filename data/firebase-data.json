@@ -153,6 +153,19 @@
         "david_gageot"
       ]
     },
+    "4306": {
+      "title": "S'aider du Data-Oriented Design pour écrire des applications performantes",
+      "language": "Français",
+      "complexity": "Confirmé",
+      "description": "La performance est redevenue un sujet critique aujourd’hui avec le Cloud et les traitements de la données avec le Big data.\n\nAu delà des choix d'algorithmes et de structures de données, un moyen d'écrire du code performant, c'est de s'assurer que le processeur soit utilisé le plus efficacement possible et d'éviter qu’il perde du temps à charger/déplacer des données en mémoire.\n\nLe Data Oriented Design se place justement dans cette optique et fournit des méthodes pour écrire du code performant en prenant en compte les limitations du hardware.\n\nContenu de la présentation:\n\n * Explication du concept du Dod.\n\n * Comment fonctionnent les processeurs et montrer les grosses différences d’ordres de grandeurs des accès à la mémoire.\n\n* Comment le DoD permet de régler ces problèmes, avec des exemples de structures de données adaptées.\n\n* Comment le Dod a été mis en place sur le reverse proxy http de Clever Cloud: Sozu.\n\n* Comment mettre en place une approche DoD sur un cas concret par la création d’un entity manager qu'on trouve dans un moteur de jeu.\n\n* Réduire le temps d'exécution d'un programme JavaScript par 6 en s'aidant du Data-Oriented Design.",
+      "tags": [
+        "Method & Tools"
+      ],
+      "id": 4306,
+      "speakers": [
+        "alessio_coltellacci"
+      ]
+    },
     "4307": {
       "title": "#RetourAuxSources : 🍪 Les cookies HTTP",
       "tags": [
@@ -1427,6 +1440,31 @@
       "companyLogo": "",
       "companyLogoUrl": "",
       "country": "Wroclaw, Poland"
+    },
+    "alessio_coltellacci": {
+      "id": "alessio_coltellacci",
+      "name": "Alessio Coltellacci",
+      "bio": "Développeur système chez Clever Cloud, je développe des applications low level en Rust, C, C++. Le reste du temps je m'amuse avec les features low level du kernel: ebpf, XDP socket, Intel SGX ... et Infographiste 3d sur mon free time depuis +7ans.",
+      "company": "Clever Cloud",
+      "featured": false,
+      "photo": "/images/speakers/alessio_coltellacci.jpg",
+      "photoUrl": "/images/speakers/alessio_coltellacci.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/lightplay8",
+          "name": "@lightplay8"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/NotBad4U",
+          "name": "NotBad4U"
+        }
+      ],
+      "shortBio": "Someone who thinks that #rust will rule the world. System developer at @clever_cloud 🔥🎉",
+      "companyLogo": "/images/speakers/company/clever_cloud.jpg",
+      "companyLogoUrl": "/images/speakers/company/clever_cloud.jpg",
+      "country": "Toulouse, France"
     }
   },
   "blog": {
