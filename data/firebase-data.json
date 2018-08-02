@@ -10,8 +10,7 @@
       ],
       "id": 4125,
       "speakers": [
-        "ane_diaz_de_tuesta",
-        "amelie_benoit"
+        "ane_diaz_de_tuesta"
       ]
     },
     "4128": {
@@ -51,18 +50,6 @@
       "id": 4142,
       "speakers": [
         "celine_louvet"
-      ]
-    },
-    "4185": {
-      "title": "Dis tonton, pourquoi tu tousses ?",
-      "tags": [
-        "Method & Tools"
-      ],
-      "language": "Français",
-      "complexity": "Débutant",
-      "description": "Le \"Continuous Delivery\" c'est vraiment trop facile : \"make deploy\" dans mon Jenkins et hop, ça part en production. Ou pas. Nous allons construire pas à pas une chaine de Continuous Delivery et explorant pas à pas les éléments clés et les bonnes pratiques, en enfonçant certes quelques portes ouvertes, mais aussi en démystifiant quelques légendes urbaines et en vous donnant les astuces ultimes.",
-      "speakers": [
-        "philippe_charriere"
       ]
     },
     "4195": {
@@ -152,19 +139,6 @@
       "id": 4282,
       "speakers": [
         "robert_firek"
-      ]
-    },
-    "4297": {
-      "title": "De la domotique faite-maison avec Android Things et le Google Assistant",
-      "language": "Français",
-      "complexity": "Confirmé",
-      "description": "La domotique, c'est aussi cool que c'est reuch. Mais l'avantage à être pauvre, c'est qu'on peut apprendre plein de choses en les faisant nous même.\n\nComme si on allait dépenser plus de 100€ pour des ampoules compatibles Google Home alors que pour 10 fois moins cher on peut tout faire nous-même en achetant des objets sur des sites chinois pour les retro-engineerer et écrire du code Android Things et Actions on Google afin de pouvoir les contrôler à la voix.\n\nTiens ben d'ailleurs c'est ce qu'on va faire, ça va nous permettre de découvrir Android Things, le Google Assistant, voir comment on peut hacker des objets made-in-china, et surtout, ça nous permettra d'économiser des billets violets.",
-      "tags": [
-        "IOT"
-      ],
-      "id": 4297,
-      "speakers": [
-        "gautier_mechling"
       ]
     },
     "4305": {
@@ -730,27 +704,6 @@
       "companyLogoUrl": "/images/speakers/company/lectra.jpg",
       "country": "Bordeaux, France"
     },
-    "amelie_benoit": {
-      "id": "amelie_benoit",
-      "name": "Amélie Benoit",
-      "bio": "#Agile #WebDeveloper loving #Sketchnotes, #Javascript and also #Unicorns",
-      "company": "Lectra",
-      "featured": false,
-      "photo": "/images/speakers/amelie_benoit.jpg",
-      "photoUrl": "/images/speakers/amelie_benoit.jpg",
-      "socials": [
-        {
-          "icon": "twitter",
-          "link": "https://twitter.com/@AmelieBenoit33",
-          "name": "@AmelieBenoit33"
-        }
-      ],
-      "shortBio": "#Agile #WebDeveloper loving #Sketchnotes, #Javascript and also #Unicorns",
-      "companyLogo": "/images/speakers/company/lectra.jpg",
-      "companyLogoUrl": "/images/speakers/company/lectra.jpg",
-      "country": "Bordeaux, France",
-      "title": ""
-    },
     "comet_nicolas": {
       "id": "comet_nicolas",
       "name": "Nicolas Comet",
@@ -961,31 +914,6 @@
       "companyLogo": "/images/speakers/company/codurance.jpg",
       "companyLogoUrl": "/images/speakers/company/codurance.jpg",
       "country": "London, Royaume-Uni"
-    },
-    "gautier_mechling": {
-      "id": "gautier_mechling",
-      "name": "Gautier Mechling",
-      "bio": "Gautier est développeur Android et Google Developer Expert #IoT",
-      "company": "Innovorder",
-      "featured": false,
-      "photo": "/images/speakers/gautier_mechling.jpg",
-      "photoUrl": "/images/speakers/gautier_mechling.jpg",
-      "socials": [
-        {
-          "icon": "twitter",
-          "link": "https://twitter.com/Nilhcem",
-          "name": "@Nilhcem"
-        },
-        {
-          "icon": "github",
-          "link": "https://github.com/Nilhcem",
-          "name": "Nilhcem"
-        }
-      ],
-      "shortBio": "Android Craftsman - Google Developer Expert for IoT.",
-      "companyLogo": "/images/speakers/company/innovorder.jpg",
-      "companyLogoUrl": "/images/speakers/company/innovorder.jpg",
-      "country": "Paris, France"
     },
     "guillaume_laforge": {
       "id": "guillaume_laforge",
