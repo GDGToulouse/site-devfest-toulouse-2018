@@ -90,18 +90,6 @@
         "arnaud_bos"
       ]
     },
-    "4216": {
-      "title": "Machine Learning in the browser",
-      "tags": [
-        "Big Data / ML / AI"
-      ],
-      "language": "English",
-      "complexity": "Débutant",
-      "description": "Even if you've never done anything with machine learning, you have probably already heard that it's very powerful, adaptive and will change our way of thinking about computing forever. But how can you, a web developer, who's never been interested much in statistics benefit from the ML hype? In this talk I want to give you the tools to build a small self-learning application that runs completely in the browser.",
-      "speakers": [
-        "lian_li"
-      ]
-    },
     "4225": {
       "title": "Détectez et trackez les Zergs qui se cachent dans vos dépendances !",
       "language": "Français",
@@ -585,31 +573,6 @@
         }
       ],
       "title": "Developer Advocate @ Google"
-    },
-    "lian_li": {
-      "name": "Lian Li",
-      "bio": "Lian always wanted to save the world. After a failed attempt at becoming a lawyer, she decided to do something with computers instead. Currently, Lian works as Software Engineer at Container Solutions, a consultancy focused on cloud-native infrastructure based in Amsterdam. In her free time, she enjoys working on dev related projects from machine learning to hardware hacking.",
-      "shortBio": "Engineer of software, speaker of conferences, advocate for ethical AI, tired of late stage capitalism & tech bro culture, she/her",
-      "company": "Container Solutions",
-      "companyLogo": "/images/speakers/company/container_solution.jpg",
-      "companyLogoUrl": "/images/speakers/company/container_solution.jpg",
-      "country": "Amsterdam, Netherlands",
-      "featured": true,
-      "photo": "/images/speakers/lian_li.jpg",
-      "photoUrl": "/images/speakers/lian_li.jpg",
-      "socials": [
-        {
-          "icon": "twitter",
-          "link": "https://twitter.com/Chimney42",
-          "name": "@Chimney42"
-        },
-        {
-          "icon": "github",
-          "link": "https://github.com/dgageot",
-          "name": "dgageot"
-        }
-      ],
-      "title": "Software Engineer"
     },
     "sylvain_wallez": {
       "name": "Sylvain Wallez",
