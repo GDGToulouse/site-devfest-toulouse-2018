@@ -191,6 +191,19 @@
         "laurent_wroblewski"
       ]
     },
+    "4322": {
+      "title": "Lighthouse: mesurer et améliorer votre performance web",
+      "language": "Français",
+      "complexity": "Intermédiaire",
+      "description": "L'idée de ce talk en duo est de présenter une série de bonnes pratiques / tips and tricks pour améliorer la performance d'un site web grâce à l'outil open source lighthouse:\n- performance\n- progressive web app\n- accessibilité\n- autres bonnes pratiques.\nLa présentation démarre par la génération d'un blog statique , le lancement d'un audit et un score de performance médiocre. Puis une série d'améliorations en mode \"ping pong\"/\"pair programming\" entre Sara et Philippe. Le talk se termine par un résumé des techniques utilisées et bien sûr un excellent score dans lighthouse.",
+      "tags": [
+        "Web"
+      ],
+      "id": 4322,
+      "speakers": [
+        "sara_harkousse"
+      ]
+    },
     "4331": {
       "title": "Et si on parlait accessibilité du web ?",
       "language": "Français",
@@ -1428,6 +1441,36 @@
       "companyLogo": "/images/speakers/company/clever_cloud.jpg",
       "companyLogoUrl": "/images/speakers/company/clever_cloud.jpg",
       "country": "Toulouse, France"
+    },
+    "sara_harkousse": {
+      "id": "sara_harkousse",
+      "name": "Sara HARKOUSSE",
+      "bio": "Sara Harkousse is a Technical Lead, Front-End Web Developer at Dassault Systèmes for the ENOVIA brand , Speaker at Tech Conferences like Devoxx, DevFest, BlendWebMix, Js Kongress , United Dev Conf,…, 3DS Advocate at “Elles Bougent” and  one of “Duchess France” leaders. She received an engineering degree in electronics and computer science from INSA Rennes in France. \nDiversity in tech fields is one of her battles, hence she do not hesitate to organize meetups in order to spread the word about the newest technologies or simply share her experience as a developer.",
+      "company": "Dassalt Systèmes",
+      "featured": false,
+      "photo": "/images/speakers/sara_harkousse.jpg",
+      "photoUrl": "/images/speakers/sara_harkousse.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/Sara_harkousse",
+          "name": "@Sara_harkousse"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/SaraHarkousse",
+          "name": "SaraHarkousse"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/sara-harkousse-90720aa9/?ppe=1, https://www.facebook.com/profile.php?id=100015174044278, http://www.saraharkousse.com/",
+          "name": "LinkedIn"
+        }
+      ],
+      "shortBio": "R&D Engineer @Dassault3DS @3DSCATIA, Front-End Web developer, Speaker, 3DS advocate @Ellesbougent, One of @duchessfr Leaders, @Maydeeapp Cofounder, Proud 🇲🇦",
+      "companyLogo": "/images/speakers/company/dassalt_systemes.jpg",
+      "companyLogoUrl": "/images/speakers/company/dassalt_systemes.jpg",
+      "country": "Munich, Bavaria"
     }
   },
   "blog": {
