@@ -832,8 +832,8 @@
     "julien_topcu": {
       "id": "julien_topcu",
       "name": "Julien Topçu",
-      "bio": "Senior Lead Developer chez Egencia, je suis un fervent défenseur du Software Craftsmanship. \n\nJ'évangélise activement autour de DDD/Hexagonal Architecture, l'XP et le Kanban #NoEstimates au sein de cours et de [meetups](https://www.meetup.com/fr-FR/Expedia-Inc-Paris/) que que je fais pour le compte d'Expedia, ainsi qu'à travers d'articles de [blog](https://beyondxscratch.wordpress.com/).\n\nMembre de la fondation OWASP, je m'efforce de transmettre à la communauté une philosophie DevSecOps que je pense être l'avenir du métier de développeur. J'ai participé à la mise en place de pipeline de Continuous Security à l'échelles d'entreprises.",
-      "company": "Egencia & OWASP fundation",
+      "bio": "Senior Lead Developer à la Société Générale, je suis un fervent défenseur du Software Craftsmanship.\n\nJ'évangélise activement autour de DDD/Hexagonal Architecture, l'XP et le Kanban #NoEstimates au sein de cours et de [meetups](https://www.youtube.com/watch?v=P0_M00X4Xlw/)  ainsi qu'à travers d'articles de [blog](https://beyondxscratch.wordpress.com/).\n\nMembre de la fondation OWASP, je m'efforce de transmettre à la communauté une philosophie DevSecOps que je pense être l'avenir du métier de développeur. J'ai participé à la mise en place de pipeline de Continuous Security à l'échelles d'entreprises.",
+      "company": "Société Générale & OWASP fundation",
       "featured": false,
       "photo": "/images/speakers/julien_topcu.jpeg",
       "photoUrl": "/images/speakers/julien_topcu.jpeg",
@@ -850,8 +850,8 @@
         }
       ],
       "shortBio": "Catalyst @Egencia Tech OWASP Fundation member",
-      "companyLogo": "/images/speakers/company/egencia_&_owasp_fundation.jpg",
-      "companyLogoUrl": "/images/speakers/company/egencia_&_owasp_fundation.jpg",
+      "companyLogo": "/images/speakers/company/societe_generale.png",
+      "companyLogoUrl": "/images/speakers/company/societe_generale.png",
       "country": "Île-de-France, France"
     },
     "guillaume_membre": {
