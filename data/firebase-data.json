@@ -192,10 +192,10 @@
       ]
     },
     "4322": {
-      "title": "Lighthouse: mesurer et améliorer votre performance web",
+      "title": "Lighthouse : mesurer et améliorer votre performance web",
       "language": "Français",
       "complexity": "Intermédiaire",
-      "description": "L'idée de ce talk en duo est de présenter une série de bonnes pratiques / tips and tricks pour améliorer la performance d'un site web grâce à l'outil open source lighthouse:\n- performance\n- progressive web app\n- accessibilité\n- autres bonnes pratiques.\nLa présentation démarre par la génération d'un blog statique , le lancement d'un audit et un score de performance médiocre. Puis une série d'améliorations en mode \"ping pong\"/\"pair programming\" entre Sara et Philippe. Le talk se termine par un résumé des techniques utilisées et bien sûr un excellent score dans lighthouse.",
+      "description": "L'idée de ce talk est de présenter une série de bonnes pratiques / tips and tricks pour améliorer la performance d'un site web grâce à l'outil open source lighthouse sur plusieurs niveaux:\n- performance\n- progressive web app\n - accessibilité\n- autres bonnes pratiques.\n\nLa présentation démarre par la génération d'un blog statique , le lancement d'un audit et un score de performance médiocre. Puis une série d'améliorations en live coding. Le talk se termine par un résumé des techniques utilisées et bien sûr un excellent score dans lighthouse.",
       "tags": [
         "Web"
       ],
@@ -1445,8 +1445,8 @@
     "sara_harkousse": {
       "id": "sara_harkousse",
       "name": "Sara HARKOUSSE",
-      "bio": "Sara Harkousse is a Technical Lead, Front-End Web Developer at Dassault Systèmes for the ENOVIA brand , Speaker at Tech Conferences like Devoxx, DevFest, BlendWebMix, Js Kongress , United Dev Conf,…, 3DS Advocate at “Elles Bougent” and  one of “Duchess France” leaders. She received an engineering degree in electronics and computer science from INSA Rennes in France. \nDiversity in tech fields is one of her battles, hence she do not hesitate to organize meetups in order to spread the word about the newest technologies or simply share her experience as a developer.",
-      "company": "Dassalt Systèmes",
+      "bio": "Sara Harkousse est Développeuse web front-end et client riche chez Dassault Systèmes (CATIA), CTO de Maydée, Oratrice dans des Conférences Tech comme Devoxx France, DevFest, BlendWebMix, Js Kongress, United Dev Conf, jFokus ..., et une des leaders de \"Duchesse France\". La diversité du genre dans le paysage technologique est l'une de ses batailles, c'est pourquoi elle n'hésite pas à organiser des meetups pour faire connaître les dernières technologies ou simplement partager son expérience de développeuse.",
+      "company": "Dassault Systèmes",
       "featured": false,
       "photo": "/images/speakers/sara_harkousse.jpg",
       "photoUrl": "/images/speakers/sara_harkousse.jpg",
@@ -1468,8 +1468,8 @@
         }
       ],
       "shortBio": "R&D Engineer @Dassault3DS @3DSCATIA, Front-End Web developer, Speaker, 3DS advocate @Ellesbougent, One of @duchessfr Leaders, @Maydeeapp Cofounder, Proud 🇲🇦",
-      "companyLogo": "/images/speakers/company/dassalt_systemes.jpg",
-      "companyLogoUrl": "/images/speakers/company/dassalt_systemes.jpg",
+      "companyLogo": "/images/speakers/company/dassault_systemes.jpg",
+      "companyLogoUrl": "/images/speakers/company/dassault_systemes.jpg",
       "country": "Munich, Bavaria"
     }
   },
