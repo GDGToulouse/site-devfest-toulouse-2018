@@ -202,6 +202,7 @@
   },
   "sessionDetails": {
     "contentLevel": "Niveau",
+    "type": "Type",
     "viewPresentation": "View presentation",
     "viewVideo": "View video",
     "speakers": "Speakers"

@@ -5,6 +5,7 @@
       "language": "Français",
       "complexity": "Débutant",
       "description": "La communication fait aujourd’hui partie intégrante de notre travail; il nous arrive régulièrement de vouloir diffuser une information importante, réaliser une présentation, un compte rendu de réunion… Mais comment être sûrs que le message que l’on souhaite faire passer a bien été compris et retenu par les interlocuteurs ? Le sketchnoting apporte une solution ludique, créative et agréable autant à créer qu’à lire. Venez découvrir comment mettre en valeur votre communication à l’aide de procédés très visuels, simples et accessibles à tous.",
+      "type": "Quickie",
       "tags": [
         "Method & Tools"
       ],
@@ -18,6 +19,7 @@
       "language": "Français",
       "complexity": "Débutant",
       "description": "Vous aviez toujours rêvé d'une syntaxe facile pour tester vos APIs REST ? \n\n`Karate` est fait pour vous ! \nSon format DSL plain text inspiré de la syntaxe Cucumber (ie. Gherkin) permet même aux personnes aux notions basiques en développement de venir couvrir vos APIs ou Web services (micros, nanos ou pas!)\n\nIl n'y a plus ~~Karate~~ qu'à réussir ses tests d'intégration ! \n\nVenez apprendre comment avec `Java` et `maven` comme simples prérequis d'infrastructure, vous pouvez mettre en place et industrialiser ces tests. On l'utilise chez nous, et on ne s'en passe plus.",
+      "type": "Conférence",
       "tags": [
         "Method & Tools"
       ],
@@ -29,6 +31,7 @@
     },
     "4132": {
       "title": "Premiers pas avec Capacitor... dans le monde réel",
+      "type": "Conférence",
       "tags": [
         "Native mobile apps"
       ],
@@ -44,6 +47,7 @@
       "language": "Français",
       "complexity": "Débutant",
       "description": "On entend parler de Haskell de plus en plus, mais il parait souvent bien compliqué de se lancer. Haskell fait peur, avec ses Monades, Monoïdes et autres gros mots. \n\nOn verra ensemble que vous n'avez absolument pas besoin de savoir ce que ces termes signifient pour vous lancer. Je vous propose de regarder ce dont vous aurez besoin pour créer une petite API, avec de la sécurité et de la gestion de données, soit de quoi mettre une petite application en prod.",
+      "type": "Conférence",
       "tags": [
         "Languages"
       ],
@@ -54,6 +58,7 @@
     },
     "4195": {
       "title": "Développer une application web avec Rust",
+      "type": "Conférence",
       "tags": [
         "Languages"
       ],
@@ -69,6 +74,7 @@
       "language": "Français",
       "complexity": "Intermédiaire",
       "description": "Aujourd'hui, pour être à la mode, il faut parler de programmation fonctionnelle. Et de suite on convoque les mots en vogue: « *Immutabilité* », « *Monade* » ou « *Catamorphisme* ». Au mieux le message est brouillé, mal reçu. Au pire la salle se vide ! \n\nCe que je vous propose c'est de repartir des principes de base, avec des idées bien arrêtées et peut-être parfois provocatrices. Comprendre, comme le disait **John Hugues**, « *Why functionnal programming matters* ». Cerner les quelques idées directrices de la programmation fonctionnelle et ce qu'elles apportent concrètement au quotidien. Voir comment et pourquoi d'autres concepts en découlent nécessairement...\n\nIl sera peut-être finalement question de « *Théorie des catégories* » ! Mais il sera surtout question, en vrac, d'histoire et de mise en œuvre des langages, de typage, de performance, d'artisanat du logiciel, de « *Design patterns* », d'abstraction et, soyons fou, de *réification*. \n\nEn somme, je vais vous parler de programmation fonctionnelle en essayant de ne pas être à la mode !",
+      "type": "Conférence",
       "tags": [
         "Languages"
       ],
@@ -82,6 +88,7 @@
       "language": "Français",
       "complexity": "Débutant",
       "description": "Les développeurs aiment écrire de la documentation... ou pas !\nPourtant même les plus réfractaires doivent l'admettre, garder une trace des décisions techniques prises au cours d'un projet peut s'avérer indispensable pour la pérennité et maintenabilité de celui-ci.\n\nAlors comment éviter l'obsolescence programmée de la documentation, tout en réduisant la pénibilité de la rédaction ?\n\nDepuis près d'un an, dans \"mon\" équipe, nous utilisons un format simple, les Architecture Decision Records (ADRs), pour écrire des documents d'architecture sous la forme d'un journal immuable.\nCette technique simple gagne en popularité et a donné de bons résultats sur notre projet.\n\nDurant cette présentation vous construirez en direct un ADR.\nEn partant d'un problème constaté sur un projet, vous élaborerez une réponse technique qui servira de base à une implémentation ultérieure.\nVous décrirez les raisons qui vous poussent à faire des compromis, tout en capturant le contexte dans lequel cette décision a été prise pour référence future.\n\nRéconciliez vous avec votre documentation !",
+      "type": "Quickie",
       "tags": [
         "Method & Tools"
       ],
@@ -95,6 +102,7 @@
       "language": "Français",
       "complexity": "Débutant",
       "description": "[44% des applications contiennent des vulnérabilités critiques dans les librairies open-source qu'elles utilisent](https://www.veracode.com/products/software-composition-analysis) et cela bien que des bonnes pratiques comme OWASP Top 10 se soient généralisées. \n\nNe laissez plus ces aliens incuber bien au chaud dans le ventre de votre appli! \nGrâce à ce talk, vous apprendrez comment sont répertoriées ces vilaines bestioles (NVD, CVE) et comment est évaluée leur dangerosité (CVSS).\n\nPuis vous verrez comment créer votre première pipeline de Continuous Security dans Jenkins au moyen de [OWASP DependencyCheck](https://www.owasp.org/index.php/OWASP_Dependency_Check)  qui détecte les vulnérabilités et trackez les grâce à [OWASP DependencyTrack](https://www.owasp.org/index.php/OWASP_Dependency_Track_Project) (logiciels open-source) \n \nFaites le premier pas vers le DevSecOps !!!",
+      "type": "Quickie",
       "tags": [
         "Method & Tools"
       ],
@@ -108,6 +116,7 @@
       "language": "Français",
       "complexity": "Débutant",
       "description": "En hackant une clé USB de réception TNT, La Radio Logicielle (ou SDR) est à la portée de tous. Il est alors possible d'écouter les balises de positionnement des avions de lignes sur un rayon de plusieurs dizaines de km avec une simple antenne. Voulez vous connaitre le fonctionnement du projet comme [flightradar24](https://www.flightradar24.com) ? Nous verrons comment mettre en oeuvre un tel projet avec du matériel grand public et accessible comme un Raspberry Pi.",
+      "type": "Conférence",
       "tags": [
         "IOT"
       ],
@@ -121,6 +130,7 @@
       "language": "English",
       "complexity": "Débutant",
       "description": "Our industry has an amazing ability to build extremely good theoretical models, methodologies and approaches that actually drive us crazy. Theoretically, we can show how easy it is to introduce Waterfall, XP, Agile or DevOps (delete as appropriate) but the reality is more complicated. Sometimes, something does not work in our unique context and we end with so well known sentence \"It doesn't work for us\". \n\nMany hours of discussions with colleagues about the state of our industry indicate that we have to come up with something new and glowing. Something that allowed us to avoid the mistakes we made so far.\n\nIn this presentation, we will look at all errors we made in the past and we will take a closer look at elements which could have been done better and which ideas can change to better our industry. By retrospecting our achievements, we will try to define what awaits us and why this time we will succeed;)",
+      "type": "Conférence",
       "tags": [
         "Method & Tools"
       ],
@@ -131,6 +141,7 @@
     },
     "4305": {
       "title": "Google Container Tools : développer efficacement dans un monde de conteneurs",
+      "type": "Conférence",
       "tags": [
         "Cloud"
       ],
@@ -146,6 +157,7 @@
       "language": "Français",
       "complexity": "Débutant",
       "description": "La performance est redevenue un sujet critique aujourd’hui avec le Cloud et les traitements de la données avec le Big data.\n\nAu delà des choix d'algorithmes et de structures de données, un moyen d'écrire du code performant, c'est de s'assurer que le processeur soit utilisé le plus efficacement possible et d'éviter qu’il perde du temps à charger/déplacer des données en mémoire.\n\nLe Data Oriented Design se place justement dans cette optique et fournit des méthodes pour écrire du code performant en prenant en compte les limitations du hardware.\n\nContenu de la présentation:\n\n * Explication du concept du Dod.\n\n * Comment fonctionnent les processeurs et montrer les grosses différences d’ordres de grandeurs des accès à la mémoire.\n\n* Comment le DoD permet de régler ces problèmes, avec des exemples de structures de données adaptées.\n\n* Comment le Dod a été mis en place sur le reverse proxy http de Clever Cloud: Sozu.\n\n* Comment mettre en place une approche DoD sur un cas concret par la création d’un entity manager qu'on trouve dans un moteur de jeu.\n\n* Réduire le temps d'exécution d'un programme JavaScript par 6 en s'aidant du Data-Oriented Design.",
+      "type": "Conférence",
       "tags": [
         "Method & Tools"
       ],
@@ -156,6 +168,7 @@
     },
     "4307": {
       "title": "#RetourAuxSources : 🍪 Les cookies HTTP",
+      "type": "Conférence",
       "tags": [
         "Web"
       ],
@@ -171,6 +184,7 @@
       "language": "Français",
       "complexity": "Débutant",
       "description": "Vous pouvez booster vos applications grâce aux APIs de Machine Learning, afin d'analyser ce que contiennent les images uploadées par vos utilisateurs, de comprendre la structure du texte, ou de reconnaître la voix. Pour le développeur, un simple appel REST suffit, pour interroger les APIs Google Cloud Vision, Speech, Translate ou Natural Language.\n\nA l'opposé, le framework open source Tensorflow permets au data scientist de créer ses propres modèles de Machine Learning, de les entrainer localement ou dans le Cloud, et de lancer ses prédictions en ligne ou même embarquées dans des applis mobiles.\n\nEntre les deux, il est aussi possible de personnaliser les modèles sur étagère, pour reconnaître vos propres images, classifier vos textes, grâce à Google Cloud AutoML.",
+      "type": "Conférence",
       "tags": [
         "Big Data / ML / AI"
       ],
@@ -181,6 +195,7 @@
     },
     "4313": {
       "title": "Tests BDD: faites rédiger vos tests End-to-End par les fonctionnels",
+      "type": "Conférence",
       "tags": [
         "Web"
       ],
@@ -196,6 +211,7 @@
       "language": "Français",
       "complexity": "Intermédiaire",
       "description": "L'idée de ce talk est de présenter une série de bonnes pratiques / tips and tricks pour améliorer la performance d'un site web grâce à l'outil open source lighthouse sur plusieurs niveaux:\n- performance\n- progressive web app\n - accessibilité\n- autres bonnes pratiques.\n\nLa présentation démarre par la génération d'un blog statique , le lancement d'un audit et un score de performance médiocre. Puis une série d'améliorations en live coding. Le talk se termine par un résumé des techniques utilisées et bien sûr un excellent score dans lighthouse.",
+      "type": "Conférence",
       "tags": [
         "Web"
       ],
@@ -209,6 +225,7 @@
       "language": "Français",
       "complexity": "Débutant",
       "description": "**Aria**, **a11Y**, que veulent dire ces termes exotiques ? Nous verrons à travers des exemples les bonnes pratiques pour que votre site soit accessible. Puis, nous passerons en revue les sites internet des géants du web afin de voir si ce sont de bons élèves... ou pas.",
+      "type": "Conférence",
       "tags": [
         "Web"
       ],
@@ -222,6 +239,7 @@
       "language": "Français",
       "complexity": "Intermédiaire",
       "description": "Avec la démocratisation du deep learning, la reconnaissance d'images est partout. Mais attention, comme toutes technologies, cette dernière a ses failles. Il est en effet possible de tromper les modèles de classification pourtant utilisés dans des applications aussi critiques que les véhicules autonomes, les drones militaires, les caméras de surveillances... Ensemble, nous allons explorer les failles d'un réseau de neurone et générer des images antagonistes (adversarial images) afin de leurrer un modèle de reconnaissance d'image et lui faire voir ce que vous voulons.\n\nMais non Tensorflow, la cuillère n'existe pas !",
+      "type": "Conférence",
       "tags": [
         "Big Data / ML / AI"
       ],
@@ -232,6 +250,7 @@
     },
     "4338": {
       "title": "Comment perdre sa surchage featurale ?",
+      "type": "Conférence",
       "tags": [
         "Method & Tools"
       ],
@@ -244,6 +263,7 @@
     },
     "4340": {
       "title": "Angular Elements",
+      "type": "Conférence",
       "tags": [
         "Web"
       ],
@@ -259,6 +279,7 @@
       "language": "Français",
       "complexity": "Débutant",
       "description": "À (presque) 50 ans, je crois que j'y arrive enfin. ... à m'organiser.\nJ'ai fait pas mal de choses (le plus souvent en SSII ... *lire ESN*) et notamment chef de projet, directeur de projets, responsable de centre de services, ... Le tout accompagné:\n- d'oublis (oh p... 🙀 j'ai oublié de répondre au client, c'était urgent ... il y a une semaine), \n- d'angoisses (et crises d'angoisse) (rahhhh 😥 je vais jamais arriver à tout faire), \n- d'anéantissements (vous me faites tous ... J'arrête, bande de gros c...)\n- de (grands) moments de solitude (ah? On t'a pas dit, la réunion est en 🇬🇧, c'est toi qui mène ... 😡 euh, mais l'🇬🇧 je l'écris ... et encore ...)\n- etc ...\n\nAujourd'hui, j'ai 2 métiers (un commercial et un technique), dont un à 95% en 🇬🇧, et j'arrive à faire les 2 (et plutôt correctement il me semble), sans crise d'angoisse, en ayant encore du temps pour mes sides projects, dormir, m'occuper de ma famille (pas assez, mes geekeries peuvent prendre le dessus), aller à la pêche, regarder des séries, ...\n\nJ'ai donc tenté de me trouver des \"méthodes\" de travail à la fois pour mes tâches en solo mais aussi pour les moments où je travaille en équipe, pour cela j'ai utilisé les outils que j'avais sous la main (mais d'une certaine manière), dans mon cas: VSCode, DropBox, le markdown (asciidoc c'est bien aussi), Slack, GitLab (avec GitBucket, GitHub ou BitBucket ça fonctionne aussi), une façon limitée et particulière d'utiliser GMail, 1 écran externe, ...\nRien de magique, mais ça fonctionne pour moi",
+      "type": "Conférence",
       "tags": [
         "Method & Tools"
       ],
@@ -272,6 +293,7 @@
       "language": "Français",
       "complexity": "Débutant",
       "description": "Au pays des Gophers, les Goroutines gambadent librement, et s’échangent des bisous et des bonbons grâce aux channels.\n\nLes méchants Locks sont tous deads (ou presque), et le Scheduler règne sur ce monde paisible qui ne connaît pas le nom des Processeurs.\n\nLa concurrence en Go expliquée à ma fille de 3 ans !",
+      "type": "Quickie",
       "tags": [
         "Languages"
       ],
@@ -285,6 +307,7 @@
       "language": "Français",
       "complexity": "Débutant",
       "description": "Lorsque vous développez des applications vous avez besoin de vous adapter rapidements aux changements (métiers, comme technologiques). Pour cela les développeurs et les “ops” doivent travailler de concert, pour déployer toujours plus rapidement de nouveaux services tout en garantissant la haute disponibilité et la montée en charge des applications.\n\nLes microservices et l’event-sourcing offrent une grande flexibilité aux développeurs; et la containerization par la biais de Kubernetes permet de déployer ces services en toute tranquillité.\n\nCette présentation, en s’appuyant sur des cas d’usage et des démonstration, vous permettra de découvrir:\n\n* Les micro-services l'’event sourcing avec Apache Kafka\n* Les containers avec Docker\n* Le déploiement et management des services avec Kubernetes\n\nSi vous n’utilisez pas encore ces technologies, cette présentation vous donnera une bonne idées des avantages qu’elles apportent aux développeurs, administrateurs systèmes, et donc aux utilisateurs; et je suis certain que vous les adopterez rapidement pour vos prochains développements!",
+      "type": "Conférence",
       "tags": [
         "Big Data / ML / AI"
       ],
@@ -298,6 +321,7 @@
       "language": "Français",
       "complexity": "Intermédiaire",
       "description": "Les tests d'intégration peuvent devenir un cauchemar lorsqu'ils sont lancés depuis la même JVM que votre code:\n\n* Conflit de JARs (JAR Hell)\n* Security Manager\n* Effets de bord\n\nDe plus, tester avec un produit qui est lancé de façon différente de la façon dont il est lancé en production, ne garantira jamais que les tests d'intégration sont sincères.\n\nAussi, après avoir découvert le projet [TestContainers](https://www.testcontainers.org/) qui lance des conteneurs Docker depuis, j'ai décidé d'écrire une implémentation pour Elasticsearch: [testcontainers-java-module-elasticsearch](https://github.com/dadoonet/testcontainers-java-module-elasticsearch).\nJe vous propose de découvrir tout cela pendant ce quickie.",
+      "type": "Quickie",
       "tags": [
         "Method & Tools"
       ],
@@ -311,6 +335,7 @@
       "language": "Français",
       "complexity": "Débutant",
       "description": "La démocratisation de la culture Devops et du cloud public amènent de plus en plus les dévelopeurs à travailler sur la mise en production de leurs applications.    \nSi vous n'êtes pas équipé d'un orchestrateur de conteneurs, il y a fort à parier que vous soyez amené à intéragir avec systemd voir d'écrire des services pour vos applications. N'ayez pas peur ! non seulement c'est accessible mais cela vous offre de nombreuses possibilités .  \n\nDécouvrons ensemble systemd et sa galaxie, ce qu'il peut vous apporter pour l'installation et le run de vos application mais également comment il peut vous aider tout les jours dans votre vie de développeur.",
+      "type": "Conférence",
       "tags": [
         "Cloud"
       ],
@@ -324,6 +349,7 @@
       "language": "Français",
       "complexity": "Débutant",
       "description": "Etes-vous incollable plutôt sur le \"Code\" (Software Engineer) ou sur la \"Data\" (Data Engineer, Data Scientist) ? \n\nRetrouvons-nous pour un moment fun autour de questions et situations de notre quotidien pour lesquelles il faudra choisir \"Code, Data ou les deux\". Avec des images, du rythme,  un soupçon d'injustice, des surprises et une Jeep Renegade à la fin. \n\nLa salle est également ouverte aux personnes sérieuses qui y trouveront j'espère une stimulation pour réfléchir sur le sujet de fond d'évolution du métier de développeur avec la montée des approches centrées sur les données.",
+      "type": "Quickie",
       "tags": [
         "WTF"
       ],
@@ -337,6 +363,7 @@
       "language": "Français",
       "complexity": "Intermédiaire",
       "description": "Introduction à Arrow - `Typeclass` is the new `interface`\n===\n\nLa programmation fonctionnelle, c'est à la mode ! Et pour de bonnes raisons: l'industrie impose des architectures de plus en plus distribuées. Code facilement composable, immutabilité, contrôle des effets de bord: l'application de ces concepts rend le code plus sûr et efficace.\n\n*\"Mais qu'est-ce que ça m'apporte vraiment ?\"*, demande le programmeur pragmatique. En plus d'offrir des structures de données et opérateurs vraiment utiles, la notion de `typeclass` nous permet de rajouter des comportements/interfaces sur n'importe quel type de données.\n\nPour illustrer cette notion, nous nous appuierons sur la librairie `Arrow` en `Kotlin`. `Kotlin` est un langage de plus en plus populaire qui mixe plusieurs paradigmes. À défaut d'être un langage fonctionnel \"pur\", il dispose de nombreuses caractéristiques \"fonctionnelles\", et permet d'émuler des `typeclasses`.\n\nCette présentation, accessible sans connaissance de programmation fonctionnelle, permettra de se familiariser avec `Arrow` et les `typeclasses`.\n\n*(😸 Aucune monade ne sera maltraitée durant ce talk. 😸)*\n\n\nPlan de la présentation (provisoire)\n---\n\n### i. Historique / philosophie (~5min)\n\nNous commencerons par présenter la librairie Arrow et son historique, sa philosophie et ses limites dans le contexte actuel.\n\n### ii. Boîte à outils (~5min)\n\nDans un second temps, nous présenterons succinctement des types de données de bases de l'API Arrow, tels que `Option`, `Either`, `Try`... avec quelques exemples concrets de leur utilisation.\n\nNous pourrons ainsi remarquer que ces types disparates peuvent avoir en réalité un comportement commun, en l'occurence sur la gestion d'erreurs.\n\n### iii. Qu'est-ce qu'un `typeclass` ? (~10min)\n\nNous introduirons, par ce biais, la notion de `typeclasses` qui permet d'écrire des fonctions ou algorithmes, sur des structures de données qui répondent à une certaine interface et de pouvoir définir une implémentation de cette interface pour n'importe quel type, __même ceux dont on ne maîtrise pas la définition__ (tels que les classes de la librairie standard).\n\n### iv. Illustration avec la typeclass `Monoid` (~15min)\n\nNous illustrerons cela par le typeclass `Monoid` qui va nous permettre de définir la notion de multiplication naturelle pour les entiers, flottants, String. Pour cela, nous écrirons une fonction générique prenant en donnée d'entrée des `Monoid`.\n\nNous démontrerons ensuite comment étendre dynamiquement n'importe quel type avec le typeclass `Monoid`, et ainsi factoriser du code.\n\n### v. Conclusion (~5min)\n\nEn conclusion, nous mentionnerons d'autres typeclasses, permettant de gérer par exemple l'asynchronicité. Cela permettra de voir qu'une base de code peut être écrite de manière générique et choisir à posteriori l'implémentation du moteur d'asynchronicité tel que RxJava ou les coroutines.",
+      "type": "Conférence",
       "tags": [
         "Languages"
       ],
@@ -351,6 +378,7 @@
       "language": "Français",
       "complexity": "Intermédiaire",
       "description": "Durant cette présentation, nous nous pencherons sur le théorème de CAP (choix entre consistence, disponibilité et partition pour tout système distribué). Quand s'applique-t'il? Quels sont les choix qu'il propose?\n\nNous prendrons pour exemple Apache Kafka, afin de comprendre comment ce théorème s'applique en pratique. Nous étudierons les scénarios catastrophe potentiels en cas de crash d'un ou plusieurs noeuds. Quel est le niveau de garantie de délivrance d'un message? Que se passe-t'il quand le leader du cluster tombe? Comment est assurée la réplication des données? Quand et comment est-il possible d'ajuster le curseur entre consistence et disponibilité?\n\nIl n'est pas nécessaire de connaitre Kafka pour pouvoir suivre cette présentation.",
+      "type": "Conférence",
       "tags": [
         "Cloud"
       ],
@@ -364,6 +392,7 @@
       "language": "Français",
       "complexity": "Débutant",
       "description": "Quoi de mieux que de recoder son jeu préféré pour apprendre une nouvelle techno ? Nous allons nous replonger dans notre enfance pour découvrir les concepts de Vue.js appliqués à Pong, Pac-Man, Tetris ou autre Pokemon.\n\nUn jeu n’est rien d’autre qu’un joueur interagissant avec un univers représenté à l’écran. Et Vue est un framework pensé pour isoler interactions, informations (qui décrivent l’univers du jeu) et la représentation visuelle basée sur ces informations.\n\nNous verrons ensemble pourquoi Vue est un outil adapté au développement de jeu et qu’inversement, le développement d’un jeu offre un bon angle pour découvrir les concepts clés de Vue.",
+      "type": "Conférence",
       "tags": [
         "Web"
       ],
@@ -378,6 +407,7 @@
       "language": "English",
       "complexity": "Confirmé",
       "description": "When Java 8 was first introduced, it revolutionized the way Java applications were written by providing the core constructs for asynchronous programming and handling data streams. With Java 9, 10, and 11, these capabilities were extended to the level that allows us to write truly modern, reactive applications with the JDK.\n\nIn this live-coding session, we explore JDK 9-11 features enabling all the aspects of reactive programming - updates to the Stream and CompletableFuture APIs, Reactive Streams publish-subscribe framework, HTTP/2 client, and more.",
+      "type": "Conférence",
       "tags": [
         "Languages"
       ],
@@ -391,6 +421,7 @@
       "language": "Français",
       "complexity": "Débutant",
       "description": "Nous aimons tous le web. Nous avons tous notre framework de prédilection avec lequel nous concevons des applications qui vont révolutionner le monde. Mais connaissons nous les bases du Web ? Connaissons nous toutes les subtilités de la specification des modules ? Maitrisons nous à la perfection les différents mécanismes de cache de vos navigateurs ?\n\nNous n'en sommes pas sûrs. C’est pour cela qu’aujourd’hui nous vous proposons de participer au plus grand quizz du monde. Présenté par nos experts Jean-François et Emmanuel, venez tous tester vos compétences de la plateforme Web.\n\nLes questions ne seront pas si simples, vous allez apprendre énormément de choses… et en plus ce sera drôle.",
+      "type": "Conférence",
       "tags": [
         "Web"
       ],
@@ -405,6 +436,7 @@
       "language": "English",
       "complexity": "Débutant",
       "description": "Dialogflow is the most popular tool used to build Actions for the Google Assistant. Nonetheless, it's not the only solution. Maybe you want to host your own NLU (Natural Language Understading) tool, maybe your Action is a simple trivia game or maybe you just want to start out by automating some personal tasks. In this talk, I'll show you what tools you can use based on your needs and I'll give an overview of the Google Assistant platform.",
+      "type": "Quickie",
       "tags": [
         "Big Data / ML / AI"
       ],
@@ -418,6 +450,7 @@
       "language": "Français",
       "complexity": "Débutant",
       "description": "Il n'est pas évident d'intégrer de la Data Science dans les sociétés qui développent un business qui de base ne prévoyait pas de l’intelligence artificielle (IA), et pour lequel l’IA n'est pas au cœur du métier. Malgré la motivation d'utiliser l’IA, de nombreux projets Data Science dans ces sociétés échouent.\n\nC'est autant frustrant pour les responsables d'entreprises que démotivant pour les data-scientists, dont les projets finissent au placard.\nOn va analyser ensemble cette situation, pour déterminer les raisons de ces échecs. On va également étudier comment éviter les erreurs les plus courantes, et comment mener ce changement sans encombre afin d'enrichir vos produits avec l’IA.\n\nL’objectif du talk est que peu importe le profil que vous avez - dev front, dev back, data-scientist, CTO, CEO, Product Manager - vous retournerez lundi dans votre société en sachant à la fois identifier et mener à bien les opportunités de Data Science.",
+      "type": "Conférence",
       "tags": [
         "Big Data / ML / AI"
       ],
@@ -431,6 +464,7 @@
       "language": "English",
       "complexity": "Intermédiaire",
       "description": "Kotlin is an alternative programming language for JVM. But it is not limited to a single platform. Instead, the team is working hard to bring it everywhere. It is already possible to run Kotlin on Android and compile it to JavaScript to write homogeneous web applications. And there is Kotlin/Native project actively in development, which will bring Kotlin to desktop and iOS.\n\nIn this session, we'll see how Kotlin can help us share code between platforms and what are the best practices in doing this.",
+      "type": "Conférence",
       "tags": [
         "Languages"
       ],
@@ -444,6 +478,7 @@
       "language": "Français",
       "complexity": "Débutant",
       "description": "Depuis son arrivée, GCP a démocratisé la conception et la mise en place de services basés sur l'IA sans avoir besoin en pré-requis de connaissances spécifiques en IA. Typiquement avec Dialogflow pour la création d'un chatbot personnalisé ce qui compte est le savoir-faire du développeur qui va mettre en place et intégrer le pipeline complet pour l'exposition du service. Comment un Data Scientist peut-il s'orienter dans ce monde qui n'est pas le sien pour apporter de la valeur aux projets utilisant tout le potentiel de GCP ?",
+      "type": "Quickie",
       "tags": [
         "Cloud"
       ],
@@ -457,6 +492,7 @@
       "language": "English",
       "complexity": "Débutant",
       "description": "\"The best sorting algorithm is quick sort.\"\n\"Indexes make DB faster.\"\n\"Data should be sorted using ORDER BY.\"\n\"Composition - good; inheritance - not good.\"\n\"Windows is an operating system.\"\n\"You must have transactions in your DB.\"\n\"Java is slow.\"\n\"Don't eat yellow snow.\"\n\"You shall not self-sign your certificates.\"\n\"Interrupt in Java is broken.\"\n\nThe IT world is full of mantras/revealed truth, passed (often in oral tradition) among developer tribes. Mindlessly repeated from generation to generation, they cause a reckless usage. At best this results in more harm than good, in the worst case: a total disaster worth whole train of money.\nThe context is indispensable part of each mantra. Right context can help to distinguish proper usage from incoming disaster.\n\nDo you believe in a mantra by any chance?\nHow to find out the context?\nCan one eat yellow snow?\nCome and see.",
+      "type": "Conférence",
       "tags": [
         "Method & Tools"
       ],
