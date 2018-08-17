@@ -41,6 +41,10 @@
         color: var(--secondary-text-color);
       }
 
+      .type::after {
+        content: var(--duration, 'X') ' min.';
+      }
+
     </style>
 
     <polymer-helmet
@@ -121,8 +125,11 @@
                   <div class="section-secondary-text" hidden$="[[!session.track.title]]">[[session.track.title]]</div>
                   <div class="tags" hidden$="[[!session.tags.length]]">
                     <template is="dom-repeat" items="[[session.tags]]" as="tag">
-                      <span class="tag" style$="color: [[getVariableColor(tag)]]">[[tag]]</span>
+                      <span class="tag" style$="[[getSessionTagStyle(tag)]]">[[tag]]</span>
                     </template>
+                    <span class="tag lang" hidden$="[[!session.language]]">[[session.language]]</span>
+                    <span class="tag complexity" hidden$="[[!session.complexity]]">[[session.complexity]]</span>
+                    <span class="tag type" style$="--duration: [[getDuration(session.type)]];" hidden$="[[!session.type]]"></span>
                   </div>
                 </div>
               </div>

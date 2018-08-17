@@ -44,5 +44,26 @@
       }
       return getComputedStyle(this, `--${this.generateClassName(value)}`);
     }
+
+    stringNormalize(str) {
+      return (str||'').normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase();
+    }
+
+    getSessionTypeClass(session) {
+      return `section-secondary-text type type-${this.stringNormalize(session.type).toLowerCase()}`;
+    }
+
+    getSessionTagStyle(tag) {
+      const color = this.getVariableColor(tag + '-text');
+      const bgColor = this.getVariableColor(tag);
+      return `color: ${color}; background-color: ${bgColor}`;
+    }
+
+    getDuration(type) {
+      const tmp = `--${this.stringNormalize(type)}`;
+      return getComputedStyle(this).getPropertyValue(tmp);
+    }
   };
 </script>
