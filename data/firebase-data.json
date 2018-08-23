@@ -1636,6 +1636,11 @@
           "name": "Capgemini",
           "url": "https://www.capgemini.com/fr-fr/",
           "logoUrl": "/images/partners/logo-capgemini.svg"
+        },
+        {
+          "name": "Sogeti",
+          "url": "https://www.fr.sogeti.com/",
+          "logoUrl": "/images/partners/logo-sogeti.png"
         }
       ]
     },
