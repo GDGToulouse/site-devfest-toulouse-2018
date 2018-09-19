@@ -1696,6 +1696,17 @@
       ]
     },
     {
+      "title": "Média",
+      "style": "partner",
+      "logos": [
+        {
+          "name": "Programmez",
+          "url": "https://www.programmez.com/",
+          "logoUrl": "/images/partners/media/logo_programmez.svg"
+        }
+      ]
+    },
+    {
       "title": "Communautés",
       "style": "partner",
       "logos": [
