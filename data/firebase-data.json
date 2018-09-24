@@ -1692,6 +1692,11 @@
           "name": "SII",
           "url": "http://www.groupe-sii.com/fr",
           "logoUrl": "/images/partners/logo-sii.png"
+        },
+        {
+          "name": "Morning",
+          "url": "https://morning.com/fr/",
+          "logoUrl": "/images/partners/logo-morning.svg"
         }
       ]
     },
