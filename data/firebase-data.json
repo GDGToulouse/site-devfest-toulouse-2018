@@ -458,20 +458,6 @@
         "jean-francois_garreau"
       ]
     },
-    "4583": {
-      "title": "Getting started with development for the Google Assistant",
-      "language": "English",
-      "complexity": "Débutant",
-      "description": "Dialogflow is the most popular tool used to build Actions for the Google Assistant. Nonetheless, it's not the only solution. Maybe you want to host your own NLU (Natural Language Understading) tool, maybe your Action is a simple trivia game or maybe you just want to start out by automating some personal tasks. In this talk, I'll show you what tools you can use based on your needs and I'll give an overview of the Google Assistant platform.",
-      "type": "Quickie",
-      "tags": [
-        "Big Data / ML / AI"
-      ],
-      "id": 4583,
-      "speakers": [
-        "elaine_dias_batista"
-      ]
-    },
     "4584": {
       "title": "Pourquoi et comment crafter la Data-Science sur mesure.",
       "language": "Français",
@@ -1415,31 +1401,6 @@
       "country": "Nantes, France",
       "title": ""
     },
-    "elaine_dias_batista": {
-      "id": "elaine_dias_batista",
-      "name": "Elaine Dias Batista",
-      "bio": "Elaine has been working with Mobile Apps Development for the past 5 years. Since the launch of the Google Assistant, she has been following the developments around that area. She truly believes that interacting with technology using natural language will define the future of computing. Born and raised in Brazil, she's been living in France since 2004 and loves everything multicultural.",
-      "company": "SFEIR",
-      "featured": false,
-      "photo": "/images/speakers/elaine_dias_batista.jpg",
-      "photoUrl": "/images/speakers/elaine_dias_batista.jpg",
-      "socials": [
-        {
-          "icon": "twitter",
-          "link": "https://twitter.com/elainedbatista",
-          "name": "@elainedbatista"
-        },
-        {
-          "icon": "github",
-          "link": "https://github.com/elainedb",
-          "name": "elainedb"
-        }
-      ],
-      "shortBio": "Team Leader & Mobile Apps Engineer @sfeir. Google Developer Expert for the Google Assistant.",
-      "companyLogo": "/images/speakers/company/sfeir.jpg",
-      "companyLogoUrl": "/images/speakers/company/sfeir.jpg",
-      "country": "Paris, France"
-    },
     "anastasia_lieva": {
       "id": "anastasia_lieva",
       "name": "Anastasia Lieva",
@@ -1858,7 +1819,7 @@
         {
           "startTime":"12:50",
           "endTime":"13:05",
-          "sessions":[[0], [4473], [4432], [4583], [4356]]
+          "sessions":[[0], [4473], [4432], [], [4356]]
         },
         {
           "startTime":"14:05",
