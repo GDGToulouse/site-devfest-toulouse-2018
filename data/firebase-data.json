@@ -513,6 +513,20 @@
       "speakers": [
         "piotr_przybyl"
       ]
+    },
+    "4457": {
+      "title": "Template de déploiements Kubernetes avec Kontemplate",
+      "language": "Français",
+      "complexity": "Intermédiaire",
+      "description": "Kontemplate est un projet qui vise à faire des templates de déploiement pour Kubernetes. Petit retour d'expérience de l'utilisation de kontemplate dans le cadre de la vie d'une plateforme depuis l'environnement de développement jusqu'à la production.",
+      "type": "Quickie",
+      "tags": [
+        "Cloud"
+      ],
+      "id": 4457,
+      "speakers": [
+        "mathieu_passenaud"
+      ]
     }
   },
   "speakers": {
@@ -1545,6 +1559,31 @@
       "companyLogo": "/images/speakers/company/dassault_systemes.jpg",
       "companyLogoUrl": "/images/speakers/company/dassault_systemes.jpg",
       "country": "Munich, Bavaria"
+    },
+    "mathieu_passenaud": {
+      "name": "Mathieu Passenaud",
+      "bio": "DevOps (Teevity, Berger Levrault, OVH, Connit, Ubleam) depuis 8 ans maintenant sur Toulouse. Issu du milieu de l'embarqué (calculateurs ferroviaires/militaires), je me suis retrouvé parachuté dans l'univers du cloud pendant quelques années jusqu'à revenir au croisement de ces deux mondes : l'IOT. Touche à tout, j'aime beaucoup prototyper et répondre à la question 'est-ce que c'est possible ?'",
+      "shortBio": "DevOps @ please-open.it",
+      "company": "please-open.it",
+      "companyLogo": "/images/speakers/company/please-open.png",
+      "companyLogoUrl": "/images/speakers/company/please-open.png",
+      "country": "Toulouse, France",
+      "featured": true,
+      "photo": "/images/speakers/mathieu_passenaud.png",
+      "photoUrl": "/images/speakers/mathieu_passenaud.png",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/mathieupassenau",
+          "name": "@mathieupassenau"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/mathieupassenaud",
+          "name": "mathieupassenaud"
+        }
+      ],
+      "title": "DevOps"
     }
   },
   "blog": {
@@ -1819,7 +1858,7 @@
         {
           "startTime":"12:50",
           "endTime":"13:05",
-          "sessions":[[0], [4473], [4432], [], [4356]]
+          "sessions":[[0], [4473], [4432], [4457], [4356]]
         },
         {
           "startTime":"14:05",
