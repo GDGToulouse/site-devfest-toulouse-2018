@@ -1825,91 +1825,132 @@
       ]
     }
   ],
-  "schedule": [
-    {
+  "schedule": {
+    "2018-11-08": {
       "date":"2018-11-08",
       "dateReadable":"8 Novembre",
       "timeslots":[
         {
           "startTime":"08:00",
           "endTime":"09:00",
-          "sessions":[[100]]
+          "sessions":[
+            { "items" : [ 100 ] }
+          ]
         },
         {
           "startTime":"09:00",
           "endTime":"09:40",
-          "sessions":[[0], [101]]
+          "sessions":[
+            { "items" : [ 101 ] }
+          ]
         },
         {
           "startTime":"10:00",
           "endTime":"10:40",
-          "sessions":[[0], [4528], [4322], [4132], [4142]]
+          "sessions":[
+            {"items" : [ 4528 ]},
+            {"items" : [ 4322 ]},
+            {"items" : [ 4132 ]},
+            {"items" : [ 4142 ]}
+          ]
         },
         {
           "startTime":"11:00",
           "endTime":"11:40",
-          "sessions":[[0], [4305], [4195], [4331], [4617]]
+          "sessions":[
+            {"items" : [ 4305 ]},
+            {"items" : [ 4195 ]},
+            {"items" : [ 4331 ]},
+            {"items" : [ 4617 ]}
+          ]
         },
         {
           "startTime":"12:00",
           "endTime":"12:40",
-          "sessions":[[0], [4282], [4231], [4307], [4509]]
+          "sessions":[
+            {"items" : [ 4282 ]},
+            {"items" : [ 4231 ]},
+            {"items" : [ 4307 ]},
+            {"items" : [ 4509 ]}
+          ]
         },
         {
           "startTime":"12:50",
           "endTime":"13:05",
-          "sessions":[[0], [4473], [4432], [4457], [4356]]
+          "sessions":[
+            {"items" : [ 4473 ]},
+            {"items" : [ 4432 ]},
+            {"items" : [ 4457 ]},
+            {"items" : [ 4356 ]}
+          ]
         },
         {
           "startTime":"14:05",
           "endTime":"14:20",
-          "sessions":[[0], [4125], [4211], [4225], [4613]]
+          "sessions":[
+            {"items" : [ 4125 ]},
+            {"items" : [ 4211 ]},
+            {"items" : [ 4225 ]},
+            {"items" : [ 4613 ]}
+          ]
         },
         {
           "startTime":"14:30",
           "endTime":"15:10",
-          "sessions":[[0], [4340], [4306], [4334], [4447]]
+          "sessions":[
+            {"items" : [ 4340 ]},
+            {"items" : [ 4306 ]},
+            {"items" : [ 4334 ]},
+            {"items" : [ 4447 ]}
+          ]
         },
         {
           "startTime":"15:30",
           "endTime":"16:10",
-          "sessions":[[0], [4420], [4515], [4588], [4584]]
+          "sessions":[
+            {"items" : [ 4420 ]},
+            {"items" : [ 4515 ]},
+            {"items" : [ 4588 ]},
+            {"items" : [ 4584 ]}
+          ]
         },
         {
           "startTime":"16:30",
           "endTime":"17:10",
-          "sessions":[[0], [4207], [4128], [4338], [4574]]
+          "sessions":[
+            {"items" : [ 4207 ]},
+            {"items" : [ 4128 ]},
+            {"items" : [ 4338 ]},
+            {"items" : [ 4574 ]}
+          ]
         },
         {
           "startTime":"17:30",
           "endTime":"18:10",
-          "sessions":[[0], [4349], [4313], [4312], [4507]]
+          "sessions":[
+            {"items" : [ 4349 ]},
+            {"items" : [ 4313 ]},
+            {"items" : [ 4312 ]},
+            {"items" : [ 4507 ]}
+          ]
         },
         {
           "startTime":"18:20",
           "endTime":"19:00",
-          "sessions":[[0], [102]]
+          "sessions":[
+            {"items" : [ 102 ]}
+          ]
         }
       ],
       "tracks":[
-        {
-          "title":"Hall"
-        },
-        {
-          "title":"Salle 1"
-        },
-        {
-          "title":"Salle 2"
-        },
-        {
-          "title":"Salle 3"
-        },
-        {
-          "title":"Salle 4"
-        }
+        {"title":"Hall"},
+        {"title":"Salle 1"},
+        {"title":"Salle 2"},
+        {"title":"Salle 3"},
+        {"title":"Salle 4"}
       ]
     }
-  ],
+  },
   "team": [
     {
       "members": [
