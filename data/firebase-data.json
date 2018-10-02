@@ -9,22 +9,22 @@
     },
     "101": {
       "title": "Keynote d'ouverture",
-      "description": "",
+      "description": "Vis ma vie de Game Dev",
       "image": "/images/backgrounds/home.jpg",
       "id": 101,
       "tags": ["General"],
       "speakers":[
-        "keynoter1"
+        "laurent_victorino"
       ]
     },
     "102": {
       "title": "Keynote de fermeture",
-      "description": "",
+      "description": "Hype Driven Development ?",
       "image": "/images/backgrounds/home.jpg",
       "id": 102,
       "tags": ["General"],
       "speakers":[
-        "keynoter2"
+        "quentin_adam"
       ]
     },
     "4125": {
@@ -530,55 +530,55 @@
     }
   },
   "speakers": {
-    "keynoter1": {
-      "name": "keynoter1",
-      "bio": "",
-      "shortBio": "",
-      "company": "",
-      "companyLogo": "/images/people/you.jpg",
-      "companyLogoUrl": "/images/people/you.jpg",
-      "country": "???",
+    "laurent_victorino": {
+      "name": "Laurent Victorino",
+      "bio": "Pas très bon en jeux vidéo Laurent préfère les créer pour se donner une bonne raison de ne pas y jouer. Programmeur moyen mais sympa, Laurent est à la tête de Monkey Moon, un studio de jeux vidéo basé à Lyon qui développe actuellement Night Call, un jeu qui se passe à Paris, parce que Laurent aime les paradoxes. Speaker internationalement reconnu pour sa keynote « 400 vannes sur le Java en moins de 20 minutes », Laurent aime les conférences IT et Web pour les rencontres, les échanges, et la nourriture gratuite. Laurent a vraiment du mal à parler de lui à la troisième personne.",
+      "shortBio": "Curious Video Game Developer",
+      "company": "Monkey Moon",
+      "companyLogo": "/images/speakers/company/monkey_moon.png",
+      "companyLogoUrl": "/images/speakers/company/monkey_moon.png",
+      "country": "Lyon, France",
       "featured": true,
-      "photo": "/images/people/you.jpg",
-      "photoUrl": "/images/people/you.jpg",
+      "photo": "/images/speakers/laurent_victorino.jpg",
+      "photoUrl": "/images/speakers/laurent_victorino.jpg",
       "socials": [
         {
           "icon": "twitter",
-          "link": "https://twitter.com/???",
-          "name": "@"
+          "link": "https://twitter.com/on_code",
+          "name": "@on_code"
         },
         {
           "icon": "github",
-          "link": "https://github.com/???",
-          "name": "???"
+          "link": "https://github.com/lvictorino",
+          "name": "lvictorino"
         }
       ],
-      "title": "???"
+      "title": "Video Game Developer"
     },
-    "keynoter2": {
-      "name": "keynoter2",
-      "bio": "",
-      "shortBio": "",
-      "company": "",
-      "companyLogo": "/images/people/you.jpg",
-      "companyLogoUrl": "/images/people/you.jpg",
-      "country": "???",
+    "quentin_adam": {
+      "name": "Quentin Adam",
+      "bio": "Quentin is the CEO of Clever Cloud : a Platform as a Service company allowing you to run java, scala, ruby, node.js, php, python or go applications, with auto scaling and auto healing features. This position allow him to study lots of applications, code, practice, and extract some talks and advises. Regular speaker at various tech conference, he’s focused to help developers to deliver quickly and happily good applications.",
+      "shortBio": "CEO @ Clever Cloud",
+      "company": "Clever Cloud",
+      "companyLogo": "/images/speakers/company/clever_cloud.png",
+      "companyLogoUrl": "/images/speakers/company/clever_cloud.png",
+      "country": "Nantes, France",
       "featured": true,
-      "photo": "/images/people/you.jpg",
-      "photoUrl": "/images/people/you.jpg",
+      "photo": "/images/speakers/quentin_adam.jpg",
+      "photoUrl": "/images/speakers/quentin_adam.jpg",
       "socials": [
         {
           "icon": "twitter",
-          "link": "https://twitter.com/???",
-          "name": "@"
+          "link": "https://twitter.com/waxzce",
+          "name": "@waxzce"
         },
         {
           "icon": "github",
-          "link": "https://github.com/???",
-          "name": "???"
+          "link": "https://github.com/waxzce",
+          "name": "waxzce"
         }
       ],
-      "title": "???"
+      "title": "CEO"
     },
     "jimenez_raul": {
       "name": "Raúl Jiménez",
