@@ -5,7 +5,7 @@
   "prefix": "/",
   "firebase": {
     "apiKey": "AIzaSyCGNJudREjIin5HNyiIzkcU-jmCRyYMGO4",
-    "authDomain": "devfesttoulouse-2018.firebaseapp.com",
+    "authDomain": "devfesttoulouse.fr",
     "databaseURL": "https://devfesttoulouse-2018.firebaseio.com",
     "projectId": "devfesttoulouse-2018",
     "storageBucket": "devfesttoulouse-2018.appspot.com",
