@@ -1632,6 +1632,11 @@
           "name": "Airbus",
           "url": "https://www.airbus.com/",
           "logoUrl": "/images/partners/logo-airbus.png"
+        },
+        {
+          "name": "Toulouse Métropole",
+          "url": "https://www.toulouse-metropole.fr/",
+          "logoUrl": "/images/partners/tls-metropole.png"
         }
       ]
     },
