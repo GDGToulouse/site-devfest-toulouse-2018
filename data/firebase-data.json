@@ -27,6 +27,13 @@
         "quentin_adam"
       ]
     },
+    "103": {
+      "title": "Déjeuner",
+      "description": "Déjeuner",
+      "image": "/images/backgrounds/cfp.jpg",
+      "id": 103,
+      "tags": ["General"]
+    },
     "4125": {
       "title": "Let’s Sketchnote : prise de notes visuelle",
       "language": "Français",
@@ -1890,6 +1897,13 @@
           ]
         },
         {
+          "startTime":"13:05",
+          "endTime":"14:05",
+          "sessions":[
+            { "items" : [ 103 ] }
+          ]
+        },
+        {
           "startTime":"14:05",
           "endTime":"14:20",
           "sessions":[
@@ -1948,7 +1962,6 @@
         }
       ],
       "tracks":[
-        {"title":"Hall"},
         {"title":"Salle 1"},
         {"title":"Salle 2"},
         {"title":"Salle 3"},
