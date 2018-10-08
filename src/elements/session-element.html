@@ -87,6 +87,10 @@
         color: var(--secondary-text-color);
       }
 
+      .tags {
+        margin-left: 2px;
+      }
+
       .session-footer {
         font-size: 14px;
       }
@@ -168,15 +172,18 @@
         <div layout horizontal justified center-aligned>
           <div class="session-meta" flex>
             <span
-              hidden$="[[!session.duration.hh]]">[[session.duration.hh]] hour[[_getEnding(session.duration.hh)]]</span>
+              hidden$="[[!session.duration.hh]]">[[session.duration.hh]] h</span>
             <span
-              hidden$="[[!session.duration.mm]]">[[session.duration.mm]] min[[_getEnding(session.duration.mm)]]</span>
+              hidden$="[[!session.duration.mm]]">[[session.duration.mm]] mins</span>
           </div>
-          <div hidden$="[[!session.tags.length]]">
+
+          <div class="tags" hidden$="[[!session.tags.length]]">
             <template is="dom-repeat" items="[[session.tags]]" as="tag">
-              <span class="tag" style$="color: [[_getTagColor(tag)]]">[[tag]]</span>
+              <span class="tag" style$="[[getSessionTagStyle(tag)]]">[[tag]]</span>
             </template>
+            <span class="tag complexity" hidden$="[[!session.complexity]]">[[session.complexity]]</span>
           </div>
+
         </div>
 
         <div class="speakers" hidden$="[[!session.speakers.length]]">
