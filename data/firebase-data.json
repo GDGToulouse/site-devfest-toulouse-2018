@@ -322,18 +322,18 @@
         "philippe_charriere"
       ]
     },
-    "4356": {
-      "title": "Au pays des Gophers (à partir de 3 ans)",
+    "4593": {
+      "title": "Angular Schematics pour une meilleure productivité et plus de partage",
       "language": "Français",
-      "complexity": "Débutant",
-      "description": "Au pays des Gophers, les Goroutines gambadent librement, et s’échangent des bisous et des bonbons grâce aux channels.\n\nLes méchants Locks sont tous deads (ou presque), et le Scheduler règne sur ce monde paisible qui ne connaît pas le nom des Processeurs.\n\nLa concurrence en Go expliquée à ma fille de 3 ans !",
+      "complexity": "Confirmé",
+      "description": "La CLI d'Angular, célèbre framework web de Google, est basée sur les Schematics. Cette technologie permet de définir des transformations de code au sein de vos applications Angular comme la création de nouveaux composants, directives, providers... et plus récemment la configuration ou mise à jour de vos librairies automatiquement. Grâce à la nouvelle librairie @angular-devkit/schematics proposée par la team Angular, vous n’êtes désormais plus obligé d’attendre une évolution de la part de l’équipe Angular pour créer une nouvelle commande répondant à vos besoins. Ainsi il est plus facile de partager entre développeurs du tooling ou alors de la génération de code automatique pour gagner en productivité.\nNous verrons donc pendant ces 15 minutes comment créer des schematics et ce qu'apporte cette technologie avec différents cas concrets qui je l'espère vous donnerons envie de créer plein de schematics <3 .",
       "type": "Quickie",
       "tags": [
-        "Languages"
+        "Web"
       ],
-      "id": 4356,
+      "id": 4593,
       "speakers": [
-        "nicolas_lepage"
+        "benoit_el_amrani"
       ]
     },
     "4420": {
@@ -1104,30 +1104,30 @@
       "companyLogoUrl": "/images/speakers/company/jems_datafactory.jpg",
       "country": "Paris, France"
     },
-    "nicolas_lepage": {
-      "id": "nicolas_lepage",
-      "name": "Nicolas Lepage",
-      "bio": "Développeur depuis plus de 10 ans, Nicolas est actuellement consultant et formateur chez Zenika Nantes.\n\nAprès de trop longues années de développement Java, il prend le contrepied et s'intéresse maintenant à tout ! Sa quête de nouveauté l'amène à explorer les mondes du front avec ReactJS, du NoSQL avec MongoDB, et des langages modernes tels que Go(lang) ou encore Kotlin.\n\nSon goût du partage le pousse à devenir formateur, notamment sur Go(lang), et à se lancer dans l'open source en créant [immutad●t](https://github.com/Zenika/immutadot), une bibliothèque JavaScript pour manipuler les structures immuables imbriquées.",
-      "company": "Zenika",
+    "benoit_el_amrani": {
+      "id": "benoit_el_amrani",
+      "name": "Benoit El Amrani",
+      "bio": "Passionné par le monde du web, je suis en veille constante pour trouver des nouvelles idées permettant d'améliorer à la fois le quotidien des développeurs et les applications sur lesquelles je travaille.",
+      "company": "Informatique Banque Populaire",
       "featured": false,
-      "photo": "/images/speakers/nicolas_lepage.jpg",
-      "photoUrl": "/images/speakers/nicolas_lepage.jpg",
+      "photo": "/images/speakers/benoit_el_amrani.jpg",
+      "photoUrl": "/images/speakers/benoit_el_amrani.jpg",
       "socials": [
         {
           "icon": "twitter",
-          "link": "https://twitter.com/njblepage",
-          "name": "@njblepage"
+          "link": "https://twitter.com/bentah31",
+          "name": "@bentah31"
         },
         {
           "icon": "github",
-          "link": "https://github.com/nlepage",
-          "name": "nlepage"
+          "link": "https://github.com/belamrani",
+          "name": "belamrani"
         }
       ],
-      "shortBio": "Dev à @ZenikaNantes",
-      "companyLogo": "/images/speakers/company/zenika.jpg",
-      "companyLogoUrl": "/images/speakers/company/zenika.jpg",
-      "country": "Nantes, France"
+      "shortBio": "Mobile & Web Developer",
+      "companyLogo": "/images/speakers/company/i-bp.png",
+      "companyLogoUrl": "/images/speakers/company/i-bp.png",
+      "country": "Toulouse, France"
     },
     "tugdual_grall": {
       "id": "tugdual_grall",
@@ -1893,7 +1893,7 @@
             {"items" : [ 4473 ]},
             {"items" : [ 4432 ]},
             {"items" : [ 4457 ]},
-            {"items" : [ 4356 ]}
+            {"items" : [ 4593 ]}
           ]
         },
         {
