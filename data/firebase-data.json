@@ -3,15 +3,17 @@
     "100": {
       "title": "Accueil et petit-déjeuner",
       "description": "Accueil et petit-déjeuner",
-      "image": "/images/backgrounds/cfp.jpg",
+      "image": "/images/backgrounds/chocos.png",
       "id": 100,
-      "tags": ["General"]
+      "tags": []
     },
     "101": {
       "title": "Keynote d'ouverture",
       "description": "Vis ma vie de Game Dev",
-      "image": "/images/backgrounds/home.jpg",
+      "image": "/images/backgrounds/game.png",
+      "class": "intro",
       "id": 101,
+      "type": "Keynotes",
       "tags": ["General"],
       "speakers":[
         "laurent_victorino"
@@ -20,8 +22,10 @@
     "102": {
       "title": "Keynote de fermeture",
       "description": "Hype Driven Development",
-      "image": "/images/backgrounds/home.jpg",
+      "image": "/images/backgrounds/sky.png",
+      "class": "end",
       "id": 102,
+      "type": "Keynotes",
       "tags": ["General"],
       "speakers":[
         "quentin_adam"
@@ -30,9 +34,16 @@
     "103": {
       "title": "Déjeuner",
       "description": "Déjeuner",
-      "image": "/images/backgrounds/cfp.jpg",
+      "image": "/images/backgrounds/lunch.png",
       "id": 103,
-      "tags": ["General"]
+      "tags": []
+    },
+    "104": {
+      "title": "Pause",
+      "description": "Pause",
+      "image": "/images/backgrounds/coffee.png",
+      "id": 104,
+      "tags": []
     },
     "4125": {
       "title": "Let’s Sketchnote : prise de notes visuelle",
@@ -1857,6 +1868,13 @@
           ]
         },
         {
+          "startTime":"09:40",
+          "endTime":"10:00",
+          "sessions":[
+            { "items" : [ 104 ] }
+          ]
+        },
+        {
           "startTime":"10:00",
           "endTime":"10:40",
           "sessions":[
@@ -1867,6 +1885,13 @@
           ]
         },
         {
+          "startTime":"10:40",
+          "endTime":"12:00",
+          "sessions":[
+            { "items" : [ 104 ] }
+          ]
+        },
+        {
           "startTime":"11:00",
           "endTime":"11:40",
           "sessions":[
@@ -1874,6 +1899,13 @@
             {"items" : [ 4195 ]},
             {"items" : [ 4331 ]},
             {"items" : [ 4617 ]}
+          ]
+        },
+        {
+          "startTime":"11:40",
+          "endTime":"12:00",
+          "sessions":[
+            { "items" : [ 104 ] }
           ]
         },
         {
@@ -1924,6 +1956,13 @@
           ]
         },
         {
+          "startTime":"15:10",
+          "endTime":"15:30",
+          "sessions":[
+            { "items" : [ 104 ] }
+          ]
+        },
+        {
           "startTime":"15:30",
           "endTime":"16:10",
           "sessions":[
@@ -1934,6 +1973,13 @@
           ]
         },
         {
+          "startTime":"16:10",
+          "endTime":"16:30",
+          "sessions":[
+            { "items" : [ 104 ] }
+          ]
+        },
+        {
           "startTime":"16:30",
           "endTime":"17:10",
           "sessions":[
@@ -1941,6 +1987,13 @@
             {"items" : [ 4128 ]},
             {"items" : [ 4584 ]},
             {"items" : [ 4574 ]}
+          ]
+        },
+        {
+          "startTime":"17:10",
+          "endTime":"17:30",
+          "sessions":[
+            { "items" : [ 104 ] }
           ]
         },
         {

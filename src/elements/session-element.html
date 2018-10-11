@@ -25,6 +25,9 @@
         height: 100%;
         color: var(--primary-text-color);
         overflow: hidden;
+        background-size: cover;
+        background-position: center;
+        min-height: 6rem;
       }
 
       .session:hover {
@@ -71,6 +74,16 @@
         color: var(--default-primary-color);
       }
 
+      .session.intro {
+        background-color: rgba(0,0,0,.05);
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: right;
+      }
+      .session.intro .session-title, .session.end .session-title  {
+        color:var(--primary-text-color);
+      }
+
       .bookmark-session:hover {
         color: var(--default-primary-color);
       }
@@ -78,6 +91,13 @@
       .session-title {
         font-size: 20px;
         line-height: 1.2;
+      }
+
+      .language {
+        font-size: 1.5em;
+      }
+      .language.English::after {
+        content: '🇬🇧';
       }
 
       .session-meta {
@@ -88,19 +108,24 @@
       }
 
       .tags {
-        margin-left: 2px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .tags .tag {
+        color: black;
+        margin: 2px 0;
       }
 
       .session-footer {
         font-size: 14px;
+        padding: 0;
+        margin-top: .5rem;
+        background: white;
       }
 
-      .speakers {
-        margin-top: 10px;
-      }
-
-      .speaker:not(:last-of-type) {
-        padding-bottom: 10px;
+      .speaker {
+        padding: .5rem;
       }
 
       .speaker-photo {
@@ -139,27 +164,30 @@
     </style>
 
     <a
-      class="session"
+      class$="session [[session.class]]"
+      style$="[[getSessionStyle(session)]]"
       href$="/schedule/[[dayName]]?sessionId=[[session.id]]"
       featured$="[[isFeatured]]"
       layout vertical
       relative
     >
-      <iron-icon
-        class="session-icon"
-        icon="hoverboard:[[session.icon]]"
-      ></iron-icon>
 
       <div class="session-header" layout horizontal justified>
         <div flex>
           <h3 class="session-title">[[session.title]]</h3>
         </div>
-        <span class="language">[[slice(session.language, 2)]]</span>
+        <span class$="language [[session.language]]"></span>
       </div>
 
-      <div class="session-content" flex layout horizontal justified>
+      <div class="session-content" flex layout horizontal justified hidden$="[[!session.tags.length]]">
         <div class="session-meta">
           <div hidden$="[[!session.complexity]]">[[session.complexity]]</div>
+          <div class="tags" hidden$="[[!session.tags.length]]">
+            <template is="dom-repeat" items="[[session.tags]]" as="tag">
+              <span class="tag">[[tag]]</span>
+            </template>
+            <!--<span class="tag complexity" hidden$="[[!session.complexity]]">[[session.complexity]]</span>-->
+          </div>
         </div>
         <iron-icon
           class="bookmark-session"
@@ -169,23 +197,6 @@
       </div>
 
       <div class="session-footer">
-        <div layout horizontal justified center-aligned>
-          <div class="session-meta" flex>
-            <span
-              hidden$="[[!session.duration.hh]]">[[session.duration.hh]] h</span>
-            <span
-              hidden$="[[!session.duration.mm]]">[[session.duration.mm]] mins</span>
-          </div>
-
-          <div class="tags" hidden$="[[!session.tags.length]]">
-            <template is="dom-repeat" items="[[session.tags]]" as="tag">
-              <span class="tag" style$="[[getSessionTagStyle(tag)]]">[[tag]]</span>
-            </template>
-            <span class="tag complexity" hidden$="[[!session.complexity]]">[[session.complexity]]</span>
-          </div>
-
-        </div>
-
         <div class="speakers" hidden$="[[!session.speakers.length]]">
           <template is="dom-repeat" items="[[session.speakers]]" as="speaker">
             <div class="speaker" layout horizontal center>
@@ -234,6 +245,18 @@
             computed: '_isFeatured(featuredSessions, session.id)',
           },
         };
+      }
+
+      getSessionStyle(session) {
+        const styles = [];
+        if (session.image) {
+          styles.push(`background-image: url(${session.image});`);
+          styles.push(`color: white;`);
+          styles.push(`text-shadow: 1px 1px rgba(0,0,0,.25);`);
+      } else if (session.tags && session.tags.length === 1) {
+          styles.push(this.getSessionTagStyle(session.tags[0]));
+        }
+        return styles.join(' ');
       }
 
       _getTagColor(value) {

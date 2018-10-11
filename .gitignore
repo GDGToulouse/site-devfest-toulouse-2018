@@ -9,3 +9,4 @@ functions/lib/
 /appengine/dist/
 serviceAccount.json
 serviceAccount.dev.json
+firebase-debug.log
