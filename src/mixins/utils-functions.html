@@ -46,7 +46,7 @@
     }
 
     stringNormalize(str) {
-      return (str||'').normalize('NFD')
+      return (str || '').normalize('NFD')
         .replace(/[\u0300-\u036f]/g, '')
         .toLowerCase();
     }
@@ -56,9 +56,9 @@
     }
 
     getSessionTagStyle(tag) {
-      const color = this.getVariableColor(tag + '-text');
-      const bgColor = this.getVariableColor(tag);
-      return `color: ${color}; background-color: ${bgColor}`;
+      const color = this.generateClassName(tag +'-text');
+      const bgColor = this.generateClassName(tag);
+      return `color: var(--${color}); background-color: var(--${bgColor})`;
     }
 
     getDuration(type) {

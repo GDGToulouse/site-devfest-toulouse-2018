@@ -50,29 +50,43 @@
         --gdg: #00B0ff;
 
         /* Tags */
-        --native-mobile-apps: #ff8080;
-        --native-mobile-apps-text: white;
+        /*from https://github.com/d3/d3-scale-chromatic#schemePastel2*/
+        --tag1:#b3e2cd;
+        --tag2:#fdcdac;
+        --tag3:#cbd5e8;
+        --tag4:#f4cae4;
+        --tag5:#e6f5c9;
+        --tag6:#fff2ae;
+        --tag7:#f1e2cc;
+        --tag8:#cccccc;
 
-        --web: #ffff80;
+        --native-mobile-apps: var(--tag2);
+        --native-mobile-apps-text: black;
+
+        --web: var(--tag6);
         --web-text: black;
 
-        --method-tools: #80ff80;
+        --method-tools: var(--tag5);
         --method-tools-text: black;
 
-        --big-data-ml-ai: #80ffff;
+        --big-data-ml-ai: var(--tag3);
         --big-data-ml-ai-text: black;
 
-        --iot: #c0c0c0;
+        --iot: var(--tag7);
         --iot-text: black;
 
-        --cloud: #ff00ff;
-        --cloud-text: white;
+        --cloud: var(--tag4);
+        --cloud-text: black;
 
-        --languages: #008080;
-        --languages-text: white;
+        --languages: var(--tag1);
+        --languages-text: black;
 
-        --wtf: #bdc624;
-        --wtf-text: white;
+        --wtf: var(--tag7);
+        --wtf-text: black;
+
+        --general: var(--tag8);
+        --general-text: black;
+
 
         /* Duration */
         --quickie: '15';
