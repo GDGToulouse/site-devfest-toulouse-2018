@@ -17,13 +17,14 @@
       :host {
         display: block;
         background-color: var(--primary-background-color);
-        border-bottom: 1px solid var(--border-light-color);
         height: 100%;
+        position: relative;
       }
 
       .session {
         height: 100%;
         color: var(--primary-text-color);
+        border-bottom: 1px solid var(--border-light-color);
         overflow: hidden;
         background-size: cover;
         background-position: center;
@@ -83,6 +84,35 @@
       .session.intro .session-title, .session.end .session-title  {
         color:var(--primary-text-color);
         text-shadow: 1px 1px rgba(0,0,0,.25);
+      }
+
+      .session.lunch {
+        min-height: 8rem;
+        z-index: 0;
+      }
+
+      .session.office-hours {
+        display: none;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        transform: translateY(100%);
+        background: ghostwhite;
+        z-index: 2;
+        height: auto;
+      }
+      .session.session-header {
+        background: rgba(0,0,0,.05);
+      }
+      .session.office-hours .speaker {
+        padding: .25rem;
+      }
+      .session.office-hours .speaker-photo {
+        width: 24px;
+        height: 24px;
+      }
+      .session.office-hours .speaker-title {
+        display: none;
       }
 
       .bookmark-session:hover {
@@ -151,15 +181,18 @@
       }
 
       @media (min-width: 640px) {
-        :host {
+        .session {
           border: 1px solid var(--border-light-color);
           border-top: 0;
         }
       }
 
       @media (min-width: 812px) {
-        :host {
+        .session {
           border: 1px solid var(--border-light-color);
+        }
+        .session.office-hours {
+          display: block;
         }
       }
 

@@ -35,6 +35,7 @@
       "title": "Déjeuner",
       "description": "Déjeuner",
       "image": "/images/backgrounds/lunch.png",
+      "class": "lunch",
       "id": 103,
       "tags": []
     },
@@ -49,6 +50,7 @@
       "title": "Office Hours",
       "description": "Venez poser vos questions aux speakers de manière plus calme et détendu",
       "type": "Office Hours",
+      "class": "office-hours",
       "tags": [],
       "id": 201,
       "speakers": [
@@ -62,6 +64,7 @@
       "title": "Office Hours",
       "description": "Venez poser vos questions aux speakers de manière plus calme et détendu",
       "type": "Office Hours",
+      "class": "office-hours",
       "tags": [],
       "id": 202,
       "speakers": [
@@ -75,6 +78,7 @@
       "title": "Office Hours",
       "description": "Venez poser vos questions aux speakers de manière plus calme et détendu",
       "type": "Office Hours",
+      "class": "office-hours",
       "tags": [],
       "id": 203,
       "speakers": [
@@ -88,6 +92,7 @@
       "title": "Office Hours",
       "description": "Venez poser vos questions aux speakers de manière plus calme et détendu",
       "type": "Office Hours",
+      "class": "office-hours",
       "tags": [],
       "id": 204,
       "speakers": [
@@ -101,6 +106,7 @@
       "title": "Office Hours",
       "description": "Venez poser vos questions aux speakers de manière plus calme et détendu",
       "type": "Office Hours",
+      "class": "office-hours",
       "tags": [],
       "id": 205,
       "speakers": [
@@ -114,6 +120,7 @@
       "title": "Office Hours",
       "description": "Venez poser vos questions aux speakers de manière plus calme et détendu",
       "type": "Office Hours",
+      "class": "office-hours",
       "tags": [],
       "id": 206,
       "speakers": [
@@ -127,6 +134,7 @@
       "title": "Office Hours",
       "description": "Venez poser vos questions aux speakers de manière plus calme et détendu",
       "type": "Office Hours",
+      "class": "office-hours",
       "tags": [],
       "id": 207,
       "speakers": [
@@ -141,6 +149,7 @@
       "title": "Office Hours",
       "description": "Venez poser vos questions aux speakers de manière plus calme et détendu",
       "type": "Office Hours",
+      "class": "office-hours",
       "tags": [],
       "id": 208,
       "speakers": [
@@ -150,6 +159,21 @@
         "anastasia_lieva",
         "emmanuel_demey",
         "jean-francois_garreau"
+      ]
+    },
+    "209": {
+      "title": "Office Hours",
+      "description": "Venez poser vos questions aux speakers de manière plus calme et détendu",
+      "type": "Office Hours",
+      "class": "office-hours",
+      "tags": [],
+      "id": 209,
+      "speakers": [
+        "philippe_charriere",
+        "laurent_wroblewski",
+        "tiffany_souterre",
+        "alexandre_delattre",
+        "guillaume_andrieu"
       ]
     },
     "4125": {
@@ -1988,7 +2012,8 @@
             {"items" : [ 4528 ]},
             {"items" : [ 4322 ]},
             {"items" : [ 4132 ]},
-            {"items" : [ 4142 ]}
+            {"items" : [ 4142 ]},
+            {"items" : [ 201 ]}
           ]
         },
         {
@@ -2006,7 +2031,7 @@
             {"items" : [ 4195 ]},
             {"items" : [ 4331 ]},
             {"items" : [ 4617 ]},
-            {"items" : [ 201 ]}
+            {"items" : [ 202 ]}
           ]
         },
         {
@@ -2024,7 +2049,7 @@
             {"items" : [ 4231 ]},
             {"items" : [ 4307 ]},
             {"items" : [ 4509 ]},
-            {"items" : [ 202 ]}
+            {"items" : [ 203 ]}
           ]
         },
         {
@@ -2035,7 +2060,7 @@
             {"items" : [ 4432 ]},
             {"items" : [ 4457 ]},
             {"items" : [ 4593 ]},
-            {"items" : [ 203 ]}
+            {"items" : [ 204 ]}
           ]
         },
         {
@@ -2053,7 +2078,7 @@
             {"items" : [ 4211 ]},
             {"items" : [ 4225 ]},
             {"items" : [ 4613 ]},
-            {"items" : [ 204 ]}
+            {"items" : [ 205 ]}
           ]
         },
         {
@@ -2064,7 +2089,7 @@
             {"items" : [ 4306 ]},
             {"items" : [ 4312 ]},
             {"items" : [ 4447 ]},
-            {"items" : [ 205 ]}
+            {"items" : [ 206 ]}
           ]
         },
         {
@@ -2082,7 +2107,7 @@
             {"items" : [ 4515 ]},
             {"items" : [ 4588 ]},
             {"items" : [ 4338 ]},
-            {"items" : [ 206 ]}
+            {"items" : [ 207 ]}
           ]
         },
         {
@@ -2100,7 +2125,7 @@
             {"items" : [ 4128 ]},
             {"items" : [ 4584 ]},
             {"items" : [ 4574 ]},
-            {"items" : [ 207 ]}
+            {"items" : [ 208 ]}
           ]
         },
         {
@@ -2118,7 +2143,7 @@
             {"items" : [ 4313 ]},
             {"items" : [ 4334 ]},
             {"items" : [ 4507 ]},
-            {"items" : [ 208 ]}
+            {"items" : [ 209 ]}
           ]
         },
         {
