@@ -62,7 +62,7 @@
     }
 
     getDuration(type) {
-      const tmp = `--${this.stringNormalize(type)}`;
+      const tmp = `--${this.stringNormalize(type)}`.replace(' ', '');
       return getComputedStyle(this).getPropertyValue(tmp);
     }
   };

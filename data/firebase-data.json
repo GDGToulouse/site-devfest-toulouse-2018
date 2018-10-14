@@ -45,6 +45,113 @@
       "id": 104,
       "tags": []
     },
+    "201": {
+      "title": "Office Hours",
+      "description": "Venez poser vos questions aux speakers de manière plus calme et détendu",
+      "type": "Office Hours",
+      "tags": [],
+      "id": 201,
+      "speakers": [
+        "miro_miro_cupak",
+        "sara_harkousse",
+        "horacio_gonzalez",
+        "celine_louvet"
+      ]
+    },
+    "202": {
+      "title": "Office Hours",
+      "description": "Venez poser vos questions aux speakers de manière plus calme et détendu",
+      "type": "Office Hours",
+      "tags": [],
+      "id": 202,
+      "speakers": [
+        "david_gageot",
+        "sylvain_wallez",
+        "olivier_leplus",
+        "piotr_przybyl"
+      ]
+    },
+    "203": {
+      "title": "Office Hours",
+      "description": "Venez poser vos questions aux speakers de manière plus calme et détendu",
+      "type": "Office Hours",
+      "tags": [],
+      "id": 203,
+      "speakers": [
+        "robert_firek",
+        "guillaume_membre",
+        "hubert_sablonniere",
+        "sebastien_guilloux"
+      ]
+    },
+    "204": {
+      "title": "Office Hours",
+      "description": "Venez poser vos questions aux speakers de manière plus calme et détendu",
+      "type": "Office Hours",
+      "tags": [],
+      "id": 204,
+      "speakers": [
+        "olivier_flebus",
+        "david_pilato",
+        "mathieu_passenaud",
+        "benoit_el_amrani"
+      ]
+    },
+    "205": {
+      "title": "Office Hours",
+      "description": "Venez poser vos questions aux speakers de manière plus calme et détendu",
+      "type": "Office Hours",
+      "tags": [],
+      "id": 205,
+      "speakers": [
+        "ane_diaz_de_tuesta",
+        "arnaud_bos",
+        "julien_topcu",
+        "giulia_bianchi"
+      ]
+    },
+    "206": {
+      "title": "Office Hours",
+      "description": "Venez poser vos questions aux speakers de manière plus calme et détendu",
+      "type": "Office Hours",
+      "tags": [],
+      "id": 206,
+      "speakers": [
+        "jimenez_raul",
+        "alessio_coltellacci",
+        "guillaume_laforge",
+        "francois_teychene"
+      ]
+    },
+    "207": {
+      "title": "Office Hours",
+      "description": "Venez poser vos questions aux speakers de manière plus calme et détendu",
+      "type": "Office Hours",
+      "tags": [],
+      "id": 207,
+      "speakers": [
+        "tugdual_grall",
+        "nicolas_decoster",
+        "juliane_blier",
+        "victor_kropp",
+        "estelle_landry"
+      ]
+    },
+    "208": {
+      "title": "Office Hours",
+      "description": "Venez poser vos questions aux speakers de manière plus calme et détendu",
+      "type": "Office Hours",
+      "tags": [],
+      "id": 208,
+      "speakers": [
+        "frederic_cabestre",
+        "comet_nicolas",
+        "benoit_prioux",
+        "anastasia_lieva",
+        "emmanuel_demey",
+        "jean-francois_garreau"
+      ]
+    },
     "4125": {
       "title": "Let’s Sketchnote : prise de notes visuelle",
       "language": "Français",
@@ -1898,7 +2005,8 @@
             {"items" : [ 4305 ]},
             {"items" : [ 4195 ]},
             {"items" : [ 4331 ]},
-            {"items" : [ 4617 ]}
+            {"items" : [ 4617 ]},
+            {"items" : [ 201 ]}
           ]
         },
         {
@@ -1915,7 +2023,8 @@
             {"items" : [ 4282 ]},
             {"items" : [ 4231 ]},
             {"items" : [ 4307 ]},
-            {"items" : [ 4509 ]}
+            {"items" : [ 4509 ]},
+            {"items" : [ 202 ]}
           ]
         },
         {
@@ -1925,7 +2034,8 @@
             {"items" : [ 4473 ]},
             {"items" : [ 4432 ]},
             {"items" : [ 4457 ]},
-            {"items" : [ 4593 ]}
+            {"items" : [ 4593 ]},
+            {"items" : [ 203 ]}
           ]
         },
         {
@@ -1942,7 +2052,8 @@
             {"items" : [ 4125 ]},
             {"items" : [ 4211 ]},
             {"items" : [ 4225 ]},
-            {"items" : [ 4613 ]}
+            {"items" : [ 4613 ]},
+            {"items" : [ 204 ]}
           ]
         },
         {
@@ -1952,7 +2063,8 @@
             {"items" : [ 4340 ]},
             {"items" : [ 4306 ]},
             {"items" : [ 4312 ]},
-            {"items" : [ 4447 ]}
+            {"items" : [ 4447 ]},
+            {"items" : [ 205 ]}
           ]
         },
         {
@@ -1969,7 +2081,8 @@
             {"items" : [ 4420 ]},
             {"items" : [ 4515 ]},
             {"items" : [ 4588 ]},
-            {"items" : [ 4338 ]}
+            {"items" : [ 4338 ]},
+            {"items" : [ 206 ]}
           ]
         },
         {
@@ -1986,7 +2099,8 @@
             {"items" : [ 4207 ]},
             {"items" : [ 4128 ]},
             {"items" : [ 4584 ]},
-            {"items" : [ 4574 ]}
+            {"items" : [ 4574 ]},
+            {"items" : [ 207 ]}
           ]
         },
         {
@@ -2003,7 +2117,8 @@
             {"items" : [ 4349 ]},
             {"items" : [ 4313 ]},
             {"items" : [ 4334 ]},
-            {"items" : [ 4507 ]}
+            {"items" : [ 4507 ]},
+            {"items" : [ 208 ]}
           ]
         },
         {
@@ -2018,7 +2133,8 @@
         {"title":"Salle 1"},
         {"title":"Salle 2"},
         {"title":"Salle 3"},
-        {"title":"Salle 4"}
+        {"title":"Salle 4"},
+        {"title":"Office Hours"}
       ]
     }
   },
