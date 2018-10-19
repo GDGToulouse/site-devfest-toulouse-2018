@@ -76,6 +76,7 @@
         <h3 class="meta-info" hidden$="[[disabledSchedule]]">[[session.dateReadable]], [[session.startTime]] - [[session.endTime]]</h3>
         <h3 class="meta-info" hidden$="[[disabledSchedule]]">[[session.track.title]]</h3>
         <h3 class="meta-info" hidden$="[[!session.complexity]]">{$ sessionDetails.contentLevel $}: [[session.complexity]]</h3>
+        <h4 class="meta-info lang" hidden$="[[_isBreak(session)]]">{$ sessionDetails.room $}: [[session.track.title]]</h4>
         <h4 class="meta-info type" hidden$="[[!session.type]]" style$="--duration: [[getDuration(session.type)]];" >{$ sessionDetails.type $}: [[session.type]]</h4>
         <h4 class="meta-info lang" hidden$="[[!session.language]]">{$ sessionDetails.language $}: [[session.language]]</h4>
 
@@ -226,6 +227,10 @@
           return speakers.map((speakerId) => this.speakersMap[speakerId]);
         }
         return speakers;
+      }
+
+      _isBreak(session) {
+        return !!session.isBreak;
       }
     }
 

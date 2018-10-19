@@ -122,7 +122,7 @@
                   <div class="section-secondary-text" hidden$="[[!session.dateReadable]]">[[session.dateReadable]],
                     [[session.startTime]] - [[session.endTime]]
                   </div>
-                  <div class="section-secondary-text" hidden$="[[!session.track.title]]">[[session.track.title]]</div>
+                  <div class="section-secondary-text" hidden$="[[!session.track.title]]">{$ sessionDetails.room $}: [[session.track.title]]</div>
                   <div class="tags" hidden$="[[!session.tags.length]]">
                     <template is="dom-repeat" items="[[session.tags]]" as="tag">
                       <span class="tag" style$="[[getSessionTagStyle(tag)]]">[[tag]]</span>

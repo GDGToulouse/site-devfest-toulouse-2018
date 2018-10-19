@@ -203,6 +203,7 @@
   "sessionDetails": {
     "contentLevel": "Niveau",
     "language": "Langage",
+    "room": "Salle",
     "type": "Type",
     "viewPresentation": "View presentation",
     "viewVideo": "View video",
