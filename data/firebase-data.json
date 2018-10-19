@@ -1,6 +1,7 @@
 {
   "sessions": {
     "100": {
+      "isBreak": true,
       "title": "Accueil et petit-déjeuner",
       "description": "Accueil et petit-déjeuner avec chocolatines",
       "image": "/images/backgrounds/chocos.png",
@@ -32,6 +33,7 @@
       ]
     },
     "103": {
+      "isBreak": true,
       "title": "Déjeuner",
       "description": "Déjeuner",
       "image": "/images/backgrounds/lunch.png",
@@ -39,6 +41,7 @@
       "tags": []
     },
     "104": {
+      "isBreak": true,
       "title": "Pause",
       "description": "Pause",
       "image": "/images/backgrounds/coffee.png",
@@ -2130,10 +2133,10 @@
         }
       ],
       "tracks":[
-        {"title":"Salle 1"},
-        {"title":"Salle 2"},
-        {"title":"Salle 3"},
-        {"title":"Salle 4"},
+        {"title":"Delair"},
+        {"title":"Continental"},
+        {"title":"Toulouse Métropole"},
+        {"title":"Airbus"},
         {"title":"Office Hours"}
       ]
     }
