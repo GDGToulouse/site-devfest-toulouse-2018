@@ -11,7 +11,6 @@
     <style is="custom-style" include="shared-styles flex flex-alignment positioning"></style>
 
     <style>
-
       :host {
         display: block;
         background-color: var(--primary-background-color);
@@ -26,8 +25,9 @@
 
       .nav-items {
         --paper-tabs-selection-bar-color: var(--default-primary-color);
+
         --paper-tabs: {
-          height: 64px;
+          height: 4rem;
         };
         width: 100%;
       }
@@ -35,6 +35,28 @@
       .nav-item a {
         padding: 0 14px;
         color: var(--primary-text-color);
+      }
+
+      .nav-item a.ical {
+        padding: 0;
+        line-height: 4rem;
+      }
+
+      paper-button.ical {
+        background: var(--dark-primary-color);
+        color: var(--text-primary-color);
+        line-height: 1rem;
+        padding: .5rem .5rem;
+      }
+
+      paper-button.ical span {
+        border-radius: .25rem;
+      }
+
+      paper-button.ical span::before {
+        content: 'iCal';
+        margin-left: .125rem;
+        text-transform: initial;
       }
 
       @media (min-width: 640px) {
@@ -48,41 +70,35 @@
 
     <app-toolbar class="bottom-toolbar">
 
-      <content-loader
-        class="nav-items"
-        card-padding="15px"
-        card-width="105px"
-        card-margin="0 14px 0 0"
-        card-height="64px"
-        avatar-size="0"
-        avatar-circle="0"
-        title-top-position="20px"
-        title-height="24px"
-        title-width="75%"
-        load-from="-240%"
-        load-to="350%"
-        blur-width="80px"
-        items-count="{$ contentLoaders.schedule.itemsCount $}"
-        layout horizontal
+      <content-loader class="nav-items" card-padding="15px" card-width="105px" card-margin="0 14px 0 0" card-height="64px"
+        avatar-size="0" avatar-circle="0" title-top-position="20px" title-height="24px" title-width="75%" load-from="-240%"
+        load-to="350%" blur-width="80px" items-count="{$ contentLoaders.schedule.itemsCount $}" layout horizontal
         hidden$="[[contentLoaderVisibility]]">
       </content-loader>
 
-      <paper-tabs
-        class="nav-items"
-        selected="[[route.subRoute]]"
-        attr-for-selected="day"
-        hidden$="[[!contentLoaderVisibility]]"
-        scrollable
-        hide-scroll-buttons
-        noink
-      >
+      <paper-tabs class="nav-items" selected="[[route.subRoute]]" attr-for-selected="day" hidden$="[[!contentLoaderVisibility]]"
+        scrollable hide-scroll-buttons noink>
         <template is="dom-repeat" items="[[schedule]]" as="day">
           <paper-tab class="nav-item" day="[[day.date]]" link>
             <a href$="/schedule/[[day.date]]" layout vertical center-center>[[day.dateReadable]]</a>
+
+            <a class="ical" href$="[[_ical(schedule)]]" download="{$ title $}.ics" title="{$ heroSettings.schedule.title $}">
+              <paper-button class="ical">
+                <iron-icon icon="hoverboard:calendar"></iron-icon>
+                <span></span>
+              </paper-button>
+            </a>
           </paper-tab>
         </template>
+
         <paper-tab class="nav-item" day="my-schedule" hidden$="[[!user.signedIn]]" link>
           <a href="/schedule/my-schedule" layout vertical center-center>{$ mySchedule.title $}</a>
+          <a class="ical" href$="[[_ical(schedule, featuredSessions)]]" download="{$ title $}_{$ mySchedule.title $}.ics" title="{$ mySchedule.title $}">
+            <paper-button class="ical">
+              <iron-icon icon="hoverboard:calendar"></iron-icon>
+              <span></span>
+            </paper-button>
+          </a>
         </paper-tab>
       </paper-tabs>
     </app-toolbar>
@@ -90,7 +106,6 @@
   </template>
 
   <script>
-
     // eslint-disable-next-line no-undef
     class HeaderBottomToolbar extends UtilsFunctions(ReduxMixin(Polymer.Element)) {
       static get is() {
@@ -110,6 +125,10 @@
           contentLoaderVisibility: {
             type: Boolean,
             value: false,
+          },
+          featuredSessions: {
+            type: Object,
+            statePath: 'sessions.featured',
           },
           user: {
             type: Object,
@@ -138,5 +157,6 @@
     }
 
     customElements.define(HeaderBottomToolbar.is, HeaderBottomToolbar);
+
   </script>
 </dom-module>
