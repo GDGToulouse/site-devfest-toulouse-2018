@@ -72,23 +72,6 @@
       <div class="hero-title highlight-font">{$ heroSettings.schedule.title $}</div>
       <p class="hero-description">{$ heroSettings.schedule.description $}</p>
 
-      <a class="ical" href$="[[_ical(schedule)]]" download="{$ title $}.ics" title="{$ heroSettings.schedule.title $}">
-        <paper-button class="icon-left animated">
-          <iron-icon icon="hoverboard:calendar"></iron-icon>
-          <span>{$ heroSettings.schedule.title $}</span>
-        </paper-button>
-      </a>
-
-      <a class="ical" href$="[[_ical(schedule, featuredSessions)]]"
-         hidden$="[[_hideMySchedule(featuredSessions)]]"
-         download="{$ title $}_{$ mySchedule.title $}.ics" title="{$ mySchedule.title $}">
-        <paper-button class="icon-left animated">
-          <iron-icon icon="hoverboard:calendar"></iron-icon>
-          <span>{$ mySchedule.title $}</span>
-        </paper-button>
-      </a>
-
-
       <sticky-element slot="bottom" active="[[active]]">
         <header-bottom-toolbar></header-bottom-toolbar>
       </sticky-element>
@@ -238,10 +221,6 @@
 
       _setHelmetData(active, isDialogOpened) {
         return active && !isDialogOpened;
-      }
-
-      _hideMySchedule(featuredSessions) {
-        return !(featuredSessions && Object.keys(featuredSessions).length > 0);
       }
     }
 

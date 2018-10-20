@@ -5,7 +5,9 @@
   const UtilsFunctions = (subclass) => class extends subclass {
     transformToArray(source, attribute) {
       return source && Object.keys(source)
-        .map((key) => Object.assign(attribute ? { [attribute]: key } : {}, source[key]));
+        .map((key) => Object.assign(attribute ? {
+          [attribute]: key,
+        } : {}, source[key]));
     }
 
     getDate(date) {
@@ -25,9 +27,9 @@
     }
 
     generateClassName(value) {
-      return value
-        ? value.replace(/\W+/g, '-').replace(/([a-z\d])([A-Z])/g, '$1-$2').toLowerCase()
-        : '';
+      return value ?
+        value.replace(/\W+/g, '-').replace(/([a-z\d])([A-Z])/g, '$1-$2').toLowerCase() :
+        '';
     }
 
     slice(text, number) {
@@ -72,26 +74,34 @@
 
     _getSessionEvent(date, session) {
       const {
-        id, title, description,
-        track, mainTag, type,
-        language, complexity, isBreak,
-        startTime, endTime, speakers,
-      } = session.items[0];
+        id,
+        title,
+        description,
+        track,
+        mainTag,
+        type,
+        language,
+        complexity,
+        isBreak,
+        startTime,
+        endTime,
+        speakers,
+      } = session;
 
       const descr = [
         speakers.map((s) => s.name).join(', '),
         [type, complexity]
-          .filter((e) => !!e)
-          .map((e) => `[${e}]`)
-          .concat(language === 'English' ? ['🇬🇧'] : [])
-          .join(' '),
+        .filter((e) => !!e)
+        .map((e) => `[${e}]`)
+        .concat(language === 'English' ? ['🇬🇧'] : [])
+        .join(' '),
         description,
       ].join('\n');
 
       const escape = (str) =>
         str
-          .replace(/,/g, '\\,')
-          .replace(/\n/g, '\\n');
+        .replace(/,/g, '\\,')
+        .replace(/\n/g, '\\n');
 
       const start = `${date.replace(/-/g, '')}T${startTime.replace(':', '')}00`;
       const end = `${date.replace(/-/g, '')}T${endTime.replace(':', '')}00`;
@@ -106,7 +116,7 @@
         `DESCRIPTION:${escape(descr)}`,
         `LOCATION:${isBreak ? '' : 'Salle ' + track.title}`,
         `URL:https://devfesttoulouse.fr/schedule/${date}?sessionId=${id}`,
-        `CATEGORIES:${mainTag}`,
+        `CATEGORIES:${isBreak?'Break':(mainTag||'')}`,
         `TRANSP:TRANSPARENT`,
         'END:VEVENT',
       ];
@@ -116,7 +126,7 @@
       return slot.sessions
         .filter((session) => !sessionFilter || sessionFilter(session))
         .reduce((acc, session) =>
-          acc.concat(this._getSessionEvent(day.date, session)), []);
+          acc.concat(...session.items.map((item) => this._getSessionEvent(day.date, item))), []);
     }
 
     _getDayEvents(day, sessionFilter) {
@@ -133,11 +143,15 @@
         'BEGIN:VCALENDAR',
         'VERSION:2.0',
         'PRODID:-//Hoverboard/{$ title $}//FR',
+        'X-WR-CALDESC:{$ title $}',
+        'X-WR-CALNAME:{$ title $}',
+        'X-WR-TIMEZONE:Europe/Paris',
         ...schedule.reduce((acc, day) => acc.concat(this._getDayEvents(day, sessionFilter)), []),
         'END:VCALENDAR',
       ];
-      const string = cal.join('\r\n');
-      return 'data:text/calendar;base64,' + btoa(unescape(encodeURIComponent(string)));
+      const ical = cal.join('\r\n');
+      return 'data:text/calendar;base64,' + btoa(unescape(encodeURIComponent(ical)));
     }
   };
+
 </script>
