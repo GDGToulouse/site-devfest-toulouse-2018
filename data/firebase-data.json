@@ -69,7 +69,7 @@
       "id": 202,
       "speakers": [
         "david_gageot",
-        "sylvain_wallez",
+        "guillaume_membre",
         "olivier_leplus",
         "piotr_przybyl"
       ]
@@ -82,7 +82,7 @@
       "id": 203,
       "speakers": [
         "robert_firek",
-        "guillaume_membre",
+        "sylvain_wallez",
         "hubert_sablonniere",
         "sebastien_guilloux"
       ]
@@ -2006,7 +2006,7 @@
           "endTime":"11:40",
           "sessions":[
             {"items" : [ 4305 ]},
-            {"items" : [ 4195 ]},
+            {"items" : [ 4231 ]},
             {"items" : [ 4331 ]},
             {"items" : [ 4617 ]},
             {"items" : [ 201 ]}
@@ -2024,7 +2024,7 @@
           "endTime":"12:40",
           "sessions":[
             {"items" : [ 4282 ]},
-            {"items" : [ 4231 ]},
+            {"items" : [ 4195 ]},
             {"items" : [ 4307 ]},
             {"items" : [ 4509 ]},
             {"items" : [ 202 ]}
