@@ -391,9 +391,9 @@
     },
     "4334": {
       "title": "Tensorflow, is there really no spoon ?",
-      "language": "Français",
+      "language": "English",
       "complexity": "Intermédiaire",
-      "description": "Avec la démocratisation du deep learning, la reconnaissance d'images est partout. Mais attention, comme toutes technologies, cette dernière a ses failles. Il est en effet possible de tromper les modèles de classification pourtant utilisés dans des applications aussi critiques que les véhicules autonomes, les drones militaires, les caméras de surveillances... Ensemble, nous allons explorer les failles d'un réseau de neurone et générer des images antagonistes (adversarial images) afin de leurrer un modèle de reconnaissance d'image et lui faire voir ce que vous voulons.\n\nMais non Tensorflow, la cuillère n'existe pas !",
+      "description": "With the advance of Deep learning, Image recognition is everywhere! But like all technologies, it has its flaws. It is indeed possible to fool neural network models used for critical applications such as self-driving cars, drones, security cameras... Together, we will see how to generate adversarial images and fool a neural network into seeing something in an image that is not there.\n\nNo Tensorflow, there is no spoon!",
       "type": "Conférence",
       "tags": [
         "Big Data / ML / AI"
