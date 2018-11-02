@@ -44,6 +44,11 @@
           "name": "Google Developers Group",
           "url": "https://developers.google.com/",
           "newTab": true
+        },
+        {
+          "name": "Code de conduite",
+          "url": "/cod/",
+          "newTab": false
         }
       ]
     },
