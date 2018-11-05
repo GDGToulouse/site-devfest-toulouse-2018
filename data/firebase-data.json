@@ -56,7 +56,7 @@
       "id": 201,
       "speakers": [
         "miro_miro_cupak",
-        "sara_harkousse",
+        "fabien_tregan",
         "horacio_gonzalez",
         "celine_louvet"
       ]
@@ -654,6 +654,20 @@
       "id": 4457,
       "speakers": [
         "mathieu_passenaud"
+      ]
+    },
+    "5000": {
+      "title": "The Old Man Glitch - Escalade de bug sur la première génération de Pokemon sur Gameboy",
+      "language": "Français",
+      "complexity": "Beginner",
+      "description": "Je vous propose de prendre avec vous le temps de regarder un bug dans du code 8-bit de 1996 et de parler de techniques obsolètes d'escalade de failles. Juste pour le plaisir. Off-by-one error, underflow, buffer overflow, injection de code... avec des Pokemon alors même les adultes vont comprendre.",
+      "type": "Conférence",
+      "tags": [
+        "WTF"
+      ],
+      "id": 5000,
+      "speakers": [
+        "fabien_tregan"
       ]
     }
   },
@@ -1658,36 +1672,6 @@
       "companyLogoUrl": "/images/speakers/company/clever_cloud.jpg",
       "country": "Toulouse, France"
     },
-    "sara_harkousse": {
-      "id": "sara_harkousse",
-      "name": "Sara HARKOUSSE",
-      "bio": "Sara Harkousse est Développeuse web front-end et client riche chez Dassault Systèmes (CATIA), CTO de Maydée, Oratrice dans des Conférences Tech comme Devoxx France, DevFest, BlendWebMix, Js Kongress, United Dev Conf, jFokus ..., et une des leaders de \"Duchesse France\". La diversité du genre dans le paysage technologique est l'une de ses batailles, c'est pourquoi elle n'hésite pas à organiser des meetups pour faire connaître les dernières technologies ou simplement partager son expérience de développeuse.",
-      "company": "Dassault Systèmes",
-      "featured": false,
-      "photo": "/images/speakers/sara_harkousse.jpg",
-      "photoUrl": "/images/speakers/sara_harkousse.jpg",
-      "socials": [
-        {
-          "icon": "twitter",
-          "link": "https://twitter.com/Sara_harkousse",
-          "name": "@Sara_harkousse"
-        },
-        {
-          "icon": "github",
-          "link": "https://github.com/SaraHarkousse",
-          "name": "SaraHarkousse"
-        },
-        {
-          "icon": "linkedin",
-          "link": "https://www.linkedin.com/in/sara-harkousse-90720aa9/?ppe=1, https://www.facebook.com/profile.php?id=100015174044278, http://www.saraharkousse.com/",
-          "name": "LinkedIn"
-        }
-      ],
-      "shortBio": "R&D Engineer @Dassault3DS @3DSCATIA, Front-End Web developer, Speaker, 3DS advocate @Ellesbougent, One of @duchessfr Leaders, @Maydeeapp Cofounder, Proud 🇲🇦",
-      "companyLogo": "/images/speakers/company/dassault_systemes.jpg",
-      "companyLogoUrl": "/images/speakers/company/dassault_systemes.jpg",
-      "country": "Munich, Bavaria"
-    },
     "mathieu_passenaud": {
       "name": "Mathieu Passenaud",
       "bio": "DevOps (Teevity, Berger Levrault, OVH, Connit, Ubleam) depuis 8 ans maintenant sur Toulouse. Issu du milieu de l'embarqué (calculateurs ferroviaires/militaires), je me suis retrouvé parachuté dans l'univers du cloud pendant quelques années jusqu'à revenir au croisement de ces deux mondes : l'IOT. Touche à tout, j'aime beaucoup prototyper et répondre à la question 'est-ce que c'est possible ?'",
@@ -1712,6 +1696,23 @@
         }
       ],
       "title": "Fondateur"
+    },
+    "fabien_tregan": {
+      "name": "Fabien Tregan",
+      "bio": "Essaie de faire des logiciels depuis vingt ou trente ans. Au début en se concentrant surtout sur le code, aujourd'hui en essayant de débusquer les problèmes là où ils se trouvent. Heureusement, des fois c'est dans le code.",
+      "shortBio": "Not trying to reach perfection. Just more or less walking toward it, trying to enjoy the landscape meanwhile.",
+      "company": "Freelance",
+      "country": "Toulouse, France",
+      "featured": false,
+      "photo": "/images/speakers/fabien_tregan.jpg",
+      "photoUrl": "/images/speakers/fabien_tregan.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/ftregan",
+          "name": "@ftregan"
+        }
+      ]
     }
   },
   "blog": {
@@ -1989,7 +1990,7 @@
           "endTime":"10:40",
           "sessions":[
             {"items" : [ 4528 ]},
-            {"items" : [ 4322 ]},
+            {"items" : [ 5000 ]},
             {"items" : [ 4132 ]},
             {"items" : [ 4142 ]}
           ]
