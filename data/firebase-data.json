@@ -13,6 +13,7 @@
       "description": "Développeurs de jeux vidéo : rois de la combine ?",
       "image": "/images/backgrounds/game.png",
       "class": "intro",
+      "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F101-gamedev-mischief-LaurentVictorino.pdf?alt=media&token=8c65f60b-731f-4223-bd02-3e2cdd15f064",
       "id": 101,
       "type": "Keynote",
       "tags": ["General"],
@@ -161,6 +162,7 @@
       "complexity": "Débutant",
       "description": "La communication fait aujourd’hui partie intégrante de notre travail; il nous arrive régulièrement de vouloir diffuser une information importante, réaliser une présentation, un compte rendu de réunion… Mais comment être sûrs que le message que l’on souhaite faire passer a bien été compris et retenu par les interlocuteurs ? Le sketchnoting apporte une solution ludique, créative et agréable autant à créer qu’à lire. Venez découvrir comment mettre en valeur votre communication à l’aide de procédés très visuels, simples et accessibles à tous.",
       "type": "Quickie",
+      "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4125-LetsSketchnote-AneDiazDeTuesta.pdf?alt=media&token=a57cb98d-3b45-46d5-8752-b18a8dd745ff",
       "tags": [
         "Method & Tools"
       ],
@@ -178,6 +180,7 @@
       "tags": [
         "Method & Tools"
       ],
+      "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4128-karate-NicolasComet.pdf?alt=media&token=d1b81627-6683-4134-bc71-e604ac0b1c55",
       "id": 4128,
       "speakers": [
         "comet_nicolas",
@@ -206,6 +209,7 @@
       "tags": [
         "Languages"
       ],
+      "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4142-Haskellenprod-CelineLouvet.pdf?alt=media&token=96f84ad6-2bfd-4016-a94c-f51fb58b32de",
       "id": 4142,
       "speakers": [
         "celine_louvet"
@@ -217,6 +221,7 @@
       "tags": [
         "Languages"
       ],
+      "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4195-WebappswithRust-SylvainWallez.pdf?alt=media&token=b79694bf-a25e-41aa-bc7b-64506797e29a",
       "language": "Français",
       "complexity": "Débutant",
       "description": "Développé par la fondation Mozilla, Rust est un langage fortement typé, sûr, très performant et très économe en ressources (oui oui, tout ça à la fois). Initialement orienté système et bas niveau, l'écosystème Rust s'agrandit rapidement et propose maintenant toutes les librairies nécessaires au développement d'applications web. Pour découvrir le développement web avec Rust, nous parcourerons l'architecture et le code d'un serveur de commentaires open source à la Disqus, développé par le speaker pour les sites statiques faits par exemple avec Jekyll ou Hugo. Nous découvrirons routage http avec extraction typée de paramètres, réponses asynchrones, appel de services tiers, accès aux bases de données, cache, templating HTML, envoi d'emails, logs, métriques, etc. Et nous verrons qu'une application Rust c'est tout petit et très rapide, permettant d'héberger le serveur sur des configurations très modestes.",
@@ -247,6 +252,7 @@
       "tags": [
         "Method & Tools"
       ],
+      "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4211-ArchitectureDecisionRecords-ArnaudBos.pdf?alt=media&token=20dac175-6460-4bd3-a490-544ceae883bb",
       "id": 4211,
       "speakers": [
         "arnaud_bos"
@@ -261,6 +267,7 @@
       "tags": [
         "Method & Tools"
       ],
+      "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4225-detectez-et-traquez-les-zergs-qui-se-cachent-dans-vos-dpendances.pdf?alt=media&token=b96358e5-0b6f-444c-9b0e-cbcf628700b4",
       "id": 4225,
       "speakers": [
         "julien_topcu"
@@ -275,6 +282,7 @@
       "tags": [
         "IOT"
       ],
+      "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4231-20181108-DevfestToulouse-Raspberry-Avions.pdf?alt=media&token=d675b039-61c1-4366-9532-b2c137b317eb",
       "id": 4231,
       "speakers": [
         "guillaume_membre"
@@ -289,6 +297,7 @@
       "tags": [
         "Method & Tools"
       ],
+      "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4282-monsters-RobertFirek.pdf?alt=media&token=1b5d4644-4636-4187-b919-76c0cb9b6f68",
       "id": 4282,
       "speakers": [
         "robert_firek"
@@ -316,6 +325,7 @@
       "tags": [
         "Method & Tools"
       ],
+      "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4306-introductionaudataorienteddesign-AlessioColtellacci.pptx?alt=media&token=e80249cd-d945-4e23-8b29-2e4e58e8739e",
       "id": 4306,
       "speakers": [
         "alessio_coltellacci"
@@ -343,6 +353,7 @@
       "tags": [
         "Big Data / ML / AI"
       ],
+      "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4312-MachineLearningAPIsv3-GuillaumeLaforge.pdf?alt=media&token=62acf4e0-378a-4577-ac3c-42dc8691bf80",
       "id": 4312,
       "speakers": [
         "guillaume_laforge"
@@ -409,6 +420,7 @@
       "tags": [
         "Method & Tools"
       ],
+      "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4338-Commentperdresasurchargefeaturale-EstelleLandry.pdf?alt=media&token=ca4f3bdf-95da-4e22-81e5-abc17178b390",
       "language": "Français",
       "complexity": "Débutant",
       "description": "Le cycle de vie d'une application est un chemin nébuleux et plein de dangers. La complexité ne fait que croitre durant les mois et les années d'utilisation. L'un des plus gros challenges d'un développeur est de pouvoir la contrôler tout en ajoutant de nouvelles fonctionnalités (features). Des solutions existent : le ré-écriture de code ou encore la maitrise de la dette technique. En effet, ces deux actions permettent de lever \"la complexité accidentelle\". Mais que faisons nous de la \"complexité essentielle\" ? La complexité qui n'est pas liée au code. La seule solution : Supprimer des fonctionnalités ! Ce talk vous expliquera comment perdre la surcharge featurale de vos applications en comprenant la différence entre la complexité essentielle et la complexité accidentelle, mais aussi en vous donnant des clés pour mener à bien ce changement de vie dans vos équipes projet. ",
@@ -422,6 +434,7 @@
       "tags": [
         "Web"
       ],
+      "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4340-angular-elements-v7-RaulJimenez.zip?alt=media&token=be14bae6-4ed2-471e-bb99-e5767ee1b02c",
       "language": "English",
       "complexity": "Débutant",
       "description": "In this session we will see how to create our first Web Component with Angular Elements and use it in a plain JS app.",
@@ -452,6 +465,7 @@
       "tags": [
         "Web"
       ],
+      "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4593-AngularSchematics-benoitElAmrani.pptx?alt=media&token=7985983c-441a-47bb-a5b1-70224b074810",
       "id": 4593,
       "speakers": [
         "benoit_el_amrani"
@@ -480,6 +494,7 @@
       "tags": [
         "Method & Tools"
       ],
+      "presentation": "https://github.com/dadoonet/elasticsearch-integration-tests",
       "id": 4432,
       "speakers": [
         "david_pilato"
@@ -494,6 +509,7 @@
       "tags": [
         "Cloud"
       ],
+      "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4447-systemd.pdf?alt=media&token=7744eee3-d691-4120-a71a-14a28839cff7",
       "id": 4447,
       "speakers": [
         "francois_teychene"
@@ -508,6 +524,7 @@
       "tags": [
         "WTF"
       ],
+      "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4473-CodeDataoules2-OlivierFlebus.pdf?alt=media&token=7a222481-e789-4f8b-aee0-4e01e0cbaabb",
       "id": 4473,
       "speakers": [
         "olivier_flebus"
@@ -522,6 +539,7 @@
       "tags": [
         "Languages"
       ],
+      "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4507-TalkTypeclasses-AlexandreDelattre.pdf?alt=media&token=d773b637-537b-4e08-9cf1-c1a1441a6a33",
       "id": 4507,
       "speakers": [
         "alexandre_delattre",
@@ -537,6 +555,7 @@
       "tags": [
         "Cloud"
       ],
+      "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4509-UnderstandingtheCAPtheoremwithApacheKafka-Se%CC%81bastienGuilloux.pdf?alt=media&token=e26a3b33-ec28-409e-9b5f-e02df89c484b",
       "id": 4509,
       "speakers": [
         "sebastien_guilloux"
@@ -566,6 +585,7 @@
       "tags": [
         "Languages"
       ],
+      "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4528-reactivejava-MiroCupak.zip?alt=media&token=09822fe0-47e7-401c-b5a9-165778bf0dc9",
       "id": 4528,
       "speakers": [
         "miro_miro_cupak"
@@ -595,6 +615,7 @@
       "tags": [
         "Big Data / ML / AI"
       ],
+      "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4584-CommentEtPourquoiCrafterLaDataScienceSurMesure-AnastasiaLieva.pdf?alt=media&token=e2b95735-9f32-4f4e-9431-383748c79cdd",
       "id": 4584,
       "speakers": [
         "anastasia_lieva"
@@ -609,6 +630,7 @@
       "tags": [
         "Languages"
       ],
+      "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4588-MultiplatformprojectswithKotlin-VictorKropp.pdf?alt=media&token=48d6e567-72ca-4fec-8628-0ad1e52f8671",
       "id": 4588,
       "speakers": [
         "victor_kropp"
@@ -637,6 +659,7 @@
       "tags": [
         "Method & Tools"
       ],
+      "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4617-context-PiotrPrzybyl.zip?alt=media&token=979ce39c-2ee9-4e84-b8f6-9b9e706f31f1",
       "id": 4617,
       "speakers": [
         "piotr_przybyl"
@@ -651,6 +674,7 @@
       "tags": [
         "Cloud"
       ],
+      "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4457-Templatedede%CC%81ploiementsKubernetesaveckontemplate-MathieuPassenaud.pptx?alt=media&token=7262e90f-74d9-4618-b63c-ef8c3a574985",
       "id": 4457,
       "speakers": [
         "mathieu_passenaud"
@@ -665,6 +689,7 @@
       "tags": [
         "WTF"
       ],
+      "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F5000-TheOldManGlitch-fabientregan.zip?alt=media&token=623dfb0e-6e6f-4de5-b142-34ccfa666af8",
       "id": 5000,
       "speakers": [
         "fabien_tregan"
