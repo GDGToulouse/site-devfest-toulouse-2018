@@ -210,8 +210,8 @@
     "language": "Langage",
     "room": "Salle",
     "type": "Type",
-    "viewPresentation": "Voir les slides",
-    "viewVideo": "Voir le replay",
+    "viewPresentation": "Slides",
+    "viewVideo": "Replay",
     "speakers": "Speakers"
   },
   "speakerDetails": {

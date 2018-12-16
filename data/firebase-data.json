@@ -15,6 +15,7 @@
       "class": "intro",
       "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F101-gamedev-mischief-LaurentVictorino.pdf?alt=media&token=8c65f60b-731f-4223-bd02-3e2cdd15f064",
       "id": 101,
+      "videoId": "jwaJ7U9SSDM",
       "type": "Keynote",
       "tags": ["General"],
       "speakers":[
@@ -27,6 +28,7 @@
       "image": "/images/backgrounds/sky.png",
       "class": "end",
       "id": 102,
+      "videoId": "nfd3wh-GOQI",
       "type": "Keynote",
       "tags": ["General"],
       "speakers":[
@@ -167,6 +169,7 @@
         "Method & Tools"
       ],
       "id": 4125,
+      "videoId": "NInM_wndk2U",
       "speakers": [
         "ane_diaz_de_tuesta"
       ]
@@ -182,6 +185,7 @@
       ],
       "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4128-karate-NicolasComet.pdf?alt=media&token=d1b81627-6683-4134-bc71-e604ac0b1c55",
       "id": 4128,
+      "videoId": "ZNrCw5T-wls",
       "speakers": [
         "comet_nicolas",
         "benoit_prioux"
@@ -195,6 +199,7 @@
       ],
       "language": "Français",
       "complexity": "Débutant",
+      "videoId": "a4zCakyQN-o",
       "description": "Ah, Capacitor, quelle belle idée, une alternative à Cordova plus facile à utiliser, utilisable dans n'importe quel framework, complètement intégré à la prochaine version d'Ionic... Ben non, au moins au début, l'idée de Capacitor me laissait sceptique. J'ai passé les deux dernières années a développer des PWA, alors la pensée de devoir revenir à faire des applications hybrides ou native me paressait simplement obsolète. Dans ma tête j'avais mis Capacitor dans la case techno cool qui ne m'intéresse pas dans la vraie vie. Mais à ce moment j'ai relu avec attention leur site et j'ai vu une ligne qui m'a séduit: Build web apps that run equally well on iOS, Android, Electron, and as Progressive Web Apps. Hmmm, si je pouvais prendre une PWA et générer à partir d'elle une appli native Android, une autre iOS et une implémentation Electron en bonus, ça pourrait être carrément cool ! J'ai donc décidé de teste Capacitor sur certaines de mes PWA pour voir si je pouvais les transformer en applications natives. Et ce talk est le retour d'expérience de ce processus, mes premiers pas avec Capacitor, ce qui a marché et ce qui n'a pas marché, et surtout ce que j'ai appris dans le processus.",
       "speakers": [
         "horacio_gonzalez"
@@ -211,6 +216,7 @@
       ],
       "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4142-Haskellenprod-CelineLouvet.pdf?alt=media&token=96f84ad6-2bfd-4016-a94c-f51fb58b32de",
       "id": 4142,
+      "videoId": "5VCIaYvWecM",
       "speakers": [
         "celine_louvet"
       ]
@@ -224,6 +230,7 @@
       "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4195-WebappswithRust-SylvainWallez.pdf?alt=media&token=b79694bf-a25e-41aa-bc7b-64506797e29a",
       "language": "Français",
       "complexity": "Débutant",
+      "videoId": "rhAqG4gh400",
       "description": "Développé par la fondation Mozilla, Rust est un langage fortement typé, sûr, très performant et très économe en ressources (oui oui, tout ça à la fois). Initialement orienté système et bas niveau, l'écosystème Rust s'agrandit rapidement et propose maintenant toutes les librairies nécessaires au développement d'applications web. Pour découvrir le développement web avec Rust, nous parcourerons l'architecture et le code d'un serveur de commentaires open source à la Disqus, développé par le speaker pour les sites statiques faits par exemple avec Jekyll ou Hugo. Nous découvrirons routage http avec extraction typée de paramètres, réponses asynchrones, appel de services tiers, accès aux bases de données, cache, templating HTML, envoi d'emails, logs, métriques, etc. Et nous verrons qu'une application Rust c'est tout petit et très rapide, permettant d'héberger le serveur sur des configurations très modestes.",
       "speakers": [
         "sylvain_wallez"
@@ -239,6 +246,7 @@
         "Languages"
       ],
       "id": 4207,
+      "videoId": "AQ_q-hdtNS4",
       "speakers": [
         "frederic_cabestre"
       ]
@@ -254,6 +262,7 @@
       ],
       "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4211-ArchitectureDecisionRecords-ArnaudBos.pdf?alt=media&token=20dac175-6460-4bd3-a490-544ceae883bb",
       "id": 4211,
+      "videoId": "EDYplU1PB5s",
       "speakers": [
         "arnaud_bos"
       ]
@@ -269,6 +278,7 @@
       ],
       "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4225-detectez-et-traquez-les-zergs-qui-se-cachent-dans-vos-dpendances.pdf?alt=media&token=b96358e5-0b6f-444c-9b0e-cbcf628700b4",
       "id": 4225,
+      "videoId": "aZeR6PypJ8k",
       "speakers": [
         "julien_topcu"
       ]
@@ -284,6 +294,7 @@
       ],
       "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4231-20181108-DevfestToulouse-Raspberry-Avions.pdf?alt=media&token=d675b039-61c1-4366-9532-b2c137b317eb",
       "id": 4231,
+      "videoId": "UcADSVfOg3k",
       "speakers": [
         "guillaume_membre"
       ]
@@ -299,6 +310,7 @@
       ],
       "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4282-monsters-RobertFirek.pdf?alt=media&token=1b5d4644-4636-4187-b919-76c0cb9b6f68",
       "id": 4282,
+      "videoId": "tWPlvgtJgF4",
       "speakers": [
         "robert_firek"
       ]
@@ -311,6 +323,7 @@
       ],
       "language": "Français",
       "complexity": "Intermédiaire",
+      "videoId": "-t1cTnhoGTg",
       "description": "Kubernetes est devenu l'orchestrateur de choix pour déployer des applications. Mais qu'en est-il du quotidien des développeurs qui créent ces applications ? Plus on s'appuie sur la plateforme, plus il est compliqué de développer en dehors de la plateforme. Et développer à l'intérieur de conteneurs n'est pas réputé facile ni agréable. Google est à l'origine de plusieurs projets Open-Source qui se focalisent sur l'expérience des développeurs dans un monde de conteneurs. Kaniko permet de construire une image Docker à partir d'un Dockerfile, dans un cluster Kubernetes, de manière sécurisée. Skaffold facilite le déploiement continu d'applications pour Kubernetes. Les images Distroless offrent des images de base légères, sécurisées et de qualité. Bazel permet meme de construire des images Docker sans Docker. Venez découvrir comment ces outils se combinent pour offrir un environment de développement agréable et performant dans le monde des conteneurs.",
       "speakers": [
         "david_gageot"
@@ -322,6 +335,7 @@
       "complexity": "Débutant",
       "description": "La performance est redevenue un sujet critique aujourd’hui avec le Cloud et les traitements de la données avec le Big data.\n\nAu delà des choix d'algorithmes et de structures de données, un moyen d'écrire du code performant, c'est de s'assurer que le processeur soit utilisé le plus efficacement possible et d'éviter qu’il perde du temps à charger/déplacer des données en mémoire.\n\nLe Data Oriented Design se place justement dans cette optique et fournit des méthodes pour écrire du code performant en prenant en compte les limitations du hardware.\n\nContenu de la présentation:\n\n * Explication du concept du Dod.\n\n * Comment fonctionnent les processeurs et montrer les grosses différences d’ordres de grandeurs des accès à la mémoire.\n\n* Comment le DoD permet de régler ces problèmes, avec des exemples de structures de données adaptées.\n\n* Comment le Dod a été mis en place sur le reverse proxy http de Clever Cloud: Sozu.\n\n* Comment mettre en place une approche DoD sur un cas concret par la création d’un entity manager qu'on trouve dans un moteur de jeu.\n\n* Réduire le temps d'exécution d'un programme JavaScript par 6 en s'aidant du Data-Oriented Design.",
       "type": "Conférence",
+      "videoId": "3lzpK45cyBo",
       "tags": [
         "Method & Tools"
       ],
@@ -339,6 +353,7 @@
       ],
       "language": "Français",
       "complexity": "Débutant",
+      "videoId": "CcTbecZ67_o",
       "description": "Les cookies HTTP sont partout ! Pas une journée sans qu’un site nous demande “d’accepter les cookies”. Rares sont les projets Web qui ne les utilisent pas et pourtant leur fonctionnement nous échappe trop souvent. On confond les règles auxquelles ils sont soumis au sein des navigateurs. On fait des amalgames avec les sessions côté serveur. Ces petits trous dans le gigantesque éventail de connaissances du développeur moderne ont parfois des impacts non négligeables sur la sécurité de nos applications et sur la préservation de notre vie privée en tant qu’utilisateur du Web. Au menu de cette session, je vous propose de (re)découvrir les cookies HTTP par l’exemple et la pratique. Nous reviendrons sur leurs origines et nous verrons en détails leur fonctionnement. Enfin, nous aborderons les aspects les plus récents dans le domaine (SameSite, cookie prefix...). Ce talk sera plus généralement l’occasion de parler de sécurité, de tracking et de vie privée.",
       "speakers": [
         "hubert_sablonniere"
@@ -355,6 +370,7 @@
       ],
       "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4312-MachineLearningAPIsv3-GuillaumeLaforge.pdf?alt=media&token=62acf4e0-378a-4577-ac3c-42dc8691bf80",
       "id": 4312,
+      "videoId": "gSewdZrom10",
       "speakers": [
         "guillaume_laforge"
       ]
@@ -367,6 +383,7 @@
       ],
       "language": "Français",
       "complexity": "Intermédiaire",
+      "videoId": "7u3luu6BmDg",
       "description": "Tout le monde (dans un monde idéal) fait des tests unitaires. Rares par contre sont ceux qui s'aventurent à mettre en place des tests end-to-end. Longs à développer, laborieux à maintenir, ils sont souvent les premiers à passer à la trappe. Et si ces tests devenaient faciles à développer et à lancer? Mieux encore, si ce n'était plus aux développeurs (déjà chargés comme des mules, c'est bien connu) de les rédiger, mais aux fonctionnels? Des tests à base de phrases compréhensibles par tous, faciles à lancer et à maintenir? Ce sera le but de ce talk: à partir d'une application web Angular, nous verrons comment configurer et lancer vos tests BDD avec TestCafe, Serenity et Cucumber.",
       "speakers": [
         "laurent_wroblewski"
@@ -396,6 +413,7 @@
         "Web"
       ],
       "id": 4331,
+      "videoId": "1oKEcDdYANY",
       "speakers": [
         "olivier_leplus"
       ]
@@ -410,6 +428,7 @@
         "Big Data / ML / AI"
       ],
       "id": 4334,
+      "videoId": "4QIjIoHP0x4",
       "speakers": [
         "tiffany_souterre"
       ]
@@ -423,6 +442,7 @@
       "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4338-Commentperdresasurchargefeaturale-EstelleLandry.pdf?alt=media&token=ca4f3bdf-95da-4e22-81e5-abc17178b390",
       "language": "Français",
       "complexity": "Débutant",
+      "videoId": "YM3pnJDhATE",
       "description": "Le cycle de vie d'une application est un chemin nébuleux et plein de dangers. La complexité ne fait que croitre durant les mois et les années d'utilisation. L'un des plus gros challenges d'un développeur est de pouvoir la contrôler tout en ajoutant de nouvelles fonctionnalités (features). Des solutions existent : le ré-écriture de code ou encore la maitrise de la dette technique. En effet, ces deux actions permettent de lever \"la complexité accidentelle\". Mais que faisons nous de la \"complexité essentielle\" ? La complexité qui n'est pas liée au code. La seule solution : Supprimer des fonctionnalités ! Ce talk vous expliquera comment perdre la surcharge featurale de vos applications en comprenant la différence entre la complexité essentielle et la complexité accidentelle, mais aussi en vous donnant des clés pour mener à bien ce changement de vie dans vos équipes projet. ",
       "speakers": [
         "estelle_landry"
@@ -437,6 +457,7 @@
       "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4340-angular-elements-v7-RaulJimenez.zip?alt=media&token=be14bae6-4ed2-471e-bb99-e5767ee1b02c",
       "language": "English",
       "complexity": "Débutant",
+      "videoId": "ozVffQPTQXk",
       "description": "In this session we will see how to create our first Web Component with Angular Elements and use it in a plain JS app.",
       "speakers": [
         "jimenez_raul"
@@ -452,6 +473,7 @@
         "Method & Tools"
       ],
       "id": 4349,
+      "videoId": "2_hdqZ3TuQo",
       "speakers": [
         "philippe_charriere"
       ]
@@ -467,6 +489,7 @@
       ],
       "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4593-AngularSchematics-benoitElAmrani.pptx?alt=media&token=7985983c-441a-47bb-a5b1-70224b074810",
       "id": 4593,
+      "videoId": "VLQYPA5gZEA",
       "speakers": [
         "benoit_el_amrani"
       ]
@@ -481,6 +504,7 @@
         "Big Data / ML / AI"
       ],
       "id": 4420,
+      "videoId": "RXaGjS5C-lE",
       "speakers": [
         "tugdual_grall"
       ]
@@ -496,6 +520,7 @@
       ],
       "presentation": "https://github.com/dadoonet/elasticsearch-integration-tests",
       "id": 4432,
+      "videoId": "KgcV15lCDk4",
       "speakers": [
         "david_pilato"
       ]
@@ -511,6 +536,7 @@
       ],
       "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4447-systemd.pdf?alt=media&token=7744eee3-d691-4120-a71a-14a28839cff7",
       "id": 4447,
+      "videoId": "4AqbpZrBaOE",
       "speakers": [
         "francois_teychene"
       ]
@@ -526,6 +552,7 @@
       ],
       "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4473-CodeDataoules2-OlivierFlebus.pdf?alt=media&token=7a222481-e789-4f8b-aee0-4e01e0cbaabb",
       "id": 4473,
+      "videoId": "9kUmvV947X8",
       "speakers": [
         "olivier_flebus"
       ]
@@ -541,6 +568,7 @@
       ],
       "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4507-TalkTypeclasses-AlexandreDelattre.pdf?alt=media&token=d773b637-537b-4e08-9cf1-c1a1441a6a33",
       "id": 4507,
+      "videoId": "uiLimq64zJI",
       "speakers": [
         "alexandre_delattre",
         "guillaume_andrieu"
@@ -557,6 +585,7 @@
       ],
       "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4509-UnderstandingtheCAPtheoremwithApacheKafka-Se%CC%81bastienGuilloux.pdf?alt=media&token=e26a3b33-ec28-409e-9b5f-e02df89c484b",
       "id": 4509,
+      "videoId": "yLp0crdThzQ",
       "speakers": [
         "sebastien_guilloux"
       ]
@@ -571,6 +600,7 @@
         "Web"
       ],
       "id": 4515,
+      "videoId": "TDgln192b-Y",
       "speakers": [
         "nicolas_decoster",
         "juliane_blier"
@@ -587,6 +617,7 @@
       ],
       "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4528-reactivejava-MiroCupak.zip?alt=media&token=09822fe0-47e7-401c-b5a9-165778bf0dc9",
       "id": 4528,
+      "videoId": "LxBn42ROcwg",
       "speakers": [
         "miro_miro_cupak"
       ]
@@ -601,6 +632,7 @@
         "Web"
       ],
       "id": 4574,
+      "videoId": "PL9aQDMgv4w",
       "speakers": [
         "emmanuel_demey",
         "jean-francois_garreau"
@@ -617,6 +649,7 @@
       ],
       "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4584-CommentEtPourquoiCrafterLaDataScienceSurMesure-AnastasiaLieva.pdf?alt=media&token=e2b95735-9f32-4f4e-9431-383748c79cdd",
       "id": 4584,
+      "videoId": "",
       "speakers": [
         "anastasia_lieva"
       ]
@@ -632,6 +665,7 @@
       ],
       "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4588-MultiplatformprojectswithKotlin-VictorKropp.pdf?alt=media&token=48d6e567-72ca-4fec-8628-0ad1e52f8671",
       "id": 4588,
+      "videoId": "9ukHegwJivg",
       "speakers": [
         "victor_kropp"
       ]
@@ -646,6 +680,7 @@
         "Cloud"
       ],
       "id": 4613,
+      "videoId": "yjOkeruVBIE",
       "speakers": [
         "giulia_bianchi"
       ]
@@ -661,6 +696,7 @@
       ],
       "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4617-context-PiotrPrzybyl.zip?alt=media&token=979ce39c-2ee9-4e84-b8f6-9b9e706f31f1",
       "id": 4617,
+      "videoId": "",
       "speakers": [
         "piotr_przybyl"
       ]
@@ -676,6 +712,7 @@
       ],
       "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4457-Templatedede%CC%81ploiementsKubernetesaveckontemplate-MathieuPassenaud.pptx?alt=media&token=7262e90f-74d9-4618-b63c-ef8c3a574985",
       "id": 4457,
+      "videoId": "KF3gvGnpjIg",
       "speakers": [
         "mathieu_passenaud"
       ]
@@ -691,6 +728,7 @@
       ],
       "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F5000-TheOldManGlitch-fabientregan.zip?alt=media&token=623dfb0e-6e6f-4de5-b142-34ccfa666af8",
       "id": 5000,
+      "videoId": "hBo28RVftNc",
       "speakers": [
         "fabien_tregan"
       ]
