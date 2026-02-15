@@ -156,11 +156,7 @@ function lint() {
 }
 
 function deploy() {
-  let metadata = {};
-  for (let file of config.templateData) {
-    metadata = Object.assign({}, metadata, require(path.join(process.cwd(), file)));
-  }
-  return run(`firebase use ${metadata.firebase.projectId} && firebase deploy`).exec();
+  console.log('Deploy task removed - use FTP/SSH to deploy the build/ folder to OVH');
 }
 
 function waitFor(stream) {

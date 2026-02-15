@@ -3,8 +3,7 @@ module.exports = {
     '/index.html',
     '/manifest.json',
     '/bower_components/webcomponentsjs/*.js',
-    '/bower_components/firebase/firebase.js',
-    '/bower_components/firebase/firebase-firestore.js',
+
     '/images/**/*',
     '/scripts/**/*',
     '/data/**/*',

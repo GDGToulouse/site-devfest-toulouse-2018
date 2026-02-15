@@ -1,0 +1,45 @@
+[
+  {
+    "id": "ticket-0",
+    "currency": "€",
+    "starts": "04 Avril",
+    "ends": "08 Novembre",
+    "info": "50 premières places",
+    "name": "BlindBirds",
+    "price": 40,
+    "available": true,
+    "inDemand": false,
+    "regular": true,
+    "soldOut": true,
+    "url": "https://www.billetweb.fr/devfest-toulouse-2018"
+  },
+  {
+    "id": "ticket-1",
+    "currency": "€",
+    "starts": "06 Juin",
+    "ends": "08 Novembre",
+    "info": "70 premières places",
+    "name": "EarlyBirds",
+    "price": 60,
+    "available": true,
+    "inDemand": false,
+    "regular": true,
+    "soldOut": true,
+    "url": "https://www.billetweb.fr/devfest-toulouse-2018"
+  },
+  {
+    "id": "ticket-2",
+    "currency": "€",
+    "starts": "01 Août",
+    "ends": "08 Novembre",
+    "info": "250 premières places",
+    "name": "Normal",
+    "price": 80,
+    "available": true,
+    "inDemand": false,
+    "regular": true,
+    "soldOut": true,
+    "url": "https://www.billetweb.fr/devfest-toulouse-2018",
+    "primary": true
+  }
+]

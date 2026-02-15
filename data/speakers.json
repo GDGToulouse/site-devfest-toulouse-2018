@@ -1,0 +1,1044 @@
+{
+  "laurent_victorino": {
+    "name": "Laurent Victorino",
+    "bio": "Pas très bon en jeux vidéo Laurent préfère les créer pour se donner une bonne raison de ne pas y jouer. Programmeur moyen mais sympa, Laurent est à la tête de Monkey Moon, un studio de jeux vidéo basé à Lyon qui développe actuellement Night Call, un jeu qui se passe à Paris, parce que Laurent aime les paradoxes. Speaker internationalement reconnu pour sa keynote « 400 vannes sur le Java en moins de 20 minutes », Laurent aime les conférences IT et Web pour les rencontres, les échanges, et la nourriture gratuite. Laurent a vraiment du mal à parler de lui à la troisième personne.",
+    "shortBio": "Curious Video Game Developer",
+    "company": "Monkey Moon",
+    "companyLogo": "/images/speakers/company/monkey_moon.png",
+    "companyLogoUrl": "/images/speakers/company/monkey_moon.png",
+    "country": "Lyon, France",
+    "featured": true,
+    "photo": "/images/speakers/laurent_victorino.jpg",
+    "photoUrl": "/images/speakers/laurent_victorino.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/on_code",
+        "name": "@on_code"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/lvictorino",
+        "name": "lvictorino"
+      }
+    ],
+    "title": "Video Game Developer"
+  },
+  "quentin_adam": {
+    "name": "Quentin Adam",
+    "bio": "Quentin is the CEO of Clever Cloud : a Platform as a Service company allowing you to run java, scala, ruby, node.js, php, python or go applications, with auto scaling and auto healing features. This position allow him to study lots of applications, code, practice, and extract some talks and advises. Regular speaker at various tech conference, he’s focused to help developers to deliver quickly and happily good applications.",
+    "shortBio": "CEO @ Clever Cloud",
+    "company": "Clever Cloud",
+    "companyLogo": "/images/speakers/company/clever_cloud.png",
+    "companyLogoUrl": "/images/speakers/company/clever_cloud.png",
+    "country": "Nantes, France",
+    "featured": true,
+    "photo": "/images/speakers/quentin_adam.jpg",
+    "photoUrl": "/images/speakers/quentin_adam.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/waxzce",
+        "name": "@waxzce"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/waxzce",
+        "name": "waxzce"
+      }
+    ],
+    "title": "CEO"
+  },
+  "jimenez_raul": {
+    "name": "Raúl Jiménez",
+    "bio": "Raul is a software engineer passionate about JS frameworks, web technologies and cross-platform development. Since 2012 he's focused in Angular, HTML5 video and his open source project Videogular. Raul works as CEO of Byte Default, an Angular consultancy company for companies around the world helping them to build high-performance web apps. In his spare time he's usually involved in local meetups, writing blog posts, speaking at conferences and contributing to open source projects. He lives in Barcelona and is happy by default :)",
+    "shortBio": "Software Engineer @toptalllc / #Angular @Google Developer Expert / Creator of Videogular",
+    "company": "Google Developer Expert",
+    "companyLogo": "/images/speakers/company/gde.jpg",
+    "companyLogoUrl": "/images/speakers/company/gde.jpg",
+    "country": "Barcelona, Spain",
+    "featured": true,
+    "photo": "/images/speakers/raul_jimenez.png",
+    "photoUrl": "/images/speakers/raul_jimenez.png",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/elecash",
+        "name": "@elecash"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/elecash",
+        "name": "elecash"
+      }
+    ],
+    "title": "GDE"
+  },
+  "estelle_landry": {
+    "name": "Estelle Landry",
+    "bio": "Product Owner and UX Designer apprentice at @elium_tech , Former Project Manager , Proud to be member of @DuchessFR, @Flupa and @sunnytech_mtp",
+    "shortBio": "Passionnée d'UX Product Owner chez Elium",
+    "company": "Elium",
+    "companyLogo": "/images/speakers/company/elium.jpg",
+    "companyLogoUrl": "/images/speakers/company/elium.jpg",
+    "country": "Montpellier, France",
+    "featured": true,
+    "photo": "/images/speakers/estelle_landry.jpg",
+    "photoUrl": "/images/speakers/estelle_landry.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/estelandry",
+        "name": "@estelandry"
+      }
+    ],
+    "title": "Product Owner"
+  },
+  "laurent_wroblewski": {
+    "name": "Laurent Wroblewski",
+    "bio": "Laurent Wroblewski, ingénieur développement full stack depuis maintenant près de 9 ans, passionné par les technologies web/mobile. Récent expatrié lillois, qui revient à domicile à la recherche de bières convenables et de bon échanges techniques (l'un n'excluant pas l'autre ;)). J'aime partager autour du JS et de ses principales stars du moment, comme Angular et React, et du riche écosystème qui gravite autour. Mais le mobile n'est pas en reste non plus, que ce soient le natif (Kotlin4ever), les solutions hybrides ou les PWAs.",
+    "shortBio": "Ingénieur développement full stack depuis maintenant près de 9 ans",
+    "company": "Davidson Consulting",
+    "companyLogo": "/images/speakers/company/davidson_consulting.jpg",
+    "companyLogoUrl": "/images/speakers/company/davidson_consulting.jpg",
+    "country": "Toulouse, France",
+    "featured": true,
+    "photo": "/images/speakers/laurent_wroblewski.jpg",
+    "photoUrl": "/images/speakers/laurent_wroblewski.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/@LaurentWrob",
+        "name": "@LaurentWrob"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/LWroblewski",
+        "name": "LWroblewski"
+      }
+    ],
+    "title": "Ingénieur développement full stack"
+  },
+  "hubert_sablonniere": {
+    "name": "Hubert Sablonnière",
+    "bio": "Hubert est passionné par le Web. Il est toujours à la recherche de nouvelles idées et autres bidouilles pour améliorer l'expérience des utilisateurs et des développeurs.",
+    "shortBio": "😜 Curious and passionate Web developer working for @clever_cloud",
+    "company": "Clever Cloud",
+    "companyLogo": "/images/speakers/company/clever_cloud.png",
+    "companyLogoUrl": "/images/speakers/company/clever_cloud.png",
+    "country": "Lille, France",
+    "featured": true,
+    "photo": "/images/speakers/hubert_sablonniere.jpg",
+    "photoUrl": "/images/speakers/hubert_sablonniere.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/hsablonniere",
+        "name": "@hsablonniere"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/hsablonniere",
+        "name": "hsablonniere"
+      }
+    ],
+    "title": "Web developer"
+  },
+  "david_gageot": {
+    "name": "David Gageot",
+    "bio": "David est Developer Advocate chez Google Cloud. Il travaille sur les Containers Tools. Auparavant, il a participé à l'ouverture du bureau de R&D de Docker, à Paris.",
+    "shortBio": "Developer Advocate @Google Cloud. I run Docker in Docker in Docker... recursively",
+    "company": "Google",
+    "companyLogo": "/images/speakers/company/google.svg",
+    "companyLogoUrl": "/images/speakers/company/google.svg",
+    "country": "Paris, France",
+    "featured": true,
+    "photo": "/images/speakers/david_gageot.jpg",
+    "photoUrl": "/images/speakers/david_gageot.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/dgageot",
+        "name": "@dgageot"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/dgageot",
+        "name": "dgageot"
+      }
+    ],
+    "title": "Developer Advocate @ Google"
+  },
+  "sylvain_wallez": {
+    "name": "Sylvain Wallez",
+    "bio": "Architecte et développeur passionné, tech lead dans l'équipe Cloud chez Elastic. A travaillé comme architecte, CTO et leader technique dans plusieurs startups. Expert technique multi-compétences : systèmes scalables, NoSQL, moteurs de recherche, mais aussi front-end, devops et Iot. Bref, full-stack. Membre de la fondation Apache.",
+    "shortBio": "Passionate software architect & developer. Member of @theASF, tech lead in the Cloud team at @elastic",
+    "company": "Elastic",
+    "companyLogo": "/images/speakers/company/elastic.png",
+    "companyLogoUrl": "/images/speakers/company/elastic.png",
+    "country": "Toulouse, France",
+    "featured": true,
+    "photo": "/images/speakers/sylvain_wallez.png",
+    "photoUrl": "/images/speakers/sylvain_wallez.png",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/bluxte",
+        "name": "@bluxte"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/swallez",
+        "name": "swallez"
+      }
+    ],
+    "title": "Tech lead in Elastic Cloud team"
+  },
+  "philippe_charriere": {
+    "id": "philippe_charriere",
+    "name": "Philippe Charrière",
+    "bio": "currently: 🇪🇺 TAM @GitLab 🦊 + deploying apps as CSO @clever_cloud 💡☁️ + core committer @golo_lang + raising 🤖 @BotsGarden, previously: SE @github",
+    "company": "CleverCloud",
+    "featured": true,
+    "photo": "/images/speakers/philippe_charriere.jpg",
+    "photoUrl": "/images/speakers/philippe_charriere.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/k33g_org",
+        "name": "@k33g_org"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/k33g",
+        "name": "k33g"
+      }
+    ],
+    "shortBio": "currently: 🇪🇺 TAM @GitLab 🦊 + deploying apps as CSO @clever_cloud 💡☁️ + core committer @golo_lang + raising 🤖 @BotsGarden, previously: SE @github",
+    "companyLogo": "/images/speakers/company/clevercloud.jpg",
+    "companyLogoUrl": "/images/speakers/company/clevercloud.jpg",
+    "country": "Lyon, France",
+    "title": "🇪🇺 TAM @GitLab 🦊 & CSO @clever_cloud 💡☁️"
+  },
+  "horacio_gonzalez": {
+    "name": "Horacio Gonzalez",
+    "bio": "Malgré ce que son accent espagnol bien prononcé peut suggérer, Horacio est arrivé en France il y a une quinzaine d'années déjà. Passionné d'informatique, dans laquelle il est tombé depuis tout petit, il a découvert Java en 1997 et depuis il n'a pas arrêté de bosser autour. Après quelques années comme tech leader de la partie frontend de @warp10io chez Cityzen Data, Horacio a rejoint OVH en janvier 2018 en tant que Developer Advocate. Il est aussi leader et cofondateur du FinistDevs et du GDG Finistère, le GDG francophone le plus proche de la Silicon Valley. Passionné par le développement web et tout ce qui gravite autour des composants web, Horacio est Google Developer Expert (GDE) en Web Technologies et Polymer.",
+    "shortBio": "Spaniard lost in Brittany, coder, dreamer and all-around geek - #DevRel @ovh -@Warp10io contributor - #Polymer & #Flutter @GoogleDevExpert - @FinistDevs",
+    "company": "OVH",
+    "companyLogo": "/images/speakers/company/ovh.jpg",
+    "companyLogoUrl": "/images/speakers/company/ovh.jpg",
+    "country": "Brittany, France",
+    "featured": true,
+    "photo": "/images/speakers/horacio_gonzalez.jpg",
+    "photoUrl": "/images/speakers/horacio_gonzalez.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/LostInBrittany",
+        "name": "@LostInBrittany"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/LostInBrittany",
+        "name": "LostInBrittany"
+      }
+    ],
+    "title": "DevRel @ovh"
+  },
+  "ane_diaz_de_tuesta": {
+    "id": "ane_diaz_de_tuesta",
+    "name": "Ane DIAZ DE TUESTA",
+    "bio": "Je suis une personne dynamique, curieuse et sociable. Je travaille en tant que développeuse depuis 2012, après avoir obtenu mon diplôme d’ingénieur espagnol et ensuite le français. \nActuellement je travaille chez Lectra comme développeuse FrontEnd et je suis Scrum Master. Je suis passionnée par mon travail qui me rend heureuse.",
+    "company": "Lectra",
+    "featured": false,
+    "photo": "/images/speakers/ane_diaz_de_tuesta.jpg",
+    "photoUrl": "/images/speakers/ane_diaz_de_tuesta.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/ane_naiz",
+        "name": "@ane_naiz"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/anediaz",
+        "name": "anediaz"
+      },
+      {
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/ane-diaz-de-tuesta-37785252, http://anediaz.com/",
+        "name": "LinkedIn"
+      }
+    ],
+    "shortBio": "#OpenMinded #travelling #Agile #Sport . @LectraFashion Web Developer http://www.anediaz.com ",
+    "companyLogo": "/images/speakers/company/lectra.jpg",
+    "companyLogoUrl": "/images/speakers/company/lectra.jpg",
+    "country": "Bordeaux, France"
+  },
+  "comet_nicolas": {
+    "id": "comet_nicolas",
+    "name": "Nicolas Comet",
+    "bio": "​\nDéveloppeur passionné, Speaker, grand curieux, j'aime apprendre en permanence. Je ne m'attache pas à une technologie en particulier, même si je gravite plus souvent du côté Java / JavaEE. J'aime les principes fondateurs du TDD. Je porte également un grand intérêt pour la synergie entre DDD et documentation vivante ou \"Living Documentation\". \n\nJe suis actuellement ingénieur d'études R&D chez Lectra, numéro un mondial des solutions dédiées à l'industrie textile (logiciels & machines).",
+    "company": "Lectra",
+    "featured": false,
+    "photo": "/images/speakers/comet_nicolas.jpg",
+    "photoUrl": "/images/speakers/comet_nicolas.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/NicolasComet",
+        "name": "@NicolasComet"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/ncomet",
+        "name": "ncomet"
+      },
+      {
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/nicolascomet/",
+        "name": "LinkedIn"
+      }
+    ],
+    "shortBio": "Software #developer @LectraOfficial Conference #speaker, All opinions are eventually someone’s",
+    "companyLogo": "/images/speakers/company/lectra.jpg",
+    "companyLogoUrl": "/images/speakers/company/lectra.jpg",
+    "country": "Bordeaux, France"
+  },
+  "benoit_prioux": {
+    "id": "benoit_prioux",
+    "name": "Benoit PRIOUX",
+    "bio": "Je suis Technical Leader au centre R&D de Lectra, éditeur de logiciel dans le monde de la mode, à Bordeaux. Je suis un développeur Java depuis 2005, et membre du bureau du Bordeaux JUG. Impliqué dans le projet open-source Asciidoctor, je suis aussi passionné par tout ce qui finit en DD : TDD, BDD, DDD, ...",
+    "company": "Lectra",
+    "featured": false,
+    "photo": "/images/speakers/benoit_prioux.png",
+    "photoUrl": "/images/speakers/benoit_prioux.png",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/binout",
+        "name": "@binout"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/binout",
+        "name": "binout"
+      }
+    ],
+    "shortBio": "Enthusiast Software Developer #java #kotlin #tdd #ddd #lectra",
+    "companyLogo": "/images/speakers/company/lectra.jpg",
+    "companyLogoUrl": "/images/speakers/company/lectra.jpg",
+    "country": "Bordeaux, France",
+    "title": ""
+  },
+  "celine_louvet": {
+    "id": "celine_louvet",
+    "name": "Céline LOUVET",
+    "bio": "CTO & cofondatrice de Fairvioo et développeuse au quotidien",
+    "company": "Fairvioo",
+    "featured": false,
+    "photo": "/images/speakers/celine_louvet.jpg",
+    "photoUrl": "/images/speakers/celine_louvet.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/celine_louvet",
+        "name": "@celine_louvet"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/celinelouvet",
+        "name": "celinelouvet"
+      },
+      {
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/celinelouvet/",
+        "name": "LinkedIn"
+      }
+    ],
+    "shortBio": "CTO @Fairvioo. Ex-CTO @CaptainContrat & Ex-@Sfeir",
+    "companyLogo": "/images/speakers/company/fairvioo.jpg",
+    "companyLogoUrl": "/images/speakers/company/fairvioo.jpg",
+    "country": "Île-de-France"
+  },
+  "frederic_cabestre": {
+    "id": "frederic_cabestre",
+    "name": "Frédéric Cabestre",
+    "bio": "Développeur, tendance «software craftman». Depuis longtemps attiré par les langages et leur mise en œuvre. Grand amateur de programmation fonctionnelle, même quand ce n'était pas encore cool. Curieux des systèmes, surtout s'ils sont distribués.",
+    "company": "Easy Mile",
+    "featured": false,
+    "photo": "/images/speakers/frederic_cabestre.png",
+    "photoUrl": "/images/speakers/frederic_cabestre.png",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/fcabestre",
+        "name": "@fcabestre"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/fcabestre",
+        "name": "fcabestre"
+      }
+    ],
+    "shortBio": "NaN, craftsman of code, nomad of knowledge and λ juggler. I work at @Easy_Mile.",
+    "companyLogo": "/images/speakers/company/easy_mile.jpg",
+    "companyLogoUrl": "/images/speakers/company/easy_mile.jpg",
+    "country": "Toulouse, France"
+  },
+  "arnaud_bos": {
+    "id": "arnaud_bos",
+    "name": "Arnaud BOS",
+    "bio": "Amateur de hamacs et de '(parenthèses). Du développement mobile au back-end, je suis revenu à mes premiers amours, les systèmes distribués, au fil des projets. Avec ma casquette de data engineer sur la tête, je me concentre sur le développement de (micro?)services et me passionne pour langages de programmation et les architectures distribuées.",
+    "company": "MonkeyPatch",
+    "featured": false,
+    "photo": "/images/speakers/arnaud_bos.jpg",
+    "photoUrl": "/images/speakers/arnaud_bos.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/arnaud_bos",
+        "name": "@arnaud_bos"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/arnaudbos",
+        "name": "arnaudbos"
+      }
+    ],
+    "shortBio": "Clojure as heck. Distributed systems. Podcasts. Can write backwards 🙃",
+    "companyLogo": "/images/speakers/company/monkeypatch.jpg",
+    "companyLogoUrl": "/images/speakers/company/monkeypatch.jpg",
+    "country": "Toulouse, France"
+  },
+  "julien_topcu": {
+    "id": "julien_topcu",
+    "name": "Julien Topçu",
+    "bio": "Senior Lead Developer à la Société Générale, je suis un fervent défenseur du Software Craftsmanship.\n\nJ'évangélise activement autour de DDD/Hexagonal Architecture, l'XP et le Kanban #NoEstimates au sein de cours et de [meetups](https://www.youtube.com/watch?v=P0_M00X4Xlw/)  ainsi qu'à travers d'articles de [blog](https://beyondxscratch.wordpress.com/).\n\nMembre de la fondation OWASP, je m'efforce de transmettre à la communauté une philosophie DevSecOps que je pense être l'avenir du métier de développeur. J'ai participé à la mise en place de pipeline de Continuous Security à l'échelles d'entreprises.",
+    "company": "Société Générale & OWASP fundation",
+    "featured": false,
+    "photo": "/images/speakers/julien_topcu.jpeg",
+    "photoUrl": "/images/speakers/julien_topcu.jpeg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/JulienTopcu",
+        "name": "@JulienTopcu"
+      },
+      {
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/julien-top%C3%A7u/, https://beyondxscratch.wordpress.com/",
+        "name": "LinkedIn"
+      }
+    ],
+    "shortBio": "Catalyst @SociétéGénérale OWASP Fundation member",
+    "companyLogo": "/images/speakers/company/societe_generale.png",
+    "companyLogoUrl": "/images/speakers/company/societe_generale.png",
+    "country": "Île-de-France, France"
+  },
+  "guillaume_membre": {
+    "id": "guillaume_membre",
+    "name": "Guillaume Membré",
+    "bio": "Geek à toute heure, je travaille principalement autour des technologies Java/JavaEE mais aussi sur des problématiques de déploiement continu, de qualimétrie. Désormais, je partage son expérience pour faciliter la mise en place de démarche devops chez différents acteurs. J'adore bidouiller des RaspberryPi ou Arduino pour créer des choses inutiles donc indispensables.\nLorsque le temps le permet, je décris mes aventures sur mon [site web](https://www.geekeries.fun).",
+    "company": "Zenika",
+    "featured": false,
+    "photo": "/images/speakers/guillaume_membre.jpg",
+    "photoUrl": "/images/speakers/guillaume_membre.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/GuillaumeMembre",
+        "name": "@GuillaumeMembre"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/gmembre-zenika",
+        "name": "gmembre-zenika"
+      }
+    ],
+    "shortBio": "Codeur à ses heures perdues",
+    "companyLogo": "/images/speakers/company/zenika.jpg",
+    "companyLogoUrl": "/images/speakers/company/zenika.jpg",
+    "country": "Nantes, France"
+  },
+  "robert_firek": {
+    "id": "robert_firek",
+    "name": "Robert Firek",
+    "bio": "Robert Firek is a software craftsman who has tasted many different flavours of programming. His broad range of experiences has helped to deliver quality software in many companies and organisations. He strives to create software according to the rule \"Simplicity is the final achievement\". He is trying to unite worlds of the software development and the infrastructure delivery by promoting the DevOps culture.",
+    "company": "Codurance",
+    "featured": false,
+    "photo": "/images/speakers/robert_firek.jpg",
+    "photoUrl": "/images/speakers/robert_firek.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/RobertFirek",
+        "name": "@RobertFirek"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/robertfirek",
+        "name": "robertfirek"
+      }
+    ],
+    "shortBio": "Member of the London Java Community and Wrocław Java User Group.",
+    "companyLogo": "/images/speakers/company/codurance.jpg",
+    "companyLogoUrl": "/images/speakers/company/codurance.jpg",
+    "country": "London, Royaume-Uni"
+  },
+  "guillaume_laforge": {
+    "id": "guillaume_laforge",
+    "name": "Guillaume Laforge",
+    "bio": "Le jour, Guillaume Laforge est Developer Advocate chez Google, sur les solutions cloud, et de nuit, il reprends sa casquette de contributeur au projet Apache Groovy. Guillaume est également un des membres du podcast Les Cast Codeurs",
+    "company": "Google",
+    "featured": false,
+    "photo": "/images/speakers/guillaume_laforge.jpeg",
+    "photoUrl": "/images/speakers/guillaume_laforge.jpeg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/glaforge",
+        "name": "@glaforge"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/glaforge",
+        "name": "glaforge"
+      }
+    ],
+    "shortBio": "Developer Advocate at @Google for @GoogleCloud during the day, and @ApacheGroovy programming language project PMC Chair & @java_champions at night",
+    "companyLogo": "/images/speakers/company/google.jpg",
+    "companyLogoUrl": "/images/speakers/company/google.jpg",
+    "country": "Paris, France"
+  },
+  "olivier_leplus": {
+    "id": "olivier_leplus",
+    "name": "Olivier Leplus",
+    "bio": "My day to day my mission is to help developers create successful and quality apps.\nAs a passionate web developer, I am always discovering and playing with new web technologies !",
+    "company": "Botfuel",
+    "featured": false,
+    "photo": "/images/speakers/olivier_leplus.jpg",
+    "photoUrl": "/images/speakers/olivier_leplus.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/olivierleplus",
+        "name": "@olivierleplus"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/tagazok",
+        "name": "tagazok"
+      },
+      {
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/olivierleplus/, https://tagazok.github.io/",
+        "name": "LinkedIn"
+      }
+    ],
+    "shortBio": "Speaker, Conference organiser, Community obsessed developer, Traveler - Developer Advocate @botfuel - Google Developer Expert in web tech",
+    "companyLogo": "/images/speakers/company/botfuel.jpg",
+    "companyLogoUrl": "/images/speakers/company/botfuel.jpg",
+    "country": "Paris, France"
+  },
+  "tiffany_souterre": {
+    "id": "tiffany_souterre",
+    "name": "Tiffany Souterre",
+    "bio": "I love science and I love data! After finishing a Ph.D. in genetic engineering, I continued my quest for discovering new patterns through data science and machine learning. I currently work as a Big Data engineer and I play with machine learning algorithms on my free time. Someday, I wish to leverage data exploration to improve people's life.",
+    "company": "JEMS Datafactory",
+    "featured": false,
+    "photo": "/images/speakers/tiffany_souterre.jpg",
+    "photoUrl": "/images/speakers/tiffany_souterre.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/tiffanysouterre",
+        "name": "@tiffanysouterre"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/Amagash",
+        "name": "Amagash"
+      }
+    ],
+    "shortBio": "Data geek 📊/ Google Developer Group Lead 💻 @GDGParis / Python Dev 🐍 / Ph.D. in Biotechnologies 🎓/ iGEM alumni ☣️",
+    "companyLogo": "/images/speakers/company/jems_datafactory.jpg",
+    "companyLogoUrl": "/images/speakers/company/jems_datafactory.jpg",
+    "country": "Paris, France"
+  },
+  "benoit_el_amrani": {
+    "id": "benoit_el_amrani",
+    "name": "Benoit El Amrani",
+    "bio": "Passionné par le monde du web, je suis en veille constante pour trouver des nouvelles idées permettant d'améliorer à la fois le quotidien des développeurs et les applications sur lesquelles je travaille.",
+    "company": "Informatique Banque Populaire",
+    "featured": false,
+    "photo": "/images/speakers/benoit_el_amrani.jpg",
+    "photoUrl": "/images/speakers/benoit_el_amrani.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/bentah31",
+        "name": "@bentah31"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/belamrani",
+        "name": "belamrani"
+      }
+    ],
+    "shortBio": "Mobile & Web Developer",
+    "companyLogo": "/images/speakers/company/i-bp.png",
+    "companyLogoUrl": "/images/speakers/company/i-bp.png",
+    "country": "Toulouse, France"
+  },
+  "tugdual_grall": {
+    "id": "tugdual_grall",
+    "name": "Tugdual Grall",
+    "bio": "Tugdual Grall\tBio: Tugdual Grall, est Chief Technical Evangelist EMEA chez MapR. Il travaille avec les clients et les communautés de développeurs européennes, pour faciliter l’adoption de MapR, Hadoop et NoSQL. \n\nAvant de travailler chez MapR, “Tug”, était Technical Evangelist chez MongoDB et Couchbase. Tug a travaillé comme CTO chez eXo Platform, et comme Product Manager et Développeur sur la platform Java/JavaEE d’Oracle.\n\nTugdual est également co-fondateur du Nantes JUG (Java Users Group) qui réunit tous les mois depuis 2008 les développeurs et architectes de la région nantaise.",
+    "company": "MapR",
+    "featured": false,
+    "photo": "/images/speakers/tugdual_grall.jpg",
+    "photoUrl": "/images/speakers/tugdual_grall.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/tgrall",
+        "name": "@tgrall"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/tgrall",
+        "name": "tgrall"
+      }
+    ],
+    "shortBio": "Technical Evangelist @MapR Big Data / NoSQL / Streaming | @nantesjug leader | Slow Triathlete @resultri | Windsurfer",
+    "companyLogo": "/images/speakers/company/mapr.MapR",
+    "companyLogoUrl": "/images/speakers/company/mapr.MapR",
+    "country": "It depends!"
+  },
+  "david_pilato": {
+    "id": "david_pilato",
+    "name": "David Pilato",
+    "bio": "Depuis 2013, David Pilato est développeur et évangéliste chez elastic.co, après avoir passé les deux années précédentes à promouvoir le projet open-source Elasticsearch. Il en anime la communauté française.",
+    "company": "elastic",
+    "featured": false,
+    "photo": "/images/speakers/david_pilato.jpg",
+    "photoUrl": "/images/speakers/david_pilato.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/dadoonet",
+        "name": "@dadoonet"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/dadoonet",
+        "name": "dadoonet"
+      }
+    ],
+    "shortBio": "developer | evangelist @ elastic Enjoying NoSQL world, DeeJay 4 times a year, just for fun ! http://bit.ly/IixwIh",
+    "companyLogo": "/images/speakers/company/elastic.jpg",
+    "companyLogoUrl": "/images/speakers/company/elastic.jpg",
+    "country": "France"
+  },
+  "francois_teychene": {
+    "id": "francois_teychene",
+    "name": "Francois Teychene",
+    "bio": "Cloud Developper @ Saagie , meetup addict & organiser @ Montpellier et Organisateur SunnyTech.  \nDéveloppeur couteau suisse pouvant intervenir du Javascript à la table de routage. Mes passions actuelles sont le Rust, le DevOps et le Scala en plus de vouloir mettre des conteneurs partout.",
+    "company": "Saagie",
+    "featured": false,
+    "photo": "/images/speakers/francois_teychene.jpg",
+    "photoUrl": "/images/speakers/francois_teychene.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/fteychene",
+        "name": "@fteychene"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/fteychene",
+        "name": "fteychene"
+      }
+    ],
+    "shortBio": "Cloud dev @saagie_io, @MtpTechHub President, @SunnyTech_MTP organiser, Speaker, Teacher... #Devops #Rust #Scala enthusiast. Opinions are mine not of my employer",
+    "companyLogo": "/images/speakers/company/saagie.jpg",
+    "companyLogoUrl": "/images/speakers/company/saagie.jpg",
+    "country": "Montpellier, France"
+  },
+  "olivier_flebus": {
+    "id": "olivier_flebus",
+    "name": "Olivier Flebus",
+    "bio": "Enterprise Architect, #Agile enthusiast. Leading #BigData @Continental Digital Services France. Building a #Cloud platform for #ConnectedCars.",
+    "company": "Continental Digital Services France",
+    "featured": false,
+    "photo": "/images/speakers/olivier_flebus.jpg",
+    "photoUrl": "/images/speakers/olivier_flebus.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/olivierflebus",
+        "name": "@olivierflebus"
+      },
+      {
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/olivierflebus",
+        "name": "LinkedIn"
+      }
+    ],
+    "shortBio": "Enterprise Architect, #Agile enthusiast. Leading #BigData @Continental Digital Services France. Building a #Cloud platform for #ConnectedCars. Views are my own.",
+    "companyLogo": "/images/speakers/company/continental_digital_services_france.jpg",
+    "companyLogoUrl": "/images/speakers/company/continental_digital_services_france.jpg",
+    "country": "Toulouse, France"
+  },
+  "alexandre_delattre": {
+    "id": "alexandre_delattre",
+    "name": "Alexandre Delattre",
+    "bio": "Ingénieur logiciel Fullstack à MonkeyPatch\n\n32 ans et fort de 7 ans d'expérience dans le développement logiciel, mon parcours, auprès de startups et de grands groupes m'a permis de m'approprier une large gamme de technos fullstack:\n\n- Mobile : Android (Kotlin), iOS (Swift), Ionic \n- Backend : Java, Scala, NodeJS\n- Web : Typescript / Angular 1 & 2\n\nJe suis passioné par la mobilité, la qualité et l'innovation logicielle, l'UX et l'entrepreunariat digital.",
+    "company": "MonkeyPatch",
+    "featured": false,
+    "photo": "/images/speakers/alexandre_delattre.jpg",
+    "photoUrl": "/images/speakers/alexandre_delattre.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/alexandre_del31",
+        "name": "@alexandre_del31"
+      }
+    ],
+    "shortBio": "Software engineer at @MonkeyPatch. Functional programming enthusiast",
+    "companyLogo": "/images/speakers/company/monkeypatch.jpg",
+    "companyLogoUrl": "/images/speakers/company/monkeypatch.jpg",
+    "country": "Toulouse, France"
+  },
+  "guillaume_andrieu": {
+    "id": "guillaume_andrieu",
+    "name": "Guillaume ANDRIEU",
+    "bio": "FP enthusiast",
+    "company": "MonkeyPatch",
+    "featured": false,
+    "photo": "/images/speakers/guillaume_andrieu.jpg",
+    "photoUrl": "/images/speakers/guillaume_andrieu.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/glmxndr",
+        "name": "@glmxndr"
+      }
+    ],
+    "shortBio": "FP enthusiast",
+    "companyLogo": "/images/speakers/company/monkeypatch.jpg",
+    "companyLogoUrl": "/images/speakers/company/monkeypatch.jpg",
+    "country": "Toulouse, France",
+    "title": ""
+  },
+  "sebastien_guilloux": {
+    "id": "sebastien_guilloux",
+    "name": "Sébastien Guilloux",
+    "bio": "Cloud Engineer chez Elastic. J'ai un petit faible pour les systèmes distribués, pour le fun et les challenges qu'ils nous apportent ! Auparavant j'ai travaillé chez OVH, en tant que développeur sur plusieurs services (Kafka, Kubernetes, Serverless Functions).\nAh, j'ai une légère tendance à faire des jeux de mots, aussi :)",
+    "company": "Elastic",
+    "featured": false,
+    "photo": "/images/speakers/sebastien_guilloux.jpg",
+    "photoUrl": "/images/speakers/sebastien_guilloux.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/_sebgl",
+        "name": "@_sebgl"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/sebgl",
+        "name": "sebgl"
+      }
+    ],
+    "shortBio": "Software developer. Music lover. I do french puns",
+    "companyLogo": "/images/speakers/company/elastic.jpg",
+    "companyLogoUrl": "/images/speakers/company/elastic.jpg",
+    "country": "Toulouse, France"
+  },
+  "nicolas_decoster": {
+    "id": "nicolas_decoster",
+    "name": "Nicolas Decoster",
+    "bio": "Informaticien curieux depuis 35 ans, de métier depuis 20 ans (principalement dans le spatial). Non spécialiste touche à tout : du développement logiciel à l'étude scientifique, du développement d'algorithmes de traitement à la mise en œuvre de systèmes, de la programmation en C++ ou Python à l'utilisation des technos Web, de la petite appli en ligne de commande aux IHM ou aux systèmes distribués. Ingénieur chez Magellium et co-fondateur et animateur à la Compagnie du Code.",
+    "company": "Magellium",
+    "featured": false,
+    "photo": "/images/speakers/nicolas_decoster.jpg",
+    "photoUrl": "/images/speakers/nicolas_decoster.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/nnodot",
+        "name": "@nnodot"
+      }
+    ],
+    "shortBio": "Developer for science and other stuff, work for Magellium, co-founder of @CompagnieDuCode",
+    "companyLogo": "/images/speakers/company/magellium.jpg",
+    "companyLogoUrl": "/images/speakers/company/magellium.jpg",
+    "country": "Toulouse, France"
+  },
+  "juliane_blier": {
+    "id": "juliane_blier",
+    "name": "Juliane Blier",
+    "bio": "Développeuse Web, Amoureuse de Vuejs, Node et PHP, Curieuse de nouvelles découvertes",
+    "company": "SchoolMouv",
+    "featured": false,
+    "photo": "/images/speakers/juliane_blier.jpg",
+    "photoUrl": "/images/speakers/juliane_blier.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/tactless7",
+        "name": "@tactless7"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/Tactless7",
+        "name": "Tactless7"
+      }
+    ],
+    "shortBio": "Développeuse Web, Amoureuse de Vuejs, Node et PHP, Curieuse de nouvelles découvertes",
+    "companyLogo": "/images/speakers/company/schoolmouv.jpg",
+    "companyLogoUrl": "/images/speakers/company/schoolmouv.jpg",
+    "country": "Toulouse, France",
+    "title": ""
+  },
+  "miro_miro_cupak": {
+    "id": "miro_miro_cupak",
+    "name": "Miro Cupak",
+    "bio": "Miro is a VP of Engineering at DNAstack, where he builds a leading genomics cloud platform. He is a Java enthusiast with expertise in distributed systems and middleware, passionate about genetics and making meaningful software. Miro is the creator of the largest search and discovery engine of human genetic data, and the author of a book on parallelization of genomic queries. In his spare time, he blogs and contributes to several open-source projects.",
+    "company": "DNAstack",
+    "featured": false,
+    "photo": "/images/speakers/miro_miro_cupak.jpg",
+    "photoUrl": "/images/speakers/miro_miro_cupak.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/mirocupak",
+        "name": "@mirocupak"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/mcupak",
+        "name": "mcupak"
+      },
+      {
+        "icon": "linkedin",
+        "link": "https://mirocupak.com, https://www.linkedin.com/in/mirocupak",
+        "name": "LinkedIn"
+      }
+    ],
+    "shortBio": "Software developer with passion for genetics and building meaningful things. Java, open source, and distributed systems enthusiast.",
+    "companyLogo": "/images/speakers/company/dnastack.jpg",
+    "companyLogoUrl": "/images/speakers/company/dnastack.jpg",
+    "country": "Toronto, Ontario"
+  },
+  "emmanuel_demey": {
+    "id": "emmanuel_demey",
+    "name": "Emmanuel DEMEY",
+    "bio": "Directeur technique chez Zenika Lille et Google Developer Expert, je suis spécialisé dans AngularJS / Angular / TypeScript et l'Accessibilité Web. Speaker à ses heures perdues. Aime également les bières (et oui quand on vient de Lille c'est normal...), le Jazz et la Domotique. Plusieurs expériences en tant que conférencier, notamment depuis septembre 2015 autour du sujet Angular2. - ESLint au Jug Summer Camp et ChtiJS - Angular 2 : ChtiJUG, LyonJS, GDG Paris, GDG Nantes, Meetup AngularJS Grenoble, Devoxx, RivieraDev, Bdx.io, DevFest Nantes, Codeurs en Seine",
+    "company": "Zenika",
+    "featured": false,
+    "photo": "/images/speakers/emmanuel_demey.jpg",
+    "photoUrl": "/images/speakers/emmanuel_demey.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/EmmanuelDemey",
+        "name": "@EmmanuelDemey"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/Gillespie59",
+        "name": "Gillespie59"
+      }
+    ],
+    "shortBio": "CTO at @ZenikaLille - Google Developer Expert @GoogleDevExpert - Web Specialist - Speaker and Trainer, Organizer of #DevFestLille - @GDGLille - Lille",
+    "companyLogo": "/images/speakers/company/zenika.jpg",
+    "companyLogoUrl": "/images/speakers/company/zenika.jpg",
+    "country": "Lille, France"
+  },
+  "jean-francois_garreau": {
+    "id": "jean-francois_garreau",
+    "name": "Jean-francois Garreau",
+    "bio": "En dehors du travail, je suis co-fondateur du GDG Nantes, organisateur du DevFest Nantes, co-créateur des Nantes Wit et organisateur de Devoxx4Kids",
+    "company": "Sfeir",
+    "featured": false,
+    "photo": "/images/speakers/jean-francois_garreau.jpg",
+    "photoUrl": "/images/speakers/jean-francois_garreau.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/jefBinomed",
+        "name": "@jefBinomed"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/jefBinomed",
+        "name": "jefBinomed"
+      }
+    ],
+    "shortBio": "GDG Nantes Leader @gdgnantes 🐘 / @nanteswit 👩‍💻 / #devoxx4Kids / #GDE Web / developer and proud to be a dev @sfeir 👨‍💻 / curious geek",
+    "companyLogo": "/images/speakers/company/sfeir.jpg",
+    "companyLogoUrl": "/images/speakers/company/sfeir.jpg",
+    "country": "Nantes, France",
+    "title": ""
+  },
+  "anastasia_lieva": {
+    "id": "anastasia_lieva",
+    "name": "Anastasia Lieva",
+    "bio": "Fuzzy Humanist, Data Science Witch, The Lambda Wisperer",
+    "company": "Comwatt",
+    "featured": false,
+    "photo": "/images/speakers/anastasia_lieva.jpg",
+    "photoUrl": "/images/speakers/anastasia_lieva.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/lievAnastazia",
+        "name": "@lievAnastazia"
+      }
+    ],
+    "shortBio": "#FuZzy humanist, Data Science Witch, Lambda Whisperer | Learning (machine, human or whatever) | former couturier | permaculture newbie | for a better world",
+    "companyLogo": "/images/speakers/company/comwatt.jpg",
+    "companyLogoUrl": "/images/speakers/company/comwatt.jpg",
+    "country": "Solar System"
+  },
+  "victor_kropp": {
+    "id": "victor_kropp",
+    "name": "Victor Kropp",
+    "bio": "Victor Kropp is a Software Engineer at JetBrains, where he has contributed to many projects including ReSharper, dotCover, Hub and Toolbox App. His interests include modern programming languages, practices and tools, and cross-platform development. In his free time, he runs marathons and long distance triathlons or travels with his family.",
+    "company": "JetBrains",
+    "featured": false,
+    "photo": "/images/speakers/victor_kropp.jpg",
+    "photoUrl": "/images/speakers/victor_kropp.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/kropp",
+        "name": "@kropp"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/kropp",
+        "name": "kropp"
+      }
+    ],
+    "shortBio": "Software Engineer at @JetBrains. Father. 2×IRONMAN. English/Русский/Deutsch",
+    "companyLogo": "/images/speakers/company/jetbrains.jpg",
+    "companyLogoUrl": "/images/speakers/company/jetbrains.jpg",
+    "country": "München, Deutschland"
+  },
+  "giulia_bianchi": {
+    "id": "giulia_bianchi",
+    "name": "Giulia Bianchi",
+    "bio": "Giulia est Data Scientist de plus de 4 ans d’expérience, elle est consultante à Xebia depuis deux ans et demi. \nElle travaille actuellement sur des volumes de données importants en mettant en place des algorithmes de Machine Learning, avec un objectif concret d’industrialisation. \nEn 2018 elle a organisé la première édition du [DataXDay](https://dataxday.fr/).\nElle suit les nouvelles tendances du monde de la Data en participant aux différents Meetups et en suivant des blogs. Elle contribue activement à cet écosystème en donnant des [talks](https://www.youtube.com/watch?v=N-LXrheCIKM) et en écrivant sur le [blog Xebia](https://blog.xebia.fr/author/gbianchi/).",
+    "company": "Xebia",
+    "featured": false,
+    "photo": "/images/speakers/giulia_bianchi.jpg",
+    "photoUrl": "/images/speakers/giulia_bianchi.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/Giuliabianchl",
+        "name": "@Giuliabianchl"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/giulbia",
+        "name": "giulbia"
+      }
+    ],
+    "shortBio": "Data scientist @XebiaFr, organising http://dataxday.fr/ , writing https://blog.xebia.fr , coding https://github.com/giulbia . Doing a lot of other stuff",
+    "companyLogo": "/images/speakers/company/xebia.jpg",
+    "companyLogoUrl": "/images/speakers/company/xebia.jpg",
+    "country": "Paris, France"
+  },
+  "piotr_przybyl": {
+    "id": "piotr_przybyl",
+    "name": "Piotr Przybyl",
+    "bio": "Notorious engineer at work and after hours, tracing meanders of the art of software engineering. Software Gardener, mostly working in web-oriented Java gardens. Fan of agility, seen mostly as choosing the right tools and approaches. Lead developer, trainer and conference speaker.",
+    "company": "Remote Freelance Software Gardener",
+    "featured": false,
+    "photo": "/images/speakers/piotr_przybyl.jpg",
+    "photoUrl": "/images/speakers/piotr_przybyl.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/piotrprz",
+        "name": "@piotrprz"
+      }
+    ],
+    "shortBio": "Remote Freelance Software Gardener",
+    "companyLogo": "",
+    "companyLogoUrl": "",
+    "country": "Wroclaw, Poland"
+  },
+  "alessio_coltellacci": {
+    "id": "alessio_coltellacci",
+    "name": "Alessio Coltellacci",
+    "bio": "Développeur système chez Clever Cloud, je développe des applications low level en Rust, C, C++. Le reste du temps je m'amuse avec les features low level du kernel: ebpf, XDP socket, Intel SGX ... et Infographiste 3d sur mon free time depuis +7ans.",
+    "company": "Clever Cloud",
+    "featured": false,
+    "photo": "/images/speakers/alessio_coltellacci.jpg",
+    "photoUrl": "/images/speakers/alessio_coltellacci.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/lightplay8",
+        "name": "@lightplay8"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/NotBad4U",
+        "name": "NotBad4U"
+      }
+    ],
+    "shortBio": "Someone who thinks that #rust will rule the world. System developer at @clever_cloud 🔥🎉",
+    "companyLogo": "/images/speakers/company/clever_cloud.jpg",
+    "companyLogoUrl": "/images/speakers/company/clever_cloud.jpg",
+    "country": "Toulouse, France"
+  },
+  "mathieu_passenaud": {
+    "name": "Mathieu Passenaud",
+    "bio": "DevOps (Teevity, Berger Levrault, OVH, Connit, Ubleam) depuis 8 ans maintenant sur Toulouse. Issu du milieu de l'embarqué (calculateurs ferroviaires/militaires), je me suis retrouvé parachuté dans l'univers du cloud pendant quelques années jusqu'à revenir au croisement de ces deux mondes : l'IOT. Touche à tout, j'aime beaucoup prototyper et répondre à la question 'est-ce que c'est possible ?'",
+    "shortBio": "Fondateur please-open.it",
+    "company": "please-open.it",
+    "companyLogo": "/images/speakers/company/please-open.png",
+    "companyLogoUrl": "/images/speakers/company/please-open.png",
+    "country": "Toulouse, France",
+    "featured": true,
+    "photo": "/images/speakers/mathieu_passenaud.png",
+    "photoUrl": "/images/speakers/mathieu_passenaud.png",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/mathieupassenau",
+        "name": "@mathieupassenau"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/mathieupassenaud",
+        "name": "mathieupassenaud"
+      }
+    ],
+    "title": "Fondateur"
+  },
+  "fabien_tregan": {
+    "name": "Fabien Tregan",
+    "bio": "Essaie de faire des logiciels depuis vingt ou trente ans. Au début en se concentrant surtout sur le code, aujourd'hui en essayant de débusquer les problèmes là où ils se trouvent. Heureusement, des fois c'est dans le code.",
+    "shortBio": "Not trying to reach perfection. Just more or less walking toward it, trying to enjoy the landscape meanwhile.",
+    "company": "Freelance",
+    "country": "Toulouse, France",
+    "featured": false,
+    "photo": "/images/speakers/fabien_tregan.jpg",
+    "photoUrl": "/images/speakers/fabien_tregan.jpg",
+    "socials": [
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/ftregan",
+        "name": "@ftregan"
+      }
+    ]
+  }
+}

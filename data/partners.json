@@ -1,0 +1,264 @@
+[
+  {
+    "id": "group-0",
+    "title": "Platinium",
+    "style": "partner-pt",
+    "order": 0,
+    "items": [
+      {
+        "id": "item-0-0",
+        "name": "Delair",
+        "url": "https://delair.aero/",
+        "logoUrl": "/images/partners/Delair.png"
+      },
+      {
+        "id": "item-0-1",
+        "name": "Continental",
+        "url": "https://www.continental-corporation.com/fr-fr/",
+        "logoUrl": "/images/partners/logo-continental.png"
+      },
+      {
+        "id": "item-0-2",
+        "name": "Airbus",
+        "url": "https://www.airbus.com/",
+        "logoUrl": "/images/partners/logo-airbus.png"
+      },
+      {
+        "id": "item-0-3",
+        "name": "Toulouse Métropole",
+        "url": "https://www.toulouse-metropole.fr/",
+        "logoUrl": "/images/partners/tls-metropole.png"
+      }
+    ]
+  },
+  {
+    "id": "group-1",
+    "title": "Gold",
+    "style": "partner-au",
+    "order": 1,
+    "items": [
+      {
+        "id": "item-1-0",
+        "name": "Stack Labs",
+        "url": "https://www.stack-labs.com/",
+        "logoUrl": "/images/partners/logo-stacklab.png"
+      },
+      {
+        "id": "item-1-1",
+        "name": "Monkey Patch",
+        "url": "http://www.monkeypatch.io/",
+        "logoUrl": "/images/partners/Logo_MonkeyPatch_Bleu.png"
+      },
+      {
+        "id": "item-1-2",
+        "name": "CS Systèmes d'information",
+        "url": "https://www.c-s.fr/",
+        "logoUrl": "/images/partners/logo-cs.png"
+      },
+      {
+        "id": "item-1-3",
+        "name": "Informatique Banque Populaire",
+        "url": "https://informatique.banquepopulaire.fr/",
+        "logoUrl": "/images/partners/logo_i-BP2.png"
+      },
+      {
+        "id": "item-1-4",
+        "name": "Sigfox",
+        "url": "https://www.sigfox.com/en",
+        "logoUrl": "/images/partners/logo-sigfox.svg"
+      },
+      {
+        "id": "item-1-5",
+        "name": "Cirruseo",
+        "url": "https://www.cirruseo.com/",
+        "logoUrl": "/images/partners/logo-cirruseo.png"
+      },
+      {
+        "id": "item-1-6",
+        "name": "OnePoint",
+        "url": "https://www.groupeonepoint.com/",
+        "logoUrl": "/images/partners/logo-onepoint.png"
+      },
+      {
+        "id": "item-1-7",
+        "name": "FullSave",
+        "url": "https://www.fullsave.com/",
+        "logoUrl": "/images/partners/logo-fullsave.png"
+      },
+      {
+        "id": "item-1-8",
+        "name": "JFrog",
+        "url": "https://jfrog.com/",
+        "logoUrl": "/images/partners/logo-jfrog.svg"
+      },
+      {
+        "id": "item-1-9",
+        "name": "Palo IT",
+        "url": "http://fr.palo-it.com/",
+        "logoUrl": "/images/partners/logo-paloit.png"
+      },
+      {
+        "id": "item-1-10",
+        "name": "Lyra Network",
+        "url": "https://www.lyra-network.com/",
+        "logoUrl": "/images/partners/logo-lyra.png"
+      },
+      {
+        "id": "item-1-11",
+        "name": "PROJIXI",
+        "url": "http://www.projixi-europe.com/",
+        "logoUrl": "/images/partners/logo-projixi.png"
+      },
+      {
+        "id": "item-1-12",
+        "name": "FittingBox",
+        "url": "https://www.fittingbox.com/",
+        "logoUrl": "/images/partners/logo-fittingbox.png"
+      },
+      {
+        "id": "item-1-13",
+        "name": "Ippon",
+        "url": "https://fr.ippon.tech/",
+        "logoUrl": "/images/partners/logo-ippon.svg"
+      },
+      {
+        "id": "item-1-14",
+        "name": "Capgemini",
+        "url": "https://www.capgemini.com/fr-fr/",
+        "logoUrl": "/images/partners/logo-capgemini.svg"
+      },
+      {
+        "id": "item-1-15",
+        "name": "Sogeti",
+        "url": "https://www.fr.sogeti.com/",
+        "logoUrl": "/images/partners/logo-sogeti.jpg"
+      }
+    ]
+  },
+  {
+    "id": "group-2",
+    "title": "Soutien",
+    "style": "partner",
+    "order": 2,
+    "items": [
+      {
+        "id": "item-2-0",
+        "name": "Commit42",
+        "url": "https://www.commit42.fr/",
+        "logoUrl": "/images/partners/commit42.png"
+      },
+      {
+        "id": "item-2-1",
+        "name": "SQLI",
+        "url": "http://www.sqli.com/",
+        "logoUrl": "/images/partners/logo-sqli.png"
+      },
+      {
+        "id": "item-2-2",
+        "name": "Gisaia",
+        "url": "http://gisaia.fr/",
+        "logoUrl": "/images/partners/logo-gisaia.png"
+      },
+      {
+        "id": "item-2-3",
+        "name": "DocDoku",
+        "url": "https://www.docdoku.com/",
+        "logoUrl": "/images/partners/docdoku_inverse_web.png"
+      },
+      {
+        "id": "item-2-4",
+        "name": "CNES",
+        "url": "https://cnes.fr/",
+        "logoUrl": "/images/partners/logo-cnes.jpg"
+      },
+      {
+        "id": "item-2-5",
+        "name": "VISEO",
+        "url": "http://www.viseo.com/fr",
+        "logoUrl": "/images/partners/logo-viseo.png"
+      },
+      {
+        "id": "item-2-6",
+        "name": "Pierre Fabre",
+        "url": "https://www.pierre-fabre.com/fr",
+        "logoUrl": "/images/partners/logo-pierrefabre.png"
+      },
+      {
+        "id": "item-2-7",
+        "name": "Étincelle Coworking",
+        "url": "http://www.coworking-toulouse.com/",
+        "logoUrl": "/images/partners/logo-etincelle.gif"
+      },
+      {
+        "id": "item-2-8",
+        "name": "SII",
+        "url": "http://www.groupe-sii.com/fr",
+        "logoUrl": "/images/partners/logo-sii.png"
+      },
+      {
+        "id": "item-2-9",
+        "name": "Morning",
+        "url": "https://morning.com/fr/",
+        "logoUrl": "/images/partners/logo-morning.svg"
+      }
+    ]
+  },
+  {
+    "id": "group-3",
+    "title": "Média",
+    "style": "partner",
+    "order": 3,
+    "items": [
+      {
+        "id": "item-3-0",
+        "name": "Programmez",
+        "url": "https://www.programmez.com/",
+        "logoUrl": "/images/partners/media/logo_programmez.svg"
+      }
+    ]
+  },
+  {
+    "id": "group-4",
+    "title": "Communautés",
+    "style": "partner",
+    "order": 4,
+    "items": [
+      {
+        "id": "item-4-0",
+        "name": "Toulouse Data Science",
+        "url": "http://www.tlse-data-science.fr/",
+        "logoUrl": "/images/partners/community/tds.png"
+      },
+      {
+        "id": "item-4-1",
+        "name": "Toulouse JUG",
+        "url": "https://www.toulousejug.org/",
+        "logoUrl": "/images/partners/community/toulouse_jug.png"
+      },
+      {
+        "id": "item-4-2",
+        "name": "Duchess FR",
+        "url": "https://www.duchess-france.org/",
+        "logoUrl": "/images/partners/community/duchess_fr.svg"
+      },
+      {
+        "id": "item-4-3",
+        "name": "ToulouseJS",
+        "url": "https://twitter.com/ToulouseJS",
+        "logoUrl": "/images/partners/community/toulousejs.png"
+      },
+      {
+        "id": "item-4-4",
+        "name": "Toulouse Devops",
+        "url": "http://toulousedevops.org/",
+        "logoUrl": "/images/partners/community/toulousedevops.jpg"
+      },
+      {
+        "id": "item-4-5",
+        "name": "GDG Toulouse",
+        "url": "https://www.gdgtoulouse.fr/",
+        "logoUrl": "/images/partners/community/gdgtoulouse.jpeg"
+      }
+    ]
+  }
+]

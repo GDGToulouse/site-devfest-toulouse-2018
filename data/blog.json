@@ -1,0 +1,26 @@
+{
+  "call-for-papers": {
+    "backgroundColor": "#ddd",
+    "brief": "Ouverture du Call for Papers",
+    "image": "images/backgrounds/cfp.jpg",
+    "published": "2018-04-03",
+    "source": "data/posts/2018-04-03-cfp.md",
+    "title": "Appel à orateurs"
+  },
+  "lancement-devfest-toulouse-2018": {
+    "backgroundColor": "#ddd",
+    "brief": "Lancement du DevFest Toulouse 2018",
+    "image": "images/backgrounds/launch2018.jpg",
+    "published": "2018-03-27",
+    "source": "data/posts/2018-03-27-lancement-devfest-toulouse-2018.md",
+    "title": "Lancement du DevFest Toulouse 2018"
+  },
+  "cr-cfp": {
+    "backgroundColor": "#ddd",
+    "brief": "Compte rendu CFP",
+    "image": "images/posts/2018-08-02-cr-cfp/cover.jpg",
+    "published": "2018-08-02",
+    "source": "data/posts/2018-08-02-cr-cfp.md",
+    "title": "Retrouvez la liste complète des talks !"
+  }
+}
