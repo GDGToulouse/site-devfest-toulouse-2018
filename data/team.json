@@ -1,0 +1,260 @@
+[
+  {
+    "id": "team-0",
+    "title": "Core Team",
+    "members": [
+      {
+        "id": "member-0-0",
+        "name": "Julien Del Rio",
+        "photoUrl": "/images/people/julien_delrio.jpg",
+        "socials": [
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/JulienDelRio",
+            "name": "Twitter"
+          }
+        ],
+        "title": "GDG Toulouse"
+      },
+      {
+        "id": "member-0-1",
+        "name": "Julien Renaux",
+        "photoUrl": "/images/people/julien_renaux.jpg",
+        "socials": [
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/julienrenaux",
+            "name": "Twitter"
+          },
+          {
+            "icon": "github",
+            "link": "https://github.com/shprink",
+            "name": "Github"
+          },
+          {
+            "icon": "linkedin",
+            "link": "https://www.linkedin.com/in/julienrenaux/",
+            "name": "LinkedIn"
+          }
+        ],
+        "title": "GDG Toulouse"
+      },
+      {
+        "id": "member-0-2",
+        "name": "Alexia Audevart",
+        "photoUrl": "https://www.ekito.fr/img/team/aaudevart.jpg",
+        "socials": [
+          {
+            "icon": "twitter",
+            "link": "https://www.twitter.com/aaudevart",
+            "name": "Twitter"
+          },
+          {
+            "icon": "github",
+            "link": "https://github.com/aaudevart",
+            "name": "Github"
+          },
+          {
+            "icon": "linkedin",
+            "link": "https://www.linkedin.com/in/alexia-audevart-450b8a1/",
+            "name": "Linkedin"
+          }
+        ],
+        "title": "Toulouse Data Science"
+      },
+      {
+        "id": "member-0-3",
+        "name": "Kevin Davin",
+        "photoUrl": "/images/people/kevin_davin.png",
+        "socials": [
+          {
+            "icon": "gplus",
+            "link": "https://plus.google.com/+KevinDavin",
+            "name": "Google+"
+          },
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/davinkevin",
+            "name": "Twitter"
+          },
+          {
+            "icon": "github",
+            "link": "https://github.com/davinkevin/",
+            "name": "Github"
+          },
+          {
+            "icon": "linkedin",
+            "link": "www.linkedin.com/in/davinkevin",
+            "name": "LinkedIn"
+          }
+        ],
+        "title": "GDG Toulouse & Toulouse JUG"
+      },
+      {
+        "id": "member-0-4",
+        "name": "Aurélie Vache",
+        "photoUrl": "/images/people/aurelie_vache.png",
+        "socials": [
+          {
+            "icon": "twitter",
+            "link": "https://www.twitter.com/aurelievache",
+            "name": "Twitter"
+          },
+          {
+            "icon": "website",
+            "link": "http://scraly.com/",
+            "name": "Site"
+          },
+          {
+            "icon": "linkedin",
+            "link": "https://www.linkedin.com/in/aurelievache",
+            "name": "LinkedIn"
+          },
+          {
+            "icon": "github",
+            "link": "https://github.com/scraly",
+            "name": "Github"
+          }
+        ],
+        "title": "Duchess France / Toulouse Data Science"
+      },
+      {
+        "id": "member-0-5",
+        "name": "Maxime Pawlak",
+        "photoUrl": "/images/people/maxime_pawlak.jpg",
+        "socials": [
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/Maxime_Pawlak",
+            "name": "Twitter"
+          }
+        ],
+        "title": "GDG Toulouse"
+      },
+      {
+        "id": "member-0-6",
+        "name": "Michaël Bitard",
+        "photoUrl": "/images/people/michael_bitard.jpg",
+        "socials": [
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/bitardmichael",
+            "name": "Twitter"
+          }
+        ],
+        "title": "Electron liiiibre"
+      },
+      {
+        "id": "member-0-7",
+        "name": "Didier Plaindoux",
+        "photoUrl": "/images/people/didier_plaindoux.jpeg",
+        "socials": [
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/dplaindoux",
+            "name": "Twitter"
+          }
+        ],
+        "title": "Toulouse JUG"
+      },
+      {
+        "id": "member-0-8",
+        "name": "Vincent Ferries",
+        "photoUrl": "https://pbs.twimg.com/profile_images/697834407407849472/bzv1VZJm_400x400.jpg",
+        "socials": [
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/VincentFERRIES",
+            "name": "Twitter"
+          }
+        ],
+        "title": "Toulouse JUG"
+      },
+      {
+        "id": "member-0-9",
+        "name": "Igor Laborie",
+        "photoUrl": "https://pbs.twimg.com/profile_images/3404066863/94e02f3bca9b038c4546f4e42ed05bc6.jpeg",
+        "socials": [
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/ilaborie",
+            "name": "Twitter"
+          },
+          {
+            "icon": "github",
+            "link": "https://github.com/ilaborie",
+            "name": "Github"
+          }
+        ],
+        "title": "Folivoraphile"
+      },
+      {
+        "id": "member-0-10",
+        "name": "Emmanuel Vinas",
+        "photoUrl": "/images/people/emmanuel_vinas.jpeg",
+        "socials": [
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/EmmanuelVinas",
+            "name": "Twitter"
+          }
+        ],
+        "title": "GDG Toulouse"
+      },
+      {
+        "id": "member-0-11",
+        "name": "Lionel Porcheron",
+        "photoUrl": "/images/people/lionel_porcheron.jpg",
+        "socials": [
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/lporcheron",
+            "name": "Twitter"
+          }
+        ],
+        "title": "Toulouse DevOps"
+      },
+      {
+        "id": "member-0-12",
+        "name": "Michaël Pailloncy",
+        "photoUrl": "https://s.gravatar.com/avatar/1b42d100589ea585ce9a1f359b8d4496?s=160",
+        "socials": [
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/mpailloncy",
+            "name": "Twitter"
+          },
+          {
+            "icon": "github",
+            "link": "https://github.com/mpailloncy",
+            "name": "Github"
+          },
+          {
+            "icon": "linkedin",
+            "link": "https://www.linkedin.com/in/michael-pailloncy-21119827/",
+            "name": "LinkedIn"
+          }
+        ],
+        "title": "Toulouse JAM / JUG"
+      },
+      {
+        "id": "member-0-13",
+        "name": "Elodie Lerare",
+        "photoUrl": "images/people/elodie_lerare.jpg",
+        "socials": [
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/EloBlou",
+            "name": "Twitter"
+          },
+          {
+            "icon": "linkedin",
+            "link": "https://www.linkedin.com/in/elodie-lerare-223a6b41/",
+            "name": "LinkedIn"
+          }
+        ],
+        "title": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,739 @@
+{
+  "100": {
+    "isBreak": true,
+    "title": "Accueil et petit-déjeuner",
+    "description": "Accueil et petit-déjeuner avec chocolatines",
+    "image": "/images/backgrounds/chocos.png",
+    "id": 100,
+    "tags": []
+  },
+  "101": {
+    "title": "Keynote d'ouverture",
+    "description": "Développeurs de jeux vidéo : rois de la combine ?",
+    "image": "/images/backgrounds/game.png",
+    "class": "intro",
+    "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F101-gamedev-mischief-LaurentVictorino.pdf?alt=media&token=8c65f60b-731f-4223-bd02-3e2cdd15f064",
+    "id": 101,
+    "videoId": "jwaJ7U9SSDM",
+    "type": "Keynote",
+    "tags": [
+      "General"
+    ],
+    "speakers": [
+      "laurent_victorino"
+    ]
+  },
+  "102": {
+    "title": "Keynote de fermeture",
+    "description": "Hype Driven Development",
+    "image": "/images/backgrounds/sky.png",
+    "class": "end",
+    "id": 102,
+    "videoId": "nfd3wh-GOQI",
+    "type": "Keynote",
+    "tags": [
+      "General"
+    ],
+    "speakers": [
+      "quentin_adam"
+    ]
+  },
+  "103": {
+    "isBreak": true,
+    "title": "Déjeuner",
+    "description": "Déjeuner",
+    "image": "/images/backgrounds/lunch.png",
+    "id": 103,
+    "tags": []
+  },
+  "104": {
+    "isBreak": true,
+    "title": "Pause",
+    "description": "Pause",
+    "image": "/images/backgrounds/coffee.png",
+    "id": 104,
+    "tags": []
+  },
+  "201": {
+    "title": "Office Hours",
+    "description": "Venez poser vos questions aux speakers de manière plus calme et détendu",
+    "type": "Office Hours",
+    "tags": [],
+    "id": 201,
+    "speakers": [
+      "miro_miro_cupak",
+      "fabien_tregan",
+      "horacio_gonzalez",
+      "celine_louvet"
+    ]
+  },
+  "202": {
+    "title": "Office Hours",
+    "description": "Venez poser vos questions aux speakers de manière plus calme et détendu",
+    "type": "Office Hours",
+    "tags": [],
+    "id": 202,
+    "speakers": [
+      "david_gageot",
+      "guillaume_membre",
+      "olivier_leplus",
+      "piotr_przybyl"
+    ]
+  },
+  "203": {
+    "title": "Office Hours",
+    "description": "Venez poser vos questions aux speakers de manière plus calme et détendu",
+    "type": "Office Hours",
+    "tags": [],
+    "id": 203,
+    "speakers": [
+      "robert_firek",
+      "sylvain_wallez",
+      "hubert_sablonniere",
+      "sebastien_guilloux"
+    ]
+  },
+  "204": {
+    "title": "Office Hours",
+    "description": "Venez poser vos questions aux speakers de manière plus calme et détendu",
+    "type": "Office Hours",
+    "tags": [],
+    "id": 204,
+    "speakers": [
+      "olivier_flebus",
+      "david_pilato",
+      "mathieu_passenaud",
+      "benoit_el_amrani"
+    ]
+  },
+  "205": {
+    "title": "Office Hours",
+    "description": "Venez poser vos questions aux speakers de manière plus calme et détendu",
+    "type": "Office Hours",
+    "tags": [],
+    "id": 205,
+    "speakers": [
+      "ane_diaz_de_tuesta",
+      "arnaud_bos",
+      "julien_topcu",
+      "giulia_bianchi"
+    ]
+  },
+  "206": {
+    "title": "Office Hours",
+    "description": "Venez poser vos questions aux speakers de manière plus calme et détendu",
+    "type": "Office Hours",
+    "tags": [],
+    "id": 206,
+    "speakers": [
+      "jimenez_raul",
+      "alessio_coltellacci",
+      "guillaume_laforge",
+      "francois_teychene"
+    ]
+  },
+  "207": {
+    "title": "Office Hours",
+    "description": "Venez poser vos questions aux speakers de manière plus calme et détendu",
+    "type": "Office Hours",
+    "tags": [],
+    "id": 207,
+    "speakers": [
+      "tugdual_grall",
+      "nicolas_decoster",
+      "juliane_blier",
+      "victor_kropp",
+      "estelle_landry"
+    ]
+  },
+  "208": {
+    "title": "Office Hours",
+    "description": "Venez poser vos questions aux speakers de manière plus calme et détendu",
+    "type": "Office Hours",
+    "tags": [],
+    "id": 208,
+    "speakers": [
+      "frederic_cabestre",
+      "comet_nicolas",
+      "benoit_prioux",
+      "anastasia_lieva",
+      "emmanuel_demey",
+      "jean-francois_garreau"
+    ]
+  },
+  "4125": {
+    "title": "Let’s Sketchnote : prise de notes visuelle",
+    "language": "Français",
+    "complexity": "Débutant",
+    "description": "La communication fait aujourd’hui partie intégrante de notre travail; il nous arrive régulièrement de vouloir diffuser une information importante, réaliser une présentation, un compte rendu de réunion… Mais comment être sûrs que le message que l’on souhaite faire passer a bien été compris et retenu par les interlocuteurs ? Le sketchnoting apporte une solution ludique, créative et agréable autant à créer qu’à lire. Venez découvrir comment mettre en valeur votre communication à l’aide de procédés très visuels, simples et accessibles à tous.",
+    "type": "Quickie",
+    "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4125-LetsSketchnote-AneDiazDeTuesta.pdf?alt=media&token=a57cb98d-3b45-46d5-8752-b18a8dd745ff",
+    "tags": [
+      "Method & Tools"
+    ],
+    "id": 4125,
+    "videoId": "NInM_wndk2U",
+    "speakers": [
+      "ane_diaz_de_tuesta"
+    ]
+  },
+  "4128": {
+    "title": "Ceinture noire Karate en tests d’API REST",
+    "language": "Français",
+    "complexity": "Débutant",
+    "description": "Vous aviez toujours rêvé d'une syntaxe facile pour tester vos APIs REST ? \n\n`Karate` est fait pour vous ! \nSon format DSL plain text inspiré de la syntaxe Cucumber (ie. Gherkin) permet même aux personnes aux notions basiques en développement de venir couvrir vos APIs ou Web services (micros, nanos ou pas!)\n\nIl n'y a plus ~~Karate~~ qu'à réussir ses tests d'intégration ! \n\nVenez apprendre comment avec `Java` et `maven` comme simples prérequis d'infrastructure, vous pouvez mettre en place et industrialiser ces tests. On l'utilise chez nous, et on ne s'en passe plus.",
+    "type": "Conférence",
+    "tags": [
+      "Method & Tools"
+    ],
+    "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4128-karate-NicolasComet.pdf?alt=media&token=d1b81627-6683-4134-bc71-e604ac0b1c55",
+    "id": 4128,
+    "videoId": "ZNrCw5T-wls",
+    "speakers": [
+      "comet_nicolas",
+      "benoit_prioux"
+    ]
+  },
+  "4132": {
+    "title": "Premiers pas avec Capacitor... dans le monde réel",
+    "type": "Conférence",
+    "tags": [
+      "Native mobile apps"
+    ],
+    "language": "Français",
+    "complexity": "Débutant",
+    "videoId": "a4zCakyQN-o",
+    "description": "Ah, Capacitor, quelle belle idée, une alternative à Cordova plus facile à utiliser, utilisable dans n'importe quel framework, complètement intégré à la prochaine version d'Ionic... Ben non, au moins au début, l'idée de Capacitor me laissait sceptique. J'ai passé les deux dernières années a développer des PWA, alors la pensée de devoir revenir à faire des applications hybrides ou native me paressait simplement obsolète. Dans ma tête j'avais mis Capacitor dans la case techno cool qui ne m'intéresse pas dans la vraie vie. Mais à ce moment j'ai relu avec attention leur site et j'ai vu une ligne qui m'a séduit: Build web apps that run equally well on iOS, Android, Electron, and as Progressive Web Apps. Hmmm, si je pouvais prendre une PWA et générer à partir d'elle une appli native Android, une autre iOS et une implémentation Electron en bonus, ça pourrait être carrément cool ! J'ai donc décidé de teste Capacitor sur certaines de mes PWA pour voir si je pouvais les transformer en applications natives. Et ce talk est le retour d'expérience de ce processus, mes premiers pas avec Capacitor, ce qui a marché et ce qui n'a pas marché, et surtout ce que j'ai appris dans le processus.",
+    "speakers": [
+      "horacio_gonzalez"
+    ]
+  },
+  "4142": {
+    "title": "Votre mission ? Découvrir Haskell et le mettre en prod",
+    "language": "Français",
+    "complexity": "Débutant",
+    "description": "On entend parler de Haskell de plus en plus, mais il parait souvent bien compliqué de se lancer. Haskell fait peur, avec ses Monades, Monoïdes et autres gros mots. \n\nOn verra ensemble que vous n'avez absolument pas besoin de savoir ce que ces termes signifient pour vous lancer. Je vous propose de regarder ce dont vous aurez besoin pour créer une petite API, avec de la sécurité et de la gestion de données, soit de quoi mettre une petite application en prod.",
+    "type": "Conférence",
+    "tags": [
+      "Languages"
+    ],
+    "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4142-Haskellenprod-CelineLouvet.pdf?alt=media&token=96f84ad6-2bfd-4016-a94c-f51fb58b32de",
+    "id": 4142,
+    "videoId": "5VCIaYvWecM",
+    "speakers": [
+      "celine_louvet"
+    ]
+  },
+  "4195": {
+    "title": "Développer une application web avec Rust",
+    "type": "Conférence",
+    "tags": [
+      "Languages"
+    ],
+    "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4195-WebappswithRust-SylvainWallez.pdf?alt=media&token=b79694bf-a25e-41aa-bc7b-64506797e29a",
+    "language": "Français",
+    "complexity": "Débutant",
+    "videoId": "rhAqG4gh400",
+    "description": "Développé par la fondation Mozilla, Rust est un langage fortement typé, sûr, très performant et très économe en ressources (oui oui, tout ça à la fois). Initialement orienté système et bas niveau, l'écosystème Rust s'agrandit rapidement et propose maintenant toutes les librairies nécessaires au développement d'applications web. Pour découvrir le développement web avec Rust, nous parcourerons l'architecture et le code d'un serveur de commentaires open source à la Disqus, développé par le speaker pour les sites statiques faits par exemple avec Jekyll ou Hugo. Nous découvrirons routage http avec extraction typée de paramètres, réponses asynchrones, appel de services tiers, accès aux bases de données, cache, templating HTML, envoi d'emails, logs, métriques, etc. Et nous verrons qu'une application Rust c'est tout petit et très rapide, permettant d'héberger le serveur sur des configurations très modestes.",
+    "speakers": [
+      "sylvain_wallez"
+    ]
+  },
+  "4207": {
+    "title": "La programmation fonctionnelle sans céder à la mode",
+    "language": "Français",
+    "complexity": "Intermédiaire",
+    "description": "Aujourd'hui, pour être à la mode, il faut parler de programmation fonctionnelle. Et de suite on convoque les mots en vogue: « *Immutabilité* », « *Monade* » ou « *Catamorphisme* ». Au mieux le message est brouillé, mal reçu. Au pire la salle se vide ! \n\nCe que je vous propose c'est de repartir des principes de base, avec des idées bien arrêtées et peut-être parfois provocatrices. Comprendre, comme le disait **John Hugues**, « *Why functionnal programming matters* ». Cerner les quelques idées directrices de la programmation fonctionnelle et ce qu'elles apportent concrètement au quotidien. Voir comment et pourquoi d'autres concepts en découlent nécessairement...\n\nIl sera peut-être finalement question de « *Théorie des catégories* » ! Mais il sera surtout question, en vrac, d'histoire et de mise en œuvre des langages, de typage, de performance, d'artisanat du logiciel, de « *Design patterns* », d'abstraction et, soyons fou, de *réification*. \n\nEn somme, je vais vous parler de programmation fonctionnelle en essayant de ne pas être à la mode !",
+    "type": "Conférence",
+    "tags": [
+      "Languages"
+    ],
+    "id": 4207,
+    "videoId": "AQ_q-hdtNS4",
+    "speakers": [
+      "frederic_cabestre"
+    ]
+  },
+  "4211": {
+    "title": "Architecture Decision Records: Réconciliez vous avec votre documentation",
+    "language": "Français",
+    "complexity": "Débutant",
+    "description": "Les développeurs aiment écrire de la documentation... ou pas !\nPourtant même les plus réfractaires doivent l'admettre, garder une trace des décisions techniques prises au cours d'un projet peut s'avérer indispensable pour la pérennité et maintenabilité de celui-ci.\n\nAlors comment éviter l'obsolescence programmée de la documentation, tout en réduisant la pénibilité de la rédaction ?\n\nDepuis près d'un an, dans \"mon\" équipe, nous utilisons un format simple, les Architecture Decision Records (ADRs), pour écrire des documents d'architecture sous la forme d'un journal immuable.\nCette technique simple gagne en popularité et a donné de bons résultats sur notre projet.\n\nDurant cette présentation vous construirez en direct un ADR.\nEn partant d'un problème constaté sur un projet, vous élaborerez une réponse technique qui servira de base à une implémentation ultérieure.\nVous décrirez les raisons qui vous poussent à faire des compromis, tout en capturant le contexte dans lequel cette décision a été prise pour référence future.\n\nRéconciliez vous avec votre documentation !",
+    "type": "Quickie",
+    "tags": [
+      "Method & Tools"
+    ],
+    "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4211-ArchitectureDecisionRecords-ArnaudBos.pdf?alt=media&token=20dac175-6460-4bd3-a490-544ceae883bb",
+    "id": 4211,
+    "videoId": "EDYplU1PB5s",
+    "speakers": [
+      "arnaud_bos"
+    ]
+  },
+  "4225": {
+    "title": "Détectez et trackez les Zergs qui se cachent dans vos dépendances !",
+    "language": "Français",
+    "complexity": "Débutant",
+    "description": "[44% des applications contiennent des vulnérabilités critiques dans les librairies open-source qu'elles utilisent](https://www.veracode.com/products/software-composition-analysis) et cela bien que des bonnes pratiques comme OWASP Top 10 se soient généralisées. \n\nNe laissez plus ces aliens incuber bien au chaud dans le ventre de votre appli! \nGrâce à ce talk, vous apprendrez comment sont répertoriées ces vilaines bestioles (NVD, CVE) et comment est évaluée leur dangerosité (CVSS).\n\nPuis vous verrez comment créer votre première pipeline de Continuous Security dans Jenkins au moyen de [OWASP DependencyCheck](https://www.owasp.org/index.php/OWASP_Dependency_Check)  qui détecte les vulnérabilités et trackez les grâce à [OWASP DependencyTrack](https://www.owasp.org/index.php/OWASP_Dependency_Track_Project) (logiciels open-source) \n \nFaites le premier pas vers le DevSecOps !!!",
+    "type": "Quickie",
+    "tags": [
+      "Method & Tools"
+    ],
+    "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4225-detectez-et-traquez-les-zergs-qui-se-cachent-dans-vos-dpendances.pdf?alt=media&token=b96358e5-0b6f-444c-9b0e-cbcf628700b4",
+    "id": 4225,
+    "videoId": "aZeR6PypJ8k",
+    "speakers": [
+      "julien_topcu"
+    ]
+  },
+  "4231": {
+    "title": "La tête dans les nuages avec un Raspberry Pi",
+    "language": "Français",
+    "complexity": "Débutant",
+    "description": "En hackant une clé USB de réception TNT, La Radio Logicielle (ou SDR) est à la portée de tous. Il est alors possible d'écouter les balises de positionnement des avions de lignes sur un rayon de plusieurs dizaines de km avec une simple antenne. Voulez vous connaitre le fonctionnement du projet comme [flightradar24](https://www.flightradar24.com) ? Nous verrons comment mettre en oeuvre un tel projet avec du matériel grand public et accessible comme un Raspberry Pi.",
+    "type": "Conférence",
+    "tags": [
+      "IOT"
+    ],
+    "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4231-20181108-DevfestToulouse-Raspberry-Avions.pdf?alt=media&token=d675b039-61c1-4366-9532-b2c137b317eb",
+    "id": 4231,
+    "videoId": "UcADSVfOg3k",
+    "speakers": [
+      "guillaume_membre"
+    ]
+  },
+  "4282": {
+    "title": "Agile, Craftsmanship, DevOps and other monsters - how to fight with them.",
+    "language": "English",
+    "complexity": "Débutant",
+    "description": "Our industry has an amazing ability to build extremely good theoretical models, methodologies and approaches that actually drive us crazy. Theoretically, we can show how easy it is to introduce Waterfall, XP, Agile or DevOps (delete as appropriate) but the reality is more complicated. Sometimes, something does not work in our unique context and we end with so well known sentence \"It doesn't work for us\". \n\nMany hours of discussions with colleagues about the state of our industry indicate that we have to come up with something new and glowing. Something that allowed us to avoid the mistakes we made so far.\n\nIn this presentation, we will look at all errors we made in the past and we will take a closer look at elements which could have been done better and which ideas can change to better our industry. By retrospecting our achievements, we will try to define what awaits us and why this time we will succeed;)",
+    "type": "Conférence",
+    "tags": [
+      "Method & Tools"
+    ],
+    "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4282-monsters-RobertFirek.pdf?alt=media&token=1b5d4644-4636-4187-b919-76c0cb9b6f68",
+    "id": 4282,
+    "videoId": "tWPlvgtJgF4",
+    "speakers": [
+      "robert_firek"
+    ]
+  },
+  "4305": {
+    "title": "Google Container Tools : développer efficacement dans un monde de conteneurs",
+    "type": "Conférence",
+    "tags": [
+      "Cloud"
+    ],
+    "language": "Français",
+    "complexity": "Intermédiaire",
+    "videoId": "-t1cTnhoGTg",
+    "description": "Kubernetes est devenu l'orchestrateur de choix pour déployer des applications. Mais qu'en est-il du quotidien des développeurs qui créent ces applications ? Plus on s'appuie sur la plateforme, plus il est compliqué de développer en dehors de la plateforme. Et développer à l'intérieur de conteneurs n'est pas réputé facile ni agréable. Google est à l'origine de plusieurs projets Open-Source qui se focalisent sur l'expérience des développeurs dans un monde de conteneurs. Kaniko permet de construire une image Docker à partir d'un Dockerfile, dans un cluster Kubernetes, de manière sécurisée. Skaffold facilite le déploiement continu d'applications pour Kubernetes. Les images Distroless offrent des images de base légères, sécurisées et de qualité. Bazel permet meme de construire des images Docker sans Docker. Venez découvrir comment ces outils se combinent pour offrir un environment de développement agréable et performant dans le monde des conteneurs.",
+    "speakers": [
+      "david_gageot"
+    ]
+  },
+  "4306": {
+    "title": "S'aider du Data-Oriented Design pour écrire des applications performantes",
+    "language": "Français",
+    "complexity": "Débutant",
+    "description": "La performance est redevenue un sujet critique aujourd’hui avec le Cloud et les traitements de la données avec le Big data.\n\nAu delà des choix d'algorithmes et de structures de données, un moyen d'écrire du code performant, c'est de s'assurer que le processeur soit utilisé le plus efficacement possible et d'éviter qu’il perde du temps à charger/déplacer des données en mémoire.\n\nLe Data Oriented Design se place justement dans cette optique et fournit des méthodes pour écrire du code performant en prenant en compte les limitations du hardware.\n\nContenu de la présentation:\n\n * Explication du concept du Dod.\n\n * Comment fonctionnent les processeurs et montrer les grosses différences d’ordres de grandeurs des accès à la mémoire.\n\n* Comment le DoD permet de régler ces problèmes, avec des exemples de structures de données adaptées.\n\n* Comment le Dod a été mis en place sur le reverse proxy http de Clever Cloud: Sozu.\n\n* Comment mettre en place une approche DoD sur un cas concret par la création d’un entity manager qu'on trouve dans un moteur de jeu.\n\n* Réduire le temps d'exécution d'un programme JavaScript par 6 en s'aidant du Data-Oriented Design.",
+    "type": "Conférence",
+    "videoId": "3lzpK45cyBo",
+    "tags": [
+      "Method & Tools"
+    ],
+    "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4306-introductionaudataorienteddesign-AlessioColtellacci.pptx?alt=media&token=e80249cd-d945-4e23-8b29-2e4e58e8739e",
+    "id": 4306,
+    "speakers": [
+      "alessio_coltellacci"
+    ]
+  },
+  "4307": {
+    "title": "#RetourAuxSources : 🍪 Les cookies HTTP",
+    "type": "Conférence",
+    "tags": [
+      "Web"
+    ],
+    "language": "Français",
+    "complexity": "Débutant",
+    "videoId": "CcTbecZ67_o",
+    "description": "Les cookies HTTP sont partout ! Pas une journée sans qu’un site nous demande “d’accepter les cookies”. Rares sont les projets Web qui ne les utilisent pas et pourtant leur fonctionnement nous échappe trop souvent. On confond les règles auxquelles ils sont soumis au sein des navigateurs. On fait des amalgames avec les sessions côté serveur. Ces petits trous dans le gigantesque éventail de connaissances du développeur moderne ont parfois des impacts non négligeables sur la sécurité de nos applications et sur la préservation de notre vie privée en tant qu’utilisateur du Web. Au menu de cette session, je vous propose de (re)découvrir les cookies HTTP par l’exemple et la pratique. Nous reviendrons sur leurs origines et nous verrons en détails leur fonctionnement. Enfin, nous aborderons les aspects les plus récents dans le domaine (SameSite, cookie prefix...). Ce talk sera plus généralement l’occasion de parler de sécurité, de tracking et de vie privée.",
+    "speakers": [
+      "hubert_sablonniere"
+    ]
+  },
+  "4312": {
+    "title": "Des APIs de Machine Learning sur étagère, à l'entrainement distribué dans le cloud",
+    "language": "Français",
+    "complexity": "Débutant",
+    "description": "Vous pouvez booster vos applications grâce aux APIs de Machine Learning, afin d'analyser ce que contiennent les images uploadées par vos utilisateurs, de comprendre la structure du texte, ou de reconnaître la voix. Pour le développeur, un simple appel REST suffit, pour interroger les APIs Google Cloud Vision, Speech, Translate ou Natural Language.\n\nA l'opposé, le framework open source Tensorflow permets au data scientist de créer ses propres modèles de Machine Learning, de les entrainer localement ou dans le Cloud, et de lancer ses prédictions en ligne ou même embarquées dans des applis mobiles.\n\nEntre les deux, il est aussi possible de personnaliser les modèles sur étagère, pour reconnaître vos propres images, classifier vos textes, grâce à Google Cloud AutoML.",
+    "type": "Conférence",
+    "tags": [
+      "Big Data / ML / AI"
+    ],
+    "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4312-MachineLearningAPIsv3-GuillaumeLaforge.pdf?alt=media&token=62acf4e0-378a-4577-ac3c-42dc8691bf80",
+    "id": 4312,
+    "videoId": "gSewdZrom10",
+    "speakers": [
+      "guillaume_laforge"
+    ]
+  },
+  "4313": {
+    "title": "Tests BDD: faites rédiger vos tests End-to-End par les fonctionnels",
+    "type": "Conférence",
+    "tags": [
+      "Web"
+    ],
+    "language": "Français",
+    "complexity": "Intermédiaire",
+    "videoId": "7u3luu6BmDg",
+    "description": "Tout le monde (dans un monde idéal) fait des tests unitaires. Rares par contre sont ceux qui s'aventurent à mettre en place des tests end-to-end. Longs à développer, laborieux à maintenir, ils sont souvent les premiers à passer à la trappe. Et si ces tests devenaient faciles à développer et à lancer? Mieux encore, si ce n'était plus aux développeurs (déjà chargés comme des mules, c'est bien connu) de les rédiger, mais aux fonctionnels? Des tests à base de phrases compréhensibles par tous, faciles à lancer et à maintenir? Ce sera le but de ce talk: à partir d'une application web Angular, nous verrons comment configurer et lancer vos tests BDD avec TestCafe, Serenity et Cucumber.",
+    "speakers": [
+      "laurent_wroblewski"
+    ]
+  },
+  "4322": {
+    "title": "Lighthouse : mesurer et améliorer votre performance web",
+    "language": "Français",
+    "complexity": "Intermédiaire",
+    "description": "L'idée de ce talk est de présenter une série de bonnes pratiques / tips and tricks pour améliorer la performance d'un site web grâce à l'outil open source lighthouse sur plusieurs niveaux:\n- performance\n- progressive web app\n - accessibilité\n- autres bonnes pratiques.\n\nLa présentation démarre par la génération d'un blog statique , le lancement d'un audit et un score de performance médiocre. Puis une série d'améliorations en live coding. Le talk se termine par un résumé des techniques utilisées et bien sûr un excellent score dans lighthouse.",
+    "type": "Conférence",
+    "tags": [
+      "Web"
+    ],
+    "id": 4322,
+    "speakers": [
+      "sara_harkousse"
+    ]
+  },
+  "4331": {
+    "title": "Et si on parlait accessibilité du web ?",
+    "language": "Français",
+    "complexity": "Débutant",
+    "description": "**Aria**, **a11Y**, que veulent dire ces termes exotiques ? Nous verrons à travers des exemples les bonnes pratiques pour que votre site soit accessible. Puis, nous passerons en revue les sites internet des géants du web afin de voir si ce sont de bons élèves... ou pas.",
+    "type": "Conférence",
+    "tags": [
+      "Web"
+    ],
+    "id": 4331,
+    "videoId": "1oKEcDdYANY",
+    "speakers": [
+      "olivier_leplus"
+    ]
+  },
+  "4334": {
+    "title": "Tensorflow, is there really no spoon ?",
+    "language": "English",
+    "complexity": "Intermédiaire",
+    "description": "With the advance of Deep learning, Image recognition is everywhere! But like all technologies, it has its flaws. It is indeed possible to fool neural network models used for critical applications such as self-driving cars, drones, security cameras... Together, we will see how to generate adversarial images and fool a neural network into seeing something in an image that is not there.\n\nNo Tensorflow, there is no spoon!",
+    "type": "Conférence",
+    "tags": [
+      "Big Data / ML / AI"
+    ],
+    "id": 4334,
+    "videoId": "4QIjIoHP0x4",
+    "speakers": [
+      "tiffany_souterre"
+    ]
+  },
+  "4338": {
+    "title": "Comment perdre sa surchage featurale ?",
+    "type": "Conférence",
+    "tags": [
+      "Method & Tools"
+    ],
+    "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4338-Commentperdresasurchargefeaturale-EstelleLandry.pdf?alt=media&token=ca4f3bdf-95da-4e22-81e5-abc17178b390",
+    "language": "Français",
+    "complexity": "Débutant",
+    "videoId": "YM3pnJDhATE",
+    "description": "Le cycle de vie d'une application est un chemin nébuleux et plein de dangers. La complexité ne fait que croitre durant les mois et les années d'utilisation. L'un des plus gros challenges d'un développeur est de pouvoir la contrôler tout en ajoutant de nouvelles fonctionnalités (features). Des solutions existent : le ré-écriture de code ou encore la maitrise de la dette technique. En effet, ces deux actions permettent de lever \"la complexité accidentelle\". Mais que faisons nous de la \"complexité essentielle\" ? La complexité qui n'est pas liée au code. La seule solution : Supprimer des fonctionnalités ! Ce talk vous expliquera comment perdre la surcharge featurale de vos applications en comprenant la différence entre la complexité essentielle et la complexité accidentelle, mais aussi en vous donnant des clés pour mener à bien ce changement de vie dans vos équipes projet. ",
+    "speakers": [
+      "estelle_landry"
+    ]
+  },
+  "4340": {
+    "title": "Angular Elements",
+    "type": "Conférence",
+    "tags": [
+      "Web"
+    ],
+    "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4340-angular-elements-v7-RaulJimenez.zip?alt=media&token=be14bae6-4ed2-471e-bb99-e5767ee1b02c",
+    "language": "English",
+    "complexity": "Débutant",
+    "videoId": "ozVffQPTQXk",
+    "description": "In this session we will see how to create our first Web Component with Angular Elements and use it in a plain JS app.",
+    "speakers": [
+      "jimenez_raul"
+    ]
+  },
+  "4349": {
+    "title": "Comment t'organiser quand tu es b****lique de naissance (et depuis des décennies), que tu as plusieurs jobs (ou projets), sans exploser en vol ... Et bosser à plusieurs ... Et y arriver",
+    "language": "Français",
+    "complexity": "Débutant",
+    "description": "À (presque) 50 ans, je crois que j'y arrive enfin. ... à m'organiser.\nJ'ai fait pas mal de choses (le plus souvent en SSII ... *lire ESN*) et notamment chef de projet, directeur de projets, responsable de centre de services, ... Le tout accompagné:\n- d'oublis (oh p... 🙀 j'ai oublié de répondre au client, c'était urgent ... il y a une semaine), \n- d'angoisses (et crises d'angoisse) (rahhhh 😥 je vais jamais arriver à tout faire), \n- d'anéantissements (vous me faites tous ... J'arrête, bande de gros c...)\n- de (grands) moments de solitude (ah? On t'a pas dit, la réunion est en 🇬🇧, c'est toi qui mène ... 😡 euh, mais l'🇬🇧 je l'écris ... et encore ...)\n- etc ...\n\nAujourd'hui, j'ai 2 métiers (un commercial et un technique), dont un à 95% en 🇬🇧, et j'arrive à faire les 2 (et plutôt correctement il me semble), sans crise d'angoisse, en ayant encore du temps pour mes sides projects, dormir, m'occuper de ma famille (pas assez, mes geekeries peuvent prendre le dessus), aller à la pêche, regarder des séries, ...\n\nJ'ai donc tenté de me trouver des \"méthodes\" de travail à la fois pour mes tâches en solo mais aussi pour les moments où je travaille en équipe, pour cela j'ai utilisé les outils que j'avais sous la main (mais d'une certaine manière), dans mon cas: VSCode, DropBox, le markdown (asciidoc c'est bien aussi), Slack, GitLab (avec GitBucket, GitHub ou BitBucket ça fonctionne aussi), une façon limitée et particulière d'utiliser GMail, 1 écran externe, ...\nRien de magique, mais ça fonctionne pour moi",
+    "type": "Conférence",
+    "tags": [
+      "Method & Tools"
+    ],
+    "id": 4349,
+    "videoId": "2_hdqZ3TuQo",
+    "speakers": [
+      "philippe_charriere"
+    ]
+  },
+  "4420": {
+    "title": "Découvrir par l’exemple: Microservices et Event Sourcing avec Kafka et Kubernetes",
+    "language": "Français",
+    "complexity": "Débutant",
+    "description": "Lorsque vous développez des applications vous avez besoin de vous adapter rapidements aux changements (métiers, comme technologiques). Pour cela les développeurs et les “ops” doivent travailler de concert, pour déployer toujours plus rapidement de nouveaux services tout en garantissant la haute disponibilité et la montée en charge des applications.\n\nLes microservices et l’event-sourcing offrent une grande flexibilité aux développeurs; et la containerization par la biais de Kubernetes permet de déployer ces services en toute tranquillité.\n\nCette présentation, en s’appuyant sur des cas d’usage et des démonstration, vous permettra de découvrir:\n\n* Les micro-services l'’event sourcing avec Apache Kafka\n* Les containers avec Docker\n* Le déploiement et management des services avec Kubernetes\n\nSi vous n’utilisez pas encore ces technologies, cette présentation vous donnera une bonne idées des avantages qu’elles apportent aux développeurs, administrateurs systèmes, et donc aux utilisateurs; et je suis certain que vous les adopterez rapidement pour vos prochains développements!",
+    "type": "Conférence",
+    "tags": [
+      "Big Data / ML / AI"
+    ],
+    "id": 4420,
+    "videoId": "RXaGjS5C-lE",
+    "speakers": [
+      "tugdual_grall"
+    ]
+  },
+  "4432": {
+    "title": "Testcontainers pour de vrais tests d'intégration d'Elasticsearch",
+    "language": "Français",
+    "complexity": "Intermédiaire",
+    "description": "Les tests d'intégration peuvent devenir un cauchemar lorsqu'ils sont lancés depuis la même JVM que votre code:\n\n* Conflit de JARs (JAR Hell)\n* Security Manager\n* Effets de bord\n\nDe plus, tester avec un produit qui est lancé de façon différente de la façon dont il est lancé en production, ne garantira jamais que les tests d'intégration sont sincères.\n\nAussi, après avoir découvert le projet [TestContainers](https://www.testcontainers.org/) qui lance des conteneurs Docker depuis, j'ai décidé d'écrire une implémentation pour Elasticsearch: [testcontainers-java-module-elasticsearch](https://github.com/dadoonet/testcontainers-java-module-elasticsearch).\nJe vous propose de découvrir tout cela pendant ce quickie.",
+    "type": "Quickie",
+    "tags": [
+      "Method & Tools"
+    ],
+    "presentation": "https://github.com/dadoonet/elasticsearch-integration-tests",
+    "id": 4432,
+    "videoId": "KgcV15lCDk4",
+    "speakers": [
+      "david_pilato"
+    ]
+  },
+  "4447": {
+    "title": "Systemd, de /dev/null à root",
+    "language": "Français",
+    "complexity": "Débutant",
+    "description": "La démocratisation de la culture Devops et du cloud public amènent de plus en plus les dévelopeurs à travailler sur la mise en production de leurs applications.    \nSi vous n'êtes pas équipé d'un orchestrateur de conteneurs, il y a fort à parier que vous soyez amené à intéragir avec systemd voir d'écrire des services pour vos applications. N'ayez pas peur ! non seulement c'est accessible mais cela vous offre de nombreuses possibilités .  \n\nDécouvrons ensemble systemd et sa galaxie, ce qu'il peut vous apporter pour l'installation et le run de vos application mais également comment il peut vous aider tout les jours dans votre vie de développeur.",
+    "type": "Conférence",
+    "tags": [
+      "Cloud"
+    ],
+    "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4447-systemd.pdf?alt=media&token=7744eee3-d691-4120-a71a-14a28839cff7",
+    "id": 4447,
+    "videoId": "4AqbpZrBaOE",
+    "speakers": [
+      "francois_teychene"
+    ]
+  },
+  "4457": {
+    "title": "Template de déploiements Kubernetes avec Kontemplate",
+    "language": "Français",
+    "complexity": "Intermédiaire",
+    "description": "Kontemplate est un projet qui vise à faire des templates de déploiement pour Kubernetes. Petit retour d'expérience de l'utilisation de kontemplate dans le cadre de la vie d'une plateforme depuis l'environnement de développement jusqu'à la production.",
+    "type": "Quickie",
+    "tags": [
+      "Cloud"
+    ],
+    "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4457-Templatedede%CC%81ploiementsKubernetesaveckontemplate-MathieuPassenaud.pptx?alt=media&token=7262e90f-74d9-4618-b63c-ef8c3a574985",
+    "id": 4457,
+    "videoId": "KF3gvGnpjIg",
+    "speakers": [
+      "mathieu_passenaud"
+    ]
+  },
+  "4473": {
+    "title": "Burger Quiz s'invite au DevFest avec un Sel ou Poivre \"Code, Data ou les deux\"",
+    "language": "Français",
+    "complexity": "Débutant",
+    "description": "Etes-vous incollable plutôt sur le \"Code\" (Software Engineer) ou sur la \"Data\" (Data Engineer, Data Scientist) ? \n\nRetrouvons-nous pour un moment fun autour de questions et situations de notre quotidien pour lesquelles il faudra choisir \"Code, Data ou les deux\". Avec des images, du rythme,  un soupçon d'injustice, des surprises et une Jeep Renegade à la fin. \n\nLa salle est également ouverte aux personnes sérieuses qui y trouveront j'espère une stimulation pour réfléchir sur le sujet de fond d'évolution du métier de développeur avec la montée des approches centrées sur les données.",
+    "type": "Quickie",
+    "tags": [
+      "WTF"
+    ],
+    "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4473-CodeDataoules2-OlivierFlebus.pdf?alt=media&token=7a222481-e789-4f8b-aee0-4e01e0cbaabb",
+    "id": 4473,
+    "videoId": "9kUmvV947X8",
+    "speakers": [
+      "olivier_flebus"
+    ]
+  },
+  "4507": {
+    "title": "Introduction à Arrow - Typeclass is the new interface",
+    "language": "Français",
+    "complexity": "Intermédiaire",
+    "description": "Introduction à Arrow - `Typeclass` is the new `interface`\n===\n\nLa programmation fonctionnelle, c'est à la mode ! Et pour de bonnes raisons: l'industrie impose des architectures de plus en plus distribuées. Code facilement composable, immutabilité, contrôle des effets de bord: l'application de ces concepts rend le code plus sûr et efficace.\n\n*\"Mais qu'est-ce que ça m'apporte vraiment ?\"*, demande le programmeur pragmatique. En plus d'offrir des structures de données et opérateurs vraiment utiles, la notion de `typeclass` nous permet de rajouter des comportements/interfaces sur n'importe quel type de données.\n\nPour illustrer cette notion, nous nous appuierons sur la librairie `Arrow` en `Kotlin`. `Kotlin` est un langage de plus en plus populaire qui mixe plusieurs paradigmes. À défaut d'être un langage fonctionnel \"pur\", il dispose de nombreuses caractéristiques \"fonctionnelles\", et permet d'émuler des `typeclasses`.\n\nCette présentation, accessible sans connaissance de programmation fonctionnelle, permettra de se familiariser avec `Arrow` et les `typeclasses`.\n\n*(😸 Aucune monade ne sera maltraitée durant ce talk. 😸)*",
+    "type": "Conférence",
+    "tags": [
+      "Languages"
+    ],
+    "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4507-TalkTypeclasses-AlexandreDelattre.pdf?alt=media&token=d773b637-537b-4e08-9cf1-c1a1441a6a33",
+    "id": 4507,
+    "videoId": "uiLimq64zJI",
+    "speakers": [
+      "alexandre_delattre",
+      "guillaume_andrieu"
+    ]
+  },
+  "4509": {
+    "title": "Comprendre le théorème de CAP avec Apache Kafka",
+    "language": "Français",
+    "complexity": "Intermédiaire",
+    "description": "Durant cette présentation, nous nous pencherons sur le théorème de CAP (choix entre consistence, disponibilité et partition pour tout système distribué). Quand s'applique-t'il? Quels sont les choix qu'il propose?\n\nNous prendrons pour exemple Apache Kafka, afin de comprendre comment ce théorème s'applique en pratique. Nous étudierons les scénarios catastrophe potentiels en cas de crash d'un ou plusieurs noeuds. Quel est le niveau de garantie de délivrance d'un message? Que se passe-t'il quand le leader du cluster tombe? Comment est assurée la réplication des données? Quand et comment est-il possible d'ajuster le curseur entre consistence et disponibilité?\n\nIl n'est pas nécessaire de connaitre Kafka pour pouvoir suivre cette présentation.",
+    "type": "Conférence",
+    "tags": [
+      "Cloud"
+    ],
+    "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4509-UnderstandingtheCAPtheoremwithApacheKafka-Se%CC%81bastienGuilloux.pdf?alt=media&token=e26a3b33-ec28-409e-9b5f-e02df89c484b",
+    "id": 4509,
+    "videoId": "yLp0crdThzQ",
+    "speakers": [
+      "sebastien_guilloux"
+    ]
+  },
+  "4515": {
+    "title": "Remake de jeux rétro avec Vue.js",
+    "language": "Français",
+    "complexity": "Débutant",
+    "description": "Quoi de mieux que de recoder son jeu préféré pour apprendre une nouvelle techno ? Nous allons nous replonger dans notre enfance pour découvrir les concepts de Vue.js appliqués à Pong, Pac-Man, Tetris ou autre Pokemon.\n\nUn jeu n’est rien d’autre qu’un joueur interagissant avec un univers représenté à l’écran. Et Vue est un framework pensé pour isoler interactions, informations (qui décrivent l’univers du jeu) et la représentation visuelle basée sur ces informations.\n\nNous verrons ensemble pourquoi Vue est un outil adapté au développement de jeu et qu’inversement, le développement d’un jeu offre un bon angle pour découvrir les concepts clés de Vue.",
+    "type": "Conférence",
+    "tags": [
+      "Web"
+    ],
+    "id": 4515,
+    "videoId": "TDgln192b-Y",
+    "speakers": [
+      "nicolas_decoster",
+      "juliane_blier"
+    ]
+  },
+  "4528": {
+    "title": "Exploring reactive programming in Java",
+    "language": "English",
+    "complexity": "Confirmé",
+    "description": "When Java 8 was first introduced, it revolutionized the way Java applications were written by providing the core constructs for asynchronous programming and handling data streams. With Java 9, 10, and 11, these capabilities were extended to the level that allows us to write truly modern, reactive applications with the JDK.\n\nIn this live-coding session, we explore JDK 9-11 features enabling all the aspects of reactive programming - updates to the Stream and CompletableFuture APIs, Reactive Streams publish-subscribe framework, HTTP/2 client, and more.",
+    "type": "Conférence",
+    "tags": [
+      "Languages"
+    ],
+    "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4528-reactivejava-MiroCupak.zip?alt=media&token=09822fe0-47e7-401c-b5a9-165778bf0dc9",
+    "id": 4528,
+    "videoId": "LxBn42ROcwg",
+    "speakers": [
+      "miro_miro_cupak"
+    ]
+  },
+  "4574": {
+    "title": "The Big Web Quizz",
+    "language": "Français",
+    "complexity": "Débutant",
+    "description": "Nous aimons tous le web. Nous avons tous notre framework de prédilection avec lequel nous concevons des applications qui vont révolutionner le monde. Mais connaissons nous les bases du Web ? Connaissons nous toutes les subtilités de la specification des modules ? Maitrisons nous à la perfection les différents mécanismes de cache de vos navigateurs ?\n\nNous n'en sommes pas sûrs. C’est pour cela qu’aujourd’hui nous vous proposons de participer au plus grand quizz du monde. Présenté par nos experts Jean-François et Emmanuel, venez tous tester vos compétences de la plateforme Web.\n\nLes questions ne seront pas si simples, vous allez apprendre énormément de choses… et en plus ce sera drôle.",
+    "type": "Conférence",
+    "tags": [
+      "Web"
+    ],
+    "id": 4574,
+    "videoId": "PL9aQDMgv4w",
+    "speakers": [
+      "emmanuel_demey",
+      "jean-francois_garreau"
+    ]
+  },
+  "4584": {
+    "title": "Pourquoi et comment crafter la Data-Science sur mesure.",
+    "language": "Français",
+    "complexity": "Débutant",
+    "description": "Il n'est pas évident d'intégrer de la Data Science dans les sociétés qui développent un business qui de base ne prévoyait pas de l’intelligence artificielle (IA), et pour lequel l’IA n'est pas au cœur du métier. Malgré la motivation d'utiliser l’IA, de nombreux projets Data Science dans ces sociétés échouent.\n\nC'est autant frustrant pour les responsables d'entreprises que démotivant pour les data-scientists, dont les projets finissent au placard.\nOn va analyser ensemble cette situation, pour déterminer les raisons de ces échecs. On va également étudier comment éviter les erreurs les plus courantes, et comment mener ce changement sans encombre afin d'enrichir vos produits avec l’IA.\n\nL’objectif du talk est que peu importe le profil que vous avez - dev front, dev back, data-scientist, CTO, CEO, Product Manager - vous retournerez lundi dans votre société en sachant à la fois identifier et mener à bien les opportunités de Data Science.",
+    "type": "Conférence",
+    "tags": [
+      "Big Data / ML / AI"
+    ],
+    "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4584-CommentEtPourquoiCrafterLaDataScienceSurMesure-AnastasiaLieva.pdf?alt=media&token=e2b95735-9f32-4f4e-9431-383748c79cdd",
+    "id": 4584,
+    "videoId": "",
+    "speakers": [
+      "anastasia_lieva"
+    ]
+  },
+  "4588": {
+    "title": "Multiplatfom projects with Kotlin",
+    "language": "English",
+    "complexity": "Intermédiaire",
+    "description": "Kotlin is an alternative programming language for JVM. But it is not limited to a single platform. Instead, the team is working hard to bring it everywhere. It is already possible to run Kotlin on Android and compile it to JavaScript to write homogeneous web applications. And there is Kotlin/Native project actively in development, which will bring Kotlin to desktop and iOS.\n\nIn this session, we'll see how Kotlin can help us share code between platforms and what are the best practices in doing this.",
+    "type": "Conférence",
+    "tags": [
+      "Languages"
+    ],
+    "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4588-MultiplatformprojectswithKotlin-VictorKropp.pdf?alt=media&token=48d6e567-72ca-4fec-8628-0ad1e52f8671",
+    "id": 4588,
+    "videoId": "9ukHegwJivg",
+    "speakers": [
+      "victor_kropp"
+    ]
+  },
+  "4593": {
+    "title": "Angular Schematics pour une meilleure productivité et plus de partage",
+    "language": "Français",
+    "complexity": "Confirmé",
+    "description": "La CLI d'Angular, célèbre framework web de Google, est basée sur les Schematics. Cette technologie permet de définir des transformations de code au sein de vos applications Angular comme la création de nouveaux composants, directives, providers... et plus récemment la configuration ou mise à jour de vos librairies automatiquement. Grâce à la nouvelle librairie @angular-devkit/schematics proposée par la team Angular, vous n’êtes désormais plus obligé d’attendre une évolution de la part de l’équipe Angular pour créer une nouvelle commande répondant à vos besoins. Ainsi il est plus facile de partager entre développeurs du tooling ou alors de la génération de code automatique pour gagner en productivité.\nNous verrons donc pendant ces 15 minutes comment créer des schematics et ce qu'apporte cette technologie avec différents cas concrets qui je l'espère vous donnerons envie de créer plein de schematics <3 .",
+    "type": "Quickie",
+    "tags": [
+      "Web"
+    ],
+    "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4593-AngularSchematics-benoitElAmrani.pptx?alt=media&token=7985983c-441a-47bb-a5b1-70224b074810",
+    "id": 4593,
+    "videoId": "VLQYPA5gZEA",
+    "speakers": [
+      "benoit_el_amrani"
+    ]
+  },
+  "4613": {
+    "title": "GCP pour les Data Scientists",
+    "language": "Français",
+    "complexity": "Débutant",
+    "description": "Depuis son arrivée, GCP a démocratisé la conception et la mise en place de services basés sur l'IA sans avoir besoin en pré-requis de connaissances spécifiques en IA. Typiquement avec Dialogflow pour la création d'un chatbot personnalisé ce qui compte est le savoir-faire du développeur qui va mettre en place et intégrer le pipeline complet pour l'exposition du service. Comment un Data Scientist peut-il s'orienter dans ce monde qui n'est pas le sien pour apporter de la valeur aux projets utilisant tout le potentiel de GCP ?",
+    "type": "Quickie",
+    "tags": [
+      "Cloud"
+    ],
+    "id": 4613,
+    "videoId": "yjOkeruVBIE",
+    "speakers": [
+      "giulia_bianchi"
+    ]
+  },
+  "4617": {
+    "title": "CONTEXTVS, STVLTE! (Context, stupid!)",
+    "language": "English",
+    "complexity": "Débutant",
+    "description": "\"The best sorting algorithm is quick sort.\"\n\"Indexes make DB faster.\"\n\"Data should be sorted using ORDER BY.\"\n\"Composition - good; inheritance - not good.\"\n\"Windows is an operating system.\"\n\"You must have transactions in your DB.\"\n\"Java is slow.\"\n\"Don't eat yellow snow.\"\n\"You shall not self-sign your certificates.\"\n\"Interrupt in Java is broken.\"\n\nThe IT world is full of mantras/revealed truth, passed (often in oral tradition) among developer tribes. Mindlessly repeated from generation to generation, they cause a reckless usage. At best this results in more harm than good, in the worst case: a total disaster worth whole train of money.\nThe context is indispensable part of each mantra. Right context can help to distinguish proper usage from incoming disaster.\n\nDo you believe in a mantra by any chance?\nHow to find out the context?\nCan one eat yellow snow?\nCome and see.",
+    "type": "Conférence",
+    "tags": [
+      "Method & Tools"
+    ],
+    "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F4617-context-PiotrPrzybyl.zip?alt=media&token=979ce39c-2ee9-4e84-b8f6-9b9e706f31f1",
+    "id": 4617,
+    "videoId": "",
+    "speakers": [
+      "piotr_przybyl"
+    ]
+  },
+  "5000": {
+    "title": "The Old Man Glitch - Escalade de bug sur la première génération de Pokemon sur Gameboy",
+    "language": "Français",
+    "complexity": "Beginner",
+    "description": "Je vous propose de prendre avec vous le temps de regarder un bug dans du code 8-bit de 1996 et de parler de techniques obsolètes d'escalade de failles. Juste pour le plaisir. Off-by-one error, underflow, buffer overflow, injection de code... avec des Pokemon alors même les adultes vont comprendre.",
+    "type": "Conférence",
+    "tags": [
+      "WTF"
+    ],
+    "presentation": "https://firebasestorage.googleapis.com/v0/b/devfesttoulouse-2018.appspot.com/o/presentation%2F5000-TheOldManGlitch-fabientregan.zip?alt=media&token=623dfb0e-6e6f-4de5-b142-34ccfa666af8",
+    "id": 5000,
+    "videoId": "hBo28RVftNc",
+    "speakers": [
+      "fabien_tregan"
+    ]
+  }
+}

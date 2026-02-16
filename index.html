@@ -73,25 +73,11 @@
 
   <link rel="dns-prefetch" href="https://apis.google.com">
   <link rel="preconnect" href="https://www.google-analytics.com">
-  <link rel="preconnect" href="https://fcm.googleapis.com">
-  <link rel="preconnect" href="https://firestore.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <script>
 
     window.Polymer = { rootPath: '{$ basepath $}' };
     window.HOVERBOARD = { Elements: {} };
-
-    function loadFirebaseModules(modules) {
-      return Promise.all(
-        modules.map((module) => new Promise((resolve, reject) => {
-          const script = document.createElement('script');
-          script.src = `bower_components/firebase/${module}.js`;
-          script.async = false;
-          script.onload = () => resolve();
-          script.onerror = () => reject();
-          document.head.appendChild(script);
-        })));
-    }
 
     function loadHoverboardApp() {
       requestAnimationFrame(() => {
@@ -100,33 +86,7 @@
       });
     }
 
-    loadFirebaseModules([
-      'firebase-app',
-      'firebase-firestore',
-      'firebase-auth',
-      'firebase-messaging',
-    ])
-      .then(() => {
-        firebase.initializeApp({
-          apiKey: '{$ firebase.apiKey $}',
-          authDomain: '{$ firebase.authDomain $}',
-          databaseURL: '{$ firebase.databaseURL $}',
-          projectId: '{$ firebase.projectId $}',
-          storageBucket: '{$ firebase.storageBucket $}',
-          messagingSenderId: '{$ firebase.messagingSenderId $}',
-        });
-
-        const firestore = firebase.firestore();
-        firestore.settings({ timestampsInSnapshots: true });
-        firebase.firestore().enablePersistence()
-          .catch(() => {
-            console.warn('DB offline support not available'); // eslint-disable-line no-console
-          });
-
-        // eslint-disable-next-line no-console
-        console.log('Firebase App is ready!');
-      })
-      .then(() => loadHoverboardApp());
+    loadHoverboardApp();
 
   </script>
 

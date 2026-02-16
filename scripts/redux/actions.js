@@ -103,19 +103,16 @@ const ticketsActions = {
       type: FETCH_TICKETS,
     });
 
-    return firebase.firestore().collection('tickets')
-      .orderBy('order', 'asc')
-      .get()
-      .then((snaps) => {
-        const list = snaps.docs
-          .map((snap) => Object.assign({}, snap.data(), { id: snap.id }))
-          .map((t) => {
-            if (t.startsTimestamp == null) {
-              return t;
-            }
-            t.available = Date.now() > new Date(t.startsTimestamp);
+    return fetch('/data/tickets.json')
+      .then((response) => response.json())
+      .then((data) => {
+        const list = data.map((t) => {
+          if (t.startsTimestamp == null) {
             return t;
-          });
+          }
+          t.available = Date.now() > new Date(t.startsTimestamp);
+          return t;
+        });
 
         dispatch({
           type: FETCH_TICKETS_SUCCESS,
@@ -131,59 +128,15 @@ const ticketsActions = {
   },
 };
 
-const _getPartnerItems = (groupId) => firebase.firestore()
-  .collection('partners').doc(groupId).collection('items')
-  .get()
-  .then((snaps) => snaps.docs
-    .map((snap) => Object.assign({}, snap.data(), { id: snap.id }))
-  );
-
 const partnersActions = {
-  addPartner: (data) => (dispatch) => {
-    dispatch({
-      type: ADD_POTENTIAL_PARTNER,
-      payload: data,
-    });
-
-    const id = data.email.replace(/[^\w\s]/gi, '');
-    const partner = {
-      email: data.email,
-      fullName: data.firstFieldValue || '',
-      companyName: data.secondFieldValue || '',
-    };
-
-    firebase.firestore().collection('potentialPartners')
-      .doc(id)
-      .set(partner)
-      .then(() => {
-        dispatch({
-          type: ADD_POTENTIAL_PARTNER_SUCCESS,
-          payload: { partner },
-        });
-      })
-      .catch((error) => {
-        dispatch({
-          type: ADD_POTENTIAL_PARTNER_FAILURE,
-          payload: { error },
-        });
-      });
-  },
+  addPartner: () => () => {},
   fetchPartners: () => (dispatch) => {
     dispatch({
       type: FETCH_PARTNERS,
     });
 
-    firebase.firestore()
-      .collection('partners')
-      .get()
-      .then((snaps) => Promise.all(
-        snaps.docs.map((snap) => Promise.all([
-          snap.data(),
-          snap.id,
-          _getPartnerItems(snap.id),
-        ]))
-      ))
-      .then((groups) => groups.map(([group, id, items]) => Object.assign({}, group, { id, items })))
+    fetch('/data/partners.json')
+      .then((response) => response.json())
       .then((list) => {
         dispatch({
           type: FETCH_PARTNERS_SUCCESS,
@@ -207,13 +160,9 @@ const videosActions = {
       type: FETCH_VIDEOS,
     });
 
-    return firebase.firestore().collection('videos')
-      .orderBy('order', 'asc')
-      .get()
-      .then((snaps) => {
-        const list = snaps.docs
-          .map((snap) => Object.assign({}, snap.data(), { id: snap.id }));
-
+    return fetch('/data/videos.json')
+      .then((response) => response.json())
+      .then((list) => {
         dispatch({
           type: FETCH_VIDEOS_SUCCESS,
           payload: { list },
@@ -234,17 +183,11 @@ const blogActions = {
       type: FETCH_BLOG_LIST,
     });
 
-    firebase.firestore()
-      .collection('blog')
-      .orderBy('published', 'desc')
-      .get()
-      .then((snaps) => {
-        const list = snaps.docs
-          .map((snap) => Object.assign({}, snap.data(), { id: snap.id }));
-
-        const obj = list.reduce(
-          (acc, curr) => Object.assign({}, acc, { [curr.id]: curr }),
-          {}
+    fetch('/data/blog.json')
+      .then((response) => response.json())
+      .then((obj) => {
+        const list = Object.keys(obj).map((key) =>
+          Object.assign({}, obj[key], { id: key })
         );
 
         dispatch({
@@ -270,17 +213,11 @@ const speakersActions = {
       type: FETCH_SPEAKERS,
     });
 
-    firebase.firestore()
-      .collection('speakers')
-      .orderBy('order', 'asc')
-      .get()
-      .then((snaps) => {
-        const list = snaps.docs
-          .map((snap) => Object.assign({}, snap.data(), { id: snap.id }));
-
-        const obj = list.reduce(
-          (acc, curr) => Object.assign({}, acc, { [curr.id]: curr }),
-          {}
+    return fetch('/data/speakers.json')
+      .then((response) => response.json())
+      .then((obj) => {
+        const list = Object.keys(obj).map((key) =>
+          Object.assign({}, obj[key], { id: key })
         );
 
         dispatch({
@@ -306,17 +243,11 @@ const previousSpeakersActions = {
       type: FETCH_PREVIOUS_SPEAKERS,
     });
 
-    firebase.firestore()
-      .collection('previousSpeakers')
-      .orderBy('order', 'asc')
-      .get()
-      .then((snaps) => {
-        const list = snaps.docs
-          .map((snap) => Object.assign({}, snap.data(), { id: snap.id }));
-
-        const obj = list.reduce(
-          (acc, curr) => Object.assign({}, acc, { [curr.id]: curr }),
-          {}
+    fetch('/data/previousSpeakers.json')
+      .then((response) => response.json())
+      .then((obj) => {
+        const list = Object.keys(obj).map((key) =>
+          Object.assign({}, obj[key], { id: key })
         );
 
         dispatch({
@@ -342,19 +273,18 @@ const sessionsActions = {
       type: FETCH_SESSIONS,
     });
 
-    firebase.firestore()
-      .collection('sessions')
-      .get()
-      .then((snaps) => {
+    fetch('/data/sessions.json')
+      .then((response) => response.json())
+      .then((sessionsObj) => {
         const list = [];
         const obj = {};
         const objBySpeaker = {};
 
-        snaps.docs.forEach((doc) => {
-          const data = doc.data();
-          const session = Object.assign({}, data, { id: doc.id });
+        Object.keys(sessionsObj).forEach((key) => {
+          const data = sessionsObj[key];
+          const session = Object.assign({}, data, { id: key });
           list.push(session);
-          obj[doc.id] = session;
+          obj[key] = session;
 
           if (Array.isArray(data.speakers)) {
             data.speakers.forEach((speakerId) => {
@@ -384,55 +314,20 @@ const sessionsActions = {
       });
   },
 
-  fetchUserFeaturedSessions: (userId) => (dispatch) => {
+  fetchUserFeaturedSessions: () => (dispatch) => {
     dispatch({
       type: FETCH_USER_FEATURED_SESSIONS,
-      payload: { userId },
+      payload: {},
     });
-
-    firebase.firestore()
-      .collection('featuredSessions')
-      .doc(userId)
-      .get()
-      .then((doc) => {
-        dispatch({
-          type: FETCH_USER_FEATURED_SESSIONS_SUCCESS,
-          payload: {
-            featuredSessions: doc.exists ? doc.data() : {},
-          },
-        });
-      })
-      .catch((error) => {
-        dispatch({
-          type: FETCH_USER_FEATURED_SESSIONS_FAILURE,
-          payload: { error },
-        });
-      });
-  },
-
-  setUserFeaturedSessions: (userId, featuredSessions) => (dispatch) => {
     dispatch({
-      type: SET_USER_FEATURED_SESSIONS,
-      payload: { userId, featuredSessions },
+      type: FETCH_USER_FEATURED_SESSIONS_SUCCESS,
+      payload: {
+        featuredSessions: {},
+      },
     });
-
-    firebase.firestore()
-      .collection('featuredSessions')
-      .doc(userId)
-      .set(featuredSessions)
-      .then(() => {
-        dispatch({
-          type: SET_USER_FEATURED_SESSIONS_SUCCESS,
-          payload: { featuredSessions },
-        });
-      })
-      .catch((error) => {
-        dispatch({
-          type: SET_USER_FEATURED_SESSIONS_FAILURE,
-          payload: { error },
-        });
-      });
   },
+
+  setUserFeaturedSessions: () => () => {},
 };
 
 const scheduleActions = {
@@ -446,16 +341,8 @@ const scheduleActions = {
       ? Promise.resolve(state.speakers.obj)
       : speakersActions.fetchList()(dispatch, getState);
 
-    const schedulePromise = new Promise((resolve, reject) => {
-      firebase.firestore()
-        .collection('schedule')
-        .orderBy('date', 'desc')
-        .get()
-        .then((snaps) => {
-          resolve(snaps.docs.map((s) => s.data()));
-        })
-        .catch(reject);
-    });
+    const schedulePromise = fetch('/data/schedule.json')
+      .then((response) => response.json());
 
     return Promise.all([speakersPromise, schedulePromise])
       .then(([speakers, schedule]) => {
@@ -514,12 +401,9 @@ const galleryActions = {
       type: FETCH_GALLERY,
     });
 
-    return firebase.firestore().collection('gallery')
-      .get()
-      .then((snaps) => {
-        const list = snaps.docs
-          .map((snap) => Object.assign({}, snap.data(), { id: snap.id }));
-
+    return fetch('/data/gallery.json')
+      .then((response) => response.json())
+      .then((list) => {
         dispatch({
           type: FETCH_GALLERY_SUCCESS,
           payload: { list },
@@ -534,30 +418,14 @@ const galleryActions = {
   },
 };
 
-const _getTeamMembers = (teamId) => firebase.firestore()
-  .collection('team').doc(teamId).collection('members')
-  .get()
-  .then((snaps) => snaps.docs
-    .map((snap) => Object.assign({}, snap.data(), { id: snap.id }))
-  );
-
 const teamActions = {
   fetchTeam: () => (dispatch) => {
     dispatch({
       type: FETCH_TEAM,
     });
 
-    firebase.firestore()
-      .collection('team')
-      .get()
-      .then((snaps) => Promise.all(
-        snaps.docs.map((snap) => Promise.all([
-          snap.data(),
-          snap.id,
-          _getTeamMembers(snap.id),
-        ]))
-      ))
-      .then((teams) => teams.map(([team, id, members]) => Object.assign({}, team, { id, members })))
+    fetch('/data/team.json')
+      .then((response) => response.json())
       .then((list) => {
         dispatch({
           type: FETCH_TEAM_SUCCESS,
@@ -576,98 +444,14 @@ const teamActions = {
 };
 
 const userActions = {
-  signIn: (providerName) => {
-    const firebaseProvider = helperActions.getFederatedProvider(providerName);
-
-    return firebase.auth()
-      .signInWithPopup(firebaseProvider)
-      .then((signInObject) => {
-        helperActions.storeUser(signInObject.user);
-        notificationsActions.getToken(true);
-      })
-      .catch((error) => {
-        if (error.code === 'auth/account-exists-with-different-credential' ||
-          error.code === 'auth/email-already-in-use') {
-          firebase.auth().fetchProvidersForEmail(error.email)
-            .then((providers) => {
-              helperActions.storeUser({
-                signedIn: false,
-                initialProviderId: providers[0],
-                email: error.email,
-                pendingCredential: error.credential,
-              });
-            });
-        }
-        helperActions.trackError('userActions', 'signIn', error);
-      });
-  },
-
-  mergeAccounts: (initialProviderId, pendingCredential) => {
-    const firebaseProvider = helperActions.getFederatedProvider(initialProviderId);
-
-    return firebase.auth()
-      .signInWithPopup(firebaseProvider)
-      .then((result) => {
-        result.user.linkWithCredential(pendingCredential);
-      })
-      .catch((error) => {
-        helperActions.trackError('userActions', 'mergeAccounts', error);
-      });
-  },
-
-  updateUser: () => {
-    firebase.auth().onAuthStateChanged((user) => {
-      helperActions.storeUser(user);
-    });
-  },
-
-  signOut: () => {
-    return firebase.auth()
-      .signOut()
-      .then(() => {
-        helperActions.storeUser();
-        subscribeActions.resetSubscribed();
-      });
-  },
+  signIn: () => {},
+  mergeAccounts: () => {},
+  updateUser: () => {},
+  signOut: () => {},
 };
 
 const subscribeActions = {
-  subscribe: (data) => (dispatch) => {
-    const id = data.email.replace(/[^\w\s]/gi, '');
-
-    firebase.firestore().collection('subscribers')
-      .doc(id)
-      .set({
-        email: data.email,
-        firstName: data.firstFieldValue || '',
-        lastName: data.secondFieldValue || '',
-      })
-      .then(() => {
-        dispatch({
-          type: SUBSCRIBE,
-          subscribed: true,
-        });
-        toastActions.showToast({ message: '{$ subscribeBlock.toast $}' });
-      })
-      .catch((error) => {
-        dispatch({
-          type: SET_DIALOG_DATA,
-          dialog: {
-            ['subscribe']: {
-              isOpened: true,
-              data: Object.assign(data, { errorOccurred: true }),
-            },
-          },
-        });
-
-        dispatch({
-          type: SUBSCRIBE,
-          subscribed: false,
-        });
-
-        helperActions.trackError('subscribeActions', 'subscribe', error);
-      });
-  },
+  subscribe: () => () => {},
   resetSubscribed: () => {
     store.dispatch({
       type: SUBSCRIBE,
@@ -676,133 +460,11 @@ const subscribeActions = {
   },
 };
 
-let messaging;
 const notificationsActions = {
-  initializeMessaging: () => {
-    return new Promise((resolve) => {
-      messaging = firebase.messaging();
-      messaging.onMessage(({ notification }) => {
-        toastActions.showToast({
-          message: `${notification.title} ${notification.body}`,
-          action: {
-            title: '{$ notifications.toast.title $}',
-            callback: () => {
-              routingActions.setLocation(notification.click_action);
-            },
-          },
-        });
-      });
-      messaging.onTokenRefresh(() => {
-        store.dispatch(notificationsActions.getToken(true));
-      });
-      resolve(messaging);
-    });
-  },
-  requestPermission: () => (dispatch) => {
-    return messaging.requestPermission()
-      .then(() => {
-        dispatch(notificationsActions.getToken(true));
-      })
-      .catch((error) => {
-        dispatch({
-          type: UPDATE_NOTIFICATIONS_STATUS,
-          status: NOTIFICATIONS_STATUS.DENIED,
-        });
-
-        helperActions.trackError('notificationActions', 'requestPermission', error);
-      });
-  },
-
-  getToken: (subscribe) => (dispatch, getState) => {
-    return messaging.getToken()
-      .then((currentToken) => {
-        if (currentToken) {
-          const state = getState();
-
-          const subscribersRef = firebase.firestore()
-            .collection('notificationsSubscribers')
-            .doc(currentToken);
-          const subscribersPromise = subscribersRef.get();
-
-          const userUid = state.user && (state.user.uid || null);
-
-          let userSubscriptionsPromise = Promise.resolve(null);
-          let userSubscriptionsRef;
-          if (userUid) {
-            userSubscriptionsRef = firebase.firestore()
-              .collection('notificationsUsers')
-              .doc(userUid);
-            userSubscriptionsPromise = userSubscriptionsRef.get();
-          }
-
-          Promise.all([subscribersPromise, userSubscriptionsPromise])
-            .then(([subscribersSnapshot, userSubscriptionsSnapshot]) => {
-              const isDeviceSubscribed = subscribersSnapshot.exists
-                ? subscribersSnapshot.data()
-                : false;
-              const userSubscriptions =
-                (userSubscriptionsSnapshot && userSubscriptionsSnapshot.exists)
-                  ? userSubscriptionsSnapshot.data()
-                  : {};
-
-              const isUserSubscribed = !!(
-                userSubscriptions.tokens && userSubscriptions.tokens[currentToken]
-              );
-
-              if (isDeviceSubscribed) {
-                dispatch({
-                  type: UPDATE_NOTIFICATIONS_STATUS,
-                  status: NOTIFICATIONS_STATUS.GRANTED,
-                  token: currentToken,
-                });
-                if (userUid && !isUserSubscribed) {
-                  userSubscriptionsRef.set({
-                    tokens: { [currentToken]: true },
-                  }, { merge: true });
-                }
-              } else if (!isDeviceSubscribed && subscribe) {
-                subscribersRef.set({ value: true });
-                if (userUid) {
-                  userSubscriptionsRef.set({
-                    tokens: { [currentToken]: true },
-                  }, { merge: true });
-                }
-                dispatch({
-                  type: UPDATE_NOTIFICATIONS_STATUS,
-                  status: NOTIFICATIONS_STATUS.GRANTED,
-                  token: currentToken,
-                });
-              }
-            });
-        } else {
-          dispatch({
-            type: UPDATE_NOTIFICATIONS_STATUS,
-            status: Notification.permission,
-            token: null,
-          });
-        }
-      })
-      .catch((error) => {
-        dispatch({
-          type: UPDATE_NOTIFICATIONS_STATUS,
-          status: NOTIFICATIONS_STATUS.DENIED,
-          token: null,
-        });
-
-        helperActions.trackError('notificationActions', 'getToken', error);
-      });
-  },
-
-  unsubscribe: (token) => (dispatch) => {
-    return messaging.deleteToken(token)
-      .then(() => {
-        dispatch({
-          type: UPDATE_NOTIFICATIONS_STATUS,
-          status: NOTIFICATIONS_STATUS.DEFAULT,
-          token: null,
-        });
-      });
-  },
+  initializeMessaging: () => Promise.resolve(),
+  requestPermission: () => () => {},
+  getToken: () => () => {},
+  unsubscribe: () => () => {},
 };
 
 const helperActions = {
@@ -843,48 +505,9 @@ const helperActions = {
     });
   },
 
-  getFederatedProvider: (provider) => {
-    switch (provider) {
-      case 'https://accounts.google.com':
-      case 'google.com': {
-        const provider = new firebase.auth.GoogleAuthProvider();
-        provider.addScope('profile');
-        provider.addScope('email');
-        return provider;
-      }
-      case 'https://www.facebook.com':
-      case 'facebook.com': {
-        const provider = new firebase.auth.FacebookAuthProvider();
-        provider.addScope('email');
-        provider.addScope('public_profile');
-        return provider;
-      }
-      case 'https://twitter.com':
-      case 'twitter.com':
-        return new firebase.auth.TwitterAuthProvider();
-    }
-  },
-
-  getProviderCompanyName: (provider) => {
-    switch (provider) {
-      case 'https://accounts.google.com':
-      case 'google.com': {
-        return 'Google';
-      }
-      case 'https://www.facebook.com':
-      case 'facebook.com': {
-        return 'Facebook';
-      }
-      case 'https://twitter.com':
-      case 'twitter.com':
-        return 'Twitter';
-    }
-  },
-
   trackError: (action, method, message) => {
     if (window.ga) {
       ga('send', 'event', 'error', action + ':' + method, message);
     }
   },
 };
-
