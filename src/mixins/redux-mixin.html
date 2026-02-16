@@ -142,7 +142,7 @@
   const store = Redux.createStore(
     appReducer,
     Redux.compose(
-      Redux.applyMiddleware(window.ReduxThunk.default),
+      Redux.applyMiddleware(window.ReduxThunk),
       window.__REDUX_DEVTOOLS_EXTENSION__ ? window.__REDUX_DEVTOOLS_EXTENSION__() : (f) => f
     )
   );
