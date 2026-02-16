@@ -10,3 +10,4 @@ functions/lib/
 serviceAccount.json
 serviceAccount.dev.json
 firebase-debug.log
+.claude/
